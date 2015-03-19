@@ -3,7 +3,8 @@
 The IPFS community is growing, and already has many resources.
 We ought to maintain them, build more, and improve all the things.
 
-1. Building and Maintaining Community Infrastructure
+1. Building and Maintaining
+  [Community Infrastructure](https://github.com/ipfs/infrastructure)
   1. Public Gateways
   2. Testing + CI Services
   3. IRC Bots
@@ -11,9 +12,9 @@ We ought to maintain them, build more, and improve all the things.
   5. Comm Channels
 
 2. Improving documentation of the various projects
-  1. Docs on the repo
-  2. Docs on the website
-  3. Examples
+  1. Docs on the repos
+  2. [Docs on the websites](http://ipfs.io/docs)
+  3. [Examples](http://ipfs.io/examples)
   4. Demos
 
 3. Making it easy to jump in and participate
@@ -21,8 +22,8 @@ We ought to maintain them, build more, and improve all the things.
   2. Improving issues for collaborators
 
 4. Keeping the Community Informed and Engaged
-  1. IRC (irc.freenode.net/#ipfs)
-  2. Blog (ipfs.io/blog
-  3. Twitter (@IPFSbot)
-  4. Mailing List (ipfs-users@googlegroups.com)
-  5. Community Profiles (like gopher academy)
+  1. IRC - irc.freenode.net/#ipfs
+  2. Blog - [ipfs.io/blog](http://ipfs.io/blog)
+  3. Twitter - [@IPFSbot](https://twitter.com/IPFSbot)
+  4. Mailing List - ipfs-users@googlegroups.com
+  5. Community Profiles
