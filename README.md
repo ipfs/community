@@ -26,4 +26,4 @@ We ought to maintain them, build more, and improve all the things.
   2. Blog - [ipfs.io/blog](http://ipfs.io/blog)
   3. Twitter - [@IPFSbot](https://twitter.com/IPFSbot)
   4. Mailing List - ipfs-users@googlegroups.com
-  5. Community Profiles
+  5. [People List](people.md)
