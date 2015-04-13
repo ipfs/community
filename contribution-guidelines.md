@@ -41,7 +41,7 @@ Update documentation when creating or modifying features. Test your documentatio
 
 Write clean code. Universally formatted code promotes ease of writing, reading, and maintenance.
 
-Pull requests descriptions should be as clear as possible. Err on the side of overly specific. Include a reference to all related issues
+Pull requests descriptions should be as clear as possible. Err on the side of overly specific and include a reference to all related issues. If the pull request is meant to close an issue please use the Github keyword conventions of [closes, fixes, or resolves]( https://help.github.com/articles/closing-issues-via-commit-messages/). If the pull request only completes part of an issue use the keywords [connect, or connects]( https://github.com/waffleio/waffle.io/wiki/FAQs#prs-connect-keywords). This helps our tools properly link issues to pull requests. 
 
 Commit messages must start with a capitalized and short summary (max. 50 chars) written in the imperative, followed by an optional, more detailed explanatory text which is separated from the summary by an empty line.
 
