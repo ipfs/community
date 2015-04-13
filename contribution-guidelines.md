@@ -18,7 +18,7 @@ If your pull request is not accepted on the first try, don't be discouraged! If 
 
 Each repository will have its own code and test conventions. Please make sure to review those before jumping in. Some general conventions are listed below.
 
-### Branches
+### Git
 
 We use a simple git branching model:
 
@@ -26,6 +26,12 @@ We use a simple git branching model:
 - create feature-branches to merge into `master`
 
 Just stay current with master (rebase).
+
+Commit messages must start with a capitalized and short summary (max. 50 chars) written in the imperative, followed by an optional, more detailed explanatory text which is separated from the summary by an empty line.
+
+### Code
+
+Write clean code. Universally formatted code promotes ease of writing, reading, and maintenance.
 
 ### Tests
 
@@ -37,13 +43,9 @@ For commandline tool changes, please write appropriate sharness tests.
 
 Update documentation when creating or modifying features. Test your documentation changes for clarity, concision, and correctness, as well as a clean documentation build.
 
-### Clean
-
-Write clean code. Universally formatted code promotes ease of writing, reading, and maintenance.
+### Pull Requests
 
 Pull requests descriptions should be as clear as possible. Err on the side of overly specific and include a reference to all related issues. If the pull request is meant to close an issue please use the Github keyword conventions of [closes, fixes, or resolves]( https://help.github.com/articles/closing-issues-via-commit-messages/). If the pull request only completes part of an issue use the keywords [connect, or connects]( https://github.com/waffleio/waffle.io/wiki/FAQs#prs-connect-keywords). This helps our tools properly link issues to pull requests. 
-
-Commit messages must start with a capitalized and short summary (max. 50 chars) written in the imperative, followed by an optional, more detailed explanatory text which is separated from the summary by an empty line.
 
 ### Code Review
 
