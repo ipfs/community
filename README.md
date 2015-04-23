@@ -14,7 +14,7 @@ We ought to maintain them, build more, and improve all the things.
 2. Improving documentation of the various projects
   1. Docs on the repos
   2. [Docs on the websites](http://ipfs.io/docs)
-  3. [Examples](http://ipfs.io/examples)
+  3. [Examples](http://ipfs.io/docs/examples)
   4. Demos
 
 3. Making it easy to jump in and participate
@@ -23,10 +23,10 @@ We ought to maintain them, build more, and improve all the things.
 
 4. Keeping the Community Informed and Engaged
   1. IRC - irc.freenode.net/#ipfs
-  2. Blog - [ipfs.io/blog](http://ipfs.io/blog)
+  2. Blog
   3. Twitter - [@IPFSbot](https://twitter.com/IPFSbot)
-  4. Mailing List - ipfs-users@googlegroups.com
-  5. [People List](people.md)
+  4. Mailing List - [ipfs-users@googlegroups.com](https://groups.google.com/forum/#!forum/ipfs-users)
+  5. People List
 
 
 ## People
