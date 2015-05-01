@@ -38,7 +38,7 @@ tracker (we use multiple repositories). No issue is too small.
 ### Contributing Code
 
 To get started, please read the
-[contribution guidelines](contribution-guidelines).
+[contribution guidelines](contribution-guidelines.md).
 
 ### Community Improvement
 
