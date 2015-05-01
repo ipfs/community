@@ -118,7 +118,7 @@ Signed-off-by: Joe Smith <joe.smith@email.com>
 
 Using your legal name.
 
-We have a handy [git commit hook](tools/hooks/commit-msg) that does this
+We have a handy [git commit hook](dev/tools/hooks/commit-msg) that does this
 for you on every commit.
 
 ## Credits
