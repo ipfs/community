@@ -1,8 +1,14 @@
+Issues Guide
+=============
+This is a guide for collaborators and non-collaborators on how Github issues
+are handled and processed. 
+
 The Sprint
 -----------
-Once a week we get together for a meeting on Google Hangouts. The link is always
+We are on a weekly sprint cycle and once every week we get together for a meeting
+on Google Hangouts. The link is always
 posted to the IRC channel. Currently we are meeting at 12pm PDT / 7pm UTC.
-This is where collaborators are assigned tasks and issues to work on for a sprint.
+This is where collaborators are assigned tasks and issues to work on for the week.
 Note that anyone can become a collaborator and all they have to do is contact
 [@jbenet](https://github.com/jbenet) and join in on a sprint meeting.
 
