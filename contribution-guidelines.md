@@ -10,7 +10,7 @@ Please take a moment to check whether an issue already exists. If it does, it ne
 
 We are always thrilled to receive pull requests, and do our best to process them as quickly as possible. Not sure if that typo is worth a pull request? Do it! We will appreciate it.
 
-We're also trying very hard to keep IPFS focused. This means that we might decide against incorporating a new feature. However, there might be a way to implement that feature on top of (or below) IPFS.
+We're also trying very hard to keep IPFS focused. This means that we might decide against incorporating a new feature. However, there might be a Signway to implement that feature on top of (or below) IPFS.
 
 If your pull request is not accepted on the first try, don't be discouraged! If there's a problem with the implementation, hopefully you received feedback on what to improve.
 
@@ -64,6 +64,9 @@ reasons why this is _the right thing to do_:
   in parallel?)
 
 [0] http://golang.org/src/crypto/tls/conn.go#L886
+
+License: MIT
+Signed-off-by: Juan Benet <juan@ipfs.io>
 ```
 
 
