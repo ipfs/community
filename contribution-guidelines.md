@@ -27,6 +27,8 @@ We use a simple git branching model:
 
 Just stay current with master (rebase).
 
+### Commit messages
+
 Commit messages must start with a capitalized and short summary (max. 50 chars) written in the imperative, followed by an optional, more detailed explanatory text which is separated from the summary by an empty line.
 
 ### Code
