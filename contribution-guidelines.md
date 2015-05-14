@@ -29,7 +29,43 @@ Just stay current with master (rebase).
 
 ### Commit messages
 
-Commit messages must start with a capitalized and short summary (max. 50 chars) written in the imperative, followed by an optional, more detailed explanatory text which is separated from the summary by an empty line.
+Commit messages must start with a capitalized and short summary (max. 50 chars), followed by an optional, more detailed explanatory text which is separated from the summary by an empty line. For example:
+
+```
+parse_test: improve tests with stdin enabled arg
+
+Now also check that we get the right arguments from
+the parsing.
+
+License: MIT
+Signed-off-by: Christian Couder <chriscool@tuxfamily.org>
+```
+
+and
+
+```
+net/p2p + secio: parallelize crypto handshake
+
+We had a very nasty problem: handshakes were serial so incoming
+dials would wait for each other to finish handshaking. this was
+particularly problematic when handshakes hung-- nodes would not
+recover quickly. This led to gateways not bootstrapping peers
+fast enough.
+
+The approach taken here is to do what crypto/tls does:
+defer the handshake until Read/Write[1]. There are a number of
+reasons why this is _the right thing to do_:
+- it delays handshaking until it is known to be necessary (doing io)
+- it "accepts" before the handshake, getting the handshake out of the
+  critical path entirely.
+- it defers to the user's parallelization of conn handling. users
+  must implement this in some way already so use that, instead of
+  picking constants surely to be wrong (how many handshakes to run
+  in parallel?)
+
+[0] http://golang.org/src/crypto/tls/conn.go#L886
+```
+
 
 ### Code
 
