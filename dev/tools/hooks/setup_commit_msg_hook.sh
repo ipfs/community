@@ -10,3 +10,4 @@ grep "^License:" "$1" || {
 }
 EOF
 chmod +x .git/hooks/commit-msg
+
