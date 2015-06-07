@@ -30,7 +30,7 @@ properly written. The rules are the following:
   To help you automatically add these trailers, you can run the
   following script:
 
-  [setup_commit_msg_hook.sh](./setup_commit_msg_hook.sh)
+  [setup_commit_msg_hook.sh](../dev/tools/hooks/setup_commit_msg_hook.sh)
 
   which will setup a Git commit-msg hook that will add the above
   trailers to all the commit messages you write.
