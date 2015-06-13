@@ -24,6 +24,7 @@ We use a simple git branching model:
 
 - `master` must always work
 - create feature-branches to merge into `master`
+- all commits must pass testing so that git bisect is easy to run
 
 Just stay current with master (rebase).
 
