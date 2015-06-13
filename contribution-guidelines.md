@@ -30,7 +30,34 @@ Just stay current with master (rebase).
 
 ### Commit messages
 
-Commit messages must start with a capitalized and short summary (max. 50 chars), followed by an optional, more detailed explanatory text which is separated from the summary by an empty line. For example:
+Commit messages must start with a short subject line, followed by an optional, 
+more detailed explanatory text which is separated from the summary by an empty line. 
+We use [GitCop](https://gitcop.com) to check that commit messages are
+properly written. It checks the following:
+
+* The first line of a commit message, called the subject line should
+  not be more than 80 characters long.
+
+* The commit message should end with the following trailers:
+
+  ```
+  License: MIT
+  Signed-off-by: User Name <email@address>
+  ```
+
+  where "User Name" is the author's real (legal) name and
+  email@address is one of the author's valid email addresses.
+
+  These trailers mean that the author agrees with the 
+  [developer certificate of origin](docs/developer-certificate-of-origin)
+  and with licensing the work under the [MIT license](docs/LICENSE).
+
+  To help you automatically add these trailers, you can run the
+  [setup_commit_msg_hook.sh](dev/tools/hooks/setup_commit_msg_hook.sh)
+  script which will setup a Git commit-msg hook that will add the above
+  trailers to all the commit messages you write.
+  
+Some example commit messages:
 
 ```
 parse_test: improve tests with stdin enabled arg
@@ -69,7 +96,6 @@ reasons why this is _the right thing to do_:
 License: MIT
 Signed-off-by: Juan Benet <juan@ipfs.io>
 ```
-
 
 ### Code
 
