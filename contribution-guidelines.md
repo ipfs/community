@@ -56,6 +56,9 @@ properly written. It checks the following:
   [setup_commit_msg_hook.sh](dev/tools/hooks/setup_commit_msg_hook.sh)
   script which will setup a Git commit-msg hook that will add the above
   trailers to all the commit messages you write.
+
+See the [documentation about amending commits](docs/amending-commits.md)
+for explanation about how you can rework commit messages.
   
 Some example commit messages:
 
