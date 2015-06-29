@@ -42,3 +42,4 @@ Dylan Powers | [@dylanPowers](https://github.com/dylanPowers) | [@dylankpowers](
 Henry Bubert | [@cryptix](//github.com/cryptix) | [@oObsi](//twitter.com/oObsi) | cryptix
 Jeromy Johnson | [@whyrusleeping](//github.com/whyrusleeping) | [@whyrusleeping](//twitter.com/whyrusleeping) | whyrusleeping
 Juan Benet | [@jbenet](//github.com/jbenet) | [@juanbenet](//twitter.com/juanbenet) | jbenet
+Lars Gierth | [@lgiert](//github.com/lgierth) | - | lgierth
