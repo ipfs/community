@@ -6,7 +6,11 @@ found problems in some commits.
 
 Note that this should not be done on commits that are in an official
 branch. It should be done on local only commits or on commits that are
-in a not yet merged pull request.
+in a not yet merged pull request (PR).
+
+If you do amend commits, (after checking that your PR has not been
+merged yet) you should force push (using `git push -f ...`) your PR
+branch to overwrite the old commits in your PR.
 
 ### Improving commit messages
 
