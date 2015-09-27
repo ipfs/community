@@ -99,3 +99,14 @@ Lars Gierth | [@lgierth](//github.com/lgierth) |  | lgierth
 Matt Bell | [@mappum](//github.com/mappum) | [@mappum](//twitter.com/mappum) | mappum
 Richard Littauer | [@RichardLitt](//github.com/RichardLitt) | [@richlitt](//twitter.com/richlitt) | richardlitt
 Victor Bjelkholm | [@VictorBjelkholm](//github.com/VictorBjelkholm) | [@victorbjelkholm](//twitter.com/victorbjelkholm) | victorbjelkholm
+
+## Events calendar
+
+This is our community events calendar, where we log past and future events like talks, workshops, hackathons and so on, where IPFS is present.
+
+Name                        | Location                      | Date                   | Link
+:-------------------------: | :---------------------------: | :--------------------: | :-------:
+Seattle IPFS Meetup #1      | Seattle - Surf Incubator      | July 23, 2015          | [meetup](http://www.meetup.com/Seattle-IPFS-Meetup/events/224077819/)
+Portland IPFS Meetup #1     | Portland - ctrlH HackerSpace  | July 22, 2015          | [attending](http://attending.io/events/ipfs-portland-meetup-the-permanent-distributed-web)
+Data Terra Nemo 2015        | Berlin                        | May 23-24, 2015        | [dtn](http://dtn.is/)
+FluentConf 2015             | San Francisco                 | April 22, 2015         | [fluent](http://fluentconf.com/javascript-html-2015/public/schedule/detail/43686)
