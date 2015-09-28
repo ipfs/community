@@ -37,7 +37,7 @@ some of the contributors who make it all happen. Add your name in a PR!
 
 Name | Github | Twitter | IRC
 :--: | :----: | :-: | :-----:
-Christian Couder | [@chriscool](//github.com/chriscool) |  | chriscool
+Christian Couder | [@chriscool](//github.com/chriscool) | [@ChristianCouder](https://twitter.com/ChristianCouder) | chriscool
 Dylan Powers | [@dylanPowers](https://github.com/dylanPowers) | [@dylankpowers](https://twitter.com/dylankpowers) | dpow
 Henry Bubert | [@cryptix](//github.com/cryptix) | [@oObsi](//twitter.com/oObsi) | cryptix
 Jeromy Johnson | [@whyrusleeping](//github.com/whyrusleeping) | [@whyrusleeping](//twitter.com/whyrusleeping) | whyrusleeping
