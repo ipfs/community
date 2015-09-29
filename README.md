@@ -38,9 +38,10 @@ some of the contributors who make it all happen. Add your name in a PR!
 Name | Github | Twitter | IRC
 :--: | :----: | :-: | :-----:
 Christian Couder | [@chriscool](//github.com/chriscool) | [@ChristianCouder](https://twitter.com/ChristianCouder) | chriscool
+David Dias | [@diasdavid](//github.com/diasdavid) | [@daviddias](//twitter.com/daviddias) | daviddias
 Dylan Powers | [@dylanPowers](https://github.com/dylanPowers) | [@dylankpowers](https://twitter.com/dylankpowers) | dpow
 Henry Bubert | [@cryptix](//github.com/cryptix) | [@oObsi](//twitter.com/oObsi) | cryptix
 Jeromy Johnson | [@whyrusleeping](//github.com/whyrusleeping) | [@whyrusleeping](//twitter.com/whyrusleeping) | whyrusleeping
 Juan Benet | [@jbenet](//github.com/jbenet) | [@juanbenet](//twitter.com/juanbenet) | jbenet
 Lars Gierth | [@lgierth](//github.com/lgierth) |  | lgierth
-David Dias | [@diasdavid](//github.com/diasdavid) | [@daviddias](//twitter.com/daviddias) | daviddias
+Richard Littauer | [@RichardLitt)(//github.com/RichardLitt) | [@richlitt](//twitter.com/richlitt)) | richardlitt
