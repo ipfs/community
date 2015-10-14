@@ -28,6 +28,11 @@ We ought to maintain them, build more, and improve all the things.
   4. Mailing List - [ipfs-users@googlegroups.com](https://groups.google.com/forum/#!forum/ipfs-users)
   5. People List
 
+## Calendar
+
+We have a community [Google Calendar](https://www.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84%40group.calendar.google.com&ctz=America/New_York) you can watch for events and sync to. We will add relevant events concerning IPFS to it, both with geographical and interplanetary (online) locations.
+
+If you know of an event that has a set date and location and is _not_ listed on the calendar, please open an issue on this repository requesting that it be added to the calendar, or ping [@RichardLitt](https://github.com/RichardLitt) on IRC or on [twitter](https://twitter.com/richlitt) and he'll add it for you.
 
 ## People
 
