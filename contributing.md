@@ -22,6 +22,7 @@ helping us improve our community.
 * [Contribution Guidelines](#contribution-guidelines)
 * [Community Guidelines](#community-guidelines)
 * [Community Improvement](#community-improvement)
+* [Helping in other ways](#helping-in-other-ways)
 
 ### Security Issues
 
@@ -48,7 +49,6 @@ uname -a >>/tmp/ipfs-bug-report
 
 It may also be relevant to look at the eventlog of your ipfs node, but we will request it if so.
 
-
 ### Protocol Design
 
 When considering protocol design proposals, we are looking for:
@@ -68,7 +68,6 @@ When considering design proposals for implementations, we are looking for:
 - A description of the problem this design proposal solves
 - Discussion of the tradeoffs involved
 - Discussion of the proposed solution
-
 
 ### Contribution Guidelines
 
@@ -91,3 +90,7 @@ There is also a more extensive [code-of-conduct](code-of-conduct.md).
 ### Community Improvement
 
 The IPFS community requires maintenance of various "public infrastructure" resources. These include documentation, github repositories, CI build bots, and more. There is also helping new users with questions, spreading theword about IPFS, and so on. Soon, we will be planning and running conferences. Please get in touch if you would like to help out.
+
+### Helping in other ways
+
+Protocol Labs occasionally is able to hire developers for part time or full time positions, to work on IPFS. If you are interested, check out [the job listings](http://ipn.io/join/#pm). If you'd like to help in other ways, [email @jbenet directly](mailto:juan@ipfs.io?subject=Contributing to IPFS).
