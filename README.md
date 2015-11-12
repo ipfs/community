@@ -78,3 +78,4 @@ Jeromy Johnson | [@whyrusleeping](//github.com/whyrusleeping) | [@whyrusleeping]
 Juan Benet | [@jbenet](//github.com/jbenet) | [@juanbenet](//twitter.com/juanbenet) | jbenet
 Lars Gierth | [@lgierth](//github.com/lgierth) |  | lgierth
 Richard Littauer | [@RichardLitt](//github.com/RichardLitt) | [@richlitt](//twitter.com/richlitt) | richardlitt
+Victor Bjelkholm | [@VictorBjelkholm](//github.com/VictorBjelkholm) | [@victorbjelkholm](//twitter.com/victorbjelkholm) | victorbjelkholm
