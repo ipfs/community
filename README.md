@@ -80,3 +80,4 @@ Juan Benet | [@jbenet](//github.com/jbenet) | [@juanbenet](//twitter.com/juanben
 Lars Gierth | [@lgierth](//github.com/lgierth) |  | lgierth
 Richard Littauer | [@RichardLitt](//github.com/RichardLitt) | [@richlitt](//twitter.com/richlitt) | richardlitt
 Victor Bjelkholm | [@VictorBjelkholm](//github.com/VictorBjelkholm) | [@victorbjelkholm](//twitter.com/victorbjelkholm) | victorbjelkholm
+Matt Bell | [@mappum](//github.com/mappum) | [@mappum](//twitter.com/mappum) | mappum
