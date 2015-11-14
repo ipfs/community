@@ -73,6 +73,7 @@ Name | Github | Twitter | IRC
 Christian Couder | [@chriscool](//github.com/chriscool) | [@ChristianCouder](https://twitter.com/ChristianCouder) | chriscool
 David Dias | [@diasdavid](//github.com/diasdavid) | [@daviddias](//twitter.com/daviddias) | daviddias
 Dylan Powers | [@dylanPowers](https://github.com/dylanPowers) | [@dylankpowers](https://twitter.com/dylankpowers) | dpow
+Harlan T Wood | [@harlantwood](//github.com/harlantwood) | [@harlantwood](//twitter.com/harlantwood) | 
 Henry Bubert | [@cryptix](//github.com/cryptix) | [@oObsi](//twitter.com/oObsi) | cryptix
 Jeromy Johnson | [@whyrusleeping](//github.com/whyrusleeping) | [@whyrusleeping](//twitter.com/whyrusleeping) | whyrusleeping
 Juan Benet | [@jbenet](//github.com/jbenet) | [@juanbenet](//twitter.com/juanbenet) | jbenet
