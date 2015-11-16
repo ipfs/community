@@ -139,8 +139,7 @@ Before the pull request is merged, make sure that you squash your commits into l
 
 ### Merge Approval
 
-We use LGTM (Looks Good To Me) in comments on the code review to indicate acceptance. A change **requires** LGTMs from the maintainers of each component affected. If you know who it may be, ping them. If not, ping `@jbenet`. (We will be adding a listing here.)
-
+We use LGTM (Looks Good To Me) in comments on the code review to indicate acceptance. A change **requires** LGTMs from the maintainers of each component affected. If you know whom it may be, ping them. If not, ping [@jbenet](https://github.com/jbenet).
 
 ## Credits
 
