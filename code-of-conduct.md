@@ -15,8 +15,8 @@ Towards this end, certain behaviors and practices will not be tolerated.
 ## Scope
 
 We expect all members of the IPFS community to abide by this Code of Conduct
-at all times in all IPFS community venues, online and in person, and in one-on-
-one communications pertaining to IPFS affairs.
+at all times in all IPFS community venues, online and in person, and in one-on-one 
+communications pertaining to IPFS affairs.
 
 This policy covers the usage of IPFS public infrastructure, including the
 IPFS.io HTTP gateways, as well as other IPFS websites, IPFS related events,
