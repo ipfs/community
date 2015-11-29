@@ -32,10 +32,35 @@ Just stay current with master (rebase).
 
 ### Commit messages
 
-Commit messages must start with a short subject line, followed by an optional, 
-more detailed explanatory text which is separated from the summary by an empty line. 
-We use [GitCop](https://gitcop.com) to check that commit messages are
-properly written. It checks the following:
+Commit messages must start with a short subject line, followed by an optional,
+more detailed explanatory text which is separated from the summary by an empty
+line.
+
+For some of our repositories (and we'd prefer all), we check commit messages
+automatically using [GitCop](https://gitcop.com). This checks that commit
+messages are properly written.
+
+**If you are brand new to IPFS**, you'll need to run a script that adds
+`License` and `Signed-off-by` to each of your commits. These trailers mean that
+the author agrees with the [Developer Certificate of Origin (DCO)](docs/developer-certificate-of-origin)
+and with licensing the work under the [MIT license](docs/LICENSE). This is
+important for our team and our users, legally. The
+[setup_commit_msg_hook.sh](dev/tools/hooks/setup_commit_msg_hook.sh)
+script which will setup a Git commit-msg hook that will add these trailers to
+all the commit messages you write in that repository. This is not as complicated
+as it sounds: it is similar to typing `git commit --sign-off` every time you
+commit. Just download the script and run it from the root folder of whatever
+Git repository you are in (for example, go-ipfs, or ipfs).
+
+The Developer Certificate of Origin (DCO) is a document that certifies you own
+and/or have the right to contribute the work and license it appropriately. The
+DCO is used instead of a --much more annoying-- CLA. With the DCO, you retain
+copyright of your own work :). The DCO originated in the Linux community, and is
+used by other projects like Git and Docker. To learn more about the DCO see this
+[posts on elinux.org](http://elinux.org/Developer_Certificate_Of_Origin) or how
+[docker uses the DCO](https://blog.docker.com/2014/01/docker-code-contributions-require-developer-certificate-of-origin/).
+
+Gitcop checks the following:
 
 * The first line of a commit message, called the subject line should
   not be more than 80 characters long.
@@ -50,18 +75,9 @@ properly written. It checks the following:
   where "User Name" is the author's real (legal) name and
   email@address is one of the author's valid email addresses.
 
-  These trailers mean that the author agrees with the 
-  [developer certificate of origin](docs/developer-certificate-of-origin)
-  and with licensing the work under the [MIT license](docs/LICENSE).
-
-  To help you automatically add these trailers, you can run the
-  [setup_commit_msg_hook.sh](dev/tools/hooks/setup_commit_msg_hook.sh)
-  script which will setup a Git commit-msg hook that will add the above
-  trailers to all the commit messages you write.
-
 See the [documentation about amending commits](docs/amending-commits.md)
 for explanation about how you can rework commit messages.
-  
+
 Some example commit messages:
 
 ```
