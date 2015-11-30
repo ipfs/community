@@ -141,6 +141,55 @@ Before the pull request is merged, make sure that you squash your commits into l
 
 We use LGTM (Looks Good To Me) in comments on the code review to indicate acceptance. A change **requires** LGTMs from the maintainers of each component affected. If you know whom it may be, ping them. If not, ping [@jbenet](https://github.com/jbenet).
 
+### Labels
+
+We make extensive use of Github labels to help us and our tools organize issues.
+Here is a rough guide. Note that it isn't strictly followed and feel free to
+reference the [ipfs/go-ipfs repo's labels](https://github.com/ipfs/go-ipfs/labels).
+
+#### Colors  
+* yellow: Documentation  
+* light red: An important topic like security 
+* orange: An important task like cleanup / refactor  
+* red: Very important stuff like bugs
+* light green: The difficulty level 
+* green: Help wanted
+* dark green: Testing  
+* blue: A topic or subsystem 
+* purple: Enhancement
+* gray: Automatic, occasionally used by external tools (like Waffle)
+
+#### Naming 
+It's very ad-hoc with no strict science. Generally, the names should be
+understandable by themselves. For example, use "difficulty: moderate" instead
+of "moderate". 
+
+#### Commonly Used Labels
+Here are some common labels currently in use:
+* yellow
+    * documentation
+* light red
+    * security
+* red
+    * bug
+* light green
+    * difficulty: easy
+    * difficulty: moderate
+    * difficulty: hard
+* green
+    * help wanted
+* dark green
+    * testing
+    * test_failure
+* purple
+    * enhancement
+* gray
+    * icebox
+    * backlog
+    * sprint
+    * in progress
+    * codereview
+
 ## Credits
 
 This document is based on [Contributing to Docker](https://github.com/docker/docker/blob/master/CONTRIBUTING.md), the [Docker](https://github.com/docker/docker) contribution guidelines.
