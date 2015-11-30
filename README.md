@@ -1,5 +1,12 @@
 # Community
 
+- [About](#about)
+- [Meetups](#meetups)
+- [Calendar](#calendar)
+- [People](#people)
+
+## About
+
 The IPFS community is growing, and already has many resources. We ought to maintain them, build more, and improve all the things.
 
 This repository is for meta, non-code discussions (in the [issues](issues)) and for documents used by multiple repositories, such as the various Contributing guidelines. Our goals here are to work on resources that help us with:
