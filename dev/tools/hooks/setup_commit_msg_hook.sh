@@ -1,12 +1,15 @@
 #!/bin/sh
 
-if [ ! -d ".git" ]; then
-  # Control will enter here if $DIRECTORY exists.
-  echo "Cannot find .git folder!"
-  echo "Move this file to the root folder of a git repository and try again"
-else
+die() {
+    printf >&2 "FATAL: %s\n" "$@"
+    exit 1
+}
 
-cat >.git/hooks/commit-msg <<'EOF'
+GITDIR=$(git rev-parse --git-dir) || die "run this script inside a git work tree"
+
+HOOK="$GITDIR/hooks/commit-msg"
+
+cat >"$HOOK" <<'EOF' || die "could not cat into '$HOOK'"
 #!/bin/sh
 
 grep "^License:" "$1" || {
@@ -15,7 +18,7 @@ grep "^License:" "$1" || {
   echo "Signed-off-by: $(git config user.name) <$(git config user.email)>" >>"$1"
 }
 EOF
-chmod +x .git/hooks/commit-msg
-echo "Added commit-msg hook to this repo!"
 
-fi
+chmod +x "$HOOK" || die "could not chmod +x '$HOOK'"
+
+echo "SUCCESS: added commit-msg hook '$HOOK' to this repo!"
