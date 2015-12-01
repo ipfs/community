@@ -80,6 +80,6 @@ Henry Bubert | [@cryptix](//github.com/cryptix) | [@oObsi](//twitter.com/oObsi) 
 Jeromy Johnson | [@whyrusleeping](//github.com/whyrusleeping) | [@whyrusleeping](//twitter.com/whyrusleeping) | whyrusleeping
 Juan Benet | [@jbenet](//github.com/jbenet) | [@juanbenet](//twitter.com/juanbenet) | jbenet
 Lars Gierth | [@lgierth](//github.com/lgierth) |  | lgierth
+Matt Bell | [@mappum](//github.com/mappum) | [@mappum](//twitter.com/mappum) | mappum
 Richard Littauer | [@RichardLitt](//github.com/RichardLitt) | [@richlitt](//twitter.com/richlitt) | richardlitt
 Victor Bjelkholm | [@VictorBjelkholm](//github.com/VictorBjelkholm) | [@victorbjelkholm](//twitter.com/victorbjelkholm) | victorbjelkholm
-Matt Bell | [@mappum](//github.com/mappum) | [@mappum](//twitter.com/mappum) | mappum
