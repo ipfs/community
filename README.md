@@ -74,6 +74,10 @@ We have a community [Google Calendar](https://www.google.com/calendar/embed?src=
 
 If you know of an event that has a set date and location and is _not_ listed on the calendar, please open an issue on this repository requesting that it be added to the calendar, or ping [@RichardLitt](https://github.com/RichardLitt) on IRC or on [twitter](https://twitter.com/richlitt) and he'll add it for you.
 
+## Swag
+
+We have stickers. We'll send them to you; drop your address in [this thread](https://github.com/ipfs/community/issues/50). We're also working on [more swag](https://github.com/ipfs/community/issues/11). Subscribe to stay updated!
+
 ## People
 
 IPFS is an open source project with an open community. This list includes
