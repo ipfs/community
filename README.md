@@ -7,6 +7,7 @@
 - [About](#about)
 - [Meetups](#meetups)
 - [Calendar](#calendar)
+- [Swag](#swag)
 - [People](#people)
 
 ## About
