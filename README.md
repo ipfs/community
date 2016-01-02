@@ -7,6 +7,7 @@
 - [About](#about)
 - [Meetups](#meetups)
 - [Calendar](#calendar)
+- [Swag](#swag)
 - [People](#people)
 
 ## About
@@ -73,6 +74,10 @@ These are the list of community meetups by area,organized by the IPFS developers
 We have a community [Google Calendar](https://www.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84%40group.calendar.google.com&ctz=America/New_York) you can watch for events and sync to. We will add relevant events concerning IPFS to it, both with geographical and interplanetary (online) locations.
 
 If you know of an event that has a set date and location and is _not_ listed on the calendar, please open an issue on this repository requesting that it be added to the calendar, or ping [@RichardLitt](https://github.com/RichardLitt) on IRC or on [twitter](https://twitter.com/richlitt) and he'll add it for you.
+
+## Swag
+
+We have stickers. We'll send them to you; drop your address in [this thread](https://github.com/ipfs/community/issues/50). We're also working on [more swag](https://github.com/ipfs/community/issues/11). Subscribe to stay updated!
 
 ## People
 
