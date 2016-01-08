@@ -124,9 +124,9 @@ Write clean code. Universally formatted code promotes ease of writing, reading, 
 
 ### Tests
 
-Submit tests with your changes. Take a look at existing tests for inspiration. Run the full test suite on your branch before submitting a pull request.
+If the repository you are working on has a testing suite, submit tests with your changes. Take a look at existing tests for inspiration. Run the full test suite on your branch before submitting a pull request.
 
-For commandline tool changes, please write appropriate sharness tests.
+For command line tool changes, please write appropriate sharness tests.
 
 ### Documentation
 
