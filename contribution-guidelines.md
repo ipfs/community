@@ -18,7 +18,13 @@ If your pull request is not accepted on the first try, don't be discouraged! If 
 
 Each repository will have its own code and test conventions. Please make sure to review those before jumping in. Some general conventions are listed below.
 
-If you are contributing to a repository written in Go, please look at the [Go Contribution Guidelines](go-contribution-guidelines.md).
+### Go
+
+Please look at the [Go Contribution Guidelines](go-contribution-guidelines.md).
+
+### JavaScript
+
+Please look at the [JS Contribution Guidelines](js-contribution-guidelines.md).
 
 ### Git
 
