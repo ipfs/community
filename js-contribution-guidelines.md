@@ -16,3 +16,4 @@ Many IPFS projects use JavaScript. Please check these guidelines before contribu
 - Browser building: [webpack](https://webpack.github.io/) or [browserify](http://browserify.org/).
 - Linting: Use [standard](//github.com/feross/standard). If you have to configure styles at the repo level because you or we are using Babel and ES6, use [eslint](https://github.com/eslint/eslint), [eslint-config-standard](https://github.com/feross/eslint-config-standard), and [babel-eslint](https://github.com/babel/babel-eslint) as needed. (If you're not sure, use standard).
 - Use [greenkeeper](http://greenkeeper.io/) to keep your deps up to date.
+- Use [precommit](https://www.npmjs.com/package/pre-commit) and [ghooks](https://www.npmjs.com/package/ghooks) to run tests while developing.
