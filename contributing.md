@@ -17,6 +17,7 @@ helping us improve our community.
 
 * [Security Issues](#reporting-security-issues)
 * [Reporting Issues](#reporting-issues)
+* [Dive Right In](#dive-right-in)
 * [Protocol Design](#protocol-design)
 * [Implementation Design](#implementation-design)
 * [Contribution Guidelines](#contribution-guidelines)
@@ -31,6 +32,10 @@ The IPFS protocol and its implementations are still in heavy development. This m
 If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to juan@ipfs.io, please DO NOT file a public issue.
 
 If the issue is a protocol weakness or something not yet deployed, just discuss it openly.
+
+### Dive Right In
+
+If you're curious to hack on IPFS right now and you just need an issue to focus on, check out [this search](https://github.com/search?utf8=%E2%9C%93&q=label%3A%22difficulty%3A+easy%22+user%3AIPFS+is%3Aopen&type=Issues&ref=searchresults) for issues tagged as "help wanted". Generally, these should be easier for newcomers, and are great places to start hacking away. Have fun!
 
 ### Reporting Issues
 
