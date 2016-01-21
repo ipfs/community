@@ -1,0 +1,18 @@
+[
+  {
+    "name": "needs review",
+    "color": "0052cc"
+  },
+  {
+    "name": "difficulty:easy",
+    "color": "bfe5bf"
+  },
+  {
+    "name": "difficulty:moderate",
+    "color": "bfe5bf"
+  },
+  {
+    "name": "difficulty:hard",
+    "color": "bfe5bf"
+  }
+]
