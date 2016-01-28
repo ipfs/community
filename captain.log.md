@@ -7,7 +7,7 @@ captain.log
 
 ## Motivation
 
-We've seen a lot of interest from community members to contribute to the IPFS project. Although we try our best to be clear regarding the project road-map, status and specs, the scope and complexity of IPFS can, sometimes, be overwhelming and scare newcomers. The **'captain.log'** should mitigate this. The log is a short summary of what is going on and our the current challenges. It should provide some direction to newcomers and current contributors on where the project could use some extra hands.
+We've seen a lot of interest from community members to contribute to the IPFS project. Although we try our best to be clear regarding the project road-map, status and specs, the scope and complexity of IPFS can, sometimes, be overwhelming and scare newcomers. The **'captain.log.md'** file in any IPFS repository should mitigate this. The log is a short summary of what is going on and our the current challenges. It should provide some direction to newcomers and current contributors on where the project could use some extra hands.
 
 ## Goals
 
