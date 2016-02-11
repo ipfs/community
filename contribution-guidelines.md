@@ -144,51 +144,18 @@ We use LGTM (Looks Good To Me) in comments on the code review to indicate accept
 ### Labels
 
 We make extensive use of Github labels to help us and our tools organize issues.
-Here is a rough guide. Note that it isn't strictly followed and feel free to
-reference the [ipfs/go-ipfs repo's labels](https://github.com/ipfs/go-ipfs/labels).
+There are only a few labels we use across repositories. These are the following:
 
-#### Colors  
-* yellow: Documentation  
-* light red: An important topic like security 
-* orange: An important task like cleanup / refactor  
-* red: Very important stuff like bugs
-* light green: The difficulty level 
-* green: Help wanted
-* dark green: Testing  
-* blue: A topic or subsystem 
-* purple: Enhancement
-* gray: Automatic, occasionally used by external tools (like Waffle)
-
-#### Naming 
-It's very ad-hoc with no strict science. Generally, the names should be
-understandable by themselves. For example, use "difficulty: moderate" instead
-of "moderate". 
-
-#### Commonly Used Labels
-Here are some common labels currently in use:
-* yellow
-    * documentation
-* light red
-    * security
-* red
-    * bug
 * light green
-    * difficulty: easy
-    * difficulty: moderate
-    * difficulty: hard
+    * `difficulty: easy`
+    * `difficulty: moderate`
+    * `difficulty: hard`
 * green
-    * help wanted
-* dark green
-    * testing
-    * test_failure
-* purple
-    * enhancement
-* gray
-    * icebox
-    * backlog
-    * sprint
-    * in progress
-    * codereview
+    * `help wanted` - This is an issue where people are especially encouraged to dive in.
+* blue
+    * `needs review` - Our signal that code is ready for a code review, after which it can hopefully be merged.
+
+The [go-ipfs](https://github.com/ipfs/go-ipfs) project has its own [label guide](https://github.com/ipfs/go-ipfs/labels).
 
 ## Credits
 
