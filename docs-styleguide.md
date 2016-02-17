@@ -5,6 +5,7 @@ This is the documentation styleguide for our natural language descriptions used 
 ## Code references
 
 * Use `backticks` for every code example inside of a normal description. In the CLI, where you cannot use backticks, use 'single quotes' for commands.
+* Default settings should always be specified in a new sentence, not in parentheses, at the end. Default: like this.
 
 ### Acronyms
 
