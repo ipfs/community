@@ -163,6 +163,22 @@ Before the pull request is merged, make sure that you squash your commits into l
 
 We use LGTM (Looks Good To Me) in comments on the code review to indicate acceptance. A change **requires** LGTMs from the maintainers of each component affected. If you know whom it may be, ping them. If not, ping [@jbenet](https://github.com/jbenet).
 
+### Labels
+
+We make extensive use of Github labels to help us and our tools organize issues.
+There are only a few labels we use across repositories. These are the following:
+
+* light green
+    * `difficulty: easy`
+    * `difficulty: moderate`
+    * `difficulty: hard`
+* green
+    * `help wanted` - This is an issue where people are especially encouraged to dive in.
+* blue
+    * `needs review` - Our signal that code is ready for a code review, after which it can hopefully be merged.
+
+The [go-ipfs](https://github.com/ipfs/go-ipfs) project has its own [label guide](https://github.com/ipfs/go-ipfs/labels).
+
 ## Credits
 
 This document is based on [Contributing to Docker](https://github.com/docker/docker/blob/master/CONTRIBUTING.md), the [Docker](https://github.com/docker/docker) contribution guidelines.
