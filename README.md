@@ -47,6 +47,9 @@ These are the list of community meetups by area,organized by the IPFS developers
 
 ### Berlin
   - https://github.com/ipfs/community/issues/41
+  
+### Bratislava
+  - http://www.meetup.com/Bratislava-IPFS-Meetup/
 
 ### Copenhagen
   - https://github.com/ipfs/community/issues/51
@@ -61,7 +64,7 @@ These are the list of community meetups by area,organized by the IPFS developers
   - https://github.com/ipfs/community/issues/54
 
 ### Portland
-  - http://www.meetup.com/IPFS-Portland/ 
+  - http://www.meetup.com/IPFS-Portland/
 
 ### San Francisco
   - https://github.com/ipfs/community/issues/53
@@ -91,7 +94,7 @@ Christian Couder | [@chriscool](//github.com/chriscool) | [@ChristianCouder](htt
 David Dias | [@diasdavid](//github.com/diasdavid) | [@daviddias](//twitter.com/daviddias) | daviddias
 Dylan Powers | [@dylanPowers](https://github.com/dylanPowers) | [@dylankpowers](https://twitter.com/dylankpowers) | dpow
 Friedel Ziegelmayer | [@dignifiedquire](//github.com/Dignifiedquire) | [@dignifiedquire](//twitter.com/dignifiedquire) | dignifiedquire
-Harlan T Wood | [@harlantwood](//github.com/harlantwood) | [@harlantwood](//twitter.com/harlantwood) | 
+Harlan T Wood | [@harlantwood](//github.com/harlantwood) | [@harlantwood](//twitter.com/harlantwood) |
 Henry Bubert | [@cryptix](//github.com/cryptix) | [@oObsi](//twitter.com/oObsi) | cryptix
 Jeromy Johnson | [@whyrusleeping](//github.com/whyrusleeping) | [@whyrusleeping](//twitter.com/whyrusleeping) | whyrusleeping
 Juan Benet | [@jbenet](//github.com/jbenet) | [@juanbenet](//twitter.com/juanbenet) | jbenet
