@@ -62,3 +62,12 @@ Established canon, like Alice and Bob for cryptography, can still be used in the
 #### Motivation
 
 Avoiding gendering in community interaction has multiple benefits. Using a male or female pronoun alienates and unfairly prioritizes one gender in favor of another. For instance, saying "the user and his computer" may feel alienating to women, or vice versa. Luckily, in English, the pronoun 'their' can be used as both a singular and a plural form (cf. [Singular they](https://en.wikipedia.org/wiki/Singular_they)). Saying, "the user and their computer" is entirely acceptable and alleviates the issue.
+
+## Changes
+
+This is a living document and may be updated from time to time. Please refer to the git history for this document to view the changes.
+
+## Credit and License
+This styleguide is based on the [Linux man-pages manual](http://man7.org/linux/man-pages/man7/man-pages.7.html).
+
+This document may be reused under a [Creative Commons Attribution-ShareAlike License](http://creativecommons.org/licenses/by-sa/4.0/).
