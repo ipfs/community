@@ -109,10 +109,10 @@ This is our community events calendar, where we log past and future events like 
 
 Name                        | Location                      | Date                   | Link
 :-------------------------: | :---------------------------: | :--------------------: | :-------:
+Container Camp              | London - Barbican Center      | September 11, 2015     | [container.camp](https://container.camp/)
 Chaos Communication Congress| Hamburg - CCH                 | December 27 - 30, 2015 | [events.ccc.de](https://events.ccc.de/congress/2015/wiki/Main_Page)
 Berlin IPFS Meetup #1       | Berlin - c-base               | August 27, 2015        |
 Chaos Communication Camp    | Zehdenick - Ziegeleipark      | August 13 - 17, 2015   | [events.ccc.de](https://events.ccc.de/camp/2015/wiki/Main_Page)
-Container Camp              | London - Barbican Center      | September 11, 2015     | [container.camp](https://container.camp/)
 Seattle IPFS Meetup #1      | Seattle - Surf Incubator      | July 23, 2015          | [meetup](http://www.meetup.com/Seattle-IPFS-Meetup/events/224077819/)
 Portland IPFS Meetup #1     | Portland - ctrlH HackerSpace  | July 22, 2015          | [attending](http://attending.io/events/ipfs-portland-meetup-the-permanent-distributed-web)
 Data Terra Nemo 2015        | Berlin                        | May 23-24, 2015        | [dtn](http://dtn.is/)
