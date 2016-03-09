@@ -1,4 +1,6 @@
 #!/bin/sh
+#
+# Put this script inside the root folder of your git directory before running it.
 
 cat >.git/hooks/commit-msg <<'EOF'
 #!/bin/sh
