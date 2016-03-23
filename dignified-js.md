@@ -16,8 +16,8 @@ Where module management encompasses these four main
 aspects, a) linting, b) testing, c) building and bundling and d) releasing.
 
 For each of these four steps we have chosen specific tools in the
-past that worked for us. They are partially captured in our
-[JavaScript contribution guidelines](https://github.com/ipfs/community/blob/master/js-contribution-guidelines.md). dignified.js aims to implement
+past that worked for us. They are captured in our
+[JavaScript contribution guidelines](js-contribution-guidelines.md). dignified.js aims to implement
 all these guidelines, in an easy to use package.
 
 These tools are not set in stone, nor do we plan in any way of halting
