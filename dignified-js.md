@@ -5,7 +5,7 @@ the [IPFS](https://ipfs.io/) project. I have come to expect to spend
 time on configuring things, but this time around the repetition
 was too much. So I thought to myself, there has to be a better way.
 
-Inspired my recent descovery of [hjs-webpack](https://github.com/HenrikJoreteg/hjs-webpack), which
+Inspired by my recent discovery of [hjs-webpack](https://github.com/HenrikJoreteg/hjs-webpack), which
 aims to drastically reduce the configuration overhead in your project
 when using [webpack](http://webpack.github.io/) and [babel](http://babeljs.io/), I set out to improve upon the way we set up and
 develop JavaScript modules for IPFS.
@@ -13,7 +13,7 @@ So I called [David](https://github.com/diasdavid) and [Nathan](https://github.co
 who I've been working with on most of these modules, to figure out the
 best way of moving forward. The result of this conversation is dignified.js.
 
-> dignified.js at it’s core aims to be a predictable and easy to update solution to JavaScript module management for the IPFS project.
+> dignified.js at its core aims to be a predictable and easy to update solution to JavaScript module management for the IPFS project.
 
 Where module management encompasses these four main
 aspects, a) linting, b) testing, c) building and bundling and d) releasing.
@@ -25,7 +25,7 @@ all these guidelines, in an easy to use package.
 
 These tools are not set in stone, nor do we plan in any way of halting
 our search to improve them. But we do plan on stopping ourselves
-from repeating the same research everytime we create a new module.
+from repeating the same research every time we create a new module.
 
 To bring everyone on the same page, here is a rundown of our current
 tools in use.
@@ -46,9 +46,9 @@ We restrict ourselves to Node.js 4 and 5 and the latest stable releases
 of Chrome, Firefox, Safari and Edge at the moment.  Even this is quite a
 large target to hit, so our tests need to reflect that. Testing for Node.js
 is straightforward for the most part. The browser though wants a
-little bit more love. So we are using [karma](http://karma-runner.github.io)
+bit more love. So we are using [karma](http://karma-runner.github.io)
 to automate the test execution in the browser, as we are very familiar with
-it (given Im the maintainer of it).
+it (given I'm the maintainer of it).
 
 To reduce friction and overhead as much as possible, we share the test
 framework [mocha](http://mochajs.org/) and the assertion library [chai](http://chaijs.com/) between the browser and Node.js.
@@ -78,7 +78,7 @@ versions for (hopefully) everyone to use.
 #### d) Release
 
 This is actually quite simple, we have a [gulp](http://gulpjs.com/) task
-that automatically runs all things needed for a release so we dont miss
+that automatically runs all things needed for a release so we don't miss
 anything of the above mentioned things. It will:
 
 1. Run linting
@@ -189,7 +189,7 @@ but please believe us if we say we tried and it didn’t work for us.
 Gulp is not a hard dependency, it’s just a simple way to structure our tasks
 at the moment. Usually projects only depend on the dignified binaries
 completely hiding the fact that we are using gulp under the hood. So we are
-free if we want to to switch it out with out any issues. We all enjoy npm
+free if we want to switch it out without any issues. We all enjoy npm
 scripts, and are using them to call the dignified binaries, but sadly there
 is no nice way of sharing them yet so for now we are doing it in this way.
 
