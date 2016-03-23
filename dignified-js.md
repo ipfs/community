@@ -2,13 +2,12 @@
 
 In the past few months, I have written a good amount of JavaScript for
 the [IPFS](https://ipfs.io/) project. I have come to expect to spend
-some time on configuring things, but this time around I was repeating
-myself so much that I thought to myself, there has to be a better way.
+time on configuring things, but this time around the repetition
+was too much. So I thought to myself, there has to be a better way.
 
-Recently I found [hjs-webpack](https://github.com/HenrikJoreteg/hjs-webpack), which
+Inspired my recent descovery of [hjs-webpack](https://github.com/HenrikJoreteg/hjs-webpack), which
 aims to drastically reduce the configuration overhead in your project
-when using [webpack](http://webpack.github.io/) and [babel](http://babeljs.io/).
-Inspired by this I set out to improve upon the way we set up and
+when using [webpack](http://webpack.github.io/) and [babel](http://babeljs.io/), I set out to improve upon the way we set up and
 develop JavaScript modules for IPFS.
 So I called [David](https://github.com/diasdavid) and [Nathan](https://github.com/nginnever),
 who I've been working with on most of these modules, to figure out the
