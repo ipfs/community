@@ -5,12 +5,9 @@ the [IPFS](https://ipfs.io/) project. I have come to expect to spend
 time on configuring things, but this time around the repetition
 was too much. So I thought to myself, there has to be a better way.
 
-Inspired by my recent discovery of [hjs-webpack](https://github.com/HenrikJoreteg/hjs-webpack), which
-aims to drastically reduce the configuration overhead in your project
-when using [webpack](http://webpack.github.io/) and [babel](http://babeljs.io/), I set out to improve upon the way we set up and
+Inspired by my recent discovery of [hjs-webpack](https://github.com/HenrikJoreteg/hjs-webpack), I set out to improve upon the way we set up and
 develop JavaScript modules for IPFS.
-So I called [David](https://github.com/diasdavid) and [Nathan](https://github.com/nginnever),
-who I've been working with on most of these modules, to figure out the
+So I called [David](https://github.com/diasdavid) and [Nathan](https://github.com/nginnever), to figure out the
 best way of moving forward. The result of this conversation is dignified.js.
 
 > dignified.js at its core aims to be a predictable and easy to update solution to JavaScript module management for the IPFS project.
@@ -33,11 +30,11 @@ tools in use.
 #### a) Linting & Code Style
 
 We have been using [standard](https://github.com/feross/standard) as the
-code style of our choice for some time now and are very happy with it.
+code style of our choice for some time now and are happy with it.
 The only addition that we are adding is an enforced use of
 [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) to avoid issues we had when using ES2015
 features outside of strict mode. For added flexibility we are using
-[eslint](http://eslint.org/) directly, with the [eslint-config-standard](https://github.com/feross/eslint-config-standard) instead of the regular [standard module](https://github.com/feross/standard).
+[eslint](http://eslint.org/), with the [eslint-config-standard](https://github.com/feross/eslint-config-standard) instead of the regular [standard module](https://github.com/feross/standard).
 
 #### b) Test
 
@@ -47,15 +44,15 @@ of Chrome, Firefox, Safari and Edge at the moment.  Even this is quite a
 large target to hit, so our tests need to reflect that. Testing for Node.js
 is straightforward for the most part. The browser though wants a
 bit more love. So we are using [karma](http://karma-runner.github.io)
-to automate the test execution in the browser, as we are very familiar with
+to automate the test execution in the browser, as we are familiar with
 it (given I'm the maintainer of it).
 
-To reduce friction and overhead as much as possible, we share the test
+To reduce friction and overhead, we share the test
 framework [mocha](http://mochajs.org/) and the assertion library [chai](http://chaijs.com/) between the browser and Node.js.
 
 #### c) Build
 
-There are a lot of build systems out there, and I have probably used my
+There are a lot of build systems out there, and I have used my
 fair share of them in the past ([r.js](http://requirejs.org/), [rollup](http://rollupjs.org/), [browserify](http://browserify.org/), [webpack](http://webpack.github.io/)). They all have their strength and weaknesses and at the
 end of the day it matters that the tool does what you want it to do. For
 that reason we settled on using webpack as it gives us a large control over
@@ -63,8 +60,8 @@ every detail when bundling and we feel quite comfortable with it at this
 point.
 
 As we are using some features of ES2015 we also need something to ensure
-our code runs on the platforms that do not support it yet, or just
-partially, so we are using [babel](http://babeljs.io/) for this.
+our code runs on the platforms that do not have full support yet. For this
+[babel](http://babeljs.io/) is the tool of our choice.
 
 When others consume our code though, we don’t want to enforce these choices
 on them. So that’s why our build process in dignified.js creates multiple
@@ -78,7 +75,7 @@ versions for (hopefully) everyone to use.
 #### d) Release
 
 This is actually quite simple, we have a [gulp](http://gulpjs.com/) task
-that automatically runs all things needed for a release so we don't miss
+that runs everything needed for a release so we don't miss
 anything of the above mentioned things. It will:
 
 1. Run linting
@@ -147,15 +144,12 @@ To reduce the amount of configuration dignified.js expects your source code to b
 
 #### ...for consumers
 
-Consumers of our modules should not have to think about what build system
-or what features of ES2015 we are using, unless they want to.
-So they have three ways of consuming our code where they don’t
-have to think about this and one way where they can configure things
-to their liking.
+Consumers of our modules should not have to think about our set up,
+unless they want to.
+So we provide four different ways of consuming our code.
 
-For use in the browser there is regular and a minified version in the
-npm release which you can use for example through [npmcdn](https://npmcdn.com/)
-to easily embed them into your html
+For use in the browser through script tags there is regular and a minified version in the npm release.
+An example of using those is through [npmcdn](https://npmcdn.com/),
 
 ```html
 <script src="https://npmcdn.com/ipfs-api/dist/index.js"></script>
@@ -190,23 +184,22 @@ Gulp is not a hard dependency, it’s just a simple way to structure our tasks
 at the moment. Usually projects only depend on the dignified binaries
 completely hiding the fact that we are using gulp under the hood. So we are
 free if we want to switch it out without any issues. We all enjoy npm
-scripts, and are using them to call the dignified binaries, but sadly there
-is no nice way of sharing them yet so for now we are doing it in this way.
+scripts, and are using them to call the dignified binaries, but there
+is no nice way of sharing them yet.
 
 #### Where are all the semicolons?
 
-Our linting rules are fully compatible with [standard](https://github.com/feross/standard)
+Our linting rules are compatible with [standard](https://github.com/feross/standard)
 which has many examples on documentation on this. Please go there and read it.
 
 #### Why are you bothering with ES2015 and all this build setup?
 
-We want to see the web move forward, and some of us really enjoy writing
+We want to see the web move forward, and some of us enjoy writing
 their JavaScript with things like const and arrow functions.
 
-#### Why are doing this again?
+#### Why are doing this?
 
-Because it saves us hours every single day, where we don’t have to think
-about this or argue with someone about why we are doing it.
+Because it saves us hours every single day. Hours in which we don’t have to think about these things or argue with someone about why we are doing it.
 
 With a lot of sweat and all the best from
 
