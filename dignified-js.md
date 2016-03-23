@@ -7,7 +7,7 @@ myself so much that I thought to myself, there has to be a better way.
 
 Recently I found [hjs-webpack](https://github.com/HenrikJoreteg/hjs-webpack), which
 aims to drastically reduce the configuration overhead in your project
-when using [webpack](http://webpack.github.io/) and [babel]((http://babeljs.io/).
+when using [webpack](http://webpack.github.io/) and [babel](http://babeljs.io/).
 Inspired by this I set out to improve upon the way we set up and
 develop JavaScript modules for IPFS.
 So I called [David](https://github.com/diasdavid) and [Nathan](https://github.com/nginnever),
@@ -55,7 +55,7 @@ To reduce friction and overhead as much as possible, we share the test
 framework [mocha](http://mochajs.org/) and the assertion library [chai](http://chaijs.com/) between the browser and Node.js.
 
 #### c) Build
-<
+
 There are a lot of build systems out there, and I have probably used my
 fair share of them in the past ([r.js](http://requirejs.org/), [rollup](http://rollupjs.org/), [browserify](http://browserify.org/), [webpack](http://webpack.github.io/)). They all have their strength and weaknesses and at the
 end of the day it matters that the tool does what you want it to do. For
