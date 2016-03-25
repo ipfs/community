@@ -25,7 +25,7 @@ Out goals for each JavaScript project are:
 
 ## Guidelines
 
-Over time, we've researchd the options available in the JavaScript ecosystem
+Over time, we've researched the options available in the JavaScript ecosystem
 and these is the collection of our design and implementation decisions,
 when it comes to: project stucture, code style, ci, tests, tasks and dependency management.
 
@@ -51,17 +51,17 @@ large target to hit, so our tests need to reflect that. Testing for Node.js
 is straightforward for the most part. The browser though wants a
 bit more love. So we are using [karma](http://karma-runner.github.io)
 to automate the test execution in the browser, as we are familiar with
-it (given I'm the maintainer of it).
+it and it has been working very well for us.
 
 To reduce friction and overhead, we share the test
 framework [mocha](http://mochajs.org/) and the assertion library [chai](http://chaijs.com/) between the browser and Node.js.
 
 #### c) Build
 
-There are a lot of build systems out there, and I have used my
-fair share of them in the past ([r.js](http://requirejs.org/), [rollup](http://rollupjs.org/), [browserify](http://browserify.org/), [webpack](http://webpack.github.io/)). They all have their strength and weaknesses and at the
+There are a lot of build systems out there, and we have tested our fair share of them
+in the past. They all have their strength and weaknesses and at the
 end of the day it matters that the tool does what you want it to do. For
-that reason we settled on using webpack as it gives us a large control over
+that reason we settled on using [webpack](http://webpack.github.io/) as it gives us a large control over
 every detail when bundling and we feel quite comfortable with it at this
 point.
 
@@ -80,17 +80,15 @@ versions for (hopefully) everyone to use.
 
 #### d) Release
 
-This is actually quite simple, we have a [gulp](http://gulpjs.com/) task
-that runs everything needed for a release so we don't miss
-anything of the above mentioned things. It will:
+Releasing a new version entails
 
 1. Run linting
-2. Run the tests
-3. Build all versions
+2. Run all tests
+3. Build all three different versions
 4. Bump the version in package.json
 5. Commit the version bump
 6. Create a git tag
-7. Push this to github
+7. Push to github
 8. Publish to npm
 
 ### Day to day operations...
