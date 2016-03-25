@@ -13,9 +13,10 @@ The creation of this document came as a result of the hurdles that the IPFS comm
 
 Out goals for each JavaScript project are:
 
-- Should be browser compatible, possible exceptions here are
-  - access to the file system
-  - native bindings.
+- Should be browser compatible, possible exceptions are,
+  - access to the file system,
+  - native bindings or
+  - network transports that are not available in the browser.
 - Must not break CommonJS `require`. This means that if someone requires
   a JavaScript module from the IPFS ecosystem, they should be able to require it
   and use browserify, webpack and other bundlers directly, without having to worry
@@ -284,4 +285,23 @@ Any IPFS JavaScript project follows the same [Code of Conduct](https://github.co
 
 # References - Resources and good reads
 
-- Comparission between WebPack, browserify, requirejs, jspm and rollup - https://github.com/webpack/docs/wiki/comparison
+- Comparission between WebPack, browserify, requirejs, jspm and rollup - [https://github.com/webpack/docs/wiki/comparison](https://github.com/webpack/docs/wiki/comparison)
+- [The cost of transpiling ES2015 in 2016](https://github.com/samccone/The-cost-of-transpiling-es2015-in-2016)
+- [standardjs.com](http://standardjs.com/)
+
+
+# Acknowledgment
+
+This project would not be possible without the hard work of many many people. So a big shout out to all contributors of these projects
+
+- [eslint](https://github.com/eslint/eslint/graphs/contributors)
+- [standard](https://github.com/feross/standard/graphs/contributors)
+- [karma](https://github.com/karma-runner/karma/graphs/contributors)
+- [mocha](https://github.com/mochajs/mocha/graphs/contributors)
+- [chai](https://github.com/chaijs/chai/graphs/contributors)
+- [webpack](https://github.com/webpack/webpack/graphs/contributors)
+- [babel](https://github.com/babel/babel/graphs/contributors)
+
+
+
+
