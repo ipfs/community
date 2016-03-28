@@ -1,78 +1,56 @@
-# JavaScript projects guidelines
+Guidelines for JavaScript project
+=================================
 
-> This document contains the guidelines that must be followed for JavaScript
-> projects under the IPFS org. These guidelines result from battle earned experience
-> in building JavaScript applications and modules that are reusable, work in the browser
-> and that offer a good UX for developers and consumers.
+> This document contains the guidelines that shall be followed for JavaScript projects under the IPFS org. These guidelines result from battle earned experience in building JavaScript applications and modules that are reusable, work in the browser and that offer a good UX for developers and consumers.
 
 ## Motivation
 
-The creation of this document came as a result of the hurdles that the IPFS community had to go through, in order to build a JavaScript codebase that is welcoming in supporting new features to increase productivity and developer happiness, without the trading off the interopability with other existent and predominant tools.
+The IPFS community has faced several challenges through the process of creating a JavaScript implementation of IPFS and satellite modules that contribute to the IPFS ecosystem on JavaScript land. These hurdles were overcome through a process of continuous experimentation, iteration and constant feedback, so that the JavaScript codebase developed could run in the latest versions of Node.js and modern Browsers, without locking it to a subset of the JavaScript language. In fact, one of the main concerns of setting these guidelines is that the path for experimentation is open, being that es6, es7, typescript, etc.
 
 ## Goals
 
-Out goals for each JavaScript project are:
+In each JavaScript project/module, our goal is to ensure:
 
-- Should be browser compatible, possible exceptions are,
-  - access to the file system,
-  - native bindings or
-  - network transports that are not available in the browser.
-- Must not break CommonJS `require`. This means that if someone requires
-  a JavaScript module from the IPFS ecosystem, they should be able to require it
-  and use browserify, webpack and other bundlers directly, without having to worry
-  how much shims have to be added to make it work.
-- Make the UX of contributing and developing great with good guides, saving a
-  lot of time in discussions that can be used for productivity.
+- Browser compatibility, possible exceptions are:
+  - access to the file system.
+  - native bindings.
+  - network transports(uTP, udt, curveCP, etc) that are not available in the browser.
+- Must not break CommonJS `require`. This means that if someone requires a JavaScript module from the IPFS ecosystem, they should be able to require it and use browserify, webpack or other bundler, without having to worry on adding special shims for what is internal to the module itself.
+- Make the UX to contribute and develop great, including a good guide, saving a considerable amount of time that can be use for productivity.
 
-## Guidelines
+## The guidelines
 
-Over time, we've researched the options available in the JavaScript ecosystem
-and these is the collection of our design and implementation decisions,
-when it comes to: project stucture, code style, ci, tests, tasks and dependency management.
+We've researched and experimented with the options available in the JavaScript ecosystem. This document describes the collection of the design and implementation decisions that have been made, when it comes to:
 
-These tools are not set in stone, nor do we plan in any way of halting
-our search to improve them. But we do plan on stopping ourselves
-from repeating the same research every time we create a new module.
+- project stucture.
+- code style.
+- continuous integration.
+- tests.
+- tasks (asset pipeline, transpiling, releasing, etc).
+- dependency management.
+
+Our tool picks for each of this dimensions are not set in stone, nor do we plan in any way of halting our search to improve them.
 
 #### a) Linting & Code Style
 
-We have been using [standard](https://github.com/feross/standard) as the
-code style of our choice for some time now and are happy with it.
-The only addition that we are adding is an enforced use of
-[strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) to avoid issues we had when using ES2015
-features outside of strict mode. For added flexibility we are using
-[eslint](http://eslint.org/), with the [eslint-config-standard](https://github.com/feross/eslint-config-standard) instead of the regular [standard module](https://github.com/feross/standard).
+IPFS JavaScript projects default to [standard](https://github.com/feross/standard) codestyle. However we've added an extra rule to enforce the use of [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) to avoid issues we had when using ES2015
+features outside of strict mode. We enforce this rule by using [eslint](http://eslint.org/) and extending [standard module](https://github.com/feross/standard) with the [eslint-config-standard](https://github.com/feross/eslint-config-standard).
 
 #### b) Test
 
-All the code we write is expected to run in browser as well as in Node.js.
-We restrict ourselves to Node.js 4 and 5 and the latest stable releases
-of Chrome, Firefox, Safari and Edge at the moment.  Even this is quite a
-large target to hit, so our tests need to reflect that. Testing for Node.js
-is straightforward for the most part. The browser though wants a
-bit more love. So we are using [karma](http://karma-runner.github.io)
-to automate the test execution in the browser, as we are familiar with
-it and it has been working very well for us.
+By default, the `js-ipfs` codebase is designed to be run in the browser and Node.js, this means we require to test in both platforms. Currently, we run tests on Node.js 4 and 5 and the latest stable releases of Chrome, Firefox, Safari and Edge .  Even this is quite a large target to hit, so our tests need to reflect that. Testing for Node.js is straightforward for the most part. The browser though wants a bit more love. So we are using [karma](http://karma-runner.github.io) to automate the test execution in the browser, as we are familiar with it and it has been working very well for us.
 
-To reduce friction and overhead, we share the test
-framework [mocha](http://mochajs.org/) and the assertion library [chai](http://chaijs.com/) between the browser and Node.js.
+To reduce friction and overhead, we share the test framework [mocha](http://mochajs.org/) and the assertion library [chai](http://chaijs.com/) between the browser and Node.js.
+
+Note that projects that are not necessarily part of the `js-ipfs` ecosystem (such as [registry-mirror](https://github.com/diasdavid/registry-mirror) and others), don't require browser testing.
 
 #### c) Build
 
-There are a lot of build systems out there, and we have tested our fair share of them
-in the past. They all have their strength and weaknesses and at the
-end of the day it matters that the tool does what you want it to do. For
-that reason we settled on using [webpack](http://webpack.github.io/) as it gives us a large control over
-every detail when bundling and we feel quite comfortable with it at this
-point.
+When it came to build systems, we had a considerable amount of options at our disposal. After a throughout process of experimentation, tinkering and learning from other open source projects, we've settled on [webpack](http://webpack.github.io/). It gives us a large control over every detail when bundling and we feel quite comfortable with it at this point.
 
-As we are using some features of ES2015 we also need something to ensure
-our code runs on the platforms that do not have full support yet. For this
-[babel](http://babeljs.io/) is the tool of our choice.
+As we are using some features of ES2015 we also need something to ensure our code runs on the platforms that do not have full support yet. For this [babel](http://babeljs.io/) is the tool of our choice.
 
-When others consume our code though, we don’t want to enforce these choices
-on them. So that’s why our build process in dignified.js creates multiple
-versions for (hopefully) everyone to use.
+When others consume our code though, we don’t want to enforce these choices on them. So that’s why our build process in `dignified.js` creates multiple versions for everyone to use.
 
 - __Raw ES2015 version__, ready to be consumed by platforms that understand Node.js based require and most of ES2015.
 - __Raw ES5 version__, ready to be consumed by platforms that understand Node.js based require and ES5.
@@ -81,11 +59,11 @@ versions for (hopefully) everyone to use.
 
 #### d) Release
 
-Releasing a new version entails
+Releasing a new version entails:
 
 1. Run linting
 2. Run all tests
-3. Build all three different versions
+3. Build all three different versions described on section c)
 4. Bump the version in package.json
 5. Commit the version bump
 6. Create a git tag
@@ -111,7 +89,7 @@ $ dignified-release minor
 $ dignified-release
 ```
 
-these can be setup in your package.json as npm scripts:
+If you prefer using npm scripts, you can set them up in your package.json:
 
 ```json
 {
@@ -126,7 +104,7 @@ these can be setup in your package.json as npm scripts:
 }
 ```
 
-and you also need to add it your `devDependencies` by running
+You also need to add it your `devDependencies` by running
 
 ```sh
 $ npm install --save-dev dignified.js
@@ -172,14 +150,12 @@ transpiled using babel. While the original gets pointed by the `jsnext:main` key
 
 ##### Continuous integration
 
-There should be `.travis.yml` and `circle.yml` configuration file present and both services
-should be enabled on the repository. Here you can find samples for [travis](examples/travis.example.yml)
+There should be `.travis.yml` and `circle.yml` configuration file present and both services should be enabled on the repository. Here you can find samples for [travis](examples/travis.example.yml)
 and [circle](examples/circle.example.yml).
 
 ##### `.gitignore`
 
-To avoid checking in the dist and lib folders, the `.gitignore` file should
-at least contain
+To avoid checking in the dist and lib folders, the `.gitignore` file should at least contain
 
 ```
 dist
@@ -198,8 +174,7 @@ We use:
 
 ##### PreCommit
 
-We also use [precommit](https://www.npmjs.com/package/pre-commit) to enforce running
-code style verification and tests on every commit. So you should have
+We also use [precommit](https://www.npmjs.com/package/pre-commit) to enforce running code style verification and tests on every commit. So you should have
 
 ```json
 "pre-commit": [
@@ -213,11 +188,10 @@ in your `package.json`
 
 #### ...for consumers
 
-Consumers of our modules should not have to think about our set up,
-unless they want to.
-So we provide four different ways of consuming our code.
+Consumers of our modules should not have to think about our set up, unless they want to. So we provide four different ways of consuming our code.
 
 For use in the browser through script tags there is regular and a minified version in the npm release.
+
 An example of using those is through [npmcdn](https://npmcdn.com/),
 
 ```html
@@ -225,51 +199,39 @@ An example of using those is through [npmcdn](https://npmcdn.com/),
 <script src="https://npmcdn.com/ipfs-api/dist/index.min.js"></script>
 ```
 
-If you install the module through npm and require it, you receive the
-ES5 version ready to be used in Node.js or a module bundler like browserify.
+If you install the module through npm and require it, you receive the ES5 version ready to be used in Node.js or a module bundler like browserify.
 
 ```js
 var API = require(‘ipfs-api’)
 ```
 
-If you use module bundler that understands ES2015 like webpack@2 or
-rollup you can use this syntax to get the original ES2015 source.
+If you use module bundler that understands ES2015 like webpack@2 or rollup you can use this syntax to get the original ES2015 source.
 
 ```js
 const API = require(‘ipfs-api/src’)
 ```
 
-### FAQ
+### FA 
 
 #### Why are you not using XYZ?
 
-There are two possibilities, either it didn’t work out for us, or
-we don’t know about it. If you think we might have missed it please tell us,
-but please believe us if we say we tried and it didn’t work for us.
+There are two possibilities, either it didn’t work out for us, or we don’t know about it. If you think we might have missed it please tell us, but please believe us if we say we tried and it didn’t work for us.
 
 #### Ugh, gulp why not use simple npm scripts?
 
-Gulp is not a hard dependency, it’s just a simple way to structure our tasks
-at the moment. Usually projects only depend on the dignified binaries
-completely hiding the fact that we are using gulp under the hood. So we are
-free if we want to switch it out without any issues. We all enjoy npm
-scripts, and are using them to call the dignified binaries, but there
-is no nice way of sharing them yet.
+Gulp is not a hard dependency, it’s just a simple way to structure our tasks at the moment. Usually projects only depend on the dignified binaries completely hiding the fact that we are using gulp under the hood. So we are free if we want to switch it out without any issues. We all enjoy npm scripts, and are using them to call the dignified binaries, but there is no nice way of sharing them yet.
 
 #### Where are all the semicolons?
 
-Our linting rules are compatible with [standard](https://github.com/feross/standard)
-which has many examples on documentation on this. Please go there and read it.
+Our linting rules are compatible with [standard](https://github.com/feross/standard) which has many examples on documentation on this. Please go there and read it.
 
 #### Why are you bothering with ES2015 and all this build setup?
 
-We want to see the web move forward, and some of us enjoy writing
-their JavaScript with things like const and arrow functions.
+We want to see the web move forward, and some of us enjoy writing their JavaScript with things like const and arrow functions.
 
 #### Why are doing this?
 
-Because it saves us hours every single day. Hours in which we don’t
-have to think about these things or argue with someone about why we are doing it.
+Because it saves us hours every single day. Hours in which we don’t have to think about these things or argue with someone about why we are doing it.
 
 # Contributing
 
@@ -288,7 +250,6 @@ Any IPFS JavaScript project follows the same [Code of Conduct](https://github.co
 - Comparission between WebPack, browserify, requirejs, jspm and rollup - [https://github.com/webpack/docs/wiki/comparison](https://github.com/webpack/docs/wiki/comparison)
 - [The cost of transpiling ES2015 in 2016](https://github.com/samccone/The-cost-of-transpiling-es2015-in-2016)
 - [standardjs.com](http://standardjs.com/)
-
 
 # Acknowledgment
 
