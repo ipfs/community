@@ -1,26 +1,22 @@
 Guidelines for JavaScript project
 =================================
 
-> This document contains the guidelines that shall be followed for JavaScript projects under the IPFS org. These guidelines result from battle earned experience in building JavaScript applications and modules that are reusable, work in the browser and that offer a good UX for developers and consumers.
-
-## Motivation
-
-The IPFS community has faced several challenges through the process of creating a JavaScript implementation of IPFS and satellite modules that contribute to the IPFS ecosystem on JavaScript land. These hurdles were overcome through a process of continuous experimentation, iteration and constant feedback, so that the JavaScript codebase developed could run in the latest versions of Node.js and modern Browsers, without locking it to a subset of the JavaScript language. In fact, one of the main concerns of setting these guidelines is that the path for experimentation is open, being that es6, es7, typescript, etc.
+> This documents presents a collection of notes, tools and other details that we found useful during the process of writing the IPFS JavaScript codebase. **We do not want to enforce any rule, you can see them as rules of thumb of useful directions when building your JavaScript modules**, as these guidelines were built through battle earned experience when getting the IPFS modules to work accross the JavaScript ecosystem, that is, the browser and Node.js, without breaking a specific subset of the ecosystem, for e.g. WebPack or browserify users.
 
 ## Goals
 
-In each JavaScript project/module, our goal is to ensure:
+For the majority of our JavaScript projects, our goals are:
 
-- Browser compatibility, possible exceptions are:
+- Browser compatibility with the possible exceptions being:
   - access to the file system.
   - native bindings.
   - network transports(uTP, udt, curveCP, etc) that are not available in the browser.
-- Must not break CommonJS `require`. This means that if someone requires a JavaScript module from the IPFS ecosystem, they should be able to require it and use browserify, webpack or other bundler, without having to worry on adding special shims for what is internal to the module itself.
-- Make the UX to contribute and develop great, including a good guide, saving a considerable amount of time that can be use for productivity.
+- Not break CommonJS `require`. This means that if someone requires a JavaScript module from the IPFS ecosystem, they should be able to require it and use browserify, webpack or other bundler, without having to worry on adding special shims for what is internal to the module itself.
+- Make the UX to contribute and develop great.
 
 ## The guidelines
 
-We've researched and experimented with the options available in the JavaScript ecosystem. This document describes the collection of the design and implementation decisions that have been made, when it comes to:
+In any guidelines document, it is important to enphazise that these are mostly our rules of thumb from what we've built so far. Every single item that is presented here comes from a lot of experimentation, however that doesn't mean that there isn't a better way, this is simply what we found to work best for us. In this document you will find notes about:
 
 - project stucture.
 - code style.
@@ -33,24 +29,21 @@ Our tool picks for each of this dimensions are not set in stone, nor do we plan 
 
 #### a) Linting & Code Style
 
-IPFS JavaScript projects default to [standard](https://github.com/feross/standard) codestyle. However we've added an extra rule to enforce the use of [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) to avoid issues we had when using ES2015
-features outside of strict mode. We enforce this rule by using [eslint](http://eslint.org/) and extending [standard module](https://github.com/feross/standard) with the [eslint-config-standard](https://github.com/feross/eslint-config-standard).
+IPFS JavaScript projects default to [standard](https://github.com/feross/standard) code style. It is a great and clean codestyle and its adoption is increasing significantly, making the code that we write familiar to the majority of the developers.
+
+However we've added an extra linting rule hto enforce the use of [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode) to avoid issues we had when using ES2015 features outside of strict mode. We enforce this rule by using [eslint](http://eslint.org/) and extending [standard module](https://github.com/feross/standard) with the [eslint-config-standard](https://github.com/feross/eslint-config-standard).
 
 #### b) Test
 
-By default, the `js-ipfs` codebase is designed to be run in the browser and Node.js, this means we require to test in both platforms. Currently, we run tests on Node.js 4 and 5 and the latest stable releases of Chrome, Firefox, Safari and Edge .  Even this is quite a large target to hit, so our tests need to reflect that. Testing for Node.js is straightforward for the most part. The browser though wants a bit more love. So we are using [karma](http://karma-runner.github.io) to automate the test execution in the browser, as we are familiar with it and it has been working very well for us.
-
-To reduce friction and overhead, we share the test framework [mocha](http://mochajs.org/) and the assertion library [chai](http://chaijs.com/) between the browser and Node.js.
-
-Note that projects that are not necessarily part of the `js-ipfs` ecosystem (such as [registry-mirror](https://github.com/diasdavid/registry-mirror) and others), don't require browser testing.
+Since `js-ipfs` is meant to be both a Node.js and Browser app, we strongly recommend to have tests that run in both platforms, always. For most cases, we use [mocha](http://mochajs.org) to run write the tests and [karma](http://karma-runner.github.io) to automate the test execution in the browser. This solution has been extremely convinient.
 
 #### c) Build
 
-When it came to build systems, we had a considerable amount of options at our disposal. After a throughout process of experimentation, tinkering and learning from other open source projects, we've settled on [webpack](http://webpack.github.io/). It gives us a large control over every detail when bundling and we feel quite comfortable with it at this point.
+In most IPFS JavaScript projects, you will see that We've settled on [webpack](http://webpack.github.io/) for bundling the JavaScript. It adds a greater overhead when it comes to configuration, because since most projects share the same needs, this configuration can be reused.
 
-As we are using some features of ES2015 we also need something to ensure our code runs on the platforms that do not have full support yet. For this [babel](http://babeljs.io/) is the tool of our choice.
+Where ES2015 is used, we managed to ensure that the code continues to run in every platform by transpiling it, if necessary, with [babel](http://babeljs.io/).
 
-When others consume our code though, we don’t want to enforce these choices on them. So that’s why our build process in `dignified.js` creates multiple versions for everyone to use.
+Nevertheless, and as described earlier in the document, we want to make sure users can use the modules without having to transpile and shim the modules themselves, so we've making available, with every module:
 
 - __Raw ES2015 version__, ready to be consumed by platforms that understand Node.js based require and most of ES2015.
 - __Raw ES5 version__, ready to be consumed by platforms that understand Node.js based require and ES5.
@@ -59,7 +52,7 @@ When others consume our code though, we don’t want to enforce these choices on
 
 #### d) Release
 
-Releasing a new version entails:
+Each time a new release happens, these are the steps we follow to make sure nothing gets left out:
 
 1. Run linting
 2. Run all tests
@@ -71,6 +64,8 @@ Releasing a new version entails:
 8. Publish to npm
 
 ### Day to day operations...
+
+We've created a tool to help us achieve all of the above, feel free to also use it for your projects. Feedback is appreciated!
 
 #### ...for maintainers
 
@@ -104,7 +99,7 @@ If you prefer using npm scripts, you can set them up in your package.json:
 }
 ```
 
-You also need to add it your `devDependencies` by running
+You also need to add it your `devDependencies` by running:
 
 ```sh
 $ npm install --save-dev dignified.js
@@ -112,8 +107,7 @@ $ npm install --save-dev dignified.js
 
 ##### Directory Structure
 
-To reduce the amount of configuration dignified.js expects your source code to be in the src and
-your test files in the test directory.
+To reduce the amount of configuration dignified.js expects your source code to be in the src and your test files in the test directory.
 
 ```sh
 ├── dist # auto-generated by the transpile and minification task.
@@ -140,8 +134,7 @@ your test files in the test directory.
 
 ##### Default `require`
 
-Inside the package.json, the main file exported is the one from the auto-generated source tree,
-transpiled using babel. While the original gets pointed by the `jsnext:main` key.
+Inside the package.json, the main file exported is the one from the auto-generated source tree, transpiled using babel. While the original gets pointed by the `jsnext:main` key.
 
 ```JavaScript
 "main": "lib/index.js",
@@ -150,14 +143,13 @@ transpiled using babel. While the original gets pointed by the `jsnext:main` key
 
 ##### Continuous integration
 
-There should be `.travis.yml` and `circle.yml` configuration file present and both services should be enabled on the repository. Here you can find samples for [travis](examples/travis.example.yml)
-and [circle](examples/circle.example.yml).
+Here you can find samples for [travis](examples/travis.example.yml) and [circle](examples/circle.example.yml).
 
 ##### `.gitignore`
 
 To avoid checking in the dist and lib folders, the `.gitignore` file should at least contain
 
-```
+```sh
 dist
 lib
 **/node_modules
@@ -167,14 +159,13 @@ coverage
 
 ##### Dependency management
 
-We use:
 
 - [david-dm](https://david-dm.org/)
 - [greenkeeper](http://greenkeeper.io/) to keep your dependencies up to date.
 
-##### PreCommit
+##### Pre-Commit
 
-We also use [precommit](https://www.npmjs.com/package/pre-commit) to enforce running code style verification and tests on every commit. So you should have
+[precommit](https://www.npmjs.com/package/pre-commit) helps us check code style run the tests on every commit. In your `package.json`:
 
 ```json
 "pre-commit": [
@@ -183,12 +174,7 @@ We also use [precommit](https://www.npmjs.com/package/pre-commit) to enforce run
 ]
 ```
 
-in your `package.json`
-
-
 #### ...for consumers
-
-Consumers of our modules should not have to think about our set up, unless they want to. So we provide four different ways of consuming our code.
 
 For use in the browser through script tags there is regular and a minified version in the npm release.
 
@@ -211,7 +197,7 @@ If you use module bundler that understands ES2015 like webpack@2 or rollup you c
 const API = require(‘ipfs-api/src’)
 ```
 
-### FA 
+### FAQ
 
 #### Why are you not using XYZ?
 
@@ -262,7 +248,3 @@ This project would not be possible without the hard work of many many people. So
 - [chai](https://github.com/chaijs/chai/graphs/contributors)
 - [webpack](https://github.com/webpack/webpack/graphs/contributors)
 - [babel](https://github.com/babel/babel/graphs/contributors)
-
-
-
-
