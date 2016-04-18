@@ -128,7 +128,9 @@ If you prefer using npm scripts, you can set them up in your package.json:
     "test": "aegir-test",
     "test:node": "aegir-test node",
     "test:browser": "aegir-test browser",
-    "release": "aegir-release"
+    "release": "aegir-release",
+    "coverage": "aegir-coverage",
+    "coverage-publish": "aegir-coverage publish"
   }
 }
 ```
@@ -163,6 +165,8 @@ To reduce the amount of configuration aegir expects your source code to be in th
 ├── CONTRIBUTING.md
 ├── circle.yml
 ├── .travis.yml
+├── .npmignore
+├── .gitignore
 └── node_modules
 ```
 
@@ -179,17 +183,24 @@ Inside the package.json, the main file exported is the one from the auto-generat
 
 Here you can find samples for [Travis](examples/travis.example.yml) and [circle](examples/circle.example.yml).
 
+We also use [coveralls.io](https://coveralls.io/) to automatically publish coverage reports. This is done from travis using
+
+```yml
+script:
+  - npm run coverage
+after_success:
+  - npm run coverage-publish
+```
+
 ##### `.gitignore`
 
-To avoid checking in the dist and lib folders, the `.gitignore` file should at least contain:
+To avoid checking in unwanted files, the `.gitignore` file should follow
+this [example](examples/.gitignore).
 
-```sh
-dist
-lib
-**/node_modules
-**/*.log
-coverage
-```
+##### `.npmignore`
+
+Npm uses the `.gitignore` by default, so we have to add a `.npmignore` file
+to ensure we actually ship `lib` and `dist` files. You can use this [example](examples/.npmignore) to get started.
 
 ##### Dependency management
 
@@ -223,13 +234,13 @@ You can use [npmcdn](https://npmcdn.com/) to include those:
 If you install the module through npm and require it, you receive the ES5 version ready to be used in Node.js or a module bundler like browserify.
 
 ```js
-var API = require(‘ipfs-api’)
+var API = require('ipfs-api')
 ```
 
 If you use a module bundler that understands ES2015 like webpack@2 or rollup you can use this syntax to get the original ES2015 source.
 
 ```js
-const API = require(‘ipfs-api/src’)
+const API = require('ipfs-api/src')
 ```
 
 ## FAQ
