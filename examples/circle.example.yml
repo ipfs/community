@@ -2,6 +2,7 @@ machine:
   node:
     version: stable
 
+# Up to date Chrome
 dependencies:
   pre:
     - google-chrome --version
