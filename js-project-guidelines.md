@@ -203,7 +203,7 @@ after_success:
 ##### `.gitignore`
 
 To avoid checking in unwanted files, the `.gitignore` file should follow
-the [example](examples/.gitignore). This is if you are using `aegir` - smaller projects can use smaller .gitignore files.
+the [example](examples/.gitignore). This is if you are using `aegir` - smaller projects can use smaller `.gitignore` files.
 
 ##### `.npmignore`
 
