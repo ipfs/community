@@ -1,7 +1,7 @@
 Guidelines for JavaScript projects
 =================================
 
-In any guidelines document, it is important to emphasize that these are mostly our shared consensus on protocol and etiquette from what we've built so far. Every single item that is presented here comes from a lot of experimentation. However, that doesn't mean that there isn't a better way. This is simply what we found to work best for us. In this document you will find notes about:
+These guidelines reflect our shared consensus on protocol and etiquette from what we've built so far. Every single item that is presented here is the result of lots of experimentation. However, that doesn't mean that there isn't a better way to do things. What we have below is simply what we've found to work best for us. In this document you will find notes about:
 
 - Project structure.
 - Code style.
@@ -10,15 +10,16 @@ In any guidelines document, it is important to emphasize that these are mostly o
 - Tasks (asset pipeline, transpiling, releasing, etc).
 - Dependency management.
 
-Our toolkit for each of these is not set in stone, and we don't plan to halt our constant search for better tools.
+Our toolkit for each of these is not set in stone, and we don't plan to halt our constant search for better tools. Get in touch if you've got ideas.
 
-Remember:
+Also, remember:
 
 ![Barbossa's warning](assets/CodeIsMoreLikeGuidelines.jpg)
 
 ### Table of Contents
 
 - [Goals](#goals)
+- [Contributing](#contributing)
 - [Guidelines](#guidelines)
     - [Linting & Code Style](#linting-&-code-style)
     - [Testing](#testing)
@@ -42,28 +43,35 @@ Remember:
   - [Do I have to use ES2015 and Babel?](#do-i-have-to-use-es2015-and-babel)
   - [Do I have to bundle everything with webpack?](#do-i-have-to-bundle-everything-with-webpack)
   - [Why are you doing this?](#why-are-you-doing-this)
-- [Contributing](#contributing)
 - [Code of Conduct](#code-of-conduct)
 - [References - Resources and good reads](#references---resources-and-good-reads)
 - [Acknowledgment](#acknowledgment)
 
 ## Goals
 
-For the majority of our JavaScript projects, our goals are:
+For the majority of our JavaScript projects, our goals are to:
 
-- **Browser compatibility**, with the possible exceptions being:
+- **Ensure browser compatibility**, with the possible exceptions being:
   - Access to the file system.
   - Native bindings.
   - Network transports (uTP, udt, curveCP, etc) that are not available in the browser.
 - **Don't break CommonJS's** `require`. This means that if someone requires a JavaScript module from the IPFS ecosystem, they should be able to require it and use browserify, webpack or other bundlers without having to worry about adding special shims for module internals.
 - **Encourage Contribution**.
-- **Great UX** for everyone involved.
+- **Have great UX** for everyone involved.
+
+## Contributing
+
+Please follow the conventions described in this document.
+
+When reporting a bug, if possible, provide a way for us to reproduce it (or even better, write a test that fails with your case).
+
+Always run tests before pushing and PR'ing your code.
 
 ## Guidelines
 
 #### Linting & Code Style
 
-IPFS JavaScript projects default to [standard](https://github.com/feross/standard) code style. It is a great and clean codestyle and its adoption is increasing significantly, making the code that we write familiar to the majority of the developers.
+IPFS JavaScript projects default to [standard](https://github.com/feross/standard) code style. It is a clean codestyle, and its adoption is increasing significantly, making the code that we write familiar to the majority of the developers.
 
 However, we've added an extra linting rule: Enforce the use of [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). This avoids issues we had when using ES2015 features outside of strict mode. We enforce this rule by using [eslint](http://eslint.org/) and extending [standard module](https://github.com/feross/standard) with the [eslint-config-standard](https://github.com/feross/eslint-config-standard).
 
@@ -172,7 +180,7 @@ To reduce the amount of configuration aegir expects your source code to be in th
 
 ##### Default `require`
 
-Inside the package.json, the main file exported is the one from the auto-generated source tree, transpiled using babel. While the original gets pointed by the `jsnext:main` key.
+Inside the package.json, the main file exported is the one from the auto-generated source tree, transpiled using babel. The original should be pointed to by the `jsnext:main` key.
 
 ```JavaScript
 "main": "lib/index.js",
@@ -181,9 +189,9 @@ Inside the package.json, the main file exported is the one from the auto-generat
 
 ##### Continuous integration
 
-Here you can find samples for [Travis](examples/travis.example.yml) and [circle](examples/circle.example.yml).
+You can find samples for [Travis](examples/travis.example.yml) and [circle](examples/circle.example.yml) in the examples folder.
 
-We also use [coveralls.io](https://coveralls.io/) to automatically publish coverage reports. This is done from travis using
+We also use [coveralls.io](https://coveralls.io/) to automatically publish coverage reports. This is done from travis using this:
 
 ```yml
 script:
@@ -195,7 +203,7 @@ after_success:
 ##### `.gitignore`
 
 To avoid checking in unwanted files, the `.gitignore` file should follow
-this [example](examples/.gitignore).
+the [example](examples/.gitignore). This is if you are using `aegir` - smaller projects can use smaller .gitignore files.
 
 ##### `.npmignore`
 
@@ -272,15 +280,7 @@ No. But other people might ask you to at some point, so it may be better to be p
 
 #### Why are you doing this?
 
-Because it saves us hours every single day. Hours in which we don’t have to think about these things or argue with someone about why we are doing it. This tooling is the result of a lot of effort, thought, and hard learning. Its goal is to minimize process road bumps and provide a unified low-friction workflow for contributors.
-
-## Contributing
-
-Please follow the conventions described in this document.
-
-When reporting a bug, if possible, provide a way for us to reproduce it (or even better, write a test that fails with your case).
-
-Always run tests before pushing and PR'ing your code.
+Because it saves us hours every single day. This tooling is the result of a lot of effort, thought, and hard learning. Its goal is to minimize process road bumps and provide a unified low-friction workflow for contributors.
 
 ## Code of Conduct
 
