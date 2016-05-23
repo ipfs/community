@@ -52,15 +52,16 @@ the author agrees with the [Developer Certificate of Origin (DCO)](docs/develope
 and with licensing the work under the [MIT license](docs/LICENSE). This is
 important for our team and our users, legally. The
 [setup_commit_msg_hook.sh](dev/tools/hooks/setup_commit_msg_hook.sh)
-script which will setup a Git commit-msg hook that will add these trailers to
+script will setup a Git commit-msg hook that will add these trailers to
 all the commit messages you write in that repository. This is not as complicated
 as it sounds: it is similar to typing `git commit --sign-off` every time you
-commit. Just download the script and run it from the root folder of whatever
+commit. Just download the script and run it once from the root folder of whatever
 Git repository you are in (for example, go-ipfs, or ipfs).
 
 The Developer Certificate of Origin (DCO) is a document that certifies you own
 and/or have the right to contribute the work and license it appropriately. The
-DCO is used instead of a --much more annoying-- CLA. With the DCO, you retain
+DCO is used instead of a --much more annoying--
+[CLA (Contributor License Agreement)](https://en.wikipedia.org/wiki/Contributor_License_Agreement). With the DCO, you retain
 copyright of your own work :). The DCO originated in the Linux community, and is
 used by other projects like Git and Docker. To learn more about the DCO see this
 [posts on elinux.org](http://elinux.org/Developer_Certificate_Of_Origin) or how
