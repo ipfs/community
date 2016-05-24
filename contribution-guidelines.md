@@ -67,25 +67,48 @@ used by other projects like Git and Docker. To learn more about the DCO see this
 [posts on elinux.org](http://elinux.org/Developer_Certificate_Of_Origin) or how
 [docker uses the DCO](https://blog.docker.com/2014/01/docker-code-contributions-require-developer-certificate-of-origin/).
 
-Gitcop checks the following:
+GitCop checks for two possible problems that are described below.
 
-* The first line of a commit message, called the subject line should
-  not be more than 80 characters long.
+#### Subject line should not be more than 80 characters long
 
-* The commit message should end with the following trailers:
+The first line of a commit message, called the subject line, should
+not be more than 80 characters long and should be separated from the
+rest of the commit message using an empty blank line.
+
+Most editors can help you count the number of characters in a
+line. And these days many good editors recognize the Git commit
+message format and warn in one way or another if the subject line is
+not separated from the rest of the commit message using an empty blank
+line.
+
+See also the [documentation about amending commits](docs/amending-commits.md)
+for an explanation about how you can rework commit messages.
+
+#### A "License" and a "Signed-off-by" trailers are required
+
+The commit message should end with the following trailers:
 
   ```
   License: MIT
   Signed-off-by: User Name <email@address>
   ```
 
-  where "User Name" is the author's real (legal) name and
-  email@address is one of the author's valid email addresses.
+where "User Name" is the author's real (legal) name and
+email@address is one of the author's valid email addresses.
 
-See the [documentation about amending commits](docs/amending-commits.md)
-for explanation about how you can rework commit messages.
+There should also be an empty blank line before the "License"
+trailer.
 
-Some example commit messages:
+As explained in more details above, this is easy to fix by running once the
+[setup_commit_msg_hook.sh](dev/tools/hooks/setup_commit_msg_hook.sh)
+script in your repository.
+
+See also the [documentation about amending commits](docs/amending-commits.md)
+for an explanation about how you can rework commit messages.
+
+#### Commit message examples
+
+Here is an example commit message:
 
 ```
 parse_test: improve tests with stdin enabled arg
@@ -97,7 +120,7 @@ License: MIT
 Signed-off-by: Christian Couder <chriscool@tuxfamily.org>
 ```
 
-and
+And here is another longer one:
 
 ```
 net/p2p + secio: parallelize crypto handshake
