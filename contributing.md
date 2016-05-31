@@ -35,7 +35,7 @@ If the issue is a protocol weakness or something not yet deployed, just discuss 
 
 ### Dive Right In
 
-If you're curious to hack on IPFS right now and you just need an issue to focus on, check out [this search](https://github.com/search?utf8=%E2%9C%93&q=label%3A%22difficulty%3A+easy%22+user%3AIPFS+is%3Aopen&type=Issues&ref=searchresults) for issues tagged as "help wanted". Generally, these should be easier for newcomers, and are great places to start hacking away. Have fun!
+If you're curious to hack on IPFS right now and you just need an issue to focus on, check out [this search](https://github.com/search?utf8=%E2%9C%93&q=label%3A%22difficulty%3A%22easy%22+user%3AIPFS+is%3Aopen&type=Issues&ref=searchresults) for issues tagged as "help wanted". Generally, these should be easier for newcomers, and are great places to start hacking away. Have fun!
 
 ### Reporting Issues
 
