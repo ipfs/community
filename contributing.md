@@ -43,16 +43,15 @@ If you find bugs, mistakes, inconsistencies in the IPFS project's code or
 documents, please let us know by filing an issue at the appropriate issue
 tracker (we use multiple repositories). No issue is too small.
 
-When reporting issues about an implementation, please include your host OS (Ubuntu 12.04, Fedora 19, etc). Please run:
+The main issues for bug reporting are as follows:
+https://github.com/ipfs/go-ipfs/issues - Issues related to running the Go implementation of IPFS.
+https://github.com/ipfs/js-ipfs/issues - Issues related to running the js implementation of IPFS.
+https://github.com/ipfs/support/issues - If you're not sure but you need support on running IPFS.
+https://github.com/ipfs/notes/issues - For general notes and ideas.
+https://github.com/ipfs/faq/issues - For questions.
+https://github.com/ipfs/specs/issues - For protocol discussions.
 
-```
-echo "IPFS Bug Report" >/tmp/ipfs-bug-report
-date >>/tmp/ipfs-bug-report
-ipfs version >>/tmp/ipfs-bug-report
-uname -a >>/tmp/ipfs-bug-report
-```
-
-It may also be relevant to look at the eventlog of your ipfs node, but we will request it if so.
+The [go-ipfs](https://github.com/ipfs/go-ipfs) issues use a template that will guide you through the process of reporting a bug. We will be adding this kind of issue template to other repositories as bug reports become more common.
 
 ### Protocol Design
 
