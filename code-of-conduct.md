@@ -112,6 +112,10 @@ that your grievance is handled appropriately.
 In general, we will choose the course of action that we judge as being most in
 the interest of fostering a safe and friendly community.
 
+On IRC, let one of the ops know if you think that someone has trangressed
+against the Code of Conduct. If you would like to be an op and promise to
+help maintain and abide by the code, please let us know.
+
 ## Contact Info
 
 Please contact abuse@ipfs.io if you need to report a problem or address a
