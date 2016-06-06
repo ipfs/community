@@ -96,6 +96,7 @@ Dylan Powers | [@dylanPowers](https://github.com/dylanPowers) | [@dylankpowers](
 Friedel Ziegelmayer | [@dignifiedquire](//github.com/Dignifiedquire) | [@dignifiedquire](//twitter.com/dignifiedquire) | dignifiedquire
 Harlan T Wood | [@harlantwood](//github.com/harlantwood) | [@harlantwood](//twitter.com/harlantwood) |
 Henry Bubert | [@cryptix](//github.com/cryptix) | [@oObsi](//twitter.com/oObsi) | cryptix
+Jakub Sztandera | [@Kubuxu](//github.com/kubuxu/) | [@Kubuxu](//twitter.com/Kubuxu) | Kubuxu
 Jeromy Johnson | [@whyrusleeping](//github.com/whyrusleeping) | [@whyrusleeping](//twitter.com/whyrusleeping) | whyrusleeping
 Juan Benet | [@jbenet](//github.com/jbenet) | [@juanbenet](//twitter.com/juanbenet) | jbenet
 Lars Gierth | [@lgierth](//github.com/lgierth) |  | lgierth
