@@ -44,12 +44,12 @@ documents, please let us know by filing an issue at the appropriate issue
 tracker (we use multiple repositories). No issue is too small.
 
 The main issues for bug reporting are as follows:
-https://github.com/ipfs/go-ipfs/issues - Issues related to running the Go implementation of IPFS.
-https://github.com/ipfs/js-ipfs/issues - Issues related to running the js implementation of IPFS.
-https://github.com/ipfs/support/issues - If you're not sure but you need support on running IPFS.
-https://github.com/ipfs/notes/issues - For general notes and ideas.
-https://github.com/ipfs/faq/issues - For questions.
-https://github.com/ipfs/specs/issues - For protocol discussions.
+- [go-ipfs/issues](https://github.com/ipfs/go-ipfs/issues) - Issues related to running the Go implementation of IPFS.
+- [js-ipfs/issues](https://github.com/ipfs/js-ipfs/issues) - Issues related to running the js implementation of IPFS.
+- [support/issues](https://github.com/ipfs/support/issues) - If you're not sure but you need support on running IPFS.
+- [notes/issues](https://github.com/ipfs/notes/issues) - For general notes and ideas.
+- [faq/issues](https://github.com/ipfs/faq/issues) - For questions.
+- [specs/issues](https://github.com/ipfs/specs/issues) - For protocol discussions.
 
 The [go-ipfs](https://github.com/ipfs/go-ipfs) issues use a template that will guide you through the process of reporting a bug. We will be adding this kind of issue template to other repositories as bug reports become more common.
 
