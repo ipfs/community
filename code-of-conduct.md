@@ -12,6 +12,18 @@ Towards this end, certain behaviors and practices will not be tolerated.
 - Abusive behavior is never tolerated.
 - Violations of this code may result in swift and permanent expulsion from the IPFS community.
 
+## Table of Contents
+
+- [Scope](#scope)
+- [Friendly Harassment-Free Space](#friendly-harassment-free-space)
+- [Reporting Violations of this Code of Conduct](#reporting-violations-of-this-code-of-conduct)
+- [Copyright Violations](#copyright-violations)
+- [Consequences](#consequences)
+- [Addressing Grievances](#addressing-grievances)
+- [Contact Info](#contact-info)
+- [Changes](#changes)
+- [Credit and License](#credit-and-license)
+
 ## Scope
 
 We expect all members of the IPFS community to abide by this Code of Conduct
