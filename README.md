@@ -4,11 +4,21 @@
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
 
-- [About](#about)
-- [Meetups](#meetups)
-- [Calendar](#calendar)
-- [Swag](#swag)
-- [People](#people)
+  - [About](#about)
+  - [Meetups](#meetups)
+    - [Berlin](#berlin)
+    - [Bratislava](#bratislava)
+    - [Copenhagen](#copenhagen)
+    - [Lisbon](#lisbon)
+    - [London](#london)
+    - [Paris](#paris)
+    - [Portland](#portland)
+    - [San Francisco](#san-francisco)
+    - [Seattle](#seattle)
+  - [Calendar](#calendar)
+  - [Swag](#swag)
+  - [People](#people)
+  - [Events calendar](#events-calendar)
 
 ## About
 

@@ -15,15 +15,17 @@ helping us improve our community.
 
 ### Topics
 
-* [Security Issues](#reporting-security-issues)
-* [Reporting Issues](#reporting-issues)
-* [Dive Right In](#dive-right-in)
-* [Protocol Design](#protocol-design)
-* [Implementation Design](#implementation-design)
-* [Contribution Guidelines](#contribution-guidelines)
-* [Community Guidelines](#community-guidelines)
-* [Community Improvement](#community-improvement)
-* [Helping in other ways](#helping-in-other-ways)
+- [Topics](#topics)
+- [Security Issues](#security-issues)
+- [Dive Right In](#dive-right-in)
+- [Reporting Issues](#reporting-issues)
+- [Protocol Design](#protocol-design)
+- [Implementation Design](#implementation-design)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Community Guidelines](#community-guidelines)
+- [Community Improvement](#community-improvement)
+- [Translations](#translations)
+- [Helping in other ways](#helping-in-other-ways)
 
 ### Security Issues
 

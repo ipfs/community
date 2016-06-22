@@ -1,5 +1,27 @@
 # Contribution Guidelines
 
+## Table of Contents
+
+- [Discuss big changes as Issues first](#discuss-big-changes-as-issues-first)
+- [Pull Requests always welcome](#pull-requests-always-welcome)
+- [Conventions](#conventions)
+  - [Go](#go)
+  - [JavaScript](#javascript)
+  - [Git](#git)
+  - [Commit messages](#commit-messages)
+    - [Subject line should not be more than 80 characters long](#subject-line-should-not-be-more-than-80-characters-long)
+    - [A "License" and a "Signed-off-by" trailers are required](#a-license-and-a-signed-off-by-trailers-are-required)
+    - [Commit message examples](#commit-message-examples)
+  - [Code](#code)
+  - [Tests](#tests)
+  - [Documentation](#documentation)
+  - [Pull Requests](#pull-requests)
+  - [Code Review](#code-review)
+  - [Rebasing](#rebasing)
+  - [Merge Approval](#merge-approval)
+  - [Labels](#labels)
+- [Credits](#credits)
+
 ## Discuss big changes as Issues first
 
 Significant improvements should be documented as GitHub issues before anybody starts to code. This gives other contributors a chance to point you in the right direction, give feedback on the design, and maybe point out if related work is under way.
