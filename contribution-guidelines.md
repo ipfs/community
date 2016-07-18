@@ -46,7 +46,7 @@ Please look at the [Go Contribution Guidelines](go-contribution-guidelines.md).
 
 ### JavaScript
 
-Please look at the [JS Contribution Guidelines](js-contribution-guidelines.md).
+Please look at the [JS Contribution Guidelines](js-project-guidelines.md).
 
 ### Git
 
