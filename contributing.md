@@ -1,10 +1,10 @@
 # Contributing
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
-[![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)  
+[![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
 ![](https://github.com/jbenet/contribute-ipfs-gif/raw/master/img/contribute.gif)
 
-[IPFS Main Repo](https://github.com/ipfs/ipfs#ipfs---the-permanent-web) • [IPFS Project Directory](https://github.com/ipfs/ipfs#project-directory)  
+[IPFS Main Repo](https://github.com/ipfs/ipfs#ipfs---the-permanent-web) • [IPFS Project Directory](https://github.com/ipfs/ipfs#project-directory)
 
 Want to hack on IPFS? Awesome! Here are instructions to get you started.
 They are not perfect yet. Please let us know what feels wrong or incomplete.
@@ -31,7 +31,7 @@ helping us improve our community.
 
 The IPFS protocol and its implementations are still in heavy development. This means that there may be problems in our protocols, or there may be mistakes in our implementations. And -- though IPFS is not production-ready yet -- many people are already running nodes in their machines. So we take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
 
-If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to juan@ipfs.io, please DO NOT file a public issue.
+If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to security@ipfs.io, please DO NOT file a public issue. The GPG key for security@ipfs.io is [4B9665FB 92636D17 7C7A86D3 50AAE8A9 59B13AF3](https://pgp.mit.edu/pks/lookup?op=get&search=0x50AAE8A959B13AF3).
 
 If the issue is a protocol weakness or something not yet deployed, just discuss it openly.
 
