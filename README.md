@@ -3,22 +3,29 @@
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-  - [About](#about)
-  - [Meetups](#meetups)
-    - [Berlin](#berlin)
-    - [Bratislava](#bratislava)
-    - [Copenhagen](#copenhagen)
-    - [Lisbon](#lisbon)
-    - [London](#london)
-    - [Paris](#paris)
-    - [Portland](#portland)
-    - [San Francisco](#san-francisco)
-    - [Seattle](#seattle)
-  - [Calendar](#calendar)
-  - [Swag](#swag)
-  - [People](#people)
-  - [Events calendar](#events-calendar)
+> General discussion and documentation on community practices
+
+## Table of Contents
+
+- [About](#about)
+- [Meetups](#meetups)
+  - [Berlin](#berlin)
+  - [Bratislava](#bratislava)
+  - [Copenhagen](#copenhagen)
+  - [Lisbon](#lisbon)
+  - [London](#london)
+  - [Paris](#paris)
+  - [Portland](#portland)
+  - [San Francisco](#san-francisco)
+  - [Seattle](#seattle)
+- [Calendar](#calendar)
+- [Swag](#swag)
+- [People](#people)
+- [Events calendar](#events-calendar)
+- [Contribute](#contribute)
+- [License](#license)
 
 ## About
 
@@ -128,3 +135,17 @@ Seattle IPFS Meetup #1      | Seattle - Surf Incubator      | July 23, 2015     
 Portland IPFS Meetup #1     | Portland - ctrlH HackerSpace  | July 22, 2015          | [attending](http://attending.io/events/ipfs-portland-meetup-the-permanent-distributed-web)
 Data Terra Nemo 2015        | Berlin                        | May 23-24, 2015        | [dtn](http://dtn.is/)
 FluentConf 2015             | San Francisco                 | April 22, 2015         | [fluent](http://fluentconf.com/javascript-html-2015/public/schedule/detail/43686)
+
+## Contribute
+
+Feel free to join in! All welcome. Your best to start is probably either in [Contributing.md](https://github.com/ipfs/community/blob/master/contributing.md) or in [the issues](https://github.com/ipfs/community/issues).
+
+This repository falls under the IPFS [Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md).
+
+**Want to hack on IPFS?**
+
+[![](https://cdn.rawgit.com/jbenet/contribute-ipfs-gif/master/img/contribute.gif)](https://github.com/ipfs/community/blob/master/contributing.md)
+
+## License
+
+MIT © Protocol Labs, Inc.
