@@ -45,11 +45,11 @@ Must be one of the following:
   generation
 
 ### Scope
-The scope could be anything specifying place of the commit change. For example `api`,
+The scope could be anything specifying the place of the commit change. For example `api`,
 `cli`, etc...
 
 ### Subject
-The subject contains succinct description of the change:
+The subject contains a succinct description of the change:
 
 * use the imperative, present tense: "change" not "changed" nor "changes"
 * don't capitalize first letter
@@ -91,9 +91,9 @@ This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 
 ## References
 
-This document is based on
+This document is based on:
 
 - https://github.com/conventional-changelog/conventional-changelog-angular/blob/master/convention.md
 - https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit
 
-more details about the commit convention can also be found in this [document](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y)
+More details about the commit convention can also be found in this [document](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y).
