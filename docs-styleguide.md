@@ -31,7 +31,7 @@ This is the documentation styleguide for our natural language descriptions used 
 
 * End phrases with a period. (Like that one).
 * Capitalize the first letter of a phrase or sentence.
-* Command & subcommand taglines, (and option descriptions when possible) should use the imperative mood. For example: "Clear a field.", "Interact with the DHT."
+* Command and subcommand taglines (and option descriptions when possible) should use the imperative mood. For example: "Clear a field.", "Interact with the DHT."
 
 ## Headings
 
