@@ -17,12 +17,12 @@ helping us improve our community.
 
 - [Topics](#topics)
 - [Security Issues](#security-issues)
+- [Community Guidelines](#community-guidelines)
 - [Dive Right In](#dive-right-in)
 - [Reporting Issues](#reporting-issues)
 - [Protocol Design](#protocol-design)
 - [Implementation Design](#implementation-design)
 - [Contribution Guidelines](#contribution-guidelines)
-- [Community Guidelines](#community-guidelines)
 - [Community Improvement](#community-improvement)
 - [Translations](#translations)
 - [Helping in other ways](#helping-in-other-ways)
@@ -34,6 +34,20 @@ The IPFS protocol and its implementations are still in heavy development. This m
 If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to juan@ipfs.io, please DO NOT file a public issue.
 
 If the issue is a protocol weakness or something not yet deployed, just discuss it openly.
+
+### Community Guidelines
+
+We want to keep the IPFS community awesome, growing and collaborative. We need your help to keep it that way. To help with this we've come up with some general guidelines for the community as a whole:
+
+- Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
+
+- Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
+
+- Keep it legal: Basically, don't get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don't break laws.
+
+- Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
+
+There is also a more extensive [code-of-conduct](code-of-conduct.md).
 
 ### Dive Right In
 
@@ -78,20 +92,6 @@ When considering design proposals for implementations, we are looking for:
 ### Contribution Guidelines
 
 Please see [contribution-guidelines.md](contribution-guidelines.md).
-
-### Community Guidelines
-
-We want to keep the IPFS community awesome, growing and collaborative. We need your help to keep it that way. To help with this we've come up with some general guidelines for the community as a whole:
-
-- Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
-
-- Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
-
-- Keep it legal: Basically, don't get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don't break laws.
-
-- Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
-
-There is also a more extensive [code-of-conduct](code-of-conduct.md).
 
 ### Community Improvement
 
