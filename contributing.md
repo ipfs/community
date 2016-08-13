@@ -15,7 +15,6 @@ helping us improve our community.
 
 ### Topics
 
-- [Topics](#topics)
 - [Security Issues](#security-issues)
 - [Community Guidelines](#community-guidelines)
 - [Dive Right In](#dive-right-in)
