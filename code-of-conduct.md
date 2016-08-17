@@ -11,6 +11,7 @@ Towards this end, certain behaviors and practices will not be tolerated.
 - We're here to help: abuse@ipfs.io
 - Abusive behavior is never tolerated.
 - Violations of this code may result in swift and permanent expulsion from the IPFS community.
+- "Too long, didn't read" is not a valid excuse for not knowing what is in this document.
 
 ## Table of Contents
 
