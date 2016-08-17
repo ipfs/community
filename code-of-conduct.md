@@ -28,7 +28,7 @@ Towards this end, certain behaviors and practices will not be tolerated.
 ## Scope
 
 We expect all members of the IPFS community to abide by this Code of Conduct
-at all times in all IPFS community venues, online and in person, and in one-on-one 
+at all times in all IPFS community venues, online and in person, and in one-on-one
 communications pertaining to IPFS affairs.
 
 This policy covers the usage of IPFS public infrastructure, including the
@@ -58,7 +58,7 @@ carries a trade-off and numerous costs. There is seldom a single right answer.
 A difference of technology preferences is not a license to be rude.
 
 Any spamming, trolling, flaming, baiting, or other attention-stealing
-behaviour is not welcome, and will not be tolerated.
+behavior is not welcome, and will not be tolerated.
 
 Harassing other users is never tolerated, whether via public or private media.
 
@@ -119,13 +119,13 @@ in the case of a paid event or service).
 ## Addressing Grievances
 
 If you feel you have been falsely or unfairly accused of violating this Code
-of Conduct, you should notify the ipfs team. We will do our best to ensure
+of Conduct, you should notify the IPFS team. We will do our best to ensure
 that your grievance is handled appropriately.
 
 In general, we will choose the course of action that we judge as being most in
 the interest of fostering a safe and friendly community.
 
-On IRC, let one of the ops know if you think that someone has trangressed
+On IRC, let one of the ops know if you think that someone has transgressed
 against the Code of Conduct. If you would like to be an op and promise to
 help maintain and abide by the code, please let us know.
 
