@@ -232,11 +232,11 @@ We suggest either of these:
 
 For use in the browser through script tags, there are regular and minified versions in the npm release.
 
-You can use [npmcdn](https://npmcdn.com/) to include those:
+You can use [unpkg](https://unpkg.com/) to include those:
 
 ```html
-<script src="https://npmcdn.com/ipfs-api/dist/index.js"></script>
-<script src="https://npmcdn.com/ipfs-api/dist/index.min.js"></script>
+<script src="https://unpkg.com/ipfs-api/dist/index.js"></script>
+<script src="https://unpkg.com/ipfs-api/dist/index.min.js"></script>
 ```
 
 If you install the module through npm and require it, you receive the ES5 version ready to be used in Node.js or a module bundler like browserify.
