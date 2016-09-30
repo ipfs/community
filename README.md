@@ -132,9 +132,9 @@ Chaos Communication Congress| Hamburg - CCH                 | December 27 - 30, 
 Berlin IPFS Meetup #1       | Berlin - c-base               | August 27, 2015        |
 Chaos Communication Camp    | Zehdenick - Ziegeleipark      | August 13 - 17, 2015   | [events.ccc.de](https://events.ccc.de/camp/2015/wiki/Main_Page)
 Seattle IPFS Meetup #1      | Seattle - Surf Incubator      | July 23, 2015          | [meetup](http://www.meetup.com/Seattle-IPFS-Meetup/events/224077819/)
-Portland IPFS Meetup #1     | Portland - ctrlH HackerSpace  | July 22, 2015          | [attending](http://attending.io/events/ipfs-portland-meetup-the-permanent-distributed-web)
+Portland IPFS Meetup #1     | Portland - ctrlH HackerSpace  | July 22, 2015          | [attending](https://attending.io/events/ipfs-portland-meetup-the-permanent-distributed-web)
 Data Terra Nemo 2015        | Berlin                        | May 23-24, 2015        | [dtn](http://dtn.is/)
-FluentConf 2015             | San Francisco                 | April 22, 2015         | [fluent](http://fluentconf.com/javascript-html-2015/public/schedule/detail/43686)
+FluentConf 2015             | San Francisco                 | April 22, 2015         | [fluent](http://conferences.oreilly.com/fluent/javascript-html-2015/public/schedule/detail/43686)
 
 ## Contribute
 
