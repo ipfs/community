@@ -211,6 +211,28 @@ Before the pull request is merged, make sure that you squash your commits into l
 
 We use LGTM (Looks Good To Me) in comments on the code review to indicate acceptance. A change **requires** LGTMs from the maintainers of each component affected. If you know whom it may be, ping them. If not, ping [@jbenet](https://github.com/jbenet).
 
+### Reverting Changes
+
+When some change is introduced, and we decide that it isn't beneficial and/or it causes problems, we need to revert it.
+
+To make the review process and the changes easier, use git's `revert` command to revert those changes.
+
+This suits a few purposes. First, it is much easier to see if some change was reverted by just looking into the history of the file. Imagine a commit with the title: _Add feature C_. There are many ways one could form the title for a commit reverting it, but by using `git revert`, it will be _Revert: "Add feature C"_ and thus very clear.
+Second, by using `git revert` we are sure that all changes were reverted. It is much easier to start again for state 0 and apply changes on it, than try to see if some transformation transforms state 1 to state 0.
+
+#### What if a commit that is supposed to be reverted contains changes that are also good?
+
+This usually means that commit wasn't granular enough. If you are the person that initially created the commit, in the future try to make commits that focus on just one aspect.
+
+This doesn't mean that you should skip using `git revert`. Use it, then use `git cherry-pick --no-commit` to pull changes into your working tree and use interactive add to commit just the wanted ones. If interactive add is not enough to split the changes, still use interactive add to stage a superset of wanted changes and use `git checkout -- <file>` to remove unstaged changes. Then proceed to edit the files to remove all unwanted changes, and add and commit only your wanted changes.
+
+This way your log will look like:
+
+```
+AAAAAA Revert "Fix bug C in A"
+BBBBBB Re-add feature A tests that were added in "Fix bug C in A"
+```
+
 ### Labels
 
 We make extensive use of Github labels to help us and our tools organize issues.
