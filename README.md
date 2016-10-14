@@ -75,7 +75,7 @@ These are the list of community meetups by area,organized by the IPFS developers
   - http://www.meetup.com/ipfs-lisbon-meetup
 
 ### London
-  - http://www.meetup.com/London-IPFS-Meetup/
+  - https://www.meetup.com/IPFS-London-Meetup/
 
 ### Paris
   - https://github.com/ipfs/community/issues/54
