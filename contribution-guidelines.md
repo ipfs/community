@@ -194,12 +194,7 @@ Pull requests descriptions should be as clear as possible. Err on the side of ov
 
 We take code quality seriously; we must make sure the code remains correct. We do code review on all changesets. Discuss any comments, then make modifications and push additional commits to your feature branch. Be sure to post a comment after pushing. The new commits will show up in the pull request automatically, but the reviewers will not be notified unless you comment.
 
-We use `LFCR` (Looking For Code Review) as a signal that something needs review. For example:
-
-```
-I addressed the comments. The gateway now returns cache headers.
-@jbenet LFCR
-```
+We use the `needs review` as a signal that something needs review. If you can't add one to your own PR, feel free to request that the maintainers add the label to it.
 
 ### Rebasing
 
@@ -209,7 +204,7 @@ Before the pull request is merged, make sure that you squash your commits into l
 
 ### Merge Approval
 
-We use LGTM (Looks Good To Me) in comments on the code review to indicate acceptance. A change **requires** LGTMs from the maintainers of each component affected. If you know whom it may be, ping them. If not, ping [@jbenet](https://github.com/jbenet).
+We use LGTM (Looks Good To Me) in comments on the code review to indicate acceptance. A change **requires** LGTMs from the maintainers of each component affected. If you know whom it may be, ping them. If not, ping [@RichardLitt](https://github.com/RichardLitt).
 
 ### Reverting Changes
 
