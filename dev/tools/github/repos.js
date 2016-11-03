@@ -3,7 +3,8 @@
 //
 // ## Install
 // `npm i -g github-labels`
-// Add repos to repos[]
+// Then, generate an access token in GitHUb, and provide this:
+// `labels -c githubLabels.json ipfs/community -t <token>` 
 
 const exec = require('child_process').exec
 const githubRepos = require('github-repositories')
