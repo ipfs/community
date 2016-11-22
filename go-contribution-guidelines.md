@@ -18,3 +18,29 @@ If you are new to our Go development workflow:
 - You are now free to make changes to the codebase as you please.
 - You can build the binary by running `go build ./cmd/ipfs` from the go-ipfs directory.
   - NOTE: when making changes remember to restart your daemon to ensure its running your new code.
+  
+## Imports
+
+We strive to use the following convention when it comes to imports. First list stdlib imports, then local repository imports and then all other external imports. Separate them using one empty new line so they are not reordered by `go fmt` or `goimports`.
+
+Example:
+```go
+import (
+	"context"
+	"errors"
+	"sync"
+	"sync/atomic"
+
+	blocks "github.com/ipfs/go-ipfs/blocks"
+	dshelp "github.com/ipfs/go-ipfs/thirdparty/ds-help"
+
+	logging "gx/ipfs/QmSpJByNKFX1sCsHBEp3R73FL4NF6FnQTEGyNAXHm2GS52/go-log"
+	ds "gx/ipfs/QmbzuUusHqaLLoNTDEVLcSF6vZDHZDLPC7p4bztRvvkXxU/go-datastore"
+	dsns "gx/ipfs/QmbzuUusHqaLLoNTDEVLcSF6vZDHZDLPC7p4bztRvvkXxU/go-datastore/namespace"
+	dsq "gx/ipfs/QmbzuUusHqaLLoNTDEVLcSF6vZDHZDLPC7p4bztRvvkXxU/go-datastore/query"
+	cid "gx/ipfs/QmcEcrBAMrwMyhSjXt4yfyPpzgSuV8HLHavnfmiKCSRqZU/go-cid"
+)
+```
+
+If a package name isn't the same as its directory, use the explicit name.
+
