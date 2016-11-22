@@ -21,7 +21,7 @@ If you are new to our Go development workflow:
   
 ## Imports
 
-We strive to use following convention when it comes to imports. First come stdlib imports, then local repository imports and then all other external imports. Separate them using one empty new line so they are not reordered by `go fmt` or `goimports`.
+We strive to use the following convention when it comes to imports. First list stdlib imports, then local repository imports and then all other external imports. Separate them using one empty new line so they are not reordered by `go fmt` or `goimports`.
 
 Example:
 ```go
@@ -42,5 +42,5 @@ import (
 )
 ```
 
-If package name isn't the same as its directory usage of explicit name is recommended.
+If a package name isn't the same as its directory, use the explicit name.
 
