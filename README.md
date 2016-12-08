@@ -97,7 +97,7 @@ If you know of an event that has a set date and location and is _not_ listed on 
 
 ## Swag
 
-We have stickers. We'll send them to you; drop your address in [this thread](https://github.com/ipfs/community/issues/50). We're also working on [more swag](https://github.com/ipfs/community/issues/11). Subscribe to stay updated!
+We have stickers. We'll send them to you; drop your address in [this thread](https://github.com/ipfs/community/issues/175). We're also working on [more swag](https://github.com/ipfs/community/issues/11). Subscribe to stay updated!
 
 ## People
 
