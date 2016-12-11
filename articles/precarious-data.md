@@ -61,6 +61,8 @@ If you want to use IPFS to make content available in a decentralized fashion, yo
 
 The IPFS community are assembling a [Decentralized Web Primer](https://flyingzumwalt.gitbooks.io/decentralized-web-primer) that describes how to do this and more. You can read or download the primer at The primer is a work in progress. This [Code for Philly workshop](http://codeforphilly.github.io/decentralized-data/tutorials/ipfs/) has links to the most complete operations of the primer.
 
+## Covering Your Bases: Making Sure the Content is Safe
+
 ### Writing Content onto IPFS
 
 ### Pinning
