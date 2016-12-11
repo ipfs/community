@@ -25,25 +25,28 @@ Technologies and protocols like [IPFS](https://ipfs.io) and [Dat](http://datproj
 
 When you use an `http://` or `https://` link to point to a webpage, image, spreadsheet, dataset, tweet, etc, you're identifying content by its location.  The link is an identifier that points to a particular location on the web, which corresponds to a particular server, or set of servers, somewhere on the web.  **Whoever controls that location controls the content.** That's how HTTP works. It's _location-addressed_. Even if a thousand people have downloaded copies of a file, meaning that the content exists in a thousand locations, HTTP points to a single location and whoever controls that location decides what content to return when people use that HTTP link. They also decide whether to return any content at all.
 
-To get a sense of how silly it is to identify content by its location, imagine if we referenced books by their location. Imagine that I want to recommend reading the book [Why Information Grows](http://www.goodreads.com/book/show/20763722-why-information-grows). What if I used location-addressing to identify the book, saying "Check out the thing 16 inches from the south end of the third shelf on the east wall of the coffee shop at Sydenham & Walnut in Philadelphia" That gives you very little to run on, and there are lots of things that could go wrong.
+To get a sense of how silly it is to identify content by its location, imagine if we referenced books by their location. Imagine that I want to recommend reading the book [Why Information Grows](http://www.goodreads.com/book/show/20763722-why-information-grows). What if I used location-addressing to identify the book, saying "Go to the coffee shop at Sydenham & Walnut in Philadelphia and ask for the thing 16 inches from the south end of the third shelf on the east wall" That's how we're identifying information when we use HTTP links. It gives you very little to run on, there are lots of things that could go wrong, and whoever controls the location you're pointing to - in this case the Coffee Shop - has a lot of power and responsibility.
 
-This puts a big burden on the Coffee Shop if they want my book to remain available at that location. They have to:
+Let's consider the responsibilities of whoever controls the location we've pointed to. If the people running the Coffee Shop want my directions (aka. my "link") to remain valid, allowing people to access the book, they have to:
+
 * Always be open, in case someone wants to read the book.
-* Provide the book to _everyone_ who seeks the book, whether it's one person or 100 thousand people.
-* Never remove the book from its shelf - if they get rid of it, or even move it, my link is broken.
-* Prevent anyone from tampering with the book.
+* Provide the book to _everyone_ who seeks the book, whether it's one person or hundreds of thousands of people.
+* Protect the integrity of the book by preventing anyone from tampering with it.
+* Never remove the book from its shelf - if they get rid of it, or even move it, my link is broken and nobody will be able to use my instructions to find the book.
 
-It also gives the Coffee Shop a lot of power. They can
+Along with those responsibilities come a great amount of power. The proprietors of the Coffee Shop control the location that my directions point to, so they can choose to:
 
-* Choose who is allowed to see the book.
-* Throw the book away.
+* Dictate who is allowed to see the book.
+* Move the book without telling anyone.
+* Destroy the book.
 * Charge people money to access the book or force them to watch ads when they walk in the door.
-* Collect data about everyone who accesses my book, using that information however they see fit.
-* Replace the book with something else -- They might not even put a book there, since my instructions are just describing a location. A malicious actor could replace the book with something dangerous, turning the location into a trap!
+* Collect data about everyone who accesses my book, using that information however they want.
+* Replace the book with something else -- They might not even put a book there, since my instructions are just describing a location, a malicious actor could replace the book with something dangerous, turning the location into a trap!
 
 By contrast, If I identify the book by saying "Check out _Why Information Grows_ by César Hidalgo. It was published by Basic Books in 2015. The ISBN is 0465048994.", you will be able to get any copy of the book and know that you're reading the information I recommended. You might even say "Oh. I already read it." or "My roommate has it in the other room. I'll borrow it from him.", saving yourself the cost or effort of getting another copy.
 
 Translating these examples back to the way we link to information on the internet, some of the ways location-addressing fails are:
+
 * If the link points to a server that has been turned off or had an outage, the link is useless - it doesn't give me a way to find the same content elsewhere.
 * If the link points to a server that has been hacked, I might have no way to know that I'm getting bad content from that hacked location.
 * If you give me a link and someone changes the content at that location, it's hard (or impossible) for me to know that the content I retrieve from that location is different from the content you _thought_ you were pointing to.
@@ -59,7 +62,7 @@ The cryptographic hash for a piece of content never changes, which means **conte
 
 If you want to use IPFS to make content available in a decentralized fashion, you need to install IPFS, add your content to IPFS, and then tell your peers the cryptographic hashes (aka fingerprints) for the content you added. They can use those hashes to retrieve copies of the content. They can also use those hashes to link to the content.
 
-The IPFS community are assembling a [Decentralized Web Primer](https://flyingzumwalt.gitbooks.io/decentralized-web-primer) that describes how to do this and more. You can read or download the primer at The primer is a work in progress. This [Code for Philly workshop](http://codeforphilly.github.io/decentralized-data/tutorials/ipfs/) has links to the most complete operations of the primer.
+The IPFS community are assembling a [Decentralized Web Primer](https://flyingzumwalt.gitbooks.io/decentralized-web-primer) that describes how to do this and more. The primer is a work in progress. This [Code for Philly workshop](http://codeforphilly.github.io/decentralized-data/tutorials/ipfs/) has links to the parts of the primer that are most complete. They cover all the core things you need to know in order to add a dataset to IPFS.
 
 ## Covering Your Bases: Making Sure the Content is Safe
 
@@ -88,6 +91,8 @@ Other ways:
 
 Libraries! Call your librarian.
 LOCKSS
+
+Checksums: Hashes are useful even if you use other means to distribute content and back it up...
 
 ### Dealing with Versioning
 
