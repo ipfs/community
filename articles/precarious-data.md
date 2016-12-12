@@ -144,7 +144,7 @@ Speaking of libraries, **call your librarian** and ask them for advice. Librarie
 
 ### Achieving Redundancy
 
-LOCKSS. Lots Of Copies Keep Stuff Safe. That's a foundational layer to any robust preservation strategy. There's even a [project by that name](https://www.lockss.org/) which helps libraries preserve digital content (alas, it doesn't use IPFS yet). In order to protect your content, you want to get it pinned in many geographic locations, by many organizations, under multiple jurisdictions. 
+LOCKSS. Lots Of Copies Keep Stuff Safe. That's a foundational layer to any robust preservation strategy. There's even a [project by that name](https://www.lockss.org/) which helps libraries preserve digital content (alas, it doesn't use IPFS yet). In order to protect your content, you want to get it pinned in many geographic locations, by many organizations, under multiple jurisdictions.
 
 ### Ensuring Availability
 
@@ -152,7 +152,7 @@ Redundancy isn't enough. You need to make sure that some of those copies are act
 
 The simple way to ensure availability is to run some IPFS nodes on servers that are already connected to the web 24/7. If you pin your data on those nodes, the data will remain available as long as the nodes stay alive.  
 
-There are lots of strategies for making content available in a more robust way. For example, if you have access to multiple datacenters, you can pin content on nodes at both datacenters. This will allow you to serve content through multiple pipes simultaneously. The IPFS team are currently working on a project called [ipfs-cluster](https://github.com/ipfs/ipfs-cluster) that will let you configure and coordinate IPFS nodes and pin sets according to different strategies. 
+There are lots of strategies for making content available in a more robust way. For example, if you have access to multiple datacenters, you can pin content on nodes at both datacenters. This will allow you to serve content through multiple pipes simultaneously. The IPFS team are currently working on a project called [ipfs-cluster](https://github.com/ipfs/ipfs-cluster) that will let you configure and coordinate IPFS nodes and pin sets according to different strategies.
 
 ### Ensuring Authenticity
 
@@ -168,9 +168,9 @@ The key idea for establishing authenticity of your data is to put authoritative 
 
 A relatively reliable low-tech technique would be to publish the hashes in a newspaper or an academic journal. This relies on the distribution channels of those publications to ensure persistent access to the hashes. It also, by extension, relies on libraries to hold copies of those publications for people to use as references in the future.
 
-You could also go directly to the libraries and ask them to run authenticated registries of content addresses. In the long term, they would probably use blockchains to do this (see below), but in the short term they can hold the information and redistribute it by whatever means possible. 
+You could also go directly to the libraries and ask them to run authenticated registries of content addresses. In the long term, they would probably use blockchains to do this (see below), but in the short term they can hold the information and redistribute it by whatever means possible.
 
-Both of these approaches rely on independent authorities (either the newspaper/journal publishers or the libraries) to record your authoritative statements as part of the public record. These approaches are vulnerable to attacks, such as the library's funding getting cut or the publisher being forced to publish bad information, but they are more durable than publishing the hashes on your website. 
+Both of these approaches rely on independent authorities (either the newspaper/journal publishers or the libraries) to record your authoritative statements as part of the public record. These approaches are vulnerable to attacks, such as the library's funding getting cut or the publisher being forced to publish bad information, but they are more durable than publishing the hashes on your website.
 
 The most technically correct ways to indicate the provenance of your hashes involve [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography), where you cryptographically sign hashes (or metadata about the hashes) with a secure, private cryptographic key. That's the cryptographic equivalent of using a wax seal to mark a document as authentic. Sadly, though public key cryptography has been around for a long time, the tools for managing keys and signing content are still unwieldy and intimidating. This is unfortunate. The world will benefit massively when somebody builds the right user experiences around those technologies. A number of projects are working that problem. [Keybase](https://keybase.io/) is particularly promising.
 
@@ -180,11 +180,15 @@ Another popular technique that's still in its infancy, and therefore difficult t
 
 ### Dealing with Versioning
 
-This is not a one-time process. In most cases, datasets change, grow and evolve over time. In order to accommodate those changing, growing, evolving datasets we need ways to keep track of the different versions of content. Thankfully, content-addressing gives you the basic building block that you need in order to track versions gracefully.  
+This is not a one-time process. In most cases datasets change, grow and evolve over time. In order to accommodate those changing, growing, evolving datasets we need ways to keep track of the different versions of content. Thankfully, content-addressing gives you the basic building block that you need in order to track versions gracefully. Powerful versioning tools like [git](https://git-scm.com) build on that same foundation of content-addressing and use cryptographic hashes to build trees of information to represent history, versions, forks, etc.
+
+At the moment there are not good tools to build these kinds of version histories with IPFS content, but all the pieces are there. If you know a software developer who's looking for a good project to sink her teeth into, this might be a good one to tackle.
 
 ### Preserving Data
 
-In order to truly preserve your data, protecting it from a variety of threat models, you should not rely on IPFS alone. You should also store the content on a variety of storage devices in a variety of locations. This is another way that content-addressing is valuable because the hashes are useful as _checksums_ for validating any copies of the data, regardless of where they're stored. For the copies of your data you've stored outside of IPFS, maybe on a backup hard drive, offline storage, or a [memory crystal](http://physicsworld.com/cws/article/news/2013/jul/17/5d-superman-memory-crystal-heralds-unlimited-lifetime-data-storage) you can validate those copies at any time by _checking_ their cryptographic hashes and making sure that those hashes match the ones you've published. **The content-addressed links identify the content wherever it is, even if it's outside IPFS.**
+Finally, beyond redundancy, availability, versioning, etc. there's the question of preservation. In order to build a preservation strategy, you need to look at threat models and then figure out how to protect your data from those threats.
+
+Preservation is a huge topic that gets into file formats, storage devices, organizational sustainability, etc, but one thing is certainly relevant to this document: you should not rely on IPFS alone. You should also store the content on a variety of storage devices in a variety of locations. This is another way that content-addressing is valuable because the hashes we use to identify content in IPFS are useful as _checksums_ for validating any copies of the data, regardless of where they're stored. For the copies of your data you've stored outside of IPFS, maybe on a backup hard drive, offline storage, or a [memory crystal](http://physicsworld.com/cws/article/news/2013/jul/17/5d-superman-memory-crystal-heralds-unlimited-lifetime-data-storage) you can validate those copies at any time by _checking_ their cryptographic hashes and making sure that those hashes match the ones you've published. **The content-addressed links identify the content wherever it is, even if it's outside IPFS.**
 
 # Why the Established Tools Aren't Good Enough
 
@@ -192,11 +196,11 @@ All this talk of decentralization and content-addressing might sound excessive. 
 
 ## What's wrong with just moving the data to a new, trusted location?
 
-Moving data to a new location is not enough, but moving data to many locations is confusing.
+Merely moving the data to a new location is not enough because it perpetuates all the problems of location-addressing. It brings all the pain and inconvenience of breaking the location-based links we've been relying on but doesn't bring any of the benefits of switching to a content-addressed approach.
 
 ## Why isn't it enough to have everyone download copies of the data?
 
-Lots of Copies Keep Stuff Safe. But...
+Lots of Copies Keep Stuff Safe, but simply downloading copies of the data to many locations is basically adopting a decentralized approach without using any of the tools of decentralization. You need a content-addressed approach in order to answer basic questions like "Who has copies of the data?", "Are these two copies of the data identical?" and in order to communicate things like "Here is the latest version of the data" and "I have the last three versions of the data. Which one do you want?"
 
 ## Can't we use the cloud to back up the data?
 
@@ -210,6 +214,4 @@ As the designer Chris Watterston expressed so aptly in a [popular sticker](https
 
 ## Can Libraries Save the Day?
 
-Yes, by holding copies of content that also exists elsewhere.
-
-The core mission of a library is to provi
+Yes, libraries can play a huge role in this. Decentralized technologies are a perfect fit for libraries. This is an amazing opportunity for you to work with your libraries to create a resilient infrastructure for humans to share and hold digital information.
