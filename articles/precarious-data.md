@@ -33,13 +33,15 @@
 adj. Dangerously lacking in security or stability: _a precarious posture; precarious footing on the ladder._
 adj. Subject to chance or unknown conditions.
 
-The World Wide Web is precarious. It's a network of information, discussions, data, and analysis that relies on HTTP links to maintain connections between the pieces. Those links are unreliable because the content they point to is unstable. If you rely on an HTTP service as the authoritative source of data you're building on a precarious foundation. Next time you feel the pain of this precarious situation, I encourage you to take it as a sign that you should embrace the decentralized web.
+The World Wide Web is precarious. It's a network of information, discussions, data, and analysis that relies on HTTP links to maintain connections between the pieces. Those links are unreliable because the content they point to is unstable. If you rely on an HTTP service as an authoritative source of data you're building on a precarious foundation. Next time you feel the pain of this precarious situation, I encourage you to take it as a sign that you should embrace the decentralized web.
 
-Centralization is a disease that the web is suffering from. It makes the web unstable and insecure, forcing us to do things like scramble to rescue valuable data from servers before the servers get turned off.  We can address that disease by changing the way we link to information. Currently the web is built around HTTP links that identify content by its location. We need to stop relying on those links and instead use an approach called content-addressing.
+Centralization is a disease that the web is suffering from. It makes the web unstable, insecure and vulnerable to explaitation.  **We can address that disease by changing the way we link to information.**
 
-For example, right now Climate scientists are [rushing to back up climate datasets](https://motherboard.vice.com/read/researchers-are-preparing-for-trump-to-delete-government-science-from-the-web). For decades they have relied on the US government to host a huge amount of the climate data that researchers rely on. The data have been centralized on a few servers and those servers have been treated as the "authoritative" locations for the data. Now researchers are worried that it's not safe to rely on those servers any more. This has triggered a massive effort of [#DataRescue](http://www.ppehlab.org/datarefuge) and [Guerilla Archiving](https://technoscienceunit.wordpress.com/2016/12/04/guerrilla-archiving-event-saving-environmental-data-from-trump/).
+For example, right now Climate scientists are [rushing to back up climate datasets](https://motherboard.vice.com/read/researchers-are-preparing-for-trump-to-delete-government-science-from-the-web). For decades they have relied on the US government to host a huge amount of the climate data that they rely on. The data have been centralized on a few servers and those servers have been treated as the "authoritative" locations for the data. Now researchers are worried that it's not safe to rely on those servers any more. This has triggered a massive effort of [#DataRescue](http://www.ppehlab.org/datarefuge) and [Guerilla Archiving](https://technoscienceunit.wordpress.com/2016/12/04/guerrilla-archiving-event-saving-environmental-data-from-trump/).
 
-From a technical perspective, the problem is the centralization of the data. The data should be held redundantly in many places, with governments, researchers, libraries, etc all holding identical copies of whichever datasets they care about. This is possible today. The key is to **stop relying on location to distinguish between data** and instead use a technique called content-addressing to distinguish "authoritative" data from other data.
+A similar same thing happened when GeoCities shut down. It also appears when people grab snapshots of controversial tweets and high-profile Facebook conversations. These are all examples of people responding to the instability and unreliability of the web. Today's worldwide web is not a resilient system.
+
+From a technical perspective, the problem is the centralization of the data. Any data we rely on should be held redundantly in many places. Governments, researchers, libraries, etc should all holding identical copies of whichever datasets they care about. This is possible today, we simply aren't doing it. In order to make this system more resilient, we need to **stop relying on location to distinguish between data** and instead use a technique called content-addressing to distinguish "authoritative" data from other data.
 
 You can make this switch today. Technologies and protocols like [IPFS](https://ipfs.io) and [Dat](http://datproject.org) let you distribute identical copies of your data across a dynamic, scalable network of peers. These decentrailzed web technologies will smooth the process of saving endangered data now and will prevent this problem from happening again in the future.
 
@@ -55,7 +57,7 @@ To get a sense of how impractical it is to address content by its location, imag
 
 If I identify the book by its content, saying "Check out the book called _Why Information Grows_ by César Hidalgo. The ISBN is 0465048994.", you will be able to get any copy of the book from any source and know that you're reading the information I recommended. You might even say "Oh. I already read it." or "My roommate has it in the other room. I'll borrow it from him.", saving yourself the cost or effort of getting another copy.
 
-If I used location-addressing instead, I would have to point to a location, saying something like "Go to the coffee shop at Market & 15th in Philadelphia and ask for the thing 16 inches from the south end of the third shelf on the east wall" That's confusing and awkward, but that's how http links work. They identify content by its location and they rely on the 'host' at that location to provide the content to visitors. There are lots of things that could go wrong with this approach and whoever controls the location you're pointing to - in this case the Coffee Shop - has a lot of power and responsibility.
+By contast, if I used location-addressing to identify the book, I would have to point to a location, saying something like "Go to the coffee shop at Market & 15th in Philadelphia and ask for the thing 16 inches from the south end of the third shelf on the east wall" Those instructions are confusing and awkward, but that's how http links work. They identify content by its location and they rely on the 'host' at that location to provide the content to visitors. There are lots of things that could go wrong with this approach. It also puts a lot of power and responsibility on the shoulders of whoever controls the location you're pointing to - in this case the Coffee Shop.
 
 Let's consider the responsibilities of whoever controls the location we've pointed to. If the people running the Coffee Shop want my directions (aka. my "link") to remain valid, allowing people to access the book, they have to:
 
@@ -73,7 +75,7 @@ Along with those responsibilities come a great amount of power. The proprietors 
 * Collect data about everyone who accesses my book, using that information however they want.
 * Replace the book with something else -- They might not even put a book there, since my instructions are just describing a location, a malicious actor could replace the book with something dangerous, turning the location into a trap!
 
-Location-addressing has worked on the web for 25 years, but it's starting to get painful is about to get much worse. As long as we continue to rely on it, the web will continue to be unstable, insecure, and prone to manipulation or exploitation.
+Location-addressing has worked on the web for 25 years, but it's starting to get painful and It's about to get much worse. As long as we continue to rely on it, the web will continue to be unstable, insecure, and prone to manipulation or exploitation.
 
 ## The Solution: Identify Information by its Fingerprint, not its Location
 
@@ -89,9 +91,11 @@ Decentralization also increases the integrity of data because links are content-
 
 ## How to Do It: Write Content onto IPFS and Publish the Hashes
 
+[IPFS](https://ipfs.io) is a content-addressed protocol designed as a replacement for HTTP. There are multiple free, open-source software implementations of the protocol. You can use that software to run an IPFS node, add your data to the IPFS network or to hold copies of data that other people have published.
+
 If you want to use IPFS to save your data, you need to write your content to IPFS and then replicate that content across your network of peers using the IPFS protocol. To do this, there are four main steps:
 
-1. Install an IPFS node on a machine that has internet access.
+1. Install an IPFS node on a machine (laptop, desktop, server, etc.) that has internet access.
 2. Add the content to your IPFS node.
 3. Tell your peers the cryptographic hashes (aka fingerprints) for the content you added to IPFS.
 4. Let your peers replicate copies of the content onto their machines by "pinning" the hashes in their IPFS nodes
@@ -119,6 +123,8 @@ This [Code for Philly workshop](http://codeforphilly.github.io/decentralized-dat
 IPFS has a notion of _pinning_ content onto your IPFS node. When you "pin" content on your IPFS node, you're adding the content's hash (aka fingerprint) to the node's _pin set_. As long as you have that hash in the node's pin set, the node will keep a copy of the corresponding content.
 
 When you write your dataset into IPFS, your IPFS node will give you the hash for that dataset. You can then pass that hash to any of your peers and ask them to pin it on their IPFS nodes as well.
+
+As soon as you add a hash to your IPFS node's pin set, the node will coordinate with peers on the IPFS network to pull a copy of the data onto your machine.
 
 ### Publishing the Hashes
 
@@ -175,6 +181,10 @@ Another popular technique that's still in its infancy, and therefore difficult t
 ### Dealing with Versioning
 
 This is not a one-time process. In most cases datasets change, grow and evolve over time. In order to accommodate those changing, growing, evolving datasets we need ways to keep track of the different versions of content. Thankfully, content-addressing gives you the basic building block that you need in order to track versions gracefully. Powerful versioning tools like [git](https://git-scm.com) build on that same foundation of content-addressing and use cryptographic hashes to build trees of information to represent history, versions, forks, etc.
+
+For example, each time you make a new version of your data you will have a new hash to uniquely identify that version. This is really powerful. The only remaining challenge is to tell your peers which hashes correspond to which versions. You could do this in any number of ways. The simplest would be to list the hashes together with some description in a text file. If you want that information to be machine-parseable, you could put it in JSON instead of free text.
+
+An amazing bonus of the decentralized web: you can put that versioning information into IPFS too, publishing the hashes for your whole version history.
 
 At the moment there are not good tools to build these kinds of version histories with IPFS content, but all the pieces are there. If you know a software developer who's looking for a good project to sink her teeth into, this might be a good one to tackle.
 
