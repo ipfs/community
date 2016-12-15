@@ -35,15 +35,15 @@ adj. Subject to chance or unknown conditions.
 
 The World Wide Web is precarious. It's a network of information, discussions, data, and analysis that relies on HTTP links to maintain connections between the pieces. Those links are unreliable because the content they point to is unstable. If you rely on an HTTP service as an authoritative source of data you're building on a precarious foundation. Next time you feel the pain of this precarious situation, I encourage you to take it as a sign that you should embrace the decentralized web.
 
-Centralization is a disease that the web is suffering from. It makes the web unstable, insecure and vulnerable to explaitation.  **We can address that disease by changing the way we link to information.**
+Centralization is a disease that the web is suffering from. It makes the web unstable, insecure and vulnerable to exploitation.  **We can address that disease by changing the way we link to information.**
 
 For example, right now Climate scientists are [rushing to back up climate datasets](https://motherboard.vice.com/read/researchers-are-preparing-for-trump-to-delete-government-science-from-the-web). For decades they have relied on the US government to host a huge amount of the climate data that they rely on. The data have been centralized on a few servers and those servers have been treated as the "authoritative" locations for the data. Now researchers are worried that it's not safe to rely on those servers any more. This has triggered a massive effort of [#DataRescue](http://www.ppehlab.org/datarefuge) and [Guerilla Archiving](https://technoscienceunit.wordpress.com/2016/12/04/guerrilla-archiving-event-saving-environmental-data-from-trump/).
 
-A similar same thing happened when GeoCities shut down. It also appears when people grab snapshots of controversial tweets and high-profile Facebook conversations. These are all examples of people responding to the instability and unreliability of the web. Today's worldwide web is not a resilient system.
+A similar same thing happened when GeoCities shut down. It also happens when people grab snapshots of controversial tweets and high-profile Facebook conversations before they get deleted. These are all examples of people responding to the instability and unreliability of the web. Today's worldwide web is not a resilient system.
 
-From a technical perspective, the problem is the centralization of the data. Any data we rely on should be held redundantly in many places. Governments, researchers, libraries, etc should all holding identical copies of whichever datasets they care about. This is possible today, we simply aren't doing it. In order to make this system more resilient, we need to **stop relying on location to distinguish between data** and instead use a technique called content-addressing to distinguish "authoritative" data from other data.
+From a technical perspective, the problem is the centralization of the data. Any data we rely on should be held redundantly in many places. Governments, researchers, libraries, etc should all holding identical copies of whichever datasets they care about. This is possible today but we simply aren't doing it. In order to make this system more resilient, we need to **stop relying on location to distinguish between data** and instead use a technique called content-addressing to distinguish "authoritative" data from other data.
 
-You can make this switch today. Technologies and protocols like [IPFS](https://ipfs.io) and [Dat](http://datproject.org) let you distribute identical copies of your data across a dynamic, scalable network of peers. These decentrailzed web technologies will smooth the process of saving endangered data now and will prevent this problem from happening again in the future.
+You can make this switch today. Technologies and protocols like [IPFS](https://ipfs.io) and [Dat](http://datproject.org) let you distribute identical copies of your data across a dynamic, scalable network of peers. These decentrailzed web technologies will smooth the process of saving endangered data now and they will prevent this problem from happening again in the future.
 
 Organizations like the Internet Archive, the Sloan Foundation and the Knight Foundation have been encouraging the use of decentralized technologies for some time. The most visible manifestation of this effort was the [Decentralized Web Summit](https://www.decentralizedweb.net) in June 2016.
 
@@ -51,7 +51,7 @@ This document provides an overview of the concepts you need to understand in ord
 
 ## The Problem: Identifying Content by its Location
 
-When you use an `http://` or `https://` link to point to a webpage, image, spreadsheet, dataset, tweet, etc, you're identifying content by its location.  The link is an identifier that points to a particular location on the web, which corresponds to a particular server, or set of servers, somewhere on the web.  **Whoever controls that location controls the content.** That's how HTTP works. It's _location-addressed_. Even if a thousand people have downloaded copies of a file, meaning that the content exists in a thousand locations, HTTP points to a single location. Location-addressing forces us all to pretend that the data are in only one location. Whoever controls that location decides what content to return when people use that link. They also decide whether to return any content at all.
+When you use an `http://` or `https://` link to point to a webpage, image, spreadsheet, dataset, tweet, etc, you're identifying content by its location.  The link is an identifier that points to a particular location on the web, which corresponds to a particular server, or set of servers, somewhere on the web.  **Whoever controls that location controls the content.** That's how HTTP works. It's _location-addressed_. Even if a thousand people have downloaded copies of a file, meaning that the content exists in a thousand locations, HTTP points to a single location. This location-addressed approach forces us all to pretend that the data are in only one location. Whoever controls that location decides what content to return when people use that link. They also decide whether to return any content at all.
 
 To get a sense of how impractical it is to address content by its location, imagine if I used location-addressing to recommend the book [Why Information Grows](http://www.goodreads.com/book/show/20763722-why-information-grows).
 
@@ -61,7 +61,7 @@ By contast, if I used location-addressing to identify the book, I would have to 
 
 Let's consider the responsibilities of whoever controls the location we've pointed to. If the people running the Coffee Shop want my directions (aka. my "link") to remain valid, allowing people to access the book, they have to:
 
-* Always be open, in case someone wants to read the book.
+* Always be open, 24/7, in case someone wants to read the book.
 * Provide the book to _everyone_ who seeks the book, whether it's one person or hundreds of thousands of people.
 * Protect the integrity of the book by preventing anyone from tampering with it.
 * Never remove the book from its shelf - if they get rid of it, or even move it, my link is broken and nobody will be able to use my instructions to find the book.
@@ -82,7 +82,7 @@ Location-addressing has worked on the web for 25 years, but it's starting to get
 The alternative is to identify content by its "fingerprint" rather than identifying it by its location. That way, when someone says "Look at the content with this fingerprint" you can get it from anyone who has a copy of the content. To do this, we identify content by its cryptographic hash. A cryptographic hash is a short string of letters and numbers that's calculated by feeding your content into a _cryptographic hash function_ like [SHA](https://en.wikipedia.org/wiki/SHA-3) or [MD5](https://en.wikipedia.org/wiki/MD5).
 
 When we identify content in this way, using the content's cryptographic hash instead of its location to identify it, this is called _content-addressing_.
-The cryptographic hash for a piece of content never changes, which means **content addressing guarantees that the links will always return the same content**, regardless of _where_ I retrieve the content from and regardless of _who_ added the content to the network. That's the essential power of using a _content-addressed_ protocol like IPFS instead of using a _location-addressed_ protocol like HTTP.
+The cryptographic hash for a piece of content never changes, which means **content addressing guarantees that the links will always return the same content**, regardless of _where_ I retrieve the content from, regardless of _who_ added the content to the network, and regardless of when the content was added. That's the essential power of using a _content-addressed_ protocol like IPFS instead of using a _location-addressed_ protocol like HTTP.
 
 This decentralized, content-addressed approach radically increases the durability of data. It ensures that data will not become endangered as long as anyone is still relying on it because anyone can hold a valid copy of the data they care about. If you hold a copy of a dataset on any of your devices you become part of the network of stewards who protect if from being lost. You won't have to worry about whether someone is going to turn off the servers where your data are hosted because _you are one of the hosts_. You and your peers hold the data among yourselves and are able to share the data directly with each other without relying on centralized points of failure.
 
@@ -106,9 +106,7 @@ The next section of this document covers the basic concepts and steps involved i
 
 ### Do I have to worry about Bad Content coming onto my machine?
 
-IPFS is peer to peer technology, which tends to bring up concerns about bad content. People want to know "If I run an IPFS node, will that mean people can use my machine to serve bad content without my permission?" and "Will my IPFS node pull bad content onto my machine without my knowledge?" This is a very important question to ask. The IPFS protocol is explicitly designed to ensure that **your node will only read content from the network if you tell it to read that content**. For example, if you only use IPFS to deal with genomics data, your IPFS node will only ever hold the genomics data you've requested and it will only serve the genomics data you've published. The maintainers of the IPFS software take this very seriously.
-
-You have complete control over which content comes onto your machine through IPFS. Your IPFS node will only read the content you tell it to read from the network. It will only store the content you tell it to store. This allows you to be confident that bad content won't accidentally arrive on your machine. If someone on the network publishes bad content, it won't leak onto your IPFS node. You would have to explicitly request the content in order for it to arrive on your machine or for it to even pass through your machine.
+IPFS is peer to peer technology, which tends to bring up concerns about bad content. People want to know "If I run an IPFS node, will that mean people can use my machine to serve bad content without my permission?" and "Will my IPFS node pull bad content onto my machine without my knowledge?" The maintainers of IPFS take this issue very seriously. The IPFS protocol is explicitly designed to ensure that **you have complete control over which content comes onto your machine through IPFS**. Your IPFS node will only read the content you tell it to read from the network. It will only store the content you tell it to store. This allows you to be confident that bad content won't accidentally arrive on your machine. If someone on the network publishes bad content, it won't leak onto your IPFS node. You would have to explicitly request the content in order for it to arrive on your machine or for it to even pass through your machine.
 
 ### Writing Content onto IPFS
 
@@ -116,35 +114,33 @@ The first step is to install an IPFS node on your machine and write your content
 
 IPFS is a relatively new technology. The documentation is pretty minimal at the moment and is quite technical. The IPFS community are steadily working to improve the documentation and make it more accessible.
 
-This [Code for Philly workshop](http://codeforphilly.github.io/decentralized-data/tutorials/ipfs/) has links to the parts of the Decentralized Web Primer that are most complete. They cover all the core things you need to know in order to install an IPFS node and add a dataset to that IPFS node.
+[This Code for Philly workshop](http://codeforphilly.github.io/decentralized-data/tutorials/ipfs/) has links to the parts of the Decentralized Web Primer that are most complete. They cover all the core things you need to know in order to install an IPFS node and add a dataset to that IPFS node.
 
 ### Pinning
 
-IPFS has a notion of _pinning_ content onto your IPFS node. When you "pin" content on your IPFS node, you're adding the content's hash (aka fingerprint) to the node's _pin set_. As long as you have that hash in the node's pin set, the node will keep a copy of the corresponding content.
+IPFS has a notion of _pinning_ content onto your IPFS node. When you "pin" content on your IPFS node, you're adding the content's hash (aka fingerprint) to the node's _pin set_. As long as you have that hash in the node's pin set, the node will keep a copy of the corresponding content on your machine.
 
-When you write your dataset into IPFS, your IPFS node will give you the hash for that dataset. You can then pass that hash to any of your peers and ask them to pin it on their IPFS nodes as well.
-
-As soon as you add a hash to your IPFS node's pin set, the node will coordinate with peers on the IPFS network to pull a copy of the data onto your machine.
+When you write your dataset into IPFS, your IPFS node will give you the hash for that dataset. You can then pass that hash to any of your peers and ask them to pin it on their IPFS nodes as well. As soon as you add a hash to your IPFS node's pin set, the node will coordinate with peers on the IPFS network to pull a copy of the data onto your machine.
 
 ### Publishing the Hashes
 
 The real power of the distributed web is the fact that anyone can participate. If you publish the hashes for the content that you want to save, anyone who cares about the data can pin their own copies, sharing the burden of storing and serving the data.
 
-There's not one established way to publish hashes. One obvious way is to post them on a website or blog, but there are many other options. The key is to pass the hashes around so people know which content to use or pin. For the long term, you need to give some thought to how you publish the hashes because you want people to get information about authenticity of the data, versioning, etc. The next section covers some of these strategies. Thankfully, you can backfill a lot of that information later. In the short term, the key is to get the hashes out to the people who might want to help save your data.
+There's not one established way to publish hashes. An obvious way is to post them on a website or blog, but there are many other options. The idea is to pass the hashes around so people know which content to use or pin. For the long term, you need to give some thought to how you publish the hashes because you want people to get information about authenticity of the data, versioning, etc. The next section covers some of these strategies. Thankfully, you can backfill a lot of that information later. In the short term, the key is to get the hashes out to the people who might want to help save your data.
 
 ## Covering Your Bases: Strategies for Making your Content Resilient
 
-In order to truly save your endangered data for the long term, you need to store and distribute the the data in ways that are resilient. This requires doing more than just writing your data to IPFS and asking your friends to pin copies of the data. You also need to consider issues like redundancy, availability, authenticity, versioning and preservation. Here's a quick overview of each of those issues with some tips about how to handle it in a decentralized context.
+In order to truly save your endangered data for the long term, you need to store and distribute the the data in ways that are resilient. This requires doing more than just writing your data to IPFS and asking your friends to pin copies of the data onto their machines. You also need to consider issues like redundancy, availability, authenticity, versioning and preservation. Here's a quick overview of each of those issues with some tips about how to handle it in a decentralized context.
 
 ### Talk to a Librarian
 
-When grappling with these issues, it's helpful to look at libraries for inspiration or guidance. Libraries often talk about providing three types of services around their collections: _preservation_, _discovery_ and _access_. If you want people to engage with the content you've collected, you need to support all three of these things. You need to _preserve_ the content so that it still exists for people to use. You need to keep metadata about the content so can people can search or browse through the metadata in order to _discover_ what you have in the collection. Finally, you need to give them a way to _access_ the content itself. If you slip in any of these areas, people won't be able to use your content.  This applies to the issue at hand - in order to save your endangered data, you need to cover all three of these bases.
+When grappling with these issues, it's helpful to look at libraries for inspiration or guidance. Libraries often talk about providing three types of services around their collections: _preservation_, _discovery_ and _access_. If you want people to engage with the content you've collected, you need to support all three of these things. If you slip in any of these areas, people won't be able to use your content.  This applies to the issue at hand - in order to save your endangered data, you need to cover all three of these bases. You need to _preserve_ the content so that it still exists for people to use. You need to keep metadata about the content so can people can search or browse through the metadata in order to _discover_ what you have in the collection. Finally, you need to give them a way to _access_ the content itself. 
 
-Speaking of libraries, **call your librarian** and ask them for advice. Libraries can help you figure some of this stuff out. They might even be able to help you store and serve your data.  **If you are a librarian**, consider running an IPFS pinning service at the library or consider running a registry of IFPS hashes. After doing that, call your friends at another library and ask them to consider it too.
+Speaking of libraries, **call your librarian** and ask them for advice. Libraries can help you figure some of this stuff out. They might even be able to help you store and serve your data.  **If you are a librarian**, consider running an IPFS pinning service at the library or consider running a registry of IPFS hashes. After doing that, call your friends at another library and ask them to consider it too.
 
 ### Achieving Redundancy
 
-LOCKSS. Lots Of Copies Keep Stuff Safe. That's a foundational layer to any robust preservation strategy. There's even a [project by that name](https://www.lockss.org/) which helps libraries preserve digital content (alas, it doesn't use IPFS yet). In order to protect your content, you want to get it pinned in many geographic locations, by many organizations, under multiple jurisdictions.
+Lots Of Copies Keep Stuff Safe. That's a foundational idea in any preservation strategy. There's even a [project by that name](https://www.lockss.org/) which helps libraries preserve digital content (alas, it doesn't use IPFS yet). In order to protect your content, you want to get it pinned in many geographic locations, by many organizations, under multiple jurisdictions.
 
 You could also spread a giant dataset across multiple peers, so that a group of participants can combine efforts to hold data that are beyond any individual's storage capacity.
 
@@ -166,9 +162,9 @@ There are a number of ways to tell the world which hashes are the "authentic" fi
 
 The key idea for establishing authenticity of your data is to put authoritative statements about your content's hashes into the public record. The trick is to choose places that can't be shut down or corrupted. For example, you could put the hashes on your website but if your website gets turned off you lose that proof of authenticity. Worse, if someone takes over the website and posts _bad_ hashes, that makes it very hard to find out who to trust. This is why authenticity is tricky.
 
-A relatively reliable low-tech technique would be to publish the hashes in a newspaper or an academic journal. This relies on the distribution channels of those publications to ensure persistent access to the hashes. It also, by extension, relies on libraries to hold copies of those publications for people to use as references in the future.
+A relatively reliable low-tech technique would be to publish the hashes in a newspaper or an academic journal. This relies on the distribution channels of those publications to ensure persistent access to the hashes. 
 
-You could also go directly to the libraries and ask them to run authenticated registries of content addresses. In the long term, they would probably use blockchains to do this (see below), but in the short term they can hold the information and redistribute it by whatever means possible.
+You could also go to your library and ask them to run authenticated registries of content addresses. In the long term, they would probably use blockchains to do this (see below), but in the short term they can hold the information and redistribute it by whatever means possible.
 
 Both of these approaches rely on independent authorities (either the newspaper/journal publishers or the libraries) to record your authoritative statements as part of the public record. These approaches are vulnerable to attacks, such as the library's funding getting cut or the publisher being forced to publish bad information, but they are more durable than publishing the hashes on your website.
 
@@ -192,11 +188,13 @@ At the moment there are not good tools to build these kinds of version histories
 
 Finally, beyond redundancy, availability, versioning, etc. there's the question of preservation. In order to build a preservation strategy, you need to look at threat models and then figure out how to protect your data from those threats.
 
-Preservation is a huge topic that gets into file formats, storage devices, organizational sustainability, etc, but one thing is certainly relevant to this document: you should not rely on IPFS alone. You should also store the content on a variety of storage devices in a variety of locations. This is another way that content-addressing is valuable because the hashes we use to identify content in IPFS are useful as _checksums_ for validating any copies of the data, regardless of where they're stored. For the copies of your data you've stored outside of IPFS, maybe on a backup hard drive, offline storage, or a [memory crystal](http://physicsworld.com/cws/article/news/2013/jul/17/5d-superman-memory-crystal-heralds-unlimited-lifetime-data-storage) you can validate those copies at any time by _checking_ their cryptographic hashes and making sure that those hashes match the ones you've published. **The content-addressed links identify the content wherever it is, even if it's outside IPFS.**
+Preservation is a huge topic that gets into file formats, storage devices, organizational sustainability, etc, but one thing is certainly relevant to this document: you should not rely on IPFS alone. You should also store the content on a variety of online and offline storage devices in a variety of locations. 
+
+This brings up another way that content-addressing is valuable because the hashes we use to identify content in IPFS are useful as _checksums_ for validating any copies of the data, regardless of where they're stored. For the copies of your data you've stored outside of IPFS, maybe on a backup hard drive, offline storage, or a [memory crystal](http://physicsworld.com/cws/article/news/2013/jul/17/5d-superman-memory-crystal-heralds-unlimited-lifetime-data-storage) you can validate those copies at any time by _checking_ their cryptographic hashes and making sure that those hashes match the ones you've published. **The content-addressed links identify the content wherever it is, even if it's outside IPFS.**
 
 # Why the Established Tools Aren't Good Enough
 
-All this talk of decentralization and content-addressing might sound excessive. It's a major change from the way we've been doing things for the past 15 years.
+All this talk of decentralization and content-addressing might sound excessive. It's a major change from the way we've been doing things for the past 15 years. As closing observations, we'll touch on some reasons why it's not enough to rely on the established tools and technologies.
 
 ## What's wrong with just moving the data to a new, trusted location?
 
