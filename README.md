@@ -45,9 +45,10 @@ Our goals here are to work on resources that help us with:
 
 2. Improving documentation of the various projects
   1. Docs on the repos
-  2. [Docs on the websites](http://ipfs.io/docs)
-  3. [Examples](http://ipfs.io/docs/examples)
+  2. [Docs on the websites](https://ipfs.io/docs)
+  3. [Examples](https://ipfs.io/docs/examples)
   4. Demos
+  5. [Papers to read to understand IPFS](https://github.com/ipfs/reading-list)
 
 3. Making it easy to jump in and participate
   1. Improving documentation for users
