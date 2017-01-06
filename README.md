@@ -52,6 +52,7 @@ Our goals here are to work on resources that help us with:
 3. Making it easy to jump in and participate
   1. Improving documentation for users
   2. Improving issues for collaborators
+  3. Adding papers to the [Understanding IPFS Reading List](https://github.com/ipfs/reading-list)
 
 4. Keeping the Community Informed and Engaged
   1. IRC - irc.freenode.net/#ipfs
