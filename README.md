@@ -30,15 +30,18 @@
 
 The IPFS community is growing, and already has many resources. We ought to maintain them, build more, and improve all the things.
 
-This repository is for meta, non-code discussions (in the [issues](issues)) and for documents used by multiple repositories, such as the various Contributing guidelines. Our goals here are to work on resources that help us with:
+This repository is for meta, non-code discussions (in the [issues](issues)) and for documents used by multiple repositories, such as the various Contributing guidelines.
 
-1. Building and Maintaining
-  [Community Infrastructure](https://github.com/ipfs/infrastructure)
+**NOTE:** If you're interested in discussing code, jumping on our community calls, or talking to developers about our overall project management, go to [ipfs/pm](https://github.com/ipfs/pm). We announce **our weekly calls** in the [ipfs/pm issues](https://github.com/ipfs/pm/issues). You can also open issues in specific repositories (like [go-ipfs](https://github.com/ipfs/go-ipfs)), and come talk to us on [IRC at #ipfs on freenode](http://webchat.freenode.net/?channels=%23ipfs).
+
+Our goals here are to work on resources that help us with:
+
+1. Building and Maintaining [Community Infrastructure](https://github.com/ipfs/infrastructure)
   1. Public Gateways
   2. Testing + CI Services
   3. IRC Bots
   4. Websites
-  5. Comm Channels
+  5. Communication Channels
 
 2. Improving documentation of the various projects
   1. Docs on the repos
@@ -52,7 +55,7 @@ This repository is for meta, non-code discussions (in the [issues](issues)) and 
 
 4. Keeping the Community Informed and Engaged
   1. IRC - irc.freenode.net/#ipfs
-  2. Blog
+  2. Blog - https://ipfs.io/blog
   3. Twitter - [@IPFSbot](https://twitter.com/IPFSbot)
   4. Mailing List - [ipfs-users@googlegroups.com](https://groups.google.com/forum/#!forum/ipfs-users)
   5. People List
