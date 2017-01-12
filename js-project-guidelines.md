@@ -16,12 +16,13 @@ Also, remember:
 
 ![Barbossa's warning](assets/CodeIsMoreLikeGuidelines.jpg)
 
-### Table of Contents
+## Table of Contents
 
 - [Goals](#goals)
 - [Contributing](#contributing)
+  - [Captains and Maintainers](#captains-and-maintainers)
 - [Guidelines](#guidelines)
-    - [Linting & Code Style](#linting-&-code-style)
+    - [Linting & Code Style](#linting--code-style)
     - [Testing](#testing)
     - [Building](#building)
     - [Releasing](#releasing)
@@ -32,17 +33,18 @@ Also, remember:
       - [Default `require`](#default-require)
       - [Continuous integration](#continuous-integration)
       - [`.gitignore`](#gitignore)
+      - [`.npmignore`](#npmignore)
       - [Dependency management](#dependency-management)
       - [Pre-Commit](#pre-commit)
     - [...for consumers](#for-consumers)
 - [FAQ](#faq)
-  - [Why are you not using XYZ?](#why-are-you-not-using-xyz)
-  - [Why not use simple npm scripts instead of gulp?](#why-not-use-simple-npm-scripts-instead-of-gulp)
-  - [Where are all the semicolons?](#where-are-all-the-semicolons)
-  - [Why are you bothering with ES2015 and all this build setup?](#why-are-you-bothering-with-es2015-and-all-this-build-setup)
-  - [Do I have to use ES2015 and Babel?](#do-i-have-to-use-es2015-and-babel)
-  - [Do I have to bundle everything with webpack?](#do-i-have-to-bundle-everything-with-webpack)
-  - [Why are you doing this?](#why-are-you-doing-this)
+    - [Why are you not using XYZ?](#why-are-you-not-using-xyz)
+    - [Why not use simple npm scripts instead of gulp?](#why-not-use-simple-npm-scripts-instead-of-gulp)
+    - [Where are all the semicolons?](#where-are-all-the-semicolons)
+    - [Why are you bothering with ES2015 and all this build setup?](#why-are-you-bothering-with-es2015-and-all-this-build-setup)
+    - [Do I have to use ES2015 and Babel and aegir in my project?](#do-i-have-to-use-es2015-and-babel-and-aegir-in-my-project)
+    - [Do I have to bundle everything with webpack?](#do-i-have-to-bundle-everything-with-webpack)
+    - [Why are you doing this?](#why-are-you-doing-this)
 - [Code of Conduct](#code-of-conduct)
 - [References - Resources and good reads](#references---resources-and-good-reads)
 - [Acknowledgment](#acknowledgment)
@@ -66,6 +68,16 @@ Please follow the conventions described in this document.
 When reporting a bug, if possible, provide a way for us to reproduce it (or even better, write a test that fails with your case).
 
 Always run tests before pushing and PR'ing your code.
+
+### Captains and Maintainers
+
+For each JavaScript repository in the IPFS, libp2p, IPLD, or related GitHub orgs, there should be a single Captain specified in the Maintainers section of the README for that repository. The Captain is in charge of merging PRs, keeping issues up to date, and overall quality of a repository.
+
+Sometimes, a Captain may elect to have other maintainers that also have merge ability and commit access to the main repo. These maintainers can help out, but defer to the Captain as the person in charge of maintaining quality across the repo. It is important that this distinction is explicit; if there are long-standing PRs or issues, it is ultimately up to the Captain to gather information about the issue or PR. A Captain only makes a decision if he _needs_ to and _all_ methods of discussion are exhausted. Our community strives to trust the Captain as someone who ultimately has the most knowledge of a repo (even if they are also opinionated, and even if they have to spend effort to source that knowledge). This may change in the future, if we go with more non-hierarchical model.
+
+Repositories which do not have Captains will show up in red on [Project Repos](https://project-repos.ipfs.io). Please open an issue in the repository asking for a captain to be nominated if none is provided.
+
+If you would like to become a maintainer (or lieutenant, or first mate, or whatever nautical metaphor you prefer), please open an issue about it! Chances are that we would love to have more help.
 
 ## Guidelines
 
