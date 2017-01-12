@@ -8,18 +8,25 @@
 
 const exec = require('child_process').exec
 const githubRepos = require('github-repositories')
+const orgs = [
+  // 'ipfs',
+  'ipld',
+  //'libp2p',
+  //'multiformats'
+]
 
-githubRepos('ipfs').then(data => {
-  // manually specify data here if needed
-  return data.map((item) => {
-    exec('labels -c githubLabels.json ' + item.full_name,
-      (error, stdout, stderr) => {
-        console.log(`stdout: ${stdout}`)
-        console.log(`stderr: ${stderr}`)
-        if (error !== null) {
-          console.log(`exec error: ${error}`)
+orgs.forEach((org) => {
+  githubRepos(org).then(data => {
+    data.map((item) => {
+      exec('labels -c githubLabels.json ' + item.full_name,
+        (error, stdout, stderr) => {
+          console.log(`stdout: ${stdout}`)
+          console.log(`stderr: ${stderr}`)
+          if (error !== null) {
+            console.log(`exec error: ${error}`)
+          }
         }
-      }
-    )
+      )
+    })
   })
 })
