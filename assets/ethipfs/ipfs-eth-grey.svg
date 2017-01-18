@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 514.26818 819.79255"
+   height="231.36368mm"
+   width="145.13791mm">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="b"
+       y2="771.51001"
+       gradientUnits="userSpaceOnUse"
+       x2="527.71997"
+       y1="771.51001"
+       x1="84.315002">
+      <stop
+         stop-color="#4a9ea1"
+         offset="0"
+         id="stop3371" />
+    </linearGradient>
+    <linearGradient
+       id="a"
+       y2="771.47998"
+       gradientUnits="userSpaceOnUse"
+       x2="512.35999"
+       y1="771.47998"
+       x1="99.675003">
+      <stop
+         stop-color="#63d3d7"
+         offset="0"
+         id="stop3374" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-102.69347,-186.61175)"
+     id="layer1">
+    <g
+       transform="translate(103.82858,458.97126)"
+       id="g3398"
+       style="enable-background:new">
+      <g
+         transform="translate(-50.017,-515.51)"
+         id="g3376">
+        <path
+           style="fill:url(#b)"
+           d="m 84.315,899.51 221.7,128 221.7,-128 0,-256 -221.7,-127.99 -221.7,128 z"
+           id="path3378" />
+        <path
+           style="fill:url(#a)"
+           d="m 283.13,546.35 -160.74,92.806 c 0.32126,2.8543 0.32125,5.7352 0,8.5894 l 160.75,92.806 c 13.554,-10.001 32.043,-10.001 45.597,0 l 160.75,-92.807 c -0.32126,-2.8543 -0.32293,-5.7338 -0.001,-8.588 l -160.74,-92.806 c -13.554,10.001 -32.044,10.001 -45.599,0 z M 504.92,673.38 344,767.22 c 1.884,16.739 -7.3611,32.751 -22.799,39.489 l 0.18062,184.58 c 2.6325,1.1489 5.1267,2.5886 7.438,4.294 l 160.75,-92.805 c -1.884,-16.739 7.3611,-32.752 22.799,-39.49 l 0,-185.61 c -2.6325,-1.1489 -5.1281,-2.5886 -7.4394,-4.294 z m -397.81,1.0315 c -2.3112,1.7054 -4.8054,3.1465 -7.438,4.2954 l 0,185.61 c 15.438,6.7378 24.683,22.75 22.799,39.489 l 160.74,92.806 c 2.3112,-1.7054 4.8069,-3.1465 7.4394,-4.2954 l 0,-185.61 c -15.438,-6.7378 -24.683,-22.75 -22.799,-39.489 l -160.74,-92.81 z"
+           id="path3380" />
+      </g>
+      <g
+         transform="translate(0,-196.66)"
+         id="g3382">
+        <path
+           style="fill-opacity:0.25097997"
+           d="m 256,708.66 221.7,-128 0,-256 -221.7,128 0,256 z"
+           id="path3384" />
+        <path
+           style="fill-opacity:0.03921599"
+           d="m 256,708.66 0,-256 -221.7,-128 0,256 221.7,128 z"
+           id="path3386" />
+        <path
+           style="fill-opacity:0.13018003"
+           d="m 34.298,324.66 221.7,128 221.7,-128 -221.7,-128 -221.7,128 z"
+           id="path3388" />
+      </g>
+    </g>
+    <polygon
+       transform="matrix(1.823199,0,0,1.823199,-1390.4435,-183.19984)"
+       style="fill:#677175;fill-opacity:1"
+       points="959.9,367.3 959.9,220.9 838.4,422.5 "
+       id="polygon3468" />
+    <polygon
+       transform="matrix(1.823199,0,0,1.823199,-1390.4435,-183.19984)"
+       style="fill:#bcc1c3;fill-opacity:1"
+       points="959.9,494.4 959.9,367.3 838.4,422.5 "
+       id="polygon3470" />
+    <polygon
+       transform="matrix(1.823199,0,0,1.823199,-1390.4435,-183.19984)"
+       style="fill:#c3c7c9;fill-opacity:1"
+       points="959.9,367.3 1081.4,422.5 959.9,220.9 "
+       id="polygon3472" />
+    <polygon
+       transform="matrix(1.823199,0,0,1.823199,-1390.4435,-183.19984)"
+       style="fill:#e7e8e9;fill-opacity:1"
+       points="959.9,367.3 959.9,494.4 1081.4,422.5 "
+       id="polygon3474" />
+    <polygon
+       transform="matrix(1.823199,0,0,1.823199,-1390.4435,-183.19984)"
+       style="fill:#667074;fill-opacity:1"
+       points="959.9,517.4 838.4,445.6 959.9,616.8 "
+       id="polygon3476" />
+    <polygon
+       transform="matrix(1.823199,0,0,1.823199,-1390.4435,-183.19984)"
+       style="fill:#c3c7c9;fill-opacity:1"
+       points="1081.6,445.6 960,517.4 960,616.8 "
+       id="polygon3478" />
+  </g>
+</svg>
