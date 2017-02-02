@@ -22,10 +22,20 @@ Also, remember:
 - [Contributing](#contributing)
   - [Captains and Maintainers](#captains-and-maintainers)
 - [Guidelines](#guidelines)
-    - [Linting & Code Style](#linting--code-style)
-    - [Testing](#testing)
-    - [Building](#building)
-    - [Releasing](#releasing)
+  - [Linting & Code Style](#linting--code-style)
+  - [Testing](#testing)
+  - [Building](#building)
+  - [Releasing](#releasing)
+- [Commits](#commits)
+  - [Commit Message Format](#commit-message-format)
+  - [Revert](#revert)
+  - [Type](#type)
+  - [Scope](#scope)
+  - [Subject](#subject)
+  - [Body](#body)
+  - [Footer](#footer)
+  - [Examples](#examples)
+  - [References](#references)
 - [Aegir](#aegir)
     - [...for maintainers](#for-maintainers)
       - [Setting up `aegir`](#setting-up-aegir)
@@ -81,17 +91,17 @@ If you would like to become a maintainer (or lieutenant, or first mate, or whate
 
 ## Guidelines
 
-#### Linting & Code Style
+### Linting & Code Style
 
 IPFS JavaScript projects default to [standard](https://github.com/feross/standard) code style. It is a clean codestyle, and its adoption is increasing significantly, making the code that we write familiar to the majority of the developers.
 
 However, we've added an extra linting rule: Enforce the use of [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). This avoids issues we had when using ES2015 features outside of strict mode. We enforce this rule by using [eslint](http://eslint.org/) and extending [standard module](https://github.com/feross/standard) with the [eslint-config-standard](https://github.com/feross/eslint-config-standard).
 
-#### Testing
+### Testing
 
 Since `js-ipfs` is meant to be both a Node.js and Browser app, we strongly recommend having tests that run in both platforms, always. For most cases, we use [mocha](http://mochajs.org) to run write the tests and [karma](http://karma-runner.github.io) to automate the test execution in the browser. This solution has been extremely convenient.
 
-#### Building
+### Building
 
 In most IPFS JavaScript projects, we use [webpack](http://webpack.github.io/) for bundling the JavaScript. It adds a greater overhead when it comes to configuration, but this configuration can be reused since most projects share the same needs.
 
@@ -104,7 +114,7 @@ To make sure users can use the modules without having to transpile and shim the 
 - __Concatenated ES5 version__, ready to be consumed by browsers through a script tag, where size does not matter.
 - __Concatenated and minified ES5 version__, ready to be consumed by browsers through a script tag, where size matters.
 
-#### Releasing
+### Releasing
 
 Each time a new release happens, these are the steps we follow to make sure nothing gets left out:
 
@@ -116,6 +126,106 @@ Each time a new release happens, these are the steps we follow to make sure noth
 6. Create a git tag
 7. Push to GitHub
 8. Publish to npm
+
+## Commits
+
+We have very precise rules over how our git commit messages can be formatted.
+This leads to more readable messages that are easy to follow when
+looking through the project history.  But also,
+we use the git commit messages to generate the change log.
+
+The commit message formatting can be added using a typical git workflow or
+through the use of a CLI wizard ([Commitizen](https://github.com/commitizen/cz-cli)).
+
+### Commit Message Format
+Each commit message consists of a header, a body and a footer.
+The header has a special format that includes a type, a scope and a subject:
+
+```
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
+The header is mandatory and the scope of the header is optional.
+
+Any line of the commit message cannot be longer 100 characters! This allows the message to be easier
+to read on GitHub as well as in various git tools.
+
+### Revert
+If the commit reverts a previous commit, it should begin with `revert: `,
+followed by the header of the reverted commit. In the body it should
+say: `This reverts commit <hash>.`, where the hash is the SHA of the commit being reverted.
+
+### Type
+Must be one of the following:
+
+* **feat**: A new feature
+* **fix**: A bug fix
+* **docs**: Documentation only changes
+* **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing
+  semi-colons, etc)
+* **refactor**: A code change that neither fixes a bug nor adds a feature
+* **perf**: A code change that improves performance
+* **test**: Adding missing tests
+* **chore**: Changes to the build process or auxiliary tools and libraries such as documentation
+  generation
+
+### Scope
+The scope could be anything specifying the place of the commit change. For example `api`,
+`cli`, etc...
+
+### Subject
+The subject contains a succinct description of the change:
+
+* use the imperative, present tense: "change" not "changed" nor "changes"
+* don't capitalize first letter
+* no dot (.) at the end
+
+### Body
+Just as in the subject, use the imperative, present tense: "change" not "changed" nor "changes".
+The body should include the motivation for the change and contrast this with previous behavior.
+
+### Footer
+The footer should contain any information about breaking changes and is also the place to
+reference GitHub issues that this commit closes.
+
+**Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
+
+### Examples
+
+```
+feat(pencil): add 'graphiteWidth' option
+```
+
+```
+fix(graphite): stop graphite breaking when width < 0.1
+
+Closes #28
+```
+
+```
+perf(pencil): remove graphiteWidth option
+
+BREAKING CHANGE: The graphiteWidth option has been removed. The default graphite width of 10mm is always used for performance reason.
+```
+
+```
+revert: feat(pencil): add 'graphiteWidth' option
+
+This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
+```
+
+### References
+
+This commit strategy is based on:
+
+- https://github.com/conventional-changelog/conventional-changelog-angular/blob/master/convention.md
+- https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit
+
+More details about the commit convention can also be found in this [document](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y).
 
 ## Aegir
 
