@@ -20,6 +20,7 @@ Also, remember:
 
 - [Goals](#goals)
 - [Contributing](#contributing)
+  - [Captains and Maintainers](#captains-and-maintainers)
 - [Guidelines](#guidelines)
   - [Linting & Code Style](#linting--code-style)
   - [Testing](#testing)
@@ -77,6 +78,16 @@ Please follow the conventions described in this document.
 When reporting a bug, if possible, provide a way for us to reproduce it (or even better, write a test that fails with your case).
 
 Always run tests before pushing and PR'ing your code.
+
+### Captains and Maintainers
+
+For each JavaScript repository in the IPFS, libp2p, IPLD, or related GitHub orgs, there should be a single Captain specified in the Maintainers section of the README for that repository. The Captain is in charge of merging PRs, keeping issues up to date, and overall quality of a repository.
+
+Sometimes, a Captain may elect to have other maintainers that also have merge ability and commit access to the main repo. These maintainers can help out, but defer to the Captain as the person in charge of maintaining quality across the repo. It is important that this distinction is explicit; if there are long-standing PRs or issues, it is ultimately up to the Captain to gather information about the issue or PR. A Captain only makes a decision if he _needs_ to and _all_ methods of discussion are exhausted. Our community strives to trust the Captain as someone who ultimately has the most knowledge of a repo (even if they are also opinionated, and even if they have to spend effort to source that knowledge). This may change in the future, if we go with more non-hierarchical model.
+
+Repositories which do not have Captains will show up in red on [Project Repos](https://project-repos.ipfs.io). Please open an issue in the repository asking for a captain to be nominated if none is provided.
+
+If you would like to become a maintainer (or lieutenant, or first mate, or whatever nautical metaphor you prefer), please open an issue about it! Chances are that we would love to have more help.
 
 ## Guidelines
 
