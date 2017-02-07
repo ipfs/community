@@ -26,6 +26,7 @@ Also, remember:
   - [Testing](#testing)
   - [Building](#building)
   - [Releasing](#releasing)
+  - [Documentation](#documentation)
 - [Commits](#commits)
   - [Commit Message Format](#commit-message-format)
   - [Revert](#revert)
@@ -126,6 +127,12 @@ Each time a new release happens, these are the steps we follow to make sure noth
 6. Create a git tag
 7. Push to GitHub
 8. Publish to npm
+
+### Documentation
+
+We use [documentation.js](https://github.com/documentationjs/documentation/tree/master/docs) to document our JavaScript repositories. For each repo, we use [this gulp task](https://github.com/documentationjs/gulp-documentation). An example for how to use JSDoc to document everything can be seen in [this PR to js-ipfs](https://github.com/ipfs/js-ipfs/pull/651). Ideally, we create a `docs` folder in each repository, and make sure it is not tracked to git.
+
+We use [`aegir-docs`](https://github.com/dignifiedquire/aegir) for the actual generation, which relies on JSDoc style comments. For more on aegir, see [the section below](#aegir).
 
 ## Commits
 
