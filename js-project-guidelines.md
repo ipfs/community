@@ -36,6 +36,7 @@ Also, remember:
   - [Footer](#footer)
   - [Examples](#examples)
   - [References](#references)
+- [Pull Requests](#pull-requests)
 - [Aegir](#aegir)
     - [...for maintainers](#for-maintainers)
       - [Setting up `aegir`](#setting-up-aegir)
@@ -226,6 +227,10 @@ This commit strategy is based on:
 - https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit
 
 More details about the commit convention can also be found in this [document](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y).
+
+## Pull Requests
+
+There should be no dependencies that rely on commits. Instead, there should be WIP PR and each PR that depends on other WIP PR should list what it depends on. Yes, everyone will have to do the extra work of `npm link`ing everything, but this helps us have a cleaner workflow.
 
 ## Aegir
 
