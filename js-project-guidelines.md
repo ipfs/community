@@ -339,6 +339,8 @@ We suggest either of these:
 - [david-dm](https://david-dm.org/)
 - [greenkeeper](http://greenkeeper.io/) to keep your dependencies up to date.
 
+Every module below 1.0.0 should use `~` instead of `^`.
+
 ##### Pre-Commit
 
 [precommit](https://www.npmjs.com/package/pre-commit) helps us check code style run the tests on every commit. In your `package.json`:
