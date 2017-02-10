@@ -99,7 +99,7 @@ IPFS JavaScript projects default to [standard](https://github.com/feross/standar
 
 However, we've added an extra linting rule: Enforce the use of [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). This avoids issues we had when using ES2015 features outside of strict mode. We enforce this rule by using [eslint](http://eslint.org/) and extending [standard module](https://github.com/feross/standard) with the [eslint-config-standard](https://github.com/feross/eslint-config-standard).
 
-Using [aegir-lint](#aegir) will help you do this easily; it automatically lints your documents.
+Using [aegir-lint](#aegir) will help you do this easily; it automatically lints your code.
 
 ### Testing
 
