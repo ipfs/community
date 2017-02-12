@@ -75,7 +75,7 @@ messages are properly written.
 the author agrees with the [Developer Certificate of Origin (DCO)](docs/developer-certificate-of-origin)
 and with licensing the work under the [MIT license](docs/LICENSE). This is
 important for our team and our users, legally. The
-[setup_commit_msg_hook.sh](dev/tools/hooks/setup_commit_msg_hook.sh)
+[setup_commit_msg_hook.sh](dev/hooks/setup_commit_msg_hook.sh)
 script will setup a Git commit-msg hook that will add these trailers to
 all the commit messages you write in that repository. This is not as complicated
 as it sounds: it is similar to typing `git commit --sign-off` every time you
@@ -124,7 +124,7 @@ There should also be an empty blank line before the "License"
 trailer.
 
 As explained in more details above, this is easy to fix by running once the
-[setup_commit_msg_hook.sh](dev/tools/hooks/setup_commit_msg_hook.sh)
+[setup_commit_msg_hook.sh](dev/hooks/setup_commit_msg_hook.sh)
 script in your repository.
 
 See also the [documentation about amending commits](docs/amending-commits.md)

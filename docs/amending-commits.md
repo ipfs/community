@@ -39,7 +39,7 @@ you save and close the editor, it will replace the last commit with a
 new one that has the improved commit message.
 
 This means that if you used the
-[setup_commit_msg_hook.sh script](dev/tools/hooks/setup_commit_msg_hook.sh)
+[setup_commit_msg_hook.sh script](dev/hooks/setup_commit_msg_hook.sh)
 to automatically add some trailers if they are not there, then running
 `git commit --amend` and then saving and closing the editor is enough
 for the missing trailers, if any, to be added.
@@ -80,7 +80,7 @@ When you save and close the instruction sheet, for each line with the
 message of the commit that follow the `r` instruction.
 
 This means that, as when using `git commit --amend`, if you used the
-[setup_commit_msg_hook.sh script](dev/tools/hooks/setup_commit_msg_hook.sh)
+[setup_commit_msg_hook.sh script](dev/hooks/setup_commit_msg_hook.sh)
 then saving and closing the editor for each commit message is enough
 for the missing trailers, if any, to be added.
 
