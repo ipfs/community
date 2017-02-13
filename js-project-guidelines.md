@@ -45,6 +45,7 @@ Also, remember:
       - [`.npmignore`](#npmignore)
       - [Dependency management](#dependency-management)
       - [Pre-Commit](#pre-commit)
+      - [Building](#building)
     - [...for consumers](#for-consumers)
 - [FAQ](#faq)
     - [Why are you not using XYZ?](#why-are-you-not-using-xyz)
@@ -335,6 +336,10 @@ We suggest either of these:
   "test"
 ]
 ```
+
+##### Building
+
+You can get a pre-bundled version by running `npm run build`, an npm script we add to the `package.json`. This calls `aegir-build`, which itself calls `gulp build`. This is available for every project that uses `aegir`.
 
 #### ...for consumers
 
