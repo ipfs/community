@@ -49,7 +49,7 @@ Meetups take a lot of effort. Here are some things you should set up before a me
 
 ### Date and Location
 
-Once you have the date and location generally specced out, there are a few things to do: 
+Once you have the date and location generally specced out, there are a few things to do:
 
 - Make sure that this isn't overlapping with any other similar events, at the same time or in the same location, and that it isn't too close to other large events.
 - Add the event to a MeetUp group. If there isn't a MeetUp group, create one.
@@ -59,16 +59,17 @@ Once you have the date and location generally specced out, there are a few thing
 
 ### ipfs/community issue
 
-- Open an issue in [ipfs/community](https://github.com/ipfs/community). Name it after the location, if there isn't one already. This issue can be used to ping people who are interested. Reach out to @RichardLitt if you cannot find anything, or if you need help with this.
+- Open an issue in [ipfs/community](https://github.com/ipfs/community). Name it after the location, if there isn't one already. This issue can be used to ping people who are interested.
 
 In that issue, answer these questions:
   - Why we should have a meetup at this location and on this date
   - If it would be awesome to have someone from Protocol Labs in attendance, and who makes the most sense.
   - How this will help the community, and what the proposed talks might be about.
 
-If needed, please send a note to @RichardLitt privately about:
+If needed, please note that you'd like to email someone privately about:
   - Proposed budget
   - Needs (assistance find space, assets, bar tab, etc.)
+We'll get back to you.
 
 ## On the day
 
@@ -87,7 +88,7 @@ If needed, please send a note to @RichardLitt privately about:
 - Find a bar space or non-alcoholic place, for afterwards. Meals are also good.
 - Get stickers and other swag.
 - Delegate as much as possible.
-- Ask @RichardLitt about swag
+- Ask about swag
 
 ### At the event
 
