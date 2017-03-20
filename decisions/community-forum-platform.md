@@ -344,6 +344,6 @@ If we proceed, there's a list of things we will have to do. See https://github.c
 
 # Decision
 
-**We will finalize the decision on Friday 17 March 2017.**
+**We will finalize the decision on Wednesday 22 March 2017.** The current proposal is to switch to using Discourse for all community support. Please express your position at https://www.loomio.org/d/imMrpwRF _(We are testing loomio as a way to make community decisions like this one.)_
 
-The dominant proposal is to switch to using Discourse for all community support.
+When the proposal concludes in loomio, we will update this document with the results.
