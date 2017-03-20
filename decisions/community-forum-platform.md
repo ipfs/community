@@ -317,6 +317,7 @@ Related Github Issues:
 * notifications can be configured to suit wide variety of preferences
 * You can curate threads to emphasize things like important topics, common questions, especially good answers, etc.
 * Provides ways to give community members a range of powers and responsibilities
+* Could _decrease_ the number of notifivations that core devs receive because, as described by @lidel [here](https://github.com/ipfs/community/pull/246#discussion_r105844087), it allows you to receive notifications for the first item in each new thread and then choose to opt in rather than (github-style) defaulting to sending all messages from all threads 
 
 ### Drawbacks of using discourse
 
