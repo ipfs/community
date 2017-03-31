@@ -345,6 +345,35 @@ If we proceed, there's a list of things we will have to do. See https://github.c
 
 # Decision
 
-**We will finalize the decision on Wednesday 22 March 2017.** The current proposal is to switch to using Discourse for all community support. Please express your position at https://www.loomio.org/d/imMrpwRF _(We are testing loomio as a way to make community decisions like this one.)_
+**We finalized the decision on Wednesday 22 March 2017** using loomio. 
 
-When the proposal concludes in loomio, we will update this document with the results.
+## Final Proposal
+
+The final proposal posted on https://www.loomio.org/d/imMrpwRF specified:
+
+1. Name a DRI for the rollover to Discourse and for ongoing management of Discourse
+2. Set up discourse at discuss.ipfs.io subdomain
+3. Recruit a group of moderators from community and get them set up with appropriate moderator powers
+4. Move top FAQ items from ipfs/faq to discourse
+5. Move relevant topics from ipfs/community to discourse
+6. Update ipfs/community, ipfs/faq and ipfs/support to clearly redirect people to discuss.ipfs.io
+7. Update ipfs/ipfs README to list discuss.ipfs.io as the main place to seek support
+8. Announce our new discourse forum on IRC and on the mailing list
+
+Ensure that:
+- https support is enabled
+- anonymous posting is enabled
+- people are able to interact with our discourse install as if it was an email mailing list
+
+After a 3-month trial:
+
+1. Decommission the google group, redirecting all mailing list users to subscribe to discourse in mailing list mode
+2. Consider archiving ipfs/support, ipfs/faq and/or ipfs/community if they are no longer useful.
+
+## Conclusion
+
+We voted to proceed with this proposal. 11 agreed, 2 abstained, 0 disagreed and 0 blocked 
+
+It will take a little while to set up the permanent url at https://discuss.ipfs.io. In the meantime we will continue to use http://ipfs.trydiscourse.com
+
+See you on discourse!
