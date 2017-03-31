@@ -349,7 +349,7 @@ If we proceed, there's a list of things we will have to do. See https://github.c
 
 ## Final Proposal
 
-The final proposal posted on https://www.loomio.org/d/imMrpwRF specified:
+The final proposal was titled **Use Discourse for All Community Support**. It was posted on https://www.loomio.org/d/imMrpwRF, specifying:
 
 1. Name a DRI for the rollover to Discourse and for ongoing management of Discourse
 2. Set up discourse at discuss.ipfs.io subdomain
