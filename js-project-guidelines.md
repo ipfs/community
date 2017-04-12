@@ -24,7 +24,6 @@ Also, remember:
 - [Guidelines](#guidelines)
   - [Linting & Code Style](#linting--code-style)
   - [Testing](#testing)
-  - [Building](#building)
   - [Releasing](#releasing)
   - [Documentation](#documentation)
 - [Commits](#commits)
@@ -48,6 +47,7 @@ Also, remember:
       - [`.npmignore`](#npmignore)
       - [Dependency management](#dependency-management)
       - [Pre-Commit](#pre-commit)
+      - [Building](#building)
     - [...for consumers](#for-consumers)
 - [FAQ](#faq)
     - [Why are you not using XYZ?](#why-are-you-not-using-xyz)
@@ -104,19 +104,6 @@ Using [aegir-lint](#aegir) will help you do this easily; it automatically lints 
 ### Testing
 
 Since `js-ipfs` is meant to be both a Node.js and Browser app, we strongly recommend having tests that run in both platforms, always. For most cases, we use [mocha](http://mochajs.org) to run write the tests and [karma](http://karma-runner.github.io) to automate the test execution in the browser. This solution has been extremely convenient.
-
-### Building
-
-In most IPFS JavaScript projects, we use [webpack](http://webpack.github.io/) for bundling the JavaScript. It adds a greater overhead when it comes to configuration, but this configuration can be reused since most projects share the same needs.
-
-Where ES2015 is used, we managed to ensure that the code continues to run in every platform by transpiling it, if necessary, with [babel](http://babeljs.io/).
-
-To make sure users can use the modules without having to transpile and shim the modules themselves, we've made the following available in most modules:
-
-- __Raw ES2015 version__, ready to be consumed by platforms that understand Node.js based require and most of ES2015.
-- __Raw ES5 version__, ready to be consumed by platforms that understand Node.js based require and ES5.
-- __Concatenated ES5 version__, ready to be consumed by browsers through a script tag, where size does not matter.
-- __Concatenated and minified ES5 version__, ready to be consumed by browsers through a script tag, where size matters.
 
 ### Releasing
 
@@ -365,6 +352,10 @@ Every module below 1.0.0 should use `~` instead of `^`.
   "test"
 ]
 ```
+
+##### Building
+
+You can get a bundled version by running `npm run build`, an npm script we add to the `package.json`. You can find the generated bundle in the `/dist` folder. This is available for every project that uses `aegir`.
 
 #### ...for consumers
 
