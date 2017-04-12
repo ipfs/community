@@ -339,7 +339,7 @@ We suggest either of these:
 
 ##### Building
 
-You can get a pre-bundled version by running `npm run build`, an npm script we add to the `package.json`. This calls `aegir-build`, which itself calls `gulp build`. This is available for every project that uses `aegir`.
+You can get a bundled version by running `npm run build`, an npm script we add to the `package.json`. You can find the generated bundle in the `/dist` folder. This is available for every project that uses `aegir`.
 
 #### ...for consumers
 
