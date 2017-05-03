@@ -34,7 +34,7 @@ We are always thrilled to receive pull requests, and do our best to process them
 
 If you don't get a response to a pull request within a few days, feel free to mention it in the #ipfs IRC channel. We may be able to get to it faster.
 
-We're also trying very hard to keep IPFS focused. This means that we might decide against incorporating a new feature. However, there might be a Signway to implement that feature on top of (or below) IPFS.
+We're also trying very hard to keep IPFS focused. This means that we might decide against incorporating a new feature. However, there might be a way to implement that feature on top of (or below) IPFS.
 
 If your pull request is not accepted on the first try, don't be discouraged! If there's a problem with the implementation, hopefully you received feedback on what to improve.
 
