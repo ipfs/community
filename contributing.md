@@ -94,11 +94,11 @@ Please see [contribution-guidelines.md](contribution-guidelines.md).
 
 ### Community Improvement
 
-The IPFS community requires maintenance of various "public infrastructure" resources. These include documentation, github repositories, CI build bots, and more. There is also helping new users with questions, spreading theword about IPFS, and so on. Soon, we will be planning and running conferences. Please get in touch if you would like to help out.
+The IPFS community requires maintenance of various "public infrastructure" resources. These include documentation, github repositories, CI build bots, and more. There is also helping new users with questions, spreading the word about IPFS, and so on. Soon, we will be planning and running conferences. Please get in touch if you would like to help out.
 
 ### Translations
 
-This community moves very fast, and documentation swiftly gets out of date. For now, we are encouraging would-be translates to hold off from translating large repositories. For some repositories, this is OK  - for instance, on the [webui](https://github.com/ipfs/webui). If you would like to add a translation, please open an issue and ask the leads for a given repository before filing a PR, so that we do not waste efforts.
+This community moves very fast, and documentation swiftly gets out of date. For now, we are encouraging would-be translators to hold off from translating large repositories. For some repositories, this is OK  - for instance, on the [webui](https://github.com/ipfs/webui). If you would like to add a translation, please open an issue and ask the leads for a given repository before filing a PR, so that we do not waste efforts.
 
 If anyone has any issues understanding the English documentation, please let us know! If you would like to do so privately, please email @RichardLitt. We are very sensitive to language issues, and do not want to turn anyone away from hacking because of their language.
 
