@@ -104,4 +104,4 @@ If anyone has any issues understanding the English documentation, please let us 
 
 ### Helping in other ways
 
-Protocol Labs occasionally is able to hire developers for part time or full time positions, to work on IPFS. If you are interested, check out [the job listings](http://ipn.io/join/#pm). If you'd like to help in other ways, [email @jbenet directly](mailto:juan@ipfs.io?subject=Contributing%20to%20IPFS).
+Protocol Labs occasionally is able to hire developers for part time or full time positions, to work on IPFS. If you are interested, check out [the job listings](http://protocol.ai/join). If you'd like to help in other ways, propose your ideas on the IPFS forums at https://discuss.ipfs.io.
