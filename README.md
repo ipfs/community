@@ -101,7 +101,9 @@ If you know of an event that has a set date and location and is _not_ listed on 
 
 ## Swag
 
-We have stickers. We'll send them to you; drop your address in [this thread](https://github.com/ipfs/community/issues/175). We're also working on [more swag](https://github.com/ipfs/community/issues/11). Subscribe to stay updated!
+We have stickers and we would love to send them to you. Drop your address in [this thread](https://github.com/ipfs/community/issues/175)or send your request directly to skylar@protocol.ai. 
+
+IPFS now has a community swag store where you can purchase additional IPFS items, like shirts. Visit our [Swag Store](https://shop.ipfs.io) now!
 
 ## People
 
