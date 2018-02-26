@@ -57,7 +57,7 @@ Our goals here are to work on resources that help us with:
   - 4. Mailing List - [ipfs-users@googlegroups.com](https://groups.google.com/forum/#!forum/ipfs-users)
   - 5. People List
 
-## Meetup lit
+## Meetup list
 
 These are the list of community meetups by area,organized by the IPFS developers and enthusiasts. Everyone is welcome to participate in their local meetup or be the ones organizing one.
 
