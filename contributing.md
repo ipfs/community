@@ -2,9 +2,10 @@
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
+
 ![](https://github.com/jbenet/contribute-ipfs-gif/raw/master/img/contribute.gif)
 
-[IPFS Main Repo](https://github.com/ipfs/ipfs#ipfs---the-permanent-web) • [IPFS Project Directory](https://github.com/ipfs/ipfs#project-directory)
+[`IPFS Main Repo`](https://github.com/ipfs/ipfs#ipfs---the-permanent-web) • [`IPFS Project Directory`](https://github.com/ipfs/ipfs#project-directory)
 
 Want to hack on IPFS? Awesome! Here are instructions to get you started.
 They are not perfect yet. Please let us know what feels wrong or incomplete.
@@ -88,9 +89,9 @@ When considering design proposals for implementations, we are looking for:
 - Discussion of the tradeoffs involved
 - Discussion of the proposed solution
 
-### Contribution Guidelines
+### Contribution Guidelines part II
 
-Please see [contribution-guidelines.md](contribution-guidelines.md).
+Please see [CONTRIBUTING-2.md](CONBTRIBUTING-2.md).
 
 ### Community Improvement
 

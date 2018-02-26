@@ -28,70 +28,74 @@
 
 ## About
 
-The IPFS community is growing, and already has many resources. We ought to maintain them, build more, and improve all the things.
-
-This repository is for meta, non-code discussions (in the [issues](issues)) and for documents used by multiple repositories, such as the various Contributing guidelines.
+The IPFS community is growing, and already has many resources. We ought to maintain them, build more, and improve all the things. This repository is for meta, non-code discussions (in the [issues](issues)) and for documents used by multiple repositories, such as the various Contributing guidelines.
 
 **NOTE:** If you're interested in discussing code, jumping on our community calls, or talking to developers about our overall project management, go to [ipfs/pm](https://github.com/ipfs/pm). We announce **our weekly calls** in the [ipfs/pm issues](https://github.com/ipfs/pm/issues). You can also open issues in specific repositories (like [go-ipfs](https://github.com/ipfs/go-ipfs)), and come talk to us on [IRC at #ipfs on freenode](http://webchat.freenode.net/?channels=%23ipfs).
 
 Our goals here are to work on resources that help us with:
 
-1. Building and Maintaining [Community Infrastructure](https://github.com/ipfs/infrastructure)
-  1. Public Gateways
-  2. Testing + CI Services
-  3. IRC Bots
-  4. Websites
-  5. Communication Channels
+- 1. Building and Maintaining [Community Infrastructure](https://github.com/ipfs/infrastructure)
+  - 1. Public Gateways
+  - 2. Testing + CI Services
+  - 3. IRC Bots
+  - 4. Websites
+  - 5. Communication Channels
+- 2. Improving documentation of the various projects
+  - 1. Docs on the repos
+  - 2. [Docs on the websites](https://ipfs.io/docs)
+  - 3. [Examples](https://ipfs.io/docs/examples)
+  - 4. Demos
+  - 5. [Papers to read to understand IPFS](https://github.com/ipfs/reading-list)
+- 3. Making it easy to jump in and participate
+  - 1. Improving documentation for users
+  - 2. Improving issues for collaborators
+  - 3. Adding papers to the [Understanding IPFS Reading List](https://github.com/ipfs/reading-list)
+- 4. Keeping the Community Informed and Engaged
+  - 1. IRC - irc.freenode.net/#ipfs
+  - 2. Blog - https://ipfs.io/blog
+  - 3. Twitter - [@IPFSbot](https://twitter.com/IPFSbot)
+  - 4. Mailing List - [ipfs-users@googlegroups.com](https://groups.google.com/forum/#!forum/ipfs-users)
+  - 5. People List
 
-2. Improving documentation of the various projects
-  1. Docs on the repos
-  2. [Docs on the websites](https://ipfs.io/docs)
-  3. [Examples](https://ipfs.io/docs/examples)
-  4. Demos
-  5. [Papers to read to understand IPFS](https://github.com/ipfs/reading-list)
-
-3. Making it easy to jump in and participate
-  1. Improving documentation for users
-  2. Improving issues for collaborators
-  3. Adding papers to the [Understanding IPFS Reading List](https://github.com/ipfs/reading-list)
-
-4. Keeping the Community Informed and Engaged
-  1. IRC - irc.freenode.net/#ipfs
-  2. Blog - https://ipfs.io/blog
-  3. Twitter - [@IPFSbot](https://twitter.com/IPFSbot)
-  4. Mailing List - [ipfs-users@googlegroups.com](https://groups.google.com/forum/#!forum/ipfs-users)
-  5. People List
-
-## Meetups
+## Meetup lit
 
 These are the list of community meetups by area,organized by the IPFS developers and enthusiasts. Everyone is welcome to participate in their local meetup or be the ones organizing one.
 
 ### Berlin
-  - https://github.com/ipfs/community/issues/41
+
+- https://github.com/ipfs/community/issues/41
 
 ### Bratislava
-  - http://www.meetup.com/Bratislava-IPFS-Meetup/
+
+- http://www.meetup.com/Bratislava-IPFS-Meetup/
 
 ### Copenhagen
-  - https://github.com/ipfs/community/issues/51
+
+- https://github.com/ipfs/community/issues/51
 
 ### Lisbon
-  - http://www.meetup.com/ipfs-lisbon-meetup
+
+- http://www.meetup.com/ipfs-lisbon-meetup
 
 ### London
-  - https://www.meetup.com/IPFS-London-Meetup/
+
+- https://www.meetup.com/IPFS-London-Meetup/
 
 ### Paris
-  - https://github.com/ipfs/community/issues/54
+
+- https://github.com/ipfs/community/issues/54
 
 ### Portland
-  - http://www.meetup.com/IPFS-Portland/
+
+- http://www.meetup.com/IPFS-Portland/
 
 ### San Francisco
-  - https://github.com/ipfs/community/issues/53
+
+- https://github.com/ipfs/community/issues/53
 
 ### Seattle
-  - http://www.meetup.com/Seattle-IPFS-Meetup/
+
+- http://www.meetup.com/Seattle-IPFS-Meetup/
 
 ## Calendar
 
@@ -107,25 +111,25 @@ IPFS now has a community swag store where you can purchase additional IPFS items
 
 ## People
 
-IPFS is an open source project with an open community. This list includes
-some of the contributors who make it all happen. Add your name in a PR!
-(Please keep this list sorted ordered by first name)
+IPFS is an open source project with an open community. This list includes some of the contributors who make it all happen. Add your name in a PR!
 
-Name | Github | Twitter | IRC
+_(Please keep this list sorted ordered by first name)_
+
+Name | Github | Twitter | IRC (@Freenode)
 :--: | :----: | :-: | :-----:
-Christian Couder | [@chriscool](//github.com/chriscool) | [@ChristianCouder](https://twitter.com/ChristianCouder) | chriscool
-David Dias | [@diasdavid](//github.com/diasdavid) | [@daviddias](//twitter.com/daviddias) | daviddias
-Dylan Powers | [@dylanPowers](https://github.com/dylanPowers) | [@dylankpowers](https://twitter.com/dylankpowers) | dpow
-Friedel Ziegelmayer | [@dignifiedquire](//github.com/Dignifiedquire) | [@dignifiedquire](//twitter.com/dignifiedquire) | dignifiedquire
-Harlan T Wood | [@harlantwood](//github.com/harlantwood) | [@harlantwood](//twitter.com/harlantwood) |
-Henry Bubert | [@cryptix](//github.com/cryptix) | [@oObsi](//twitter.com/oObsi) | cryptix
-Jakub Sztandera | [@Kubuxu](//github.com/kubuxu/) | [@Kubuxu](//twitter.com/Kubuxu) | Kubuxu
-Jeromy Johnson | [@whyrusleeping](//github.com/whyrusleeping) | [@whyrusleeping](//twitter.com/whyrusleeping) | whyrusleeping
-Juan Benet | [@jbenet](//github.com/jbenet) | [@juanbenet](//twitter.com/juanbenet) | jbenet
-Lars Gierth | [@lgierth](//github.com/lgierth) |  | lgierth
-Matt Bell | [@mappum](//github.com/mappum) | [@mappum](//twitter.com/mappum) | mappum
-Richard Littauer | [@RichardLitt](//github.com/RichardLitt) | [@richlitt](//twitter.com/richlitt) | richardlitt
-Victor Bjelkholm | [@VictorBjelkholm](//github.com/VictorBjelkholm) | [@victorbjelkholm](//twitter.com/victorbjelkholm) | victorbjelkholm
+Christian Couder    | [@chriscool](//github.com/chriscool)              | [@ChristianCouder](https://twitter.com/ChristianCouder) | chriscool
+David Dias          | [@diasdavid](//github.com/diasdavid)              | [@daviddias](//twitter.com/daviddias)                   | daviddias
+Dylan Powers        | [@dylanPowers](https://github.com/dylanPowers)    | [@dylankpowers](https://twitter.com/dylankpowers)       | dpow
+Friedel Ziegelmayer | [@dignifiedquire](//github.com/Dignifiedquire)    | [@dignifiedquire](//twitter.com/dignifiedquire)         | dignifiedquire
+Harlan T Wood       | [@harlantwood](//github.com/harlantwood)          | [@harlantwood](//twitter.com/harlantwood)               | n/a
+Henry Bubert        | [@cryptix](//github.com/cryptix)                  | [@oObsi](//twitter.com/oObsi)                           | cryptix
+Jakub Sztandera     | [@Kubuxu](//github.com/kubuxu/)                   | [@Kubuxu](//twitter.com/Kubuxu)                         | Kubuxu
+Jeromy Johnson      | [@whyrusleeping](//github.com/whyrusleeping)      | [@whyrusleeping](//twitter.com/whyrusleeping)           | whyrusleeping
+Juan Benet          | [@jbenet](//github.com/jbenet)                    | [@juanbenet](//twitter.com/juanbenet)                   | jbenet
+Lars Gierth         | [@lgierth](//github.com/lgierth)                  | n/a                                                     | lgierth
+Matt Bell           | [@mappum](//github.com/mappum)                    | [@mappum](//twitter.com/mappum)                         | mappum
+Richard Littauer    | [@RichardLitt](//github.com/RichardLitt)          | [@richlitt](//twitter.com/richlitt)                     | richardlitt
+Victor Bjelkholm    | [@VictorBjelkholm](//github.com/VictorBjelkholm)  | [@victorbjelkholm](//twitter.com/victorbjelkholm)       | victorbjelkholm
 
 ## Contribute
 
