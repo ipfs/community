@@ -239,14 +239,15 @@ We've created [a module](https://github.com/dignifiedquire/aegir) to help us ach
 There are a couple of binaries that `aegir` provides for you to use
 
 ```sh
-$ aegir-lint
-$ aegir-test
-$ aegir-test browser
-$ aegir-test node
-$ aegir-build
-$ aegir-release major
-$ aegir-release minor
-$ aegir-release
+> aegir lint
+> aegir test
+> aegir test -t browser
+> aegir test -t node
+> aegir test -t webworker
+> aegir build
+> aegir release
+> aegir release --type minor
+> aegir release --type major
 ```
 
 If you prefer using npm scripts, you can set them up in your package.json:
@@ -254,14 +255,14 @@ If you prefer using npm scripts, you can set them up in your package.json:
 ```json
 {
   "scripts": {
-    "lint": "aegir-lint",
-    "build": "aegir-build",
-    "test": "aegir-test",
-    "test:node": "aegir-test node",
-    "test:browser": "aegir-test browser",
-    "release": "aegir-release",
-    "coverage": "aegir-coverage",
-    "coverage-publish": "aegir-coverage publish"
+    "lint": "aegir lint",
+    "build": "aegir build",
+    "test": "aegir test",
+    "test:node": "aegir test -t node",
+    "test:browser": "aegir test -t browser",
+    "release": "aegir release",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage publish"
   }
 }
 ```
@@ -301,18 +302,9 @@ To reduce the amount of configuration, aegir expects your source code to be in `
 └── node_modules
 ```
 
-##### Default `require`
-
-Inside `package.json`, the main file exported is the one from the auto-generated source tree, transpiled using babel. The original should be pointed to by the `jsnext:main` key.
-
-```JavaScript
-"main": "lib/index.js",
-"jsnext:main": "src/index.js",
-```
-
 ##### Continuous integration
 
-You can find samples for [Travis](examples/travis.example.yml) and [circle](examples/circle.example.yml) in the examples folder.
+You can find samples for [Travis](https://github.com/ipfs/ci-sync/blob/master/configs/.travis.yml) and [circle](https://github.com/ipfs/ci-sync/blob/master/configs/circle.yml) in the examples folder.
 
 We also use [coveralls.io](https://coveralls.io/) to automatically publish coverage reports. This is done from travis using this:
 
@@ -320,18 +312,16 @@ We also use [coveralls.io](https://coveralls.io/) to automatically publish cover
 script:
   - npm run coverage
 after_success:
-  - npm run coverage-publish
+  - npm run coverage publish
 ```
 
 ##### `.gitignore`
 
-To avoid checking in unwanted files, the `.gitignore` file should follow
-the [example](examples/.gitignore). This is if you are using `aegir` - smaller projects can use smaller `.gitignore` files.
+To avoid checking in unwanted files, the `.gitignore` file should follow the [example](examples/.gitignore). This is if you are using `aegir` - smaller projects can use smaller `.gitignore` files.
 
 ##### `.npmignore`
 
-Npm uses the `.gitignore` by default, so we have to add a `.npmignore` file
-to ensure we actually ship `lib` and `dist` files. You can use this [example](examples/.npmignore) to get started.
+NPM uses the `.gitignore` by default, so we have to add a `.npmignore` file to ensure we actually ship `lib` and `dist` files. You can use this [example](examples/.npmignore) to get started.
 
 ##### Dependency management
 
@@ -368,16 +358,10 @@ You can use [unpkg](https://unpkg.com/) to include those:
 <script src="https://unpkg.com/ipfs-api/dist/index.min.js"></script>
 ```
 
-If you install the module through npm and require it, you receive the ES5 version ready to be used in Node.js or a module bundler like browserify.
+If you install the module through npm, you can require it using:
 
 ```js
-var API = require('ipfs-api')
-```
-
-If you use a module bundler that understands ES2015 like webpack@2 or rollup you can use this syntax to get the original ES2015 source.
-
-```js
-const API = require('ipfs-api/src')
+const API = require('ipfs-api')
 ```
 
 ## FAQ
