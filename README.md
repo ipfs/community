@@ -10,16 +10,7 @@
 ## Table of Contents
 
 - [About](#about)
-- [Meetups](#meetups)
-  - [Berlin](#berlin)
-  - [Bratislava](#bratislava)
-  - [Copenhagen](#copenhagen)
-  - [Lisbon](#lisbon)
-  - [London](#london)
-  - [Paris](#paris)
-  - [Portland](#portland)
-  - [San Francisco](#san-francisco)
-  - [Seattle](#seattle)
+- [Meetup list](#meetup-list)
 - [Calendar](#calendar)
 - [Swag](#swag)
 - [People](#people)
@@ -61,41 +52,15 @@ Our goals here are to work on resources that help us with:
 
 These are the list of community meetups by area,organized by the IPFS developers and enthusiasts. Everyone is welcome to participate in their local meetup or be the ones organizing one.
 
-### Berlin
-
-- https://github.com/ipfs/community/issues/41
-
-### Bratislava
-
-- http://www.meetup.com/Bratislava-IPFS-Meetup/
-
-### Copenhagen
-
-- https://github.com/ipfs/community/issues/51
-
-### Lisbon
-
-- http://www.meetup.com/ipfs-lisbon-meetup
-
-### London
-
-- https://www.meetup.com/IPFS-London-Meetup/
-
-### Paris
-
-- https://github.com/ipfs/community/issues/54
-
-### Portland
-
-- http://www.meetup.com/IPFS-Portland/
-
-### San Francisco
-
-- https://github.com/ipfs/community/issues/53
-
-### Seattle
-
-- http://www.meetup.com/Seattle-IPFS-Meetup/
+- **Berlin** - https://www.meetup.com/Berlin-IPFS (previous https://github.com/ipfs/community/issues/41)
+- **Bratislava** - http://www.meetup.com/Bratislava-IPFS-Meetup/
+- **Copenhagen** - https://www.meetup.com/Copenhagen-IPFS-Meetup
+- **Lisbon** - http://www.meetup.com/ipfs-lisbon-meetup
+- **London** - https://www.meetup.com/IPFS-London-Meetup/
+- **Paris** - TBA (previous https://github.com/ipfs/community/issues/54)
+- **Portland** - http://www.meetup.com/IPFS-Portland/
+- **San Francisco** -  TBA (previous https://github.com/ipfs/community/issues/53)
+- **Seattle** -http://www.meetup.com/Seattle-IPFS-Meetup/
 
 ## Calendar
 
