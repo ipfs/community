@@ -91,7 +91,7 @@ When considering design proposals for implementations, we are looking for:
 
 ### Contribution Guidelines part II
 
-Please see [CONTRIBUTING-2.md](CONBTRIBUTING-2.md).
+Please see [CONTRIBUTING-2.md](CONTRIBUTING-2.md).
 
 ### Community Improvement
 
