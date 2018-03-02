@@ -44,11 +44,11 @@ Each repository will have its own code and test conventions. Please make sure to
 
 ### Go
 
-Please look at the [Go Contribution Guidelines](go-contribution-guidelines.md).
+Please look at the [Go Contribution Guidelines](go-code-guidelines.md).
 
 ### JavaScript
 
-Please look at the [JS Contribution Guidelines](js-project-guidelines.md).
+Please look at the [JS Contribution Guidelines](js-code-guidelines.md).
 
 ### Git
 
