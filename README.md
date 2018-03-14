@@ -64,7 +64,7 @@ These are the list of community meetups by area,organized by the IPFS developers
 
 ## Calendar
 
-We have a community [Google Calendar](https://www.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84%40group.calendar.google.com&ctz=America/New_York) you can watch for events and sync to. We will add relevant events concerning IPFS to it, both with geographical and interplanetary (online) locations.
+We have a community [Google Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC) you can watch for events and sync to. We will add relevant events concerning IPFS to it, both with geographical and interplanetary (online) locations.
 
 If you know of an event that has a set date and location and is _not_ listed on the calendar, please open an issue on this repository requesting that it be added to the calendar.
 
