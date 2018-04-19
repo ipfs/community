@@ -70,7 +70,7 @@ If you know of an event that has a set date and location and is _not_ listed on 
 
 ## Swag
 
-We have stickers and we would love to send them to you. Drop your address in [this thread](https://github.com/ipfs/community/issues/175)or send your request directly to skylar@protocol.ai. 
+We have stickers and we would love to send them to you. Drop your address in [this thread](https://github.com/ipfs/community/issues/175) or send your request directly to skylar@protocol.ai.
 
 IPFS now has a community swag store where you can purchase additional IPFS items, like shirts. Visit our [Swag Store](https://shop.ipfs.io) now!
 
@@ -98,7 +98,7 @@ Victor Bjelkholm    | [@VictorBjelkholm](//github.com/VictorBjelkholm)  | [@vict
 
 ## Contribute
 
-Feel free to join in! All welcome. Your best to start is probably either in [Contributing.md](https://github.com/ipfs/community/blob/master/contributing.md) or in [the issues](https://github.com/ipfs/community/issues).
+Feel free to join in! All welcome. Your best to start is probably either in [contributing.md](https://github.com/ipfs/community/blob/master/contributing.md) or in [the issues](https://github.com/ipfs/community/issues).
 
 This repository falls under the IPFS [Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md).
 
