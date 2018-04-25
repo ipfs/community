@@ -15,7 +15,7 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
 ## Table of Contents
 
 - [Goals](#goals)
-- [Module Lead Maintainers](#module-lead-maintainers)
+- [Tech Leads and Lead Maintainers](#tech-leads-and-lead-maintainers)
 - [Contributing](#contributing)
   - [Guidelines](#guidelines)
     - [Linting & Code Style](#linting--code-style)
@@ -69,16 +69,54 @@ For the majority of our JavaScript projects, our goals are to:
 - **Encourage contribution**.
 - **Have great UX** for everyone involved.
 
+## Tech Leads and Lead Maintainers
 
-## Module Lead Maintainers
+> This section is a formalization of the proposal and discussion around the [Module Lead Maintainers - Sharing the Responsibility over the IPFS module base](https://github.com/ipfs/pm/issues/600) proposal.
 
-For each JavaScript repository in the IPFS, libp2p, IPLD, or related GitHub orgs, there should be a single Captain specified in the Maintainers section of the README for that repository. The Captain is in charge of merging PRs, keeping issues up to date, and overall quality of a repository.
+We have two types of leads in the JavaScript project ecosystems, the Tech Lead and the Module Lead Maintainer. A brief description of both roles is:
 
-Sometimes, a Captain may elect to have other maintainers that also have merge ability and commit access to the main repo. These maintainers can help out, but defer to the Captain as the person in charge of maintaining quality across the repo. It is important that this distinction is explicit; if there are long-standing PRs or issues, it is ultimately up to the Captain to gather information about the issue or PR. A Captain only makes a decision if he _needs_ to and _all_ methods of discussion are exhausted. Our community strives to trust the Captain as someone who ultimately has the most knowledge of a repo (even if they are also opinionated, and even if they have to spend effort to source that knowledge). This may change in the future, if we go with more non-hierarchical model.
+- A Tech Lead directs the development of an entire ecosystem of modules (i.e js-ipfs, js-libp2p, js-libp2p and js-multiformats), it has a complete understanding of the stack, the IPFS project, its goals and participates actively in the ROADMAP planning.
+- A Lead Maintainer is a contributor that has showned extraordinary ability to contribute to the project and willingness to make the project better by taking the responsibility of stewarding one of its modules forward.
 
-Repositories which do not have Captains will show up in red on [Project Repos](https://project-repos.ipfs.io). Please open an issue in the repository asking for a captain to be nominated if none is provided.
+With this structure, we expect to achieve the following goals:
 
-If you would like to become a maintainer (or lieutenant, or first mate, or whatever nautical metaphor you prefer), please open an issue about it! Chances are that we would love to have more help.
+- Recognize extraordinary contributions and empower contributors to take even more important role in the project
+- Reduce PR review time and Time To Release
+- Increase the overall quality of the project
+- Help users know who to reach out for help
+- Have a clear protocol to pass on the baton
+
+The current Tech Leads are:
+
+- [David Dias](http://github.com/diasdavid/) for js-ipfs, js-libp2p js-multiformats ecosystems.
+- [Volker Mische](github.com/vmx) for the js-ipld ecosystem.
+
+The current Lead Maintainers can be identified either by the `maintainer` field in the package.json of the module and/or the section `Maintainer` in the README.md of the module.
+
+**Lead Maintainer responsibilities:**
+
+- Respect and follow the [IPFS Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md).
+- Have a complete understanding of the module purpose, its specification (if any) and how the module is used by other parts of the project.
+- Review and Release PRs
+- Publish new versions of the module to npm
+
+**Lead Maintainer expected attitude:**
+
+- Be proactive in increasing the quality of the module. This goes from improving documentation, tests, codebase and more.
+- Show a great level of rigor and polish in the code that they ship.
+- Help others in understanding how the module and why it exists.
+- Apply the established Contributing Guidelines to the project and help others do too
+
+**How to become a Lead Maintainer:**
+
+Currently, there is no formal test or request form to do so. Lead Maintainers will be invited and nominated by the Tech Lead once the expected behaviour and rigor is observed. A Lead Maintainer can nominate the next Lead Maintainer to the Tech Lead 
+
+**In practice:**
+
+- Update each package.json and README.md to have a `maintainer` field.
+- Update packages table on each entry module (e.g https://github.com/ipfs/js-ipfs#packages) to also list the maintainer for each.
+- Protect the master branch and only grant permissions for merge to the Maintainer and the Tech Lead, only.
+- Grant publish permission to the Maintainer and Tech Lead, only.
 
 ## Contributing
 
