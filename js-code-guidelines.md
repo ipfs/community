@@ -1,5 +1,5 @@
-Guidelines for JavaScript projects
-=================================
+Guidelines for the InterPlanetary JavaScript Projects
+=====================================================
 
 These guidelines reflect our shared consensus on protocol and etiquette from what we've built so far. Every single item that is presented here is the result of lots of experimentation. However, that doesn't mean that there isn't a better way to do things. What we have below is simply what we've found to work best for us. In this document you will find notes about:
 
@@ -10,56 +10,52 @@ These guidelines reflect our shared consensus on protocol and etiquette from wha
 - Tasks (asset pipeline, transpiling, releasing, etc).
 - Dependency management.
 
-Our toolkit for each of these is not set in stone, and we don't plan to halt our constant search for better tools. Get in touch if you've got ideas.
-
-Also, remember:
-
-![Barbossa's warning](assets/CodeIsMoreLikeGuidelines.jpg)
+Our toolkit for each of these is not set in stone, and we don't plan to halt our constant search for better tools. Get in touch if you've got ideas. [These are guidelines and rather then rules](assets/CodeIsMoreLikeGuidelines.jpg).
 
 ## Table of Contents
 
 - [Goals](#goals)
+- [Module Lead Maintainers](#module-lead-maintainers)
 - [Contributing](#contributing)
-  - [Captains and Maintainers](#captains-and-maintainers)
-- [Guidelines](#guidelines)
-  - [Linting & Code Style](#linting--code-style)
-  - [Testing](#testing)
-  - [Releasing](#releasing)
-  - [Documentation](#documentation)
-- [Commits](#commits)
-  - [Commit Message Format](#commit-message-format)
-  - [Revert](#revert)
-  - [Type](#type)
-  - [Scope](#scope)
-  - [Subject](#subject)
-  - [Body](#body)
-  - [Footer](#footer)
-  - [Examples](#examples)
-  - [References](#references)
-- [Pull Requests](#pull-requests)
+  - [Guidelines](#guidelines)
+    - [Linting & Code Style](#linting--code-style)
+    - [Testing](#testing)
+    - [Releasing](#releasing)
+    - [Documentation](#documentation)
+  - [Commits](#commits)
+    - [Commit Message Format](#commit-message-format)
+    - [Revert](#revert)
+    - [Type](#type)
+    - [Scope](#scope)
+    - [Subject](#subject)
+    - [Body](#body)
+    - [Footer](#footer)
+    - [Examples](#examples)
+    - [References](#references)
+  - [Pull Requests](#pull-requests)
 - [Aegir](#aegir)
-    - [...for maintainers](#for-maintainers)
-      - [Setting up `aegir`](#setting-up-aegir)
-      - [Directory Structure](#directory-structure)
-      - [Default `require`](#default-require)
-      - [Continuous integration](#continuous-integration)
-      - [`.gitignore`](#gitignore)
-      - [`.npmignore`](#npmignore)
-      - [Dependency management](#dependency-management)
-      - [Pre-Commit](#pre-commit)
-      - [Building](#building)
-    - [...for consumers](#for-consumers)
+  - [...for maintainers](#for-maintainers)
+    - [Setting up `aegir`](#setting-up-aegir)
+    - [Directory Structure](#directory-structure)
+    - [Default `require`](#default-require)
+    - [Continuous integration](#continuous-integration)
+    - [`.gitignore`](#gitignore)
+    - [`.npmignore`](#npmignore)
+    - [Dependency management](#dependency-management)
+    - [Pre-Commit](#pre-commit)
+    - [Building](#building)
+  - [...for consumers](#for-consumers)
 - [FAQ](#faq)
-    - [Why are you not using XYZ?](#why-are-you-not-using-xyz)
-    - [Why not use simple npm scripts instead of gulp?](#why-not-use-simple-npm-scripts-instead-of-gulp)
-    - [Where are all the semicolons?](#where-are-all-the-semicolons)
-    - [Why are you bothering with ES2015 and all this build setup?](#why-are-you-bothering-with-es2015-and-all-this-build-setup)
-    - [Do I have to use ES2015 and Babel and aegir in my project?](#do-i-have-to-use-es2015-and-babel-and-aegir-in-my-project)
-    - [Do I have to bundle everything with webpack?](#do-i-have-to-bundle-everything-with-webpack)
-    - [Why are you doing this?](#why-are-you-doing-this)
+  - [Why are you not using XYZ?](#why-are-you-not-using-xyz)
+  - [Why not use simple npm scripts instead of gulp?](#why-not-use-simple-npm-scripts-instead-of-gulp)
+  - [Where are all the semicolons?](#where-are-all-the-semicolons)
+  - [Why are you bothering with ES2015 and all this build setup?](#why-are-you-bothering-with-es2015-and-all-this-build-setup)
+  - [Do I have to use ES2015 and Babel and aegir in my project?](#do-i-have-to-use-es2015-and-babel-and-aegir-in-my-project)
+  - [Do I have to bundle everything with webpack?](#do-i-have-to-bundle-everything-with-webpack)
+  - [Why are you doing this?](#why-are-you-doing-this)
 - [Code of Conduct](#code-of-conduct)
 - [References - Resources and good reads](#references---resources-and-good-reads)
-- [Acknowledgment](#acknowledgment)
+- [Acknowledgments](#acknowledgments)
 
 ## Goals
 
@@ -73,15 +69,8 @@ For the majority of our JavaScript projects, our goals are to:
 - **Encourage contribution**.
 - **Have great UX** for everyone involved.
 
-## Contributing
 
-Please follow the conventions described in this document.
-
-When reporting a bug, if possible, provide a way for us to reproduce it (or even better, write a test that fails with your case).
-
-Always run tests before pushing and PR'ing your code.
-
-### Captains and Maintainers
+## Module Lead Maintainers
 
 For each JavaScript repository in the IPFS, libp2p, IPLD, or related GitHub orgs, there should be a single Captain specified in the Maintainers section of the README for that repository. The Captain is in charge of merging PRs, keeping issues up to date, and overall quality of a repository.
 
@@ -91,9 +80,17 @@ Repositories which do not have Captains will show up in red on [Project Repos](h
 
 If you would like to become a maintainer (or lieutenant, or first mate, or whatever nautical metaphor you prefer), please open an issue about it! Chances are that we would love to have more help.
 
-## Guidelines
+## Contributing
 
-### Linting & Code Style
+Please follow the conventions described in this document.
+
+When reporting a bug, if possible, provide a way for us to reproduce it (or even better, write a test that fails with your case).
+
+Always run tests before pushing and PR'ing your code.
+
+### Guidelines
+
+#### Linting & Code Style
 
 IPFS JavaScript projects default to [standard](https://github.com/feross/standard) code style. It is a clean codestyle, and its adoption is increasing significantly, making the code that we write familiar to the majority of the developers.
 
@@ -101,11 +98,11 @@ However, we've added an extra linting rule: Enforce the use of [strict mode](htt
 
 Using [aegir-lint](#aegir) will help you do this easily; it automatically lints your code.
 
-### Testing
+#### Testing
 
 Since `js-ipfs` is meant to be both a Node.js and Browser app, we strongly recommend having tests that run in both platforms, always. For most cases, we use [mocha](http://mochajs.org) to run write the tests and [karma](http://karma-runner.github.io) to automate the test execution in the browser. This solution has been extremely convenient.
 
-### Releasing
+#### Releasing
 
 Each time a new release happens, these are the steps we follow to make sure nothing gets left out:
 
@@ -118,13 +115,13 @@ Each time a new release happens, these are the steps we follow to make sure noth
 7. Push to GitHub
 8. Publish to npm
 
-### Documentation
+#### Documentation
 
 We use [documentation.js](https://github.com/documentationjs/documentation/tree/master/docs) to document our JavaScript repositories. For each repo, we use [this gulp task](https://github.com/documentationjs/gulp-documentation). An example for how to use JSDoc to document everything can be seen in [this PR to js-ipfs](https://github.com/ipfs/js-ipfs/pull/651). Ideally, we create a `docs` folder in each repository, and make sure it is not tracked to git.
 
 We use [`aegir-docs`](https://github.com/dignifiedquire/aegir) for the actual generation, which relies on JSDoc style comments. For more on aegir, see [the section below](#aegir).
 
-## Commits
+### Commits
 
 We have very precise rules over how our git commit messages can be formatted.
 This leads to more readable messages that are easy to follow when
@@ -134,7 +131,8 @@ we use the git commit messages to generate the change log.
 The commit message formatting can be added using a typical git workflow or
 through the use of a CLI wizard ([Commitizen](https://github.com/commitizen/cz-cli)).
 
-### Commit Message Format
+#### Commit Message Format
+
 Each commit message consists of a header, a body and a footer.
 The header has a special format that includes a type, a scope and a subject:
 
@@ -151,12 +149,14 @@ The header is mandatory and the scope of the header is optional.
 Any line of the commit message cannot be longer 100 characters! This allows the message to be easier
 to read on GitHub as well as in various git tools.
 
-### Revert
+#### Revert
+
 If the commit reverts a previous commit, it should begin with `revert: `,
 followed by the header of the reverted commit. In the body it should
 say: `This reverts commit <hash>.`, where the hash is the SHA of the commit being reverted.
 
-### Type
+#### Type
+
 Must be one of the following:
 
 * **feat**: A new feature
@@ -170,28 +170,32 @@ Must be one of the following:
 * **chore**: Changes to the build process or auxiliary tools and libraries such as documentation
   generation
 
-### Scope
+#### Scope
+
 The scope could be anything specifying the place of the commit change. For example `api`,
 `cli`, etc...
 
-### Subject
+#### Subject
+
 The subject contains a succinct description of the change:
 
 * use the imperative, present tense: "change" not "changed" nor "changes"
 * don't capitalize first letter
 * no dot (.) at the end
 
-### Body
+#### Body
+
 Just as in the subject, use the imperative, present tense: "change" not "changed" nor "changes".
 The body should include the motivation for the change and contrast this with previous behavior.
 
-### Footer
+#### Footer
+
 The footer should contain any information about breaking changes and is also the place to
 reference GitHub issues that this commit closes.
 
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
 
-### Examples
+#### Examples
 
 ```
 feat(pencil): add 'graphiteWidth' option
@@ -215,7 +219,7 @@ revert: feat(pencil): add 'graphiteWidth' option
 This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 ```
 
-### References
+#### References
 
 This commit strategy is based on:
 
@@ -224,7 +228,7 @@ This commit strategy is based on:
 
 More details about the commit convention can also be found in this [document](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y).
 
-## Pull Requests
+### Pull Requests
 
 There should be no dependencies that rely on commits. Instead, there should be WIP PR and each PR that depends on other WIP PR should list what it depends on. Yes, everyone will have to do the extra work of `npm link`ing everything, but this helps us have a cleaner workflow.
 
@@ -312,7 +316,7 @@ We also use [coveralls.io](https://coveralls.io/) to automatically publish cover
 script:
   - npm run coverage
 after_success:
-  - npm run coverage publish
+  - npm run coverage publish --providers coveralls
 ```
 
 ##### `.gitignore`
@@ -383,7 +387,7 @@ Our linting rules are compatible with [standard](https://github.com/feross/stand
 
 We want to see the web move forward, and some of us enjoy writing their JavaScript with things like `const` and arrow functions.
 
-#### Do I have to use ES2015 and Babel and aegir in my project?
+#### Do I have to use ES2015, Babel and aegir in my project?
 
 No.
 
@@ -405,7 +409,7 @@ Any IPFS JavaScript project follows the same [Code of Conduct](https://github.co
 - [The cost of transpiling ES2015 in 2016](https://github.com/samccone/The-cost-of-transpiling-es2015-in-2016)
 - [standardjs.com](http://standardjs.com/)
 
-## Acknowledgment
+## Acknowledgments
 
 This project would not be possible without the hard work of many many people. So a big shout out to all contributors to these projects:
 
