@@ -71,25 +71,11 @@ IPFS now has a community swag store where you can purchase additional IPFS items
 
 ## People
 
-IPFS is an open source project with an open community. This list includes some of the contributors who make it all happen. Add your name in a PR!
+IPFS is an open source project with a large and open community. Listing out all the names of the contributors would result in a very long list, so we made a very large hex grid instead!
 
-_(Please keep this list sorted ordered by first name)_
+[![](https://raw.githubusercontent.com/ipfs/contributors-hex-grid/master/screenshot/big-grid.png)](https://ipfs.io/ipfs/QmVNsFGDQPa2kJHUHxQmYJddzwDZdX2twpvwFF2jaChAix/)
 
-Name | Github | Twitter | IRC (@Freenode)
-:--: | :----: | :-: | :-----:
-Christian Couder    | [@chriscool](//github.com/chriscool)              | [@ChristianCouder](https://twitter.com/ChristianCouder) | chriscool
-David Dias          | [@diasdavid](//github.com/diasdavid)              | [@daviddias](//twitter.com/daviddias)                   | daviddias
-Dylan Powers        | [@dylanPowers](https://github.com/dylanPowers)    | [@dylankpowers](https://twitter.com/dylankpowers)       | dpow
-Friedel Ziegelmayer | [@dignifiedquire](//github.com/Dignifiedquire)    | [@dignifiedquire](//twitter.com/dignifiedquire)         | dignifiedquire
-Harlan T Wood       | [@harlantwood](//github.com/harlantwood)          | [@harlantwood](//twitter.com/harlantwood)               | n/a
-Henry Bubert        | [@cryptix](//github.com/cryptix)                  | [@oObsi](//twitter.com/oObsi)                           | cryptix
-Jakub Sztandera     | [@Kubuxu](//github.com/kubuxu/)                   | [@Kubuxu](//twitter.com/Kubuxu)                         | Kubuxu
-Jeromy Johnson      | [@whyrusleeping](//github.com/whyrusleeping)      | [@whyrusleeping](//twitter.com/whyrusleeping)           | whyrusleeping
-Juan Benet          | [@jbenet](//github.com/jbenet)                    | [@juanbenet](//twitter.com/juanbenet)                   | jbenet
-Lars Gierth         | [@lgierth](//github.com/lgierth)                  | n/a                                                     | lgierth
-Matt Bell           | [@mappum](//github.com/mappum)                    | [@mappum](//twitter.com/mappum)                         | mappum
-Richard Littauer    | [@RichardLitt](//github.com/RichardLitt)          | [@richlitt](//twitter.com/richlitt)                     | richardlitt
-Victor Bjelkholm    | [@VictorBjelkholm](//github.com/VictorBjelkholm)  | [@victorbjelkholm](//twitter.com/victorbjelkholm)       | victorbjelkholm
+The grid keeps growing, find the latest always at the [Contributors Hex Grid repo](https://github.com/ipfs/contributors-hex-grid#interplanetary-contributors-webpage).
 
 ## Contribute
 
