@@ -48,19 +48,14 @@ Our goals here are to work on resources that help us with:
   - 4. Mailing List - [ipfs-users@googlegroups.com](https://groups.google.com/forum/#!forum/ipfs-users)
   - 5. People List
 
-## Meetup list
+## Meetups
 
-These are the list of community meetups by area,organized by the IPFS developers and enthusiasts. Everyone is welcome to participate in their local meetup or be the ones organizing one.
+These are several community meetups in different areas of the world, organized by the IPFS developers and enthusiasts. Everyone is welcome to participate in their local meetup or be the ones organizing one.
 
-- **Berlin** - https://www.meetup.com/Berlin-IPFS (previous https://github.com/ipfs/community/issues/41)
-- **Bratislava** - http://www.meetup.com/Bratislava-IPFS-Meetup/
-- **Copenhagen** - https://www.meetup.com/Copenhagen-IPFS-Meetup
-- **Lisbon** - http://www.meetup.com/ipfs-lisbon-meetup
-- **London** - https://www.meetup.com/IPFS-London-Meetup/
-- **Paris** - TBA (previous https://github.com/ipfs/community/issues/54)
-- **Portland** - http://www.meetup.com/IPFS-Portland/
-- **San Francisco** -  TBA (previous https://github.com/ipfs/community/issues/53)
-- **Seattle** -http://www.meetup.com/Seattle-IPFS-Meetup/
+Find the list at:
+
+- [This repo](https://github.com/ipfs/community/issues?q=is%3Aissue+is%3Aopen+label%3Ameetup)
+- [Meetup.com](https://meetup.com/pro/ipfs)
 
 ## Calendar
 
