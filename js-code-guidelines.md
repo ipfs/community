@@ -10,7 +10,7 @@ These guidelines reflect our shared consensus on protocol and etiquette from wha
 - Tasks (asset pipeline, transpiling, releasing, etc).
 - Dependency management.
 
-Our toolkit for each of these is not set in stone, and we don't plan to halt our constant search for better tools. Get in touch if you've got ideas. [These are guidelines and rather then rules](assets/CodeIsMoreLikeGuidelines.jpg).
+Our toolkit for each of these is not set in stone, and we don't plan to halt our constant search for better tools. Get in touch if you've got ideas. [These are guidelines rather than rules](assets/CodeIsMoreLikeGuidelines.jpg).
 
 ## Table of Contents
 
@@ -37,7 +37,6 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
   - [...for maintainers](#for-maintainers)
     - [Setting up `aegir`](#setting-up-aegir)
     - [Directory Structure](#directory-structure)
-    - [Default `require`](#default-require)
     - [Continuous integration](#continuous-integration)
     - [`.gitignore`](#gitignore)
     - [`.npmignore`](#npmignore)
@@ -75,21 +74,21 @@ For the majority of our JavaScript projects, our goals are to:
 
 We have two types of leads in the JavaScript project ecosystems, the Tech Lead and the Module Lead Maintainer. A brief description of both roles is:
 
-- A Tech Lead directs the development of an entire ecosystem of modules (i.e js-ipfs, js-libp2p, js-libp2p and js-multiformats), it has a complete understanding of the stack, the IPFS project, its goals and participates actively in the ROADMAP planning.
-- A Lead Maintainer is a contributor that has showned extraordinary ability to contribute to the project and willingness to make the project better by taking the responsibility of stewarding one of its modules forward.
+- A Tech Lead directs the development of an entire ecosystem of modules (i.e js-ipfs, js-libp2p, js-ipld and js-multiformats), it has a complete understanding of the stack, the IPFS project, its goals and participates actively in the ROADMAP planning.
+- A Lead Maintainer is a contributor that has shown extraordinary ability to contribute to the project and willingness to make the project better by taking the responsibility of stewarding one of its modules forward.
 
 With this structure, we expect to achieve the following goals:
 
-- Recognize extraordinary contributions and empower contributors to take even more important role in the project
-- Reduce PR review time and Time To Release
-- Increase the overall quality of the project
-- Help users know who to reach out for help
-- Have a clear protocol to pass on the baton
+- Recognize extraordinary contributions and empower contributors to take an even more important role in the project.
+- Reduce PR review time and Time To Release.
+- Increase the overall quality of the project.
+- Help users know who to reach out to for help.
+- Have a clear protocol to pass on the baton.
 
 The current Tech Leads are:
 
-- [David Dias](http://github.com/diasdavid/) for js-ipfs, js-libp2p js-multiformats ecosystems.
-- [Volker Mische](github.com/vmx) for the js-ipld ecosystem.
+- [David Dias](https://github.com/diasdavid/) for js-ipfs, js-libp2p js-multiformats ecosystems.
+- [Volker Mische](https://github.com/vmx) for the js-ipld ecosystem.
 
 The current Lead Maintainers can be identified either by the `maintainer` field in the package.json of the module and/or the section `Maintainer` in the README.md of the module.
 
@@ -98,13 +97,14 @@ The current Lead Maintainers can be identified either by the `maintainer` field 
 - Respect and follow the [IPFS Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md).
 - Have a complete understanding of the module purpose, its specification (if any) and how the module is used by other parts of the project.
 - Review and Release PRs
+- Respond in a timely manner to Github issues and curate them to ensure that duplicates are coalesced, issues area labeled with difficulty and priority, and also tag any issue that is open for new contributors with the `help wanted` label.
 - Publish new versions of the module to npm
 
 **Lead Maintainer expected attitude:**
 
 - Be proactive in increasing the quality of the module. This goes from improving documentation, tests, codebase and more.
 - Show a great level of rigor and polish in the code that they ship.
-- Help others in understanding how the module and why it exists.
+- Help others in understanding how the module works and why it exists.
 - Apply the established Contributing Guidelines to the project and help others do too
 
 **How to become a Lead Maintainer:**
