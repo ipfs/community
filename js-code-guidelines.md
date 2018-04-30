@@ -112,7 +112,7 @@ Currently, there is no formal test or request form to do so. Lead Maintainers wi
 
 **In practice:**
 
-- Update each package.json and README.md to have a `maintainer` field.
+- Update each package.json and README.md to have a `lead-maintainer` field.
 - Update packages table on each entry module (e.g https://github.com/ipfs/js-ipfs#packages) to also list the maintainer for each.
 - Protect the master branch and only grant permissions for merge to the Maintainer and the Tech Lead, only.
 - Grant publish permission to the Maintainer and Tech Lead, only.
