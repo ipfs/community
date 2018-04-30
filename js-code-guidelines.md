@@ -46,7 +46,6 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
   - [...for consumers](#for-consumers)
 - [FAQ](#faq)
   - [Why are you not using XYZ?](#why-are-you-not-using-xyz)
-  - [Why not use simple npm scripts instead of gulp?](#why-not-use-simple-npm-scripts-instead-of-gulp)
   - [Where are all the semicolons?](#where-are-all-the-semicolons)
   - [Why are you bothering with ES2015 and all this build setup?](#why-are-you-bothering-with-es2015-and-all-this-build-setup)
   - [Do I have to use ES2015 and Babel and aegir in my project?](#do-i-have-to-use-es2015-and-babel-and-aegir-in-my-project)
@@ -97,7 +96,7 @@ The current Lead Maintainers can be identified either by the `maintainer` field 
 - Respect and follow the [IPFS Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md).
 - Have a complete understanding of the module purpose, its specification (if any) and how the module is used by other parts of the project.
 - Review and Release PRs
-- Respond in a timely manner to Github issues and curate them to ensure that duplicates are coalesced, issues area labeled with difficulty and priority, and also tag any issue that is open for new contributors with the `help wanted` label.
+- Respond in a timely manner to Github issues and curate them to ensure that duplicates are coalesced, issues are labeled with difficulty and priority, and also tag any issue that is open for new contributors with the `help wanted` label.
 - Publish new versions of the module to npm
 
 **Lead Maintainer expected attitude:**
@@ -155,24 +154,19 @@ Each time a new release happens, these are the steps we follow to make sure noth
 
 #### Documentation
 
-We use [documentation.js](https://github.com/documentationjs/documentation/tree/master/docs) to document our JavaScript repositories. For each repo, we use [this gulp task](https://github.com/documentationjs/gulp-documentation). An example for how to use JSDoc to document everything can be seen in [this PR to js-ipfs](https://github.com/ipfs/js-ipfs/pull/651). Ideally, we create a `docs` folder in each repository, and make sure it is not tracked to git.
+We use [documentation.js](https://github.com/documentationjs/documentation/tree/master/docs) to document our JavaScript repositories. An example for how to use JSDoc to document everything can be seen in [this PR to js-ipfs](https://github.com/ipfs/js-ipfs/pull/651). Ideally, we create a `docs` folder in each repository, and make sure it is not tracked to git.
 
 We use [`aegir-docs`](https://github.com/dignifiedquire/aegir) for the actual generation, which relies on JSDoc style comments. For more on aegir, see [the section below](#aegir).
 
 ### Commits
 
-We have very precise rules over how our git commit messages can be formatted.
-This leads to more readable messages that are easy to follow when
-looking through the project history.  But also,
-we use the git commit messages to generate the change log.
+We have very precise rules over how our git commit messages can be formatted. This leads to more readable messages that are easy to follow when looking through the project history.  But also, we use the git commit messages to generate the change log.
 
-The commit message formatting can be added using a typical git workflow or
-through the use of a CLI wizard ([Commitizen](https://github.com/commitizen/cz-cli)).
+The commit message formatting can be added using a typical git workflow or through the use of a CLI wizard ([Commitizen](https://github.com/commitizen/cz-cli)).
 
 #### Commit Message Format
 
-Each commit message consists of a header, a body and a footer.
-The header has a special format that includes a type, a scope and a subject:
+Each commit message consists of a header, a body and a footer. The header has a special format that includes a type, a scope and a subject:
 
 ```
 <type>(<scope>): <subject>
@@ -184,14 +178,11 @@ The header has a special format that includes a type, a scope and a subject:
 
 The header is mandatory and the scope of the header is optional.
 
-Any line of the commit message cannot be longer 100 characters! This allows the message to be easier
-to read on GitHub as well as in various git tools.
+Any line of the commit message cannot be longer 100 characters! This allows the message to be easier to read on GitHub as well as in various git tools.
 
 #### Revert
 
-If the commit reverts a previous commit, it should begin with `revert: `,
-followed by the header of the reverted commit. In the body it should
-say: `This reverts commit <hash>.`, where the hash is the SHA of the commit being reverted.
+If the commit reverts a previous commit, it should begin with `revert: `, followed by the header of the reverted commit. In the body it should say: `This reverts commit <hash>.`, where the hash is the SHA of the commit being reverted.
 
 #### Type
 
@@ -210,8 +201,7 @@ Must be one of the following:
 
 #### Scope
 
-The scope could be anything specifying the place of the commit change. For example `api`,
-`cli`, etc...
+The scope could be anything specifying the place of the commit change. For example `api`, `cli`, etc...
 
 #### Subject
 
@@ -223,13 +213,11 @@ The subject contains a succinct description of the change:
 
 #### Body
 
-Just as in the subject, use the imperative, present tense: "change" not "changed" nor "changes".
-The body should include the motivation for the change and contrast this with previous behavior.
+Just as in the subject, use the imperative, present tense: "change" not "changed" nor "changes". The body should include the motivation for the change and contrast this with previous behavior.
 
 #### Footer
 
-The footer should contain any information about breaking changes and is also the place to
-reference GitHub issues that this commit closes.
+The footer should contain any information about breaking changes and is also the place to reference GitHub issues that this commit closes.
 
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
 
