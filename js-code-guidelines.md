@@ -96,9 +96,9 @@ The current Lead Maintainers can be identified either by the `maintainer` field 
 
 - Respect and follow the [IPFS Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md).
 - Have a complete understanding of the module purpose, its specification (if any) and how the module is used by other parts of the project.
-- Review and Release PRs
+- Review and merge PRs.
 - Respond in a timely manner to Github issues and curate them to ensure that duplicates are coalesced, issues are labeled with difficulty and priority, and also tag any issue that is open for new contributors with the `help wanted` label.
-- Publish new versions of the module to npm
+- Publish new versions of the module to npm.
 
 **Lead Maintainer expected attitude:**
 
