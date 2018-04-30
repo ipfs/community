@@ -24,6 +24,7 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
     - [Documentation](#documentation)
   - [Commits](#commits)
     - [Commit Message Format](#commit-message-format)
+    - [Signed Commits](#signed-commits)
     - [Revert](#revert)
     - [Type](#type)
     - [Scope](#scope)
@@ -179,6 +180,17 @@ Each commit message consists of a header, a body and a footer. The header has a 
 The header is mandatory and the scope of the header is optional.
 
 Any line of the commit message cannot be longer 100 characters! This allows the message to be easier to read on GitHub as well as in various git tools.
+
+#### Signed Commits
+
+We kindly ask and expect for all commits to be signed off with the same license as the repo and module. This can be done by appending the following to your commit message:
+
+```
+License: MIT
+Signed-off-by: User Name <email@address>
+```
+
+You can use the [sign-commit](http://npmjs.com/sign-commit) module to get a git hook to append this to all your commits.
 
 #### Revert
 
