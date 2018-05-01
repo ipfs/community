@@ -19,6 +19,7 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
 - [Contributing](#contributing)
   - [Guidelines](#guidelines)
     - [Linting & Code Style](#linting--code-style)
+    - [Dependency Versions](#dependency-versions)
     - [Testing](#testing)
     - [Releasing](#releasing)
     - [Documentation](#documentation)
@@ -135,6 +136,10 @@ IPFS JavaScript projects default to [standard](https://github.com/feross/standar
 However, we've added an extra linting rule: Enforce the use of [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). This avoids issues we had when using ES2015 features outside of strict mode. We enforce this rule by using [eslint](http://eslint.org/) and extending [standard module](https://github.com/feross/standard) with the [eslint-config-standard](https://github.com/feross/eslint-config-standard).
 
 Using [aegir-lint](#aegir) will help you do this easily; it automatically lints your code.
+
+#### Dependency Versions
+
+Our rule is: Use ~ for everything below 1.0.0 and ^ for everything above 1.0.0. If you find a package.json that is not following this rule, please submit a PR.
 
 #### Testing
 
