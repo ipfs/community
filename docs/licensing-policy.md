@@ -44,4 +44,4 @@ When licensing a project, be sure to:
 
 We manage contributor licensing via a *Developer Certificate of Origin (DCO).* All commits with new code from any contributor **must** include a DCO signoff trailer. See the [contributing guide part 2](../CONTRIBUTING-2.md#a-license-and-a-signed-off-by-trailers-are-required) for more details. Commits with extremely trivial or changes or that do not change content (e.g. merge commits) are excepted.
 
-If you’re setting up a new repository, **please make sure to set up [GitCop](https://gitcop.com) to enforce the DCO policy** and make sure the README includes a link to our contribution guidelines.
+If you’re setting up a new repository, make sure the README includes a link to our contribution guidelines so people can find information about the DCO signoff.
