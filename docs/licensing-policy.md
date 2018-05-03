@@ -8,9 +8,9 @@ Unless there is a particular reason to use a different licensing structure, plea
 
 2. All software code should be licensed under the MIT license. Canonical license text for the MIT license can be found in this repository’s [`LICENSE` file](../LICENSE) or at the [Open Source Initiative website](https://opensource.org/licenses/MIT).
 
-2. All documentation and non-code resources (e.g. logos and imagery) should be licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license. An [easy-to-read, linkable description](https://creativecommons.org/licenses/by-sa/4.0/) and canonical license text in [HTML](https://creativecommons.org/licenses/by-sa/4.0/legalcode) and [plain text](https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt) can be found at the Creative Commons website.
+2. All documentation and non-code resources (e.g. logos and imagery) should be licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. An [easy-to-read, linkable description](https://creativecommons.org/licenses/by-sa/4.0/) and canonical license text in [HTML](https://creativecommons.org/licenses/by/4.0/legalcode) and [plain text](https://creativecommons.org/licenses/by/4.0/legalcode.txt) can be found at the Creative Commons website.
 
-    If a repository is a software project with some built-in docs or resources (e.g. `go-ipfs`), it can all be licensed under the MIT license. The CC BY-SA license is meant for projects that are not overwhelmingly code, such as websites, guidance, discussion repos, and so on.
+    If a repository is a software project with some built-in docs or resources (e.g. `go-ipfs`), it can all be licensed under the MIT license. The CC BY license is meant for projects that are not overwhelmingly code, such as websites, guidance, discussion repos, and so on.
 
 
 ## Attaching a License
@@ -32,12 +32,12 @@ When licensing a project, be sure to:
     
     All software code is copyright (c) Protocol Labs, Inc. under the **MIT license**.
     
-    Other written documentation and content (c) Protocol Labs, Inc under the **Creative Commons Attribution-Share-Alike License**.
+    Other written documentation and content (c) Protocol Labs, Inc under the **Creative Commons Attribution License**.
     
     See [LICENSE file](./LICENSE) for details.
     ```
 
-2. For software that will be redistributed, the full text of the license(s) **must** be in a file named `LICENSE` in the repository root. Other projects **should** do this, too, but their readmes can alternatively link to a separate license document, like this: [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/).
+2. For software that will be redistributed, the full text of the license(s) **must** be in a file named `LICENSE` in the repository root. Other projects **should** do this, too, but their readmes can alternatively link to a separate license document, like this: [Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/).
 
 
 ## Contributor Licensing (DCO)
