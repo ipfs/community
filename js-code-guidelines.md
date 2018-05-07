@@ -25,7 +25,7 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
     - [Documentation](#documentation)
   - [Commits](#commits)
     - [Commit Message Format](#commit-message-format)
-    - [Signed Commits](#signed-commits)
+    - [Sign-off on commits](#Sign-off-on-commits)
     - [Revert](#revert)
     - [Type](#type)
     - [Scope](#scope)
@@ -186,7 +186,7 @@ The header is mandatory and the scope of the header is optional.
 
 Any line of the commit message cannot be longer 100 characters! This allows the message to be easier to read on GitHub as well as in various git tools.
 
-#### Signed Commits
+#### Sign-off on commits
 
 We kindly ask and expect for all commits to be signed off with the same license as the repo and module. This can be done by appending the following to your commit message:
 
@@ -195,7 +195,24 @@ License: MIT
 Signed-off-by: User Name <email@address>
 ```
 
-You can use the [sign-commit](http://npmjs.com/sign-commit) module to get a git hook to append this to all your commits.
+If you want to automatically add this to all of your commits, you can do the following:
+
+Create a file in `~/git-commit-template` with the following contents (notice the two blank lines in the top):
+
+```
+
+
+License: MIT
+Signed-off-by: Victor Bjelkholm <git@victor.earth>
+```
+
+Then, add the following to your global git config (Usually at `~/.gitconfig`):
+
+```
+[commit]
+        template = /home/user/git-commit-template
+```
+
 
 #### Revert
 
