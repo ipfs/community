@@ -4,7 +4,7 @@ In order to ensure an open source project is actually open and re-usable in a le
 
 Unless there is a particular reason to use a different licensing structure, please use the following for new projects:
 
-1. Copyright should always be assigned to **Protocol Labs, Inc,** regardless of the type of license. (In an ideal future, we can assign copyright to a foundation, but Protocol Labs is the best usable legal entity we have now.)
+1. Copyright should always be assigned to **Protocol Labs, Inc.,** regardless of the type of license. (In an ideal future, we can assign copyright to a foundation, but Protocol Labs is the best usable legal entity we have now.)
 
 2. All software code should be licensed under the MIT license. Canonical license text for the MIT license can be found in this repository’s [`LICENSE` file](../LICENSE) or at the [Open Source Initiative website](https://opensource.org/licenses/MIT).
 
@@ -32,7 +32,7 @@ When licensing a project, be sure to:
     
     All software code is copyright (c) Protocol Labs, Inc. under the **MIT license**.
     
-    Other written documentation and content (c) Protocol Labs, Inc under the **Creative Commons Attribution License**.
+    Other written documentation and content (c) Protocol Labs, Inc. under the **Creative Commons Attribution License**.
     
     See [LICENSE file](./LICENSE) for details.
     ```
