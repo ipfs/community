@@ -25,7 +25,7 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
     - [Documentation](#documentation)
   - [Commits](#commits)
     - [Commit Message Format](#commit-message-format)
-    - [Sign-off on commits](#Sign-off-on-commits)
+    - [Sign-off on commits](#sign-off-on-commits)
     - [Revert](#revert)
     - [Type](#type)
     - [Scope](#scope)
@@ -91,7 +91,7 @@ The current Tech Leads are:
 - [David Dias](https://github.com/diasdavid/) for js-ipfs, js-libp2p js-multiformats ecosystems.
 - [Volker Mische](https://github.com/vmx) for the js-ipld ecosystem.
 
-The current Lead Maintainers can be identified either by the `maintainer` field in the package.json of the module and/or the section `Lead Maintainer` in the README.md of the module.
+The current Lead Maintainers can be identified either by the `leadMaintainer` field in the package.json of the module and/or the section `Lead Maintainer` in the README.md of the module.
 
 **Lead Maintainer responsibilities:**
 
@@ -194,6 +194,8 @@ We kindly ask and expect for all commits to be signed off with the same license 
 License: MIT
 Signed-off-by: User Name <email@address>
 ```
+
+where "User Name" is the author's real (legal) name and email@address is one of the author's valid email addresses.
 
 If you want to automatically add this to all of your commits, you can do the following:
 
@@ -395,7 +397,7 @@ Every module below 1.0.0 should use `~` instead of `^`.
 
 ##### Pre-Commit
 
-[precommit](https://www.npmjs.com/package/pre-commit) helps us check code style run the tests on every commit. In your `package.json`:
+[pre-commit](https://www.npmjs.com/package/pre-commit) helps us check code style run the tests on every commit. In your `package.json`:
 
 ```json
 "pre-commit": [
