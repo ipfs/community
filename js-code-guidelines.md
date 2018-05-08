@@ -91,7 +91,7 @@ The current Tech Leads are:
 - [David Dias](https://github.com/diasdavid/) for js-ipfs, js-libp2p js-multiformats ecosystems.
 - [Volker Mische](https://github.com/vmx) for the js-ipld ecosystem.
 
-The current Lead Maintainers can be identified either by the `maintainer` field in the package.json of the module and/or the section `Lead Maintainer` in the README.md of the module.
+The current Lead Maintainers can be identified either by the `leadMaintainer` field in the package.json of the module and/or the section `Lead Maintainer` in the README.md of the module.
 
 **Lead Maintainer responsibilities:**
 
