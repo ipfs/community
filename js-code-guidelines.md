@@ -18,6 +18,7 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
 - [Tech Leads and Lead Maintainers](#tech-leads-and-lead-maintainers)
 - [Contributing](#contributing)
   - [Guidelines](#guidelines)
+    - [Supported versions](#supported-versions)
     - [Linting & Code Style](#linting--code-style)
     - [Dependency Versions](#dependency-versions)
     - [Testing](#testing)
@@ -128,6 +129,12 @@ When reporting a bug, if possible, provide a way for us to reproduce it (or even
 Always run tests before pushing and PR'ing your code.
 
 ### Guidelines
+
+#### Supported Versions
+
+IPFS projects support both the Current and LTS versions of node.  Please see [nodejs.org](https://nodejs.org/) for what these currently are.
+
+Browser code may be transpiled using Babel to take advantage of the latest JavaScript features.
 
 #### Linting & Code Style
 
