@@ -132,7 +132,7 @@ Always run tests before pushing and PR'ing your code.
 
 #### Supported Versions
 
-IPFS projects support both the Current and LTS versions of node.  Please see [nodejs.org](https://nodejs.org/) for what these currently are.
+IPFS projects support both the Current and Active LTS versions of Node.js.  Please see [nodejs.org](https://nodejs.org/) for what these currently are.
 
 Browser code may be transpiled using Babel to take advantage of the latest JavaScript features.
 
