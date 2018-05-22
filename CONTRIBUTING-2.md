@@ -78,7 +78,7 @@ important for our team and our users, legally. The
 [setup_commit_msg_hook.sh](dev/hooks/setup_commit_msg_hook.sh)
 script will setup a Git commit-msg hook that will add these trailers to
 all the commit messages you write in that repository. This is not as complicated
-as it sounds: it is similar to typing `git commit --sign-off` every time you
+as it sounds: it is similar to typing `git commit --signoff` every time you
 commit. Just download the script and run it once from the root folder of whatever
 Git repository you are in (for example, go-ipfs, or ipfs).
 
