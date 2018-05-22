@@ -73,7 +73,7 @@ IPFS now has a community swag store where you can purchase additional IPFS items
 
 IPFS is an open source project with a large and open community. Listing out all the names of the contributors would result in a very long list, so we made a very large hex grid instead!
 
-[![](https://raw.githubusercontent.com/ipfs/contributors-hex-grid/master/screenshot/big-grid.png)](https://ipfs.io/ipfs/QmVNsFGDQPa2kJHUHxQmYJddzwDZdX2twpvwFF2jaChAix/)
+[![](https://ipfs.io/ipfs/QmPNkiTxa8V2vaRLmTBJte5RZzkNYjiUYnvht6BUpqs8au/ipfs-people.jpg)](https://ipfs.io/ipfs/QmVNsFGDQPa2kJHUHxQmYJddzwDZdX2twpvwFF2jaChAix/)
 
 The grid keeps growing, find the latest always at the [Contributors Hex Grid repo](https://github.com/ipfs/contributors-hex-grid#interplanetary-contributors-webpage).
 
