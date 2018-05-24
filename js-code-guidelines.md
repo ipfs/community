@@ -148,6 +148,10 @@ Using [aegir-lint](#aegir) will help you do this easily; it automatically lints 
 
 Our rule is: Use ~ for everything below 1.0.0 and ^ for everything above 1.0.0. If you find a package.json that is not following this rule, please submit a PR.
 
+The only exception to this is if a third party library accidentally releases a breaking change, in which case temporarily pin the dependency to a single version (e.g. `"my-dep": "1.0.0"`).
+
+Using [aegir-lint](#aegir) will show you if any of your dependency versions need changing to comply with this.
+
 #### Testing
 
 Since `js-ipfs` is meant to be both a Node.js and Browser app, we strongly recommend having tests that run in both platforms, always. For most cases, we use [mocha](http://mochajs.org) to run write the tests and [karma](http://karma-runner.github.io) to automate the test execution in the browser. This solution has been extremely convenient.
