@@ -130,7 +130,7 @@ Always run tests before pushing and PR'ing your code.
 
 ### Guidelines
 
-#### Supported Versions
+#### Supported Versions
 
 IPFS projects support both the Current and Active LTS versions of Node.js.  Please see [nodejs.org](https://nodejs.org/) for what these currently are.
 
