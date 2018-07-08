@@ -88,6 +88,8 @@ Conduct, please contact us at abuse@ipfs.io to send us an abuse report. If
 this is the initial report of a problem, please include as much detail as
 possible. It is easiest for us to address issues when we have more context.
 
+If you are at an event organized by the IPFS community, contact a _duty officer_ or event staff. To learn more about our procedures handling incidents and reports at events, read the [procedures for in-person events](code-of-conduct-procedures-for-events.md)
+
 ## Copyright Violations
 
 We respect the intellectual property of others and ask that you do too. If you
