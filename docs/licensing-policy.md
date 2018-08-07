@@ -32,7 +32,7 @@ When licensing a project, be sure to:
     
     All software code is copyright (c) Protocol Labs, Inc. under the **MIT license**.
     
-    Other written documentation and content (c) Protocol Labs, Inc. under the **Creative Commons Attribution License**.
+    Other written documentation and content is copyright (c) Protocol Labs, Inc. under the **Creative Commons Attribution License**.
     
     See [LICENSE file](./LICENSE) for details.
     ```
