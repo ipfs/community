@@ -1,12 +1,12 @@
-# Contribution Guidelines
+# Contribution Guidelines, Part II
 
 ## Table of Contents
 
 - [Discuss big changes as Issues first](#discuss-big-changes-as-issues-first)
 - [Pull Requests always welcome](#pull-requests-always-welcome)
 - [Conventions](#conventions)
-  - [Go](#go)
-  - [JavaScript](#javascript)
+  - [Go Code Contributing Guidelines](#go)
+  - [JavaScript  Code Contributing Guidelines](#javascript)
   - [Git](#git)
   - [Commit messages](#commit-messages)
     - [Subject line should not be more than 80 characters long](#subject-line-should-not-be-more-than-80-characters-long)
@@ -19,7 +19,6 @@
   - [Code Review](#code-review)
   - [Rebasing](#rebasing)
   - [Merge Approval](#merge-approval)
-  - [Labels](#labels)
 - [Credits](#credits)
 
 ## Discuss big changes as Issues first
@@ -117,18 +116,13 @@ The commit message should end with the following trailers:
   Signed-off-by: User Name <email@address>
   ```
 
-where "User Name" is the author's real (legal) name and
-email@address is one of the author's valid email addresses.
+where "User Name" is the author's real (legal) name and email@address is one of the author's valid email addresses.
 
-There should also be an empty blank line before the "License"
-trailer.
+There should also be an empty blank line before the "License" trailer.
 
-As explained in more details above, this is easy to fix by running once the
-[setup_commit_msg_hook.sh](dev/hooks/setup_commit_msg_hook.sh)
-script in your repository.
+As explained in more details above, this is easy to fix by running once the [setup_commit_msg_hook.sh](dev/hooks/setup_commit_msg_hook.sh) script in your repository.
 
-See also the [documentation about amending commits](docs/amending-commits.md)
-for an explanation about how you can rework commit messages.
+See also the [documentation about amending commits](docs/amending-commits.md) for an explanation about how you can rework commit messages.
 
 #### Commit message examples
 
@@ -227,22 +221,6 @@ This way your log will look like:
 AAAAAA Revert "Fix bug C in A"
 BBBBBB Re-add feature A tests that were added in "Fix bug C in A"
 ```
-
-### Labels
-
-We make extensive use of Github labels to help us and our tools organize issues.
-There are only a few labels we use across repositories. These are the following:
-
-* light green
-    * `difficulty: easy`
-    * `difficulty: moderate`
-    * `difficulty: hard`
-* green
-    * `help wanted` - This is an issue where people are especially encouraged to dive in.
-* blue
-    * `needs review` - Our signal that code is ready for a code review, after which it can hopefully be merged.
-
-The [go-ipfs](https://github.com/ipfs/go-ipfs) project has its own [label guide](https://github.com/ipfs/go-ipfs/labels).
 
 ## Credits
 
