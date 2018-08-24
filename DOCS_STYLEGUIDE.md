@@ -10,6 +10,8 @@ This is the documentation styleguide for our natural language descriptions used 
 - [Linguistic rules](#linguistic-rules)
 - [Ungendering](#ungendering)
     - [Motivation](#motivation)
+- [Words to Avoid](#words-to-avoid)
+- [Additional Resources](#additional-resources)
 
 ## Code references
 
@@ -32,6 +34,37 @@ This is the documentation styleguide for our natural language descriptions used 
 * End phrases with a period. (Like that one).
 * Capitalize the first letter of a phrase or sentence.
 * Command and subcommand taglines (and option descriptions when possible) should use the imperative mood. For example: "Clear a field.", "Interact with the DHT."
+* Use the active voice wherever possible. It helps clarify what organizations or code components are doing something, which is especially helpful in technical documentation.
+
+    Do say:
+
+    > We recommend the badger datastore in most situations.
+    > 
+    > The constructor automatically starts IPFS unless you set `{start: false}`.
+
+    *Do not* say:
+
+    > The badger datastore is recommended.
+    >
+    > IPFS is automatically started unless `{start: false}` is set.
+
+* Except in technical specifications, address the reader directly as “you.” You can also use “we” to represent the views or work of the IPFS core team. Make sure to keep the same method of address throughout a document (e.g. don’t switch from “you should…” at the beginning to “one should…” at the end).
+* Always look for ways to simplify your language and use shorter, clearer phrases.
+
+    Do say:
+
+    > the CID points to data…
+
+    *Do not* say:
+
+    > the CID is used as a standardized way of pointing to data…
+
+    (But don’t cut critical terms — if “standardized” was important here, you could also write “the CID is a standardized pointer to data…“)
+  
+* Keep in mind you are writing for an international audience. Use more common words wherever you can. For example, say “short” instead of “compact.” [Plainlanguage.gov](https://plainlanguage.gov/guidelines/words/use-simple-words-phrases/) has a good list of examples.
+* Use specific terminology rather than abstract terminology wherever possible. If an abstract term is the best fit, make sure to descibe the context and meaning you are using it for.
+
+    The most common example of this in IPFS is the term “node.” If you are talking about a process running IPFS, try using “peer” or “IPFS instance” instead, or at least clarify it by saying “*IPFS* node.”
 
 ## Headings
 
@@ -63,6 +96,30 @@ Established canon, like Alice and Bob for cryptography, can still be used in the
 #### Motivation
 
 Avoiding gendering in community interaction has multiple benefits. Using a male or female pronoun alienates and unfairly prioritizes one gender in favor of another. For instance, saying "the user and his computer" may feel alienating to women, or vice versa. Luckily, in English, the pronoun 'their' can be used as both a singular and a plural form (cf. [Singular they](https://en.wikipedia.org/wiki/Singular_they)). Saying, "the user and their computer" is entirely acceptable and alleviates the issue.
+
+## Words to Avoid
+
+Many terms may unintentionally insult or discourage readers. For example, saying something is “easy” can make someone feel like they aren’t good enough or smart enough if it turned out not to be easy for them! Try not to use these words:
+
+- easy
+- easily
+- simply
+- simple
+- obviously
+- just
+- basically
+- clearly
+- sexy
+- insane
+
+For more on this, read Chris Coyier’s excellent article, “[Words To Avoid in Educational Writing](https://css-tricks.com/words-avoid-educational-writing/).”
+
+## Additional Resources
+
+- The US Government’s [Plain Language Guidelines](https://plainlanguage.gov/guidelines/)
+- [Words To Avoid in Educational Writing](https://css-tricks.com/words-avoid-educational-writing/) by Chris Coyier
+- The National Center on Disability and Journalism’s [Disability Language Style Guide](http://ncdj.org/style-guide/)
+- [Panlexicon](https://panlexicon.com) is an amazing thesaurus that can help you find alternative terms.
 
 ## Changes
 
