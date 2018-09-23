@@ -20,40 +20,7 @@ set -eo pipefail; [[ $MKMRCONFIG_TRACE ]] && set -x
 # github oauth, e.g. "-u lgierth:personalaccesstoken"
 auth=""
 
-orgs=(ipfs ipld libp2p multiformats gxed)
-filter='-P ^go-'
-
-more_repos=()
-
-more_repos+=("ipfs/ipfs,git@github.com:ipfs/ipfs.git")
-more_repos+=("ipfs/community,git@github.com:ipfs/community.git")
-more_repos+=("ipfs/website,git@github.com:ipfs/website.git")
-more_repos+=("ipfs/docs,git@github.com:ipfs/docs.git")
-more_repos+=("ipfs/specs,git@github.com:ipfs/specs.git")
-more_repos+=("ipfs/distributions,git@github.com:ipfs/distributions.git")
-more_repos+=("ipfs/fs-repo-migrations,git@github.com:ipfs/fs-repo-migrations.git")
-more_repos+=("ipfs/infrastructure,git@github.com:ipfs/infrastructure.git")
-
-more_repos+=("libp2p/libp2p,git@github.com:libp2p/libp2p.git")
-more_repos+=("libp2p/website,git@github.com:libp2p/website.git")
-more_repos+=("libp2p/specs,git@github.com:libp2p/specs.git")
-more_repos+=("libp2p/docs,git@github.com:libp2p/docs.git")
-
-more_repos+=("multiformats/multiformats,git@github.com:multiformats/multiformats.git")
-more_repos+=("multiformats/docs,git@github.com:multiformats/docs.git")
-more_repos+=("multiformats/website,git@github.com:multiformats/website.git")
-more_repos+=("multiformats/multiaddr,git@github.com:multiformats/multiaddr.git")
-more_repos+=("multiformats/mafmt,git@github.com:whyrusleeping/mafmt.git")
-more_repos+=("multiformats/multihash,git@github.com:multiformats/multihash.git")
-more_repos+=("multiformats/multistream,git@github.com:multiformats/multistream.git")
-more_repos+=("multiformats/multigram,git@github.com:multiformats/multigram.git")
-more_repos+=("multiformats/multicodec,git@github.com:multiformats/multicodec.git")
-
-more_repos+=("ipld/ipld,git@github.com:ipld/ipld.git")
-more_repos+=("ipld/website,git@github.com:ipld/website.git")
-more_repos+=("ipld/specs,git@github.com:ipld/specs.git")
-more_repos+=("ipld/docs,git@github.com:ipld/docs.git")
-more_repos+=("ipld/cid,git@github.com:ipld/cid.git")
+orgs=(ipfs ipld libp2p multiformats ipfs-shipyard gxed)
 
 list_repos () {
   org="$1"
@@ -70,20 +37,11 @@ list_repos () {
 
 for org in ${orgs[@]}; do
   >&2 echo "# scanning github.com/$org"
-  for r in `list_repos "$org" | grep $filter`; do
+  for r in `list_repos "$org"`; do
     name="$(echo "$r" | cut -d, -f1)"
     url="$(echo "$r" | cut -d, -f2)"
     echo "[$org/$name]"
     echo "checkout = git clone $url"
     echo
   done
-done
-
->&2 echo "# adding more_repos"
-for r in ${more_repos[@]}; do
-  name="$(echo "$r" | cut -d, -f1)"
-  url="$(echo "$r" | cut -d, -f2)"
-  echo "[$name]"
-  echo "checkout = git clone $url"
-  echo
 done
