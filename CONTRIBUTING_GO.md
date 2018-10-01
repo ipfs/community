@@ -161,6 +161,19 @@ reasons why this is _the right thing to do_:
 License: MIT
 Signed-off-by: Juan Benet <juan@ipfs.io>
 ```
+## Pull Request Reviews
+
+PRs and PR reviews are an important part of the our project process. As a PR contributor your goal is to help others
+understand your PR as quickly and easily as possible. 
+- Review your own PR before asking others. Dead code, test code, typos all will slip into PRs occasionally, and that's fine. But give it a pass first to help reviewers to focus on the actual code being submitted.
+- Provide context for your PR. Provide a description of the problem your PR addresses and the solution you have provided in your initial description to help readers get started. It doesn't have to be extensive - a few sentences each.
+- If there are parts of your PR you are especially unsure about, or that you know will be tricky to understand, point them out ahead of time and explain them as best as possible.
+
+When reviewing a PR:
+- All questions are good! The goal is to understand if all code is both sufficient and necessary, and first few rounds can just be adding more info to the PR via clarifications.
+- Block out sufficient time for actually going as deep as possible through the code paths. 
+- Consider the test coverage of the changes. Are there tests?  Do they run?
+- Don't be shy. Reviewing PRs is an important part of learning the codebase. Pair-reviewing with another contributor is a helpful technique if a PR is particularly new or complex. 
 
 ## Code of Conduct
 
