@@ -2,7 +2,7 @@
 
 This is the documentation styleguide for our natural language descriptions used in the CLI tools, and elsewhere. Please conform to this spec.
 
-### TOC
+### Table of Contents
 
 - [Code references](#code-references)
   - [Acronyms](#acronyms)
@@ -15,14 +15,14 @@ This is the documentation styleguide for our natural language descriptions used 
 
 ## Code references
 
-* Use `backticks` for every code example inside of a normal description. In the CLI, where you cannot use backticks, use 'single quotes' for commands.
-* Default settings should always be specified in a new sentence, not in parentheses, at the end. Default: like this.
-* For command line arguments, do not include a `$` or `>` before commands in man pages. Instead, indent. A `$` or `>` may be included in READMEs; prefer `>` over `$`, as it is more universal.
+- Use `backticks` for every code example inside of a normal description. In the CLI, where you cannot use backticks, use 'single quotes' for commands.
+- Default settings should always be specified in a new sentence, not in parentheses, at the end. Default: like this.
+- For command line arguments, do not include a `$` or `>` before commands in man pages. Instead, indent. A `$` or `>` may be included in READMEs; prefer `>` over `$`, as it is more universal.
 
 ### Acronyms
 
-* IPFS is always capitalized if it is not referring to an `ipfs` CLI command.
-* DAG is always capitalised unless it is used in the first instance.
+- IPFS is always capitalized if it is not referring to an `ipfs` CLI command.
+- DAG is always capitalised unless it is used in the first instance.
 
 #### Accepted forms:
 
@@ -31,10 +31,10 @@ This is the documentation styleguide for our natural language descriptions used 
 
 ## Linguistic rules
 
-* End phrases with a period. (Like that one).
-* Capitalize the first letter of a phrase or sentence.
-* Command and subcommand taglines (and option descriptions when possible) should use the imperative mood. For example: "Clear a field.", "Interact with the DHT."
-* Use the active voice wherever possible. It helps clarify what organizations or code components are doing something, which is especially helpful in technical documentation.
+- End phrases with a period. (Like that one).
+- Capitalize the first letter of a phrase or sentence.
+- Command and subcommand taglines (and option descriptions when possible) should use the imperative mood. For example: "Clear a field.", "Interact with the DHT."
+- Use the active voice wherever possible. It helps clarify what organizations or code components are doing something, which is especially helpful in technical documentation.
 
     Do say:
 
@@ -42,33 +42,33 @@ This is the documentation styleguide for our natural language descriptions used 
     > 
     > The constructor automatically starts IPFS unless you set `{start: false}`.
 
-    *Do not* say:
+    -Do not- say:
 
     > The badger datastore is recommended.
     >
     > IPFS is automatically started unless `{start: false}` is set.
 
-* Except in technical specifications, address the reader directly as “you.” You can also use “we” to represent the views or work of the IPFS core team. Make sure to keep the same method of address throughout a document (e.g. don’t switch from “you should…” at the beginning to “one should…” at the end).
-* Always look for ways to simplify your language and use shorter, clearer phrases.
+- Except in technical specifications, address the reader directly as “you.” You can also use “we” to represent the views or work of the IPFS core team. Make sure to keep the same method of address throughout a document (e.g. don’t switch from “you should…” at the beginning to “one should…” at the end).
+- Always look for ways to simplify your language and use shorter, clearer phrases.
 
     Do say:
 
     > the CID points to data…
 
-    *Do not* say:
+    -Do not- say:
 
     > the CID is used as a standardized way of pointing to data…
 
     (But don’t cut critical terms — if “standardized” was important here, you could also write “the CID is a standardized pointer to data…“)
   
-* Keep in mind you are writing for an international audience. Use more common words wherever you can. For example, say “short” instead of “compact.” [Plainlanguage.gov](https://plainlanguage.gov/guidelines/words/use-simple-words-phrases/) has a good list of examples.
-* Use specific terminology rather than abstract terminology wherever possible. If an abstract term is the best fit, make sure to descibe the context and meaning you are using it for.
+- Keep in mind you are writing for an international audience. Use more common words wherever you can. For example, say “short” instead of “compact.” [Plainlanguage.gov](https://plainlanguage.gov/guidelines/words/use-simple-words-phrases/) has a good list of examples.
+- Use specific terminology rather than abstract terminology wherever possible. If an abstract term is the best fit, make sure to descibe the context and meaning you are using it for.
 
-    The most common example of this in IPFS is the term “node.” If you are talking about a process running IPFS, try using “peer” or “IPFS instance” instead, or at least clarify it by saying “*IPFS* node.”
+    The most common example of this in IPFS is the term “node.” If you are talking about a process running IPFS, try using “peer” or “IPFS instance” instead, or at least clarify it by saying “-IPFS- node.”
 
 ## Headings
 
-* Single word headings in man pages should be capitalized. They should not be followed by a colon. Enumerated examples:
+- Single word headings in man pages should be capitalized. They should not be followed by a colon. Enumerated examples:
   - `EXAMPLES`
   - `NOTES`
   - `WARNING`
