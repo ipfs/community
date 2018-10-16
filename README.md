@@ -10,10 +10,12 @@
 ## Table of Contents
 
 - [About](#about)
-- [Meetup list](#meetup-list)
-- [Calendar](#calendar)
-- [Swag](#swag)
 - [People](#people)
+- [Swag](#swag)
+- [Contributing Guidelines](#contributing-guidelines)
+- Events
+  - [Meetup list](#meetup-list)
+  - [Calendar](#calendar)
 - [Contribute](#contribute)
 - [License](#license)
 
@@ -48,7 +50,30 @@ Our goals here are to work on resources that help us with:
   - 4. Mailing List - [ipfs-users@googlegroups.com](https://groups.google.com/forum/#!forum/ipfs-users)
   - 5. People List
 
-## Meetups
+## People
+
+IPFS is an open source project with a large and open community. Listing out all the names of the contributors would result in a very long list, so we made a very large hex grid instead!
+
+[![](https://ipfs.io/ipfs/QmPNkiTxa8V2vaRLmTBJte5RZzkNYjiUYnvht6BUpqs8au/ipfs-people.jpg)](https://ipfs.io/ipfs/QmVNsFGDQPa2kJHUHxQmYJddzwDZdX2twpvwFF2jaChAix/)
+
+The grid keeps growing, find the latest always at the [Contributors Hex Grid repo](https://github.com/ipfs/contributors-hex-grid#interplanetary-contributors-webpage).
+
+## Swag
+
+We have stickers and we would love to send them to you. Drop your address in [this thread](https://github.com/ipfs/community/issues/175) or send your request directly to skylar@protocol.ai.
+
+IPFS now has a community swag store where you can purchase additional IPFS items, like shirts. Visit our [Swag Store](https://shop.ipfs.io) now!
+
+## Contributing Guidelines
+
+- [Contributing Guidelines](./CONTRIBUTING.md)
+- [Contributing Guidelines for JavaScript Projects](./CONTRIBUTING_JS.md)
+- [Contributing Guidelines for Golang Projects](./CONTRIBUTING_GO.md)
+- [Code of Conduct](./code-of-conduct.md).
+
+## Events
+
+### Meetups
 
 These are several community meetups in different areas of the world, organized by the IPFS developers and enthusiasts. Everyone is welcome to participate in their local meetup or be the ones organizing one.
 
@@ -57,25 +82,11 @@ Find the list at:
 - [This repo](https://github.com/ipfs/community/issues?q=is%3Aissue+is%3Aopen+label%3Ameetup)
 - [Meetup.com](https://meetup.com/pro/ipfs)
 
-## Calendar
+### Calendar
 
 We have a community [Google Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC) you can watch for events and sync to. We will add relevant events concerning IPFS to it, both with geographical and interplanetary (online) locations.
 
 If you know of an event that has a set date and location and is _not_ listed on the calendar, please open an issue on this repository requesting that it be added to the calendar.
-
-## Swag
-
-We have stickers and we would love to send them to you. Drop your address in [this thread](https://github.com/ipfs/community/issues/175) or send your request directly to skylar@protocol.ai.
-
-IPFS now has a community swag store where you can purchase additional IPFS items, like shirts. Visit our [Swag Store](https://shop.ipfs.io) now!
-
-## People
-
-IPFS is an open source project with a large and open community. Listing out all the names of the contributors would result in a very long list, so we made a very large hex grid instead!
-
-[![](https://ipfs.io/ipfs/QmPNkiTxa8V2vaRLmTBJte5RZzkNYjiUYnvht6BUpqs8au/ipfs-people.jpg)](https://ipfs.io/ipfs/QmVNsFGDQPa2kJHUHxQmYJddzwDZdX2twpvwFF2jaChAix/)
-
-The grid keeps growing, find the latest always at the [Contributors Hex Grid repo](https://github.com/ipfs/contributors-hex-grid#interplanetary-contributors-webpage).
 
 ## Contribute
 
