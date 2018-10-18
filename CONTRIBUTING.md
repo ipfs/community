@@ -139,11 +139,11 @@ Each repository will have its own code and test conventions. Please make sure to
 
 #### Go
 
-Please look at the [Go Contribution Guidelines](go-code-guidelines.md).
+Please look at the [Go Contribution Guidelines](./CONTRIBUTING_GO.md).
 
 #### JavaScript
 
-Please look at the [JS Contribution Guidelines](js-code-guidelines.md).
+Please look at the [JS Contribution Guidelines](./CONTRIBUTING_JS.md).
 
 #### Git
 
