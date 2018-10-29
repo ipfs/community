@@ -90,7 +90,7 @@ If you know of an event that has a set date and location and is _not_ listed on 
 
 ## Contribute
 
-Feel free to join in! All welcome. Your best to start is probably either in [contributing.md](https://github.com/ipfs/community/blob/master/contributing.md) or in [the issues](https://github.com/ipfs/community/issues).
+Feel free to join in! All welcome. Your best to start is probably either in [contributing.md](https://github.com/ipfs/community/blob/master/CONTRIBUTING.md) or in [the issues](https://github.com/ipfs/community/issues).
 
 This repository falls under the IPFS [Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md).
 
