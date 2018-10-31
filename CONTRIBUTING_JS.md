@@ -132,7 +132,7 @@ Always run tests before pushing and PR'ing your code.
 
 #### Supported Versions
 
-The IPFS JavaScript projects follow the most recent LTS of Node.js and respective npm version that gets installed with Node.js. Please consult [nodejs.org](https://nodejs.org/) for LTS timeline. Today these are:
+The IPFS JavaScript projects work with the most recent LTS of Node.js and respective npm version that gets installed with Node.js. Please consult [nodejs.org](https://nodejs.org/) for LTS timeline. Today these are:
 
 ```
 » date -u +"%Y-%m-%dT%H:%M:%SZ"
