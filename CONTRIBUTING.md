@@ -107,7 +107,16 @@ The IPFS community requires maintenance of various "public infrastructure" resou
 
 ## Translations
 
-This community moves very fast, and documentation swiftly gets out of date. For now, we are encouraging would-be translators to hold off from translating large repositories. For some repositories, this is OK  - for instance, on the [webui](https://github.com/ipfs/webui). If you would like to add a translation, please open an issue and ask the leads for a given repository before filing a PR, so that we do not waste efforts.
+Things that are ready to be translated can be found at https://www.transifex.com/ipfs/public/
+
+This community moves very fast and documentation swiftly gets out of date. For
+now, we are encouraging would-be translators to hold off from translating large
+repositories, unless [they are listed on Transifex](https://www.transifex.com/ipfs/public/).
+
+If you would like to add a translation for a project or a language that is not
+on Transifex, please open an issue and ask the leads for a given repository to
+get familiar with [ipfs/i18n](https://github.com/ipfs/i18n) before filing a PR,
+so that we do not waste efforts.
 
 If anyone has any issues understanding the English documentation, please let us know! If you would like to do so privately, please email @RichardLitt. We are very sensitive to language issues, and do not want to turn anyone away from hacking because of their language.
 
