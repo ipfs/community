@@ -60,9 +60,7 @@ The grid keeps growing, find the latest always at the [Contributors Hex Grid rep
 
 ## Swag
 
-We have stickers and we would love to send them to you. Drop your address in [this thread](https://github.com/ipfs/community/issues/175) or send your request directly to skylar@protocol.ai.
-
-IPFS now has a community swag store where you can purchase additional IPFS items, like shirts. Visit our [Swag Store](https://shop.ipfs.io) now!
+We have stickers and we would love to send them to you. Drop your address in [this thread](https://github.com/ipfs/community/issues/175) or send your request directly to swag@protocol.ai.
 
 ## Contributing Guidelines
 
