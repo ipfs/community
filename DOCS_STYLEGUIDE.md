@@ -42,7 +42,7 @@ This is the documentation styleguide for our natural language descriptions used 
     > 
     > The constructor automatically starts IPFS unless you set `{start: false}`.
 
-    -Do not- say:
+    *Do not* say:
 
     > The badger datastore is recommended.
     >
@@ -55,7 +55,7 @@ This is the documentation styleguide for our natural language descriptions used 
 
     > the CID points to data…
 
-    -Do not- say:
+    *Do not* say:
 
     > the CID is used as a standardized way of pointing to data…
 
@@ -64,7 +64,7 @@ This is the documentation styleguide for our natural language descriptions used 
 - Keep in mind you are writing for an international audience. Use more common words wherever you can. For example, say “short” instead of “compact.” [Plainlanguage.gov](https://plainlanguage.gov/guidelines/words/use-simple-words-phrases/) has a good list of examples.
 - Use specific terminology rather than abstract terminology wherever possible. If an abstract term is the best fit, make sure to descibe the context and meaning you are using it for.
 
-    The most common example of this in IPFS is the term “node.” If you are talking about a process running IPFS, try using “peer” or “IPFS instance” instead, or at least clarify it by saying “-IPFS- node.”
+    The most common example of this in IPFS is the term “node.” If you are talking about a process running IPFS, try using “peer” or “IPFS instance” instead, or at least clarify it by saying “*IPFS* node.”
 
 ## Headings
 
