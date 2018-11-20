@@ -75,7 +75,7 @@ IPFS now has a community swag store where you can purchase additional IPFS items
 
 ### Meetups
 
-These are several community meetups in different areas of the world, organized by the IPFS developers and enthusiasts. Everyone is welcome to participate in their local meetup or be the ones organizing one.
+There are several community meetups in different areas of the world, organized by the IPFS developers and enthusiasts. Everyone is welcome to participate in their local meetup or be the ones organizing one.
 
 Find the list at:
 
