@@ -51,7 +51,7 @@ blockchain, content addressing, etc.
 Note: ProtoSchool is being bootstrapped in the IPFS Community WG but will eventually be spun out into 
 its own project as it will tackle more than *just* IPFS.
 
-* Milestone #1 (Q4 2018): [1.0 Release](https://github.com/ipfs-shipyard/proto.school/issues/50)
+* Milestone #1 (Q4 2018): [1.0 Release](https://github.com/ipfs-shipyard/proto.school/milestone/1)
 * Milestone #2 (Q1 2019): Public Launch.
 * Milestone #3 (Q1 2019): ProtoSchool Roadmap.
 * Measuring Success:
