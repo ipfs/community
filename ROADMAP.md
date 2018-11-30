@@ -86,7 +86,7 @@ experience of the attendees.
 If you have points of friction you've experienced contributing to IPFS please let us know 
 [here](https://github.com/ipfs/community/issues/369).
 
-* Milestone #1 (Q4 2018): Run one “First Commit” event and document learnings.
+* Milestone #1 (Q4 2018): [Run one “First Commit” event and document learnings](https://github.com/protocol/event-management/issues/132).
 
 ## Automated Workflow Enhancements
 
