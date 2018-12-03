@@ -66,7 +66,7 @@ You can see and contribute to that conversation [here](https://github.com/ipfs/c
 
 * Milestone #1 (Q1 2019): Documentation Roadmap
 
-## Use Case Specific Quickstarts
+## Use-Case-Specific Quickstarts
 
 The Community WG is planning to create starter kits which help people build on top of IPFS right away,
 like [Truffle Boxes](https://truffleframework.com/boxes).
