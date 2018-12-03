@@ -187,7 +187,7 @@ The first line of a commit message, called the subject line, should not be more 
 
 Most editors can help you count the number of characters in a line. And these days many good editors recognize the Git commit message format and warn in one way or another if the subject line is not separated from the rest of the commit message using an empty blank line.
 
-See also the [documentation about amending commits](docs/amending-commits.md) for an explanation about how you can rework commit messages.
+See also the [documentation about amending commits](https://help.github.com/articles/changing-a-commit-message/) for an explanation about how you can rework commit messages.
 
 ##### A "License" and a "Signed-off-by" trailers are required
 
@@ -204,7 +204,7 @@ There should also be an empty blank line before the "License" trailer.
 
 As explained in more details above, this is easy to fix by running once the [setup_commit_msg_hook.sh](dev/hooks/setup_commit_msg_hook.sh) script in your repository.
 
-See also the [documentation about amending commits](docs/amending-commits.md) for an explanation about how you can rework commit messages.
+See also the [documentation about amending commits](https://help.github.com/articles/changing-a-commit-message/) for an explanation about how you can rework commit messages.
 
 ##### Commit message examples
 
