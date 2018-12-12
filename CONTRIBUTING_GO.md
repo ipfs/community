@@ -171,7 +171,7 @@ These principles are a living document and should be updated as-needed to better
 
 In order of precedence:
 
-1. **Build the distributed web.** (may need a better way to capture this)
+1. **Build the distributed peer-to-peer web.** This is our objective and aim - everything we do is in service of this goal and we only compromise our other principles if needed to achieve this.
 2. **Don't break userspace.** This isn't "don't break protocols"; we do, in fact, occasionally break protocols (with care) when we know that users won't notice it.
 3. **Take ownership.** If you're working on something, own it and see it through. Given that (a) we don't have managers and (b) we don't work synchronously, coordination can be difficult. To make up for this, if you want something to happen, you have to make it happen (that may mean calling a meeting, bugging people, fixing unrelated issues, designing alternative solutions, etc.).
 4. **Ask for forgiveness, not permission.** To enable P.3, if you're having trouble getting people to move on something, err on the side of getting things done (bounded by P.1 and P.2). Note: This doesn't apply when you *know* you'll need to ask for forgiveness... use your best judgment.
