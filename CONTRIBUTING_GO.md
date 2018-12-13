@@ -20,7 +20,7 @@ try picking up an issue from there.
         - [Commit Testing](#commit-testing)
         - [Commit messages](#commit-messages)
 - [Contributor Principles](#contributor-principles)
-- [Merge Policy](#merge-policy)
+- [Code Change Policy](#code-change-policy)
 - [Pull Request Reviews](#pull-request-reviews)
 - [Code of Conduct](#code-of-conduct)
 
@@ -176,14 +176,32 @@ In order of precedence:
 3. **Take ownership.** If you're working on something, own it and see it through. Given that (a) we don't have managers and (b) we don't work synchronously, coordination can be difficult. To make up for this, if you want something to happen, you have to make it happen (that may mean calling a meeting, bugging people, fixing unrelated issues, designing alternative solutions, etc.).
 4. **Ask for forgiveness, not permission.** To enable P.3, if you're having trouble getting people to move on something, err on the side of getting things done (bounded by P.1 and P.2). Note: This doesn't apply when you *know* you'll need to ask for forgiveness... use your best judgment.
 
-## Merge Policy
+## Code Change Policy
 
-The go merge policy must balance "not breaking things" with "getting things done" and should be read in that spirit.
+The go code change policy must balance "not breaking things" with "getting things done" and should be read in that spirit. Use your best judgment when making changes and PRs; these rules are not set in stone.
 
-1. Except in special cases (and mass gx-workspace updates), all changes go through PRs.
-2. Small changes should get one review from someone who can sanity check the change.
-3. Large changes, especially interface changes, should get signoffs from anyone with a "stake". This is *usually* just the reviewers that GitHub recommends. However, if you're not sure, let someone else merge.
-4. All merges to go-ipfs are gated by the maintainer in service of P.2.
+**How can the codebase be changed?**
+
+Except in special cases (and mass gx-workspace updates), all changes go through PRs.
+
+* Larger changes should be discussed in an issue *before* work is started to avoid wasted effort, tears, and dead fairies.
+* WIP (work in progress), RFC (request for comments) changes should be marked as such. Not doing so can rouse the review gremlins.
+
+**Who can merge a PR?**
+
+Changes should be merged by, in-order of preference:
+
+* The repo's maintainer (defacto or otherwise).
+* The PR author (if they have write access).
+* A PR reviewer (someone who has reviewed the *entire* PR).
+
+In general, a PR should be merged by someone that knows it's ready and *should not* be merged by someone just because they see that it has been approved. However, use your discretion: reviewers (with write access) should feel free to merge small bug fixes, etc. immediately.
+
+**When can a PR be merged?**
+
+* Small changes should get one review from someone (preferably on the go team if it's a code change) who can sanity check the change.
+* Large changes, especially interface changes, should get signoffs from anyone with a "stake". This is *usually* just the reviewers that GitHub recommends. However, if you're not sure, say so and let someone else merge perform the actual merge. Never be afraid to ask for guidance.
+* All merges to go-ipfs are gated by the maintainer in service of P.2.
 
 ## Pull Request Reviews
 
