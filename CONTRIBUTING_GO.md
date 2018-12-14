@@ -200,7 +200,7 @@ In general, a PR should be merged by someone that knows it's ready and *should n
 **When can a PR be merged?**
 
 * Small changes should get one review from someone (preferably on the go team if it's a code change) who can sanity check the change.
-* Large changes, especially interface changes, should get signoffs from anyone with a "stake". This is *usually* just the reviewers that GitHub recommends. However, if you're not sure, say so and let someone else merge perform the actual merge. Never be afraid to ask for guidance.
+* Large changes, especially interface changes, should get signoffs from anyone with a "stake". This is *usually* just the reviewers that GitHub recommends. However, if you're not sure, say so and let someone else perform the actual merge. Never be afraid to ask for guidance.
 * All merges to go-ipfs are gated by the maintainer in service of P.2.
 
 ## Pull Request Reviews
