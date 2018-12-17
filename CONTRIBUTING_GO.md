@@ -189,7 +189,7 @@ Except in special cases (and mass gx-workspace updates), all changes go through 
 
 **Who can merge a PR?**
 
-Changes should be merged by, in-order of preference:
+In general, changes should be merged by, in-order of preference:
 
 * The repo's maintainer (defacto or otherwise).
 * The PR author (if they have write access).
@@ -197,11 +197,13 @@ Changes should be merged by, in-order of preference:
 
 In general, a PR should be merged by someone that knows it's ready and *should not* be merged by someone just because they see that it has been approved. However, use your discretion: reviewers (with write access) should feel free to merge small bug fixes, etc. immediately.
 
+The *exception* to this rule is the [go-ipfs](http://github.com/ipfs/go-ipfs) repository itself. As changes to this repo directly affect users, only the current maintainer of go-ipfs may perform merges. This is in service of P.2.
+
 **When can a PR be merged?**
 
 * Small changes should get one review from someone (preferably on the go team if it's a code change) who can sanity check the change.
 * Large changes, especially interface changes, should get signoffs from anyone with a "stake". This is *usually* just the reviewers that GitHub recommends. However, if you're not sure, say so and let someone else perform the actual merge. Never be afraid to ask for guidance.
-* All merges to go-ipfs are gated by the maintainer in service of P.2.
+* As PRs to the go-ipfs repo can only be merged by the maintainer, PRs that are *ready* to be merged should be labeled as RFM (ready for merge).
 
 ## Pull Request Reviews
 
