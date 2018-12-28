@@ -182,7 +182,7 @@ The go code change policy must balance "not breaking things" with "getting thing
 
 **How can the codebase be changed?**
 
-Except in special cases (and mass gx-workspace updates), all changes go through PRs.
+All changes go through PRs and should pass CI.
 
 * Larger changes should be discussed in an issue *before* work is started to avoid wasting time.
 * WIP (work in progress), RFC (request for comments) changes should be marked as such to avoid confusion. Not doing so can be frustrating for reviewers, who may think your PR is ready for a thorough review.
