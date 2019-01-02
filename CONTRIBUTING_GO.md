@@ -12,13 +12,16 @@ try picking up an issue from there.
 
 ## Table of Contents
 
-- [Guidelines](#go-contribution-guidelines)
-  - [Introduction](#a-short-introduction)
-  - [Branch Names](#branch-names)
-  - [Commit Requirements](#commit-requirements)
-    - [Import Format](#import-format)
-    - [Commit Testing](#commit-testing)
-    - [Commit Messages](#commit-messages)
+- [Go Contribution Guidelines](#go-contribution-guidelines)
+    - [A Short Introduction](#a-short-introduction)
+    - [Branch Names](#branch-names)
+    - [Commit Requirements](#commit-requirements)
+        - [Import Format](#import-format)
+        - [Commit Testing](#commit-testing)
+        - [Commit messages](#commit-messages)
+- [Contributor Principles](#contributor-principles)
+- [Code Change Policy](#code-change-policy)
+- [Pull Request Reviews](#pull-request-reviews)
 - [Code of Conduct](#code-of-conduct)
 
 ## Go Contribution Guidelines
@@ -161,6 +164,47 @@ reasons why this is _the right thing to do_:
 License: MIT
 Signed-off-by: Juan Benet <juan@ipfs.io>
 ```
+
+## Contributor Principles
+
+These principles are a living document and should be updated as-needed to better serve the go-ipfs community.
+
+In order of precedence:
+
+1. **Build the distributed peer-to-peer web.** This is our objective and aim - everything we do is in service of this goal and we only compromise our other principles if needed to achieve this.
+2. **Don't break the IPFS ecosystem.** This isn't "don't break protocols"; we do occasionally break protocols and APIs (with care) when we know that users won't notice it. However, users trust us to not break their workflows/projects. If we do, we'll lose that trust and those users.
+3. **Take ownership.** If you're working on something, own it and see it through. Given that (a) we don't have managers and (b) we don't work synchronously, coordination can be difficult. To make up for this, if you want something to happen, you have to make it happen (that may mean calling a meeting, bugging people, fixing unrelated issues, designing alternative solutions, etc.).
+4. **Ask for forgiveness, not permission.** To enable P.3, if you're having trouble getting people to move on something, err on the side of getting things done (bounded by P.1 and P.2). Note: This doesn't apply when you *know* you'll need to ask for forgiveness... use your best judgment.
+
+## Code Change Policy
+
+The go code change policy must balance "not breaking things" with "getting things done" and should be read in that spirit. Use your best judgment when making changes and PRs; these rules are not set in stone.
+
+**How can the codebase be changed?**
+
+All changes go through PRs and should pass CI.
+
+* Larger changes should be discussed in an issue *before* work is started to avoid wasting time.
+* WIP (work in progress), RFC (request for comments) changes should be marked as such to avoid confusion. Not doing so can be frustrating for reviewers, who may think your PR is ready for a thorough review.
+
+**Who can merge a PR?**
+
+In general, changes should be merged by, in-order of preference:
+
+* The repo's maintainer (defacto or otherwise).
+* The PR author (if they have write access).
+* A PR reviewer (someone who has reviewed the *entire* PR).
+
+In general, a PR should be merged by someone that knows it's ready and *should not* be merged by someone just because they see that it has been approved. However, use your discretion: reviewers (with write access) should feel free to merge small bug fixes, etc. immediately.
+
+The *exception* to this rule is the [go-ipfs](http://github.com/ipfs/go-ipfs) repository itself. As changes to this repo directly affect users, only the current maintainer of go-ipfs may perform merges. This is in service of P.2.
+
+**When can a PR be merged?**
+
+* Small changes should get one review from someone (preferably on the go team if it's a code change) who can sanity check the change.
+* Large changes, especially interface changes, should get signoffs from anyone with a "stake". This is *usually* just the reviewers that GitHub recommends. However, if you're not sure, say so and let someone else perform the actual merge. Never be afraid to ask for guidance.
+* As PRs to the go-ipfs repo can only be merged by the maintainer, PRs that are *ready* to be merged should be labeled as RFM (ready for merge).
+
 ## Pull Request Reviews
 
 PRs and PR reviews are an important part of the our project process. As a PR contributor your goal is to help others
