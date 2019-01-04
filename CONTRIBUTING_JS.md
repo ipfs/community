@@ -26,7 +26,6 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
     - [Documentation](#documentation)
   - [Commits](#commits)
     - [Commit Message Format](#commit-message-format)
-    - [Sign-off on commits](#sign-off-on-commits)
     - [Revert](#revert)
     - [Type](#type)
     - [Scope](#scope)
@@ -44,7 +43,6 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
     - [`.gitignore`](#gitignore)
     - [`.npmignore`](#npmignore)
     - [Dependency management](#dependency-management)
-    - [Pre-Commit](#pre-commit)
     - [Building](#building)
   - [...for consumers](#for-consumers)
 - [FAQ](#faq)
@@ -184,7 +182,7 @@ We use [`aegir-docs`](https://github.com/dignifiedquire/aegir) for the actual ge
 
 ### Commits
 
-We have very precise rules over how our git commit messages can be formatted. This leads to more readable messages that are easy to follow when looking through the project history.  But also, we use the git commit messages to generate the change log.
+We have very precise guidelines over how our git commit messages can be formatted. This leads to more readable messages that are easy to follow when looking through the project history.  But also, we use the git commit messages to generate the change log.
 
 The commit message formatting can be added using a typical git workflow or through the use of a CLI wizard ([Commitizen](https://github.com/commitizen/cz-cli)).
 
@@ -203,36 +201,6 @@ Each commit message consists of a header, a body and a footer. The header has a 
 The header is mandatory and the scope of the header is optional.
 
 Any line of the commit message cannot be longer 100 characters! This allows the message to be easier to read on GitHub as well as in various git tools.
-
-#### Sign-off on commits
-
-We kindly ask and expect for all commits to be signed off with the same license as the repo and module. This can be done by appending the following to your commit message:
-
-```
-License: MIT
-Signed-off-by: User Name <email@address>
-```
-
-where "User Name" is the author's real (legal) name and email@address is one of the author's valid email addresses.
-
-If you want to automatically add this to all of your commits, you can do the following:
-
-Create a file in `~/git-commit-template` with the following contents (notice the two blank lines in the top):
-
-```
-
-
-License: MIT
-Signed-off-by: Victor Bjelkholm <git@victor.earth>
-```
-
-Then, add the following to your global git config (Usually at `~/.gitconfig`):
-
-```
-[commit]
-        template = /home/user/git-commit-template
-```
-
 
 #### Revert
 
@@ -406,23 +374,9 @@ NPM uses the `.gitignore` by default, so we have to add a `.npmignore` file to e
 
 ##### Dependency management
 
-We suggest either of these:
-
-- [david-dm](https://david-dm.org/)
-- [greenkeeper](http://greenkeeper.io/) to keep your dependencies up to date.
+We suggest using [david-dm](https://david-dm.org) for tracking dep versions.
 
 Every module below 1.0.0 should use `~` instead of `^`.
-
-##### Pre-Commit
-
-[pre-commit](https://www.npmjs.com/package/pre-commit) helps us check code style run the tests on every commit. In your `package.json`:
-
-```json
-"pre-commit": [
-  "lint",
-  "test"
-]
-```
 
 ##### Building
 
@@ -446,7 +400,6 @@ const API = require('ipfs-api')
 ```
 
 ## FAQ
-
 
 #### Why are you not using XYZ?
 
