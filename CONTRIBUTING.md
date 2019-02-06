@@ -12,7 +12,7 @@ Moving to a more distributed web is a big task and we need contributors of all s
 Below are instructions on how to contribute to the IPFS project. What does it mean to contribute? Contributing means that you are helping with the coding, design, or writing the documentation of IPFS. 
 
 
-### ⏰ Abreviated Instructions on How to Submit a Pull Request
+### ⏰ Abbreviated Instructions on How to Submit a Pull Request
 
 * [ ] A little bit shy? Report a bug.
 * [ ] Find out [which issue](https://github.com/ipfs/js-ipfs/issues?q=is%3Aopen+is%3Aissue+label%3Adifficulty%3Aeasy) you want to tackle 
@@ -20,11 +20,18 @@ Below are instructions on how to contribute to the IPFS project. What does it me
 * [ ]  Create a new local branch, make a new pull request
 
 
-### 📝 Protip:
+#### 📝 Protip:
 
 Your first issue can be a fixing a spelling mistake or a grammatical error. If want to practice the workflow of contributing try [first-contributions](https://github.com/firstcontributions/first-contributions)
 
 _watch our video which will take you step by step in how to submit a patch to IPFS_
+
+
+###  👷🏽‍♀️ Architecture of JS-IPFS
+
+[Overview of js-ipfs Architecture](https://github.com/ipfs/js-ipfs/blob/master/img/overview.png)
+
+_watch our video which gives you a tour of the js-ipfs stack_
 
 
 ### 🐣 New to Git:
@@ -41,7 +48,6 @@ If you are completely new to git then run through these tutorials and get a feel
 
 
 [JS Style Guide](https://github.com/standard/standard)
-[Overview of js-ipfs Architecture](https://github.com/ipfs/js-ipfs/blob/master/img/overview.png)
 
 
 
