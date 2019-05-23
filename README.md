@@ -23,7 +23,7 @@
 
 The IPFS community is growing, and already has many resources. We ought to maintain them, build more, and improve all the things. This repository is for meta, non-code discussions (in the [issues](issues)) and for documents used by multiple repositories, such as the various Contributing guidelines.
 
-**NOTE:** If you're interested in discussing code, jumping on our community calls, or talking to developers about our overall project management, go to [ipfs/pm](https://github.com/ipfs/pm). We announce **our weekly calls** in the [ipfs/pm issues](https://github.com/ipfs/pm/issues). You can also open issues in specific repositories (like [go-ipfs](https://github.com/ipfs/go-ipfs)), and come talk to us on [IRC at #ipfs on freenode](http://webchat.freenode.net/?channels=%23ipfs).
+**NOTE:** If you're interested in discussing code, jumping on our community calls, or talking to developers about our overall project management, go to [ipfs/team-mgmt](https://github.com/ipfs/team-mgmt). We announce **our weekly calls** in the [ipfs/team-mgmt issues](https://github.com/ipfs/team-mgmt/issues). You can also open issues in specific repositories (like [go-ipfs](https://github.com/ipfs/go-ipfs)), and come talk to us on [IRC at #ipfs on freenode](http://webchat.freenode.net/?channels=%23ipfs).
 
 Our goals here are to work on resources that help us with:
 
@@ -60,7 +60,7 @@ The grid keeps growing, find the latest always at the [Contributors Hex Grid rep
 
 ## Swag
 
-We have stickers and we would love to send them to you. Drop your address in [this thread](https://github.com/ipfs/community/issues/175) or send your request directly to swag@protocol.ai.
+We have stickers and we would love to send them to you. Drop your address in [this thread](https://github.com/ipfs/community/issues/175) or send your request directly to swag+requests@protocol.ai.
 
 ## Contributing Guidelines
 
@@ -83,6 +83,8 @@ Find the list at:
 ### Calendar
 
 We have a community [Google Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC) you can watch for events and sync to. We will add relevant events concerning IPFS to it, both with geographical and interplanetary (online) locations.
+
+![Screen Shot 2019-05-23 at 3 27 53 PM](https://user-images.githubusercontent.com/618519/58290695-750ae180-7d6f-11e9-9b72-d6048bd9b29f.png)
 
 If you know of an event that has a set date and location and is _not_ listed on the calendar, please open an issue on this repository requesting that it be added to the calendar.
 
