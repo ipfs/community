@@ -84,7 +84,7 @@ Find the list at:
 
 We have a community [Google Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC) you can watch for events and sync to. We will add relevant events concerning IPFS to it, both with geographical and interplanetary (online) locations.
 
-![Screen Shot 2019-05-23 at 3 27 53 PM](https://user-images.githubusercontent.com/618519/58290695-750ae180-7d6f-11e9-9b72-d6048bd9b29f.png)
+[![Screen Shot 2019-05-23 at 3 34 09 PM](https://user-images.githubusercontent.com/618519/58290901-3b86a600-7d70-11e9-98d0-03f25b58c7aa.png)](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC)
 
 If you know of an event that has a set date and location and is _not_ listed on the calendar, please open an issue on this repository requesting that it be added to the calendar.
 
