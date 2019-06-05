@@ -1,6 +1,6 @@
-# Documentation Styleguide
+# Content and Documentation Styleguide
 
-This is the documentation styleguide for our natural language descriptions used in the CLI tools, and elsewhere. Please conform to this spec.
+This is the content styleguide for our natural language descriptions used in the CLI tools, documentation, and anywhere words are written. Please conform to this spec.
 
 ### Table of Contents
 
