@@ -14,8 +14,9 @@
 - [Swag](#swag)
 - [Contributing Guidelines](#contributing-guidelines)
 - Events
-  - [Meetup list](#meetup-list)
-  - [Calendar](#calendar)
+  - [IPFS Meetups](#ipfs-meetups)
+  - [ProtoSchool Chapter Events](#protoschool-chapter-events)
+  - [Community Calendar](#community-calendar)
 - [Contribute](#contribute)
 - [License](#license)
 
@@ -60,7 +61,7 @@ The grid keeps growing, find the latest always at the [Contributors Hex Grid rep
 
 ## Swag
 
-We have stickers and we would love to send them to you. Drop your address in [this thread](https://github.com/ipfs/community/issues/175) or send your request directly to swag+requests@protocol.ai.
+We have stickers and we would love to send them to you. Send your request directly to swag+requests@protocol.ai.
 
 ## Contributing Guidelines
 
@@ -71,7 +72,7 @@ We have stickers and we would love to send them to you. Drop your address in [th
 
 ## Events
 
-### Meetups
+### IPFS Meetups
 
 There are several community meetups in different areas of the world, organized by the IPFS developers and enthusiasts. Everyone is welcome to participate in their local meetup or be the ones organizing one.
 
@@ -80,9 +81,13 @@ Find the list at:
 - [This repo](https://github.com/ipfs/community/issues?q=is%3Aissue+is%3Aopen+label%3Ameetup)
 - [Meetup.com](https://meetup.com/pro/ipfs)
 
-### Calendar
+### ProtoSchool Chapter Events
 
-We have a community [Google Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC) you can watch for events and sync to. We will add relevant events concerning IPFS to it, both with geographical and interplanetary (online) locations.
+[ProtoSchool](https://proto.school) is a community-driven open source project dedicated to making it easy to get started with decentralized web technologies like IPFS through [interactive online tutorials](https://proto.school/#/tutorials) and community learning events led by local chapters around the world. To locate an event near you, check out our [chapter list](https://proto.school/#/chapters). Don't see a ProtoSchool chapter in your neighborhood? [Start your own!](https://proto.school/#/host)
+
+### Community Calendar
+
+We have a community [Google Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC) you can watch for events and sync to. We will add relevant events concerning IPFS to it, both with geographical and interplanetary (online) locations. 
 
 [![Screen Shot 2019-05-23 at 3 34 09 PM](https://user-images.githubusercontent.com/618519/58290901-3b86a600-7d70-11e9-98d0-03f25b58c7aa.png)](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC)
 
