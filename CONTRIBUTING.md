@@ -116,9 +116,9 @@ repositories, unless [they are listed on Transifex](https://www.transifex.com/ip
 If you would like to add a translation for a project or a language that is not
 on Transifex, please open an issue and ask the leads for a given repository to
 get familiar with [ipfs/i18n](https://github.com/ipfs/i18n) before filing a PR,
-so that we do not waste efforts.
+so that there is no wasted effort.
 
-If anyone has any issues understanding the English documentation, please let us know! If you would like to do so privately, please email @RichardLitt. We are very sensitive to language issues, and do not want to turn anyone away from hacking because of their language.
+If anyone has any issues understanding the English documentation, please let us know! We are very sensitive to language issues, and do not want to turn anyone away from hacking because of their language.
 
 ## Helping in other ways
 
