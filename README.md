@@ -60,7 +60,7 @@ The grid keeps growing, find the latest always at the [Contributors Hex Grid rep
 
 ## Swag
 
-We have stickers and we would love to send them to you. Drop your address in [this thread](https://github.com/ipfs/community/issues/175) or send your request directly to swag+requests@protocol.ai.
+We have stickers and we would love to send them to you. Send your request directly to swag+requests@protocol.ai.
 
 ## Contributing Guidelines
 
