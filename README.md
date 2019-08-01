@@ -23,7 +23,7 @@
 
 The IPFS community is growing, and already has many resources. We ought to maintain them, build more, and improve all the things. This repository is for meta, non-code discussions (in the [issues](issues)) and for documents used by multiple repositories, such as the various Contributing guidelines.
 
-**NOTE:** If you're interested in discussing code, jumping on our community calls, or talking to developers about our overall project management, go to [ipfs/team-mgmt](https://github.com/ipfs/team-mgmt). We announce **our weekly calls** in the [ipfs/team-mgmt issues](https://github.com/ipfs/team-mgmt/issues). You can also open issues in specific repositories (like [go-ipfs](https://github.com/ipfs/go-ipfs)), and come talk to us on [IRC at #ipfs on freenode](http://webchat.freenode.net/?channels=%23ipfs).
+**NOTE:** If you're interested in discussing code, jumping on our community calls, or talking to developers about our overall project management, go to [ipfs/team-mgmt](https://github.com/ipfs/team-mgmt). We announce **our weekly calls** in the [ipfs/team-mgmt issues](https://github.com/ipfs/team-mgmt/issues). You can also open issues in specific repositories (like [go-ipfs](https://github.com/ipfs/go-ipfs)), and come talk to us on [IRC at #ipfs on freenode](http://webchat.freenode.net/?channels=%23ipfs) or [Matrix](https://matrix.to/#/!yhqiEdqNjyPbxtUjzm:matrix.org?via=matrix.org&via=swedneck.xyz&via=permaweb.io).
 
 Our goals here are to work on resources that help us with:
 
