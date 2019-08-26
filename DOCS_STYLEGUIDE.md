@@ -34,7 +34,7 @@ This is the content styleguide for our natural language descriptions used in the
 - End phrases with a period. (Like that one).
 - Capitalize the first letter of a phrase or sentence.
 - Command and subcommand taglines (and option descriptions when possible) should use the imperative mood. For example: "Clear a field.", "Interact with the DHT."
-- Use the active voice wherever possible. It helps clarify what organizations or code components are doing something, which is especially helpful in technical documentation.
+- Use the active voice wherever possible. Doing this clearly identifies the subject in a sentence, such as an entity or code component, which is especially helpful in technical documentation.
 
     Do say:
 
