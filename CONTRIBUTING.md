@@ -20,6 +20,7 @@ IPFS is an Open Source project and we welcome contributions of all sorts. There 
 - [Reporting Issues](#reporting-issues)
 - [Protocol Design](#protocol-design)
 - [Implementation Design](#implementation-design)
+- [Design Review](#design-review)
 - [Community Improvement](#community-improvement)
 - [Translations](#translations)
 - [Helping in other ways](#helping-in-other-ways)
@@ -100,6 +101,17 @@ When considering design proposals for implementations, we are looking for:
 - A description of the problem this design proposal solves
 - Discussion of the tradeoffs involved
 - Discussion of the proposed solution
+
+## Design Review
+
+Sometimes proposals can get stuck in either waiting for a decision or input. We've introduced "design reviews" as a forcing function to help stuck proposals make progress.
+
+A good design review should start with:
+
+* A clear proposal.
+* A clear set of desired outputs and/or questions to be answered.
+
+To schedule a design review, show up to the [Core Implementations](https://github.com/ipfs/team-mgmt/issues/992) call and propose a design review in the design review section of the notes. When we get to the design reviews section of the call, you'll have a chance to make your case. If your design review is accepted, interested parties will sign-up for the review (directly in the meeting notes) and a DRI will be chosen to schedule the public design review meeting.
 
 ## Community Improvement
 
