@@ -53,7 +53,7 @@ Our goals here are to work on resources that help us with:
 
 ## People
 
-IPFS is an open source project with a large and open community. Listing out all the names of the contributors would result in a very long list, so we made a very large hex grid instead!
+IPFS is an open source project with a large and open community.Since listing out contributors is too mainstream, here's a hex grid featuring all of them instead!
 
 [![](https://ipfs.io/ipfs/QmPNkiTxa8V2vaRLmTBJte5RZzkNYjiUYnvht6BUpqs8au/ipfs-people.jpg)](https://ipfs.io/ipfs/QmVNsFGDQPa2kJHUHxQmYJddzwDZdX2twpvwFF2jaChAix/)
 
