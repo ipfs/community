@@ -34,7 +34,7 @@ Our goals here are to work on resources that help us with:
   - 3. IRC Bots
   - 4. Websites
   - 5. Communication Channels
-- 2. Improving documentation of the various projects
+- 2. Improving documentation of various projects
   - 1. Docs on the repos
   - 2. [Docs on the websites](https://ipfs.io/docs)
   - 3. [Examples](https://ipfs.io/docs/examples)
@@ -87,7 +87,7 @@ Find the list at:
 
 ### Community Calendar
 
-We have a community [Google Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC) you can watch for events and sync to. We will add relevant events concerning IPFS to it, both with geographical and interplanetary (online) locations. 
+We have a community [Google Calendar](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC), where you can watch for events and sync to. We will add relevant events concerning IPFS to it, both with geographical and interplanetary (online) locations. 
 
 [![Screen Shot 2019-05-23 at 3 34 09 PM](https://user-images.githubusercontent.com/618519/58290901-3b86a600-7d70-11e9-98d0-03f25b58c7aa.png)](https://calendar.google.com/calendar/embed?src=ipfs.io_eal36ugu5e75s207gfjcu0ae84@group.calendar.google.com&ctz=UTC)
 
