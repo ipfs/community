@@ -103,7 +103,7 @@ Using [aegir-lint](#aegir) will help you do this easily; it automatically lints 
 
 #### Error Codes
 
-When introducing a new error code that may be useful outside of the current scope, make sure it is defined in a named variable and can be exported and used in other places. This enables others to reuse those definitions and decreases number of hardcoded values across our codebases. For example:
+When introducing a new error code that may be useful outside of the current scope, make sure it is defined in a named variable and can be exported and used in other places. This enables others to reuse those definitions and decreases the number of hardcoded values across our codebases. For example:
 
 ```js
 const {  Errors } = require('interface-datastore')
