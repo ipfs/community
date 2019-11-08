@@ -19,6 +19,7 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
   - [Guidelines](#guidelines)
     - [Supported versions](#supported-versions)
     - [Linting & Code Style](#linting--code-style)
+    - [Error Codes](#error-codes)
     - [Dependency Versions](#dependency-versions)
     - [Testing](#testing)
     - [Releasing](#releasing)
@@ -99,6 +100,41 @@ IPFS JavaScript projects default to [standard](https://github.com/feross/standar
 However, we've added an extra linting rule: Enforce the use of [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). This avoids issues we had when using ES2015 features outside of strict mode. We enforce this rule by using [eslint](http://eslint.org/) and extending [standard module](https://github.com/feross/standard) with the [eslint-config-standard](https://github.com/feross/eslint-config-standard).
 
 Using [aegir-lint](#aegir) will help you do this easily; it automatically lints your code.
+
+#### Error Codes
+
+When introducing a new error code that may be useful outside of the current scope, make sure it is exported as a new `Error` type:
+
+```js
+class NotFoundError extends Error {
+  constructor (message) {
+    super(message || 'Resource was not found')
+    this.name = 'NotFoundError'
+    this.code = NotFoundError.code
+  }
+}
+
+NotFoundError.code = 'ERR_NOT_FOUND'
+exports.NotFoundError = NotFoundError
+```
+
+
+This enables others to reuse those definitions and decreases the number of hardcoded values across our codebases.  
+For example:
+
+```js
+const { NotFoundError } = require('some-module')
+
+// throw predefined errors types
+if (!value) {
+  throw new NotFoundError()
+}
+
+// compare against code from imported type
+if (err.code === NotFoundError.code) {
+  // handle
+}
+```
 
 #### Dependency Versions
 
