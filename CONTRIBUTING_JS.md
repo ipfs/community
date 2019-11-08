@@ -103,7 +103,7 @@ Using [aegir-lint](#aegir) will help you do this easily; it automatically lints 
 
 #### Error Codes
 
-When introducing a new "error code" that may be useful outside of the current scope, make sure it is exported as a new Error type:
+When introducing a new error code that may be useful outside of the current scope, make sure it is exported as a new `Error` type:
 
 ```js
 class NotFoundError extends Error {
