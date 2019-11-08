@@ -103,19 +103,35 @@ Using [aegir-lint](#aegir) will help you do this easily; it automatically lints 
 
 #### Error Codes
 
-When introducing a new error code that may be useful outside of the current scope, make sure it is defined in a named variable and can be exported and used in other places. This enables others to reuse those definitions and decreases the number of hardcoded values across our codebases. For example:
+When introducing a new "error code" that may be useful outside of the current scope, make sure it is exported as a new Error type:
 
 ```js
-const {  Errors } = require('interface-datastore')
-
-// throw predefined errors if possible
-if (!value) {
-  throw Errors.notFoundError()
+class NotFoundError extends Error {
+  constructor (message) {
+    super(message || 'Resource was not found')
+    this.name = 'NotFoundError'
+    this.code = NotFoundError.code
+  }
 }
 
-// compare value from 
-const ERR_NOT_FOUND = Errors.notFoundError().code 
-if (err.code === ERR_NOT_FOUND) {
+NotFoundError.code = 'ERR_NOT_FOUND'
+exports.NotFoundError = NotFoundError
+```
+
+
+This enables others to reuse those definitions and decreases the number of hardcoded values across our codebases.  
+For example:
+
+```js
+const { NotFoundError } = require('some-module')
+
+// throw predefined errors types
+if (!value) {
+  throw new NotFoundError()
+}
+
+// compare against code from imported type
+if (err.code === NotFoundError.code) {
   // handle
 }
 ```
