@@ -69,7 +69,7 @@ The grid keeps growing, find the latest always at the [Contributors Hex Grid rep
 
 ## Swag
 
-We have stickers and we would love to send them to you. If you're hosting a series of IPFS meetups, we'd also love to send you T-shirts to distribute! Send your request directly to swag+requests@protocol.ai.
+We have stickers and we would love to send them to you. If you're hosting a series of IPFS meetups, we'd also love to send you T-shirts to distribute! Send your request directly to [swag+requests@protocol.ai](mailto:swag+requests@protocol.ai).
 
 ## Events
 
