@@ -11,11 +11,12 @@
 
 - [About](#about)
 - [People](#people)
-- [Swag](#swag)
 - [Contributing Guidelines](#contributing-guidelines)
+- [Swag](#swag)
 - Events
   - [IPFS Meetups](#ipfs-meetups)
   - [ProtoSchool Chapter Events](#protoschool-chapter-events)
+  - [IPFS Event Materials](#ipfs-event-materials)
   - [Community Calendar](#community-calendar)
 - [Contribute](#contribute)
 - [License](#license)
@@ -28,28 +29,28 @@ The IPFS community is growing, and already has many resources. We ought to maint
 
 Our goals here are to work on resources that help us with:
 
-- 1. Building and Maintaining [Community Infrastructure](https://github.com/ipfs/infrastructure)
-  - 1. Public Gateways
-  - 2. Testing + CI Services
-  - 3. IRC Bots
-  - 4. Websites
-  - 5. Communication Channels
-- 2. Improving documentation of various projects
-  - 1. Docs on the repos
-  - 2. [Docs on the websites](https://ipfs.io/docs)
-  - 3. [Examples](https://ipfs.io/docs/examples)
-  - 4. Demos
-  - 5. [Papers to read to understand IPFS](https://github.com/ipfs/reading-list)
-- 3. Making it easy to jump in and participate
-  - 1. Improving documentation for users
-  - 2. Improving issues for collaborators
-  - 3. Adding papers to the [Understanding IPFS Reading List](https://github.com/ipfs/reading-list)
-- 4. Keeping the Community Informed and Engaged
-  - 1. IRC - irc.freenode.net/#ipfs
-  - 2. Blog - https://ipfs.io/blog
-  - 3. Twitter - [@IPFSbot](https://twitter.com/IPFSbot)
-  - 4. Mailing List - [ipfs-users@googlegroups.com](https://groups.google.com/forum/#!forum/ipfs-users)
-  - 5. People List
+- **Building and Maintaining [Community Infrastructure](https://github.com/ipfs/infrastructure)**
+  - Public Gateways
+  - Testing + CI Services
+  - IRC Bots
+  - Websites
+  - Communication Channels
+- **Improving documentation of various projects**
+  - Docs on the repos
+  - [Docs on the websites](https://ipfs.io/docs)
+  - [Examples](https://ipfs.io/docs/examples)
+  - Demos
+  - [Papers to read to understand IPFS](https://github.com/ipfs/reading-list)
+- **Making it easy to jump in and participate**
+  - Improving documentation for users
+  - Improving issues for collaborators
+  - Adding papers to the [Understanding IPFS Reading List](https://github.com/ipfs/reading-list)
+- **Keeping the Community Informed and Engaged**
+  - IRC - irc.freenode.net/#ipfs
+  - Blog - https://ipfs.io/blog
+  - Twitter - [@IPFSbot](https://twitter.com/IPFSbot)
+  - Mailing List - [ipfs-users@googlegroups.com](https://groups.google.com/forum/#!forum/ipfs-users)
+  - People List
 
 ## People
 
@@ -59,16 +60,16 @@ IPFS is an open source project with a large and open community. Listing out all 
 
 The grid keeps growing, find the latest always at the [Contributors Hex Grid repo](https://github.com/ipfs/contributors-hex-grid#interplanetary-contributors-webpage).
 
-## Swag
-
-We have stickers and we would love to send them to you. Send your request directly to swag+requests@protocol.ai.
-
 ## Contributing Guidelines
 
 - [Contributing Guidelines](./CONTRIBUTING.md)
 - [Contributing Guidelines for JavaScript Projects](./CONTRIBUTING_JS.md)
 - [Contributing Guidelines for Golang Projects](./CONTRIBUTING_GO.md)
 - [Code of Conduct](./code-of-conduct.md).
+
+## Swag
+
+We have stickers and we would love to send them to you. If you're hosting a series of IPFS meetups, we'd also love to send you T-shirts to distribute! Send your request directly to [swag+requests@protocol.ai](mailto:swag+requests@protocol.ai).
 
 ## Events
 
@@ -84,6 +85,14 @@ Find the list at:
 ### ProtoSchool Chapter Events
 
 [ProtoSchool](https://proto.school) is a community-driven open source project dedicated to making it easy to get started with decentralized web technologies like IPFS through [interactive online tutorials](https://proto.school/#/tutorials) and community learning events led by local chapters around the world. To locate an event near you, check out our [chapter list](https://proto.school/#/chapters). Don't see a ProtoSchool chapter in your neighborhood? [Start your own!](https://proto.school/#/host)
+
+### IPFS Event Materials
+Want to host an event to share IPFS with others, or bring IPFS to another event? Feel free to use these materials to make your event(s) awesome! Everything here is [Creative Commons 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - so feel free to adapt or remix!
+
+- **How IPFS Works Overview:** [@stebalien](http://github.com/@stebalien), go-ipfs Captain and Lead Maintainer, created a great presentation template for "[How IPFS Works (approximately)](https://docs.google.com/presentation/d/1wyrTNTERJV23R7PyLrNloBauygdq1SXerijvEUG62xI/edit)". _Feel free to reuse or fork this deck to help break down the inner magic of IPFS for others._ [Here's a recording](https://drive.google.com/file/d/1yRaBqjdu9mWeVzGl-pSPfwZ7XUjb2rwy/view) of this deck being used in practice to explain how IPFS works (from the October 2019 Osaka IPFS Meetup).
+  - Still have questions? [IPFS Simply Explained](https://www.youtube.com/watch?v=5Uj6uR3fp-U) does a great job visualizing how IPFS addresses some key use cases and needs to upgrade the internet.
+- **IPFS Deep Dive Workshops:** These two videos - [How IPFS Deals with Files](https://www.youtube.com/watch?v=Z5zNPwMDYGg&list=PLuhRWgmPaHtSsHMhjeWpfOzr8tonPaePu&index=2&t=0s) and [The Lifecycle of Data on the Dweb](https://www.youtube.com/watch?v=fLUq0RkiTBA&list=PLuhRWgmPaHtSsHMhjeWpfOzr8tonPaePu&index=3&t=8s) - are great workshops on how core components of the IPFS network fit together. Feel free to watch these together, or just use as inspiration.
+- **Context and Vision for IPFS:** In [Why IPFS?](https://www.youtube.com/watch?v=zE_WSLbqqvo) and [Building Web3](https://www.youtube.com/watch?v=pJOG5Ql7ZD0), Juan Benet talks about how IPFS fits into a longer-scale evolution of technology and our progress on building the new set of capabilities to power web3. The amazing video in "Why IPFS" that sets the stage for our place in the cosmos is "[Our Story in 1 Minute](https://www.youtube.com/watch?v=ZSt9tm3RoUU)" by melodysheep.
 
 ### Community Calendar
 
