@@ -87,7 +87,7 @@ Find the list at:
 [ProtoSchool](https://proto.school) is a community-driven open source project dedicated to making it easy to get started with decentralized web technologies like IPFS through [interactive online tutorials](https://proto.school/#/tutorials) and community learning events led by local chapters around the world. To locate an event near you, check out our [chapter list](https://proto.school/#/chapters). Don't see a ProtoSchool chapter in your neighborhood? [Start your own!](https://proto.school/#/host)
 
 ### IPFS Event Materials
-Want to host an event to share IPFS with others, or bring IPFS to another event? Feel free to use these materials to make your event(s) awesome!
+Want to host an event to share IPFS with others, or bring IPFS to another event? Feel free to use these materials to make your event(s) awesome! Everything here is [Creative Commons 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - so feel free to adapt or remix!
 
 - **How IPFS Works Overview:** [@stebalien](http://github.com/@stebalien), go-ipfs Captain and Lead Maintainer, created a great presentation template for "[How IPFS Works (approximately)](https://docs.google.com/presentation/d/1wyrTNTERJV23R7PyLrNloBauygdq1SXerijvEUG62xI/edit)". _Feel free to reuse or fork this deck to help break down the inner magic of IPFS for others._ [Here's a recording](https://drive.google.com/file/d/1yRaBqjdu9mWeVzGl-pSPfwZ7XUjb2rwy/view) of this deck being used in practice to explain how IPFS works (from the October 2019 Osaka IPFS Meetup).
   - Still have questions? [IPFS Simply Explained](https://www.youtube.com/watch?v=5Uj6uR3fp-U) does a great job visualizing how IPFS addresses some key use cases and needs to upgrade the internet.
