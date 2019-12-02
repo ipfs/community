@@ -34,7 +34,7 @@ If you are new to our Go development workflow:
 
 - Ensure you have [Go installed on your system](https://golang.org/doc/install).
 - Make sure that you have the environment variable `GOPATH` set somewhere, e.g. `$HOME/gopkg`
-- Clone ipfs.
+- Clone `https://github.com/ipfs/go-ipfs`.
 - You are now free to make changes to the codebase as you please.
 - You can build the binary by running `go build ./cmd/ipfs` from the go-ipfs directory.
   - NOTE: when making changes remember to restart your daemon to ensure its running your new code.
