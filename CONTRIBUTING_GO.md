@@ -34,8 +34,7 @@ If you are new to our Go development workflow:
 
 - Ensure you have [Go installed on your system](https://golang.org/doc/install).
 - Make sure that you have the environment variable `GOPATH` set somewhere, e.g. `$HOME/gopkg`
-- Clone ipfs into the path `$GOPATH/src/github.com/ipfs/go-ipfs`
-  - NOTE: This is true even if you have forked go-ipfs, dependencies in go are path based and must be in the right locations.
+- Clone ipfs.
 - You are now free to make changes to the codebase as you please.
 - You can build the binary by running `go build ./cmd/ipfs` from the go-ipfs directory.
   - NOTE: when making changes remember to restart your daemon to ensure its running your new code.
@@ -67,6 +66,7 @@ A few examples of good branch names:
 We strive to use the following convention when it comes to imports. First list stdlib imports, then local repository imports and then all other external imports. Separate them using one empty new line so they are not reordered by `go fmt` or `goimports`.
 
 Example:
+
 ```go
 import (
 	"context"
@@ -94,8 +94,6 @@ All commits in a PR must pass tests. If they don't, fix the commits and/or [squa
 We use CI tests which run when you push to your branch. To run the tests locally, run `make` to see the full set of testing targets. Generally `make test` is your best bet.
 
 #### Commit messages
-
-
 
 Commit messages must start with a short subject line, followed by an optional, 
 more detailed explanatory text which is separated from the summary by an empty line. 
