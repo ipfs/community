@@ -39,7 +39,7 @@ The items outlined below represent the deliverables of this audit effort.
 - **Result #3:** We discover and spell out currently existing channels, including the degree to which we *currently* have influence/control and the amount of effort/resource required to establish an optimal degree of influence/control.
 
 **OBJECTIVE #2:**  Examine and evaluate this landscape for current and potential future effectiveness.
-- **Result #1:** We examine the landscape we have defined to find high-value channels, stakeholders, and workstreams. Value can be indicated by repetition or overlap within the overall landscape (such as a channel that appears again and again) or by identifying channels/stakeholders/workstreams that are significantly underserved (such as a high volume of support enquiries on IPFS forums, but no playbook or human resources for resolving them).
+- **Result #1:** We examine the landscape we have defined to find high-value channels, stakeholders, and workstreams, as well as supporting resources that impact the value of multiples of these (such as a communications playbook or UI styleguide). Value can be indicated by repetition or overlap within the overall landscape (such as a channel that appears again and again) or by identifying channels/stakeholders/workstreams that are significantly underserved (such as a high volume of support enquiries on IPFS forums, but no playbook or human resources for resolving them).
 - **Result #2:** We note the timeframe in which these high-value items provide their value: near, medium, or long? Does value fade away over time, or continue to grow?
 
 **OBJECTIVE #3:**  Generate and rank recommendations for execution in Q2 and beyond.
