@@ -1,7 +1,7 @@
 # IPFS Communications Ecosystem Audit
 
 ## Summary
-We are planning an audit of the overall IPFS information ecosystem in Q1 2020. This directory acts as a holding pen for artifacts related to this effort.
+We are planning an audit of the overall IPFS information ecosystem in Q1 2020. This directory acts as a holding pen for artifacts related to this effort as we work to *design our community intentionally*.
 
 ## Methodology/framework
 The overall framework for this audit focuses on examining the needs, expectations, pain points, and potential delighters around three key pillars: **stakeholders**, **workstreams**, and **channels**.
