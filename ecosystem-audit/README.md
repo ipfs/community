@@ -1,4 +1,4 @@
-# IPFS Ecosystem Audit
+# IPFS Communications Ecosystem Audit
 
 ## Summary
 We are planning an audit of the overall IPFS information ecosystem in Q1 2020. This directory acts as a holding pen for artifacts related to this effort.
