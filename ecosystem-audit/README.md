@@ -1,7 +1,7 @@
 # IPFS Information Ecosystem Audit
 
 ## Summary
-We are undertaking an audit of the overall IPFS information ecosystem in Q1 2020. This directory within the `community` repo acts as a holding pen for working documents, artifacts and commentary related to this effort as we work to *intentionally design our community*: *where* people find us, *how* they interact with us in those places, and how those interactions can become more *consistent*, *systematic* and *empowering*.
+We are undertaking an audit of the overall IPFS information ecosystem in Q1 2020. This directory within the `community` repo acts as a holding pen for working documents, artifacts and commentary related to this effort as we work to *intentionally design our community*: *where* people find us, *how* they are able to interact with us in those places, and how those interactions can become more *consistent*, *systematic* and *empowering*.
 
 ## Methodology/framework
 The overall framework for this audit focuses on examining the existing resources, needs and expectations, pain points, and potential action around three key pillars: **stakeholders**, **workstreams**, and **channels**.
