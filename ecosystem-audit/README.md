@@ -30,7 +30,7 @@ Within the context of this audit, **a *channel* is any location in which someone
 
 As part of OKRs, this audit will discover and spell out currently existing channels, including the degree to which we *currently* have influence/control and the amount of effort/resource required to establish an optimal degree of influence/control.
 
-## Q1 2019 Objectives and Key Results (OKRs)
+## Q1 2020 Objectives and Key Results (OKRs)
 The items outlined below represent the deliverables of this audit effort.
 
 **OBJECTIVE #1:**  Define the landscape of our existing information ecosystem.
