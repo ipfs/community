@@ -6,6 +6,9 @@
 ## Summary
 We are undertaking an audit of the overall IPFS information ecosystem in Q1 2020. This directory within the `community` repo acts as a holding pen for working documents, artifacts and commentary related to this effort as we work to ***intentionally design our community***: *where* people find us, *how* they are able to interact with us in those places, and how those interactions can become more *consistent*, *systematic* and *empowering*.
 
+## Mission
+To further the IPFS-wide H1 2020 goal of **investing in community enablement** by *evaluating* our current information ecosystem, *identifying* opportunities for delivering the most value to our community, and *recommending* ranked next steps.
+
 ## Methodology/framework
 The overall framework for this audit focuses on examining the existing resources, needs and expectations, pain points, and potential action around three key pillars: **stakeholders**, **workstreams**, and **channels**.
 
@@ -29,7 +32,7 @@ As part of OKRs, this audit will define near-term workstreams as well as potenti
 Within the context of this audit, **a *channel* is any location in which someone may be talking about IPFS *upon which we may have some degree of control or influence*.** For example ...
 - A dinner party where someone mentions IPFS probably doesn't count as a channel (unless someone in the IPFS community is at the party!)
 - An IPFS-related conversation between developers on Twitter counts as a channel *if* we have the resources to monitor for that conversation and a playbook in place for consistent, helpful ways to nudge our way into that conversation
-- The ipfs.io website is without doubt a channel: We create and maintain the website, we have total control over the messaging, etc
+- The [ipfs.io](https://ipfs.io) website is without doubt a channel: We create and maintain the website, we have total control over the messaging, etc
 
 As part of OKRs, this audit will discover and spell out currently existing channels, including the degree to which we *currently* have influence/control and the amount of effort/resource required to establish an optimal degree of influence/control.
 
@@ -49,6 +52,22 @@ The items outlined below represent the deliverables of this audit effort.
 - **Result #1:** We formulate high-level recommendations for serving or resolving the high-value items identified in Objective #2, including the time, effort, human/technical resources, and potential org-chart impact required by each.
 - **Result #2:** We rank these recommendations based upon a balance of potential impact versus existing resources (and the potential for obtaining additional resources). These ranked recommendations are used to make execution decisions for Q2 and beyond.
 
+## Milestones
+
+- **End January:** OKRs defined and agreed upon; research initiated. 
+- **End February:** Initial high-level research complete and visible in rough form in the ["Artifacts"](#Artifacts) list below.
+- **End March:** Research refined as time permits and consolidated into summary report and ranked high-level recommendations. 
+  - Report/recommendations artifact will be presented in a format that makes it simple to excerpt and present in other context-critical settings (e.g. recommendations germane to a particular working group should be easily removed from the whole for presentation on their own to that working group).
+
+***A note on triage:** As this is research and exploratory work, it may be pre-empted due to tactical urgencies or other unforeseen circumstancces. If this is the case, our approach will be to continue to reach the milestones stated above, but at a lower level of granularity. With this in mind, our approach to this audit as a whole will be iterative — to start at the broadest level, and continue to refine to the degree time permits.*
+
+## Artifacts
+
+*This list is a work in progress, and will be augmented/edited over the course of this project.*
+
+- [Initial channel inventory](https://docs.google.com/spreadsheets/d/1CwHu4yg5BNi0mzRi99RnaA8U-8gJtM-kwswr1ZY0aGg/edit?usp=sharing) (Google spreadsheet)
 
 ## Maintainership
-This project is being managed by [@jessicaschilling](https://github.com/jessicaschilling); please contact her with any questions or ideas!
+This project is being managed by [@jessicaschilling](https://github.com/jessicaschilling); please contact her with questions or feedback!
+
+*Source [photo](https://www.pexels.com/photo/photo-of-blue-pink-and-green-led-light-775907/) for banner: Tabitha Mort/Pexels*
