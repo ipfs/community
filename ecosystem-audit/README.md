@@ -1,4 +1,7 @@
-# IPFS Information Ecosystem Audit
+![IPFS Information Ecosystem Audit](https://raw.githubusercontent.com/ipfs/community/master/ecosystem-audit/ipfs-ecosystem-header.png "IPFS Information Ecosystem Audit")
+
+[![Made by icon.](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)
+[![Project icon.](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 
 ## Summary
 We are undertaking an audit of the overall IPFS information ecosystem in Q1 2020. This directory within the `community` repo acts as a holding pen for working documents, artifacts and commentary related to this effort as we work to ***intentionally design our community***: *where* people find us, *how* they are able to interact with us in those places, and how those interactions can become more *consistent*, *systematic* and *empowering*.
