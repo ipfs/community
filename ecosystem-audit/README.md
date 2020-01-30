@@ -66,7 +66,10 @@ The items outlined below represent the deliverables of this audit effort.
 *This list is a work in progress, and will be augmented/edited over the course of this project.*
 
 - [Initial channel inventory](https://docs.google.com/spreadsheets/d/1CwHu4yg5BNi0mzRi99RnaA8U-8gJtM-kwswr1ZY0aGg/edit?usp=sharing) (Google spreadsheet)
-- [Audit recommendations](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) **(note: very much a WIP until end March!)** with voting capability (Canny board)
+  - *First draft complete, but subject to future refinement in Feb/Mar 2020*
+- [Audit recommendations](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)
+  - ***Very much a WIP until end March! Take with salt***
+  - *Recommendations can be voted upon, so please make your opinions heard*
 
 ## Maintainership
 This project is being managed by [@jessicaschilling](https://github.com/jessicaschilling); please contact her with questions or feedback!
