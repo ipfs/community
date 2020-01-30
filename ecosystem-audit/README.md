@@ -65,7 +65,7 @@ The items outlined below represent the deliverables of this audit effort.
 
 *This list is a work in progress, and will be augmented/edited over the course of this project.*
 
-- [Initial channel inventory](https://airtable.com/invite/l?inviteId=invSHl2KmYhUhH8tB&inviteToken=f2b67161224dae0770c9b9b00ec36533639f9a2432d265d9c57267a7b1dd5534) (Airtable base, free Airtable account required)
+- [Initial channel inventory](https://airtable.com/shrNYsGOzwhX7MzmB) (Airtable base)
   - *First draft complete, but subject to future refinement in Feb/Mar 2020*
 - [Audit recommendations](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)
   - ***Very much a WIP until end March! Take with salt***
