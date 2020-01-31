@@ -34,7 +34,7 @@ Within the context of this audit, **a *channel* is any location in which someone
 - An IPFS-related conversation between developers on Twitter counts as a channel *if* we have the resources to monitor for that conversation and a playbook in place for consistent, helpful ways to nudge our way into that conversation
 - The [ipfs.io](https://ipfs.io) website is without doubt a channel: We create and maintain the website, we have total control over the messaging, etc
 
-As part of OKRs, this audit will discover and spell out currently existing channels, including the degree to which we *currently* have influence/control and the amount of effort/resource required to establish an optimal degree of influence/control.
+As part of OKRs, this audit will discover and spell out currently existing channels, including the degree to which we *currently* have influence/control and the amount of effort/resource (particularly monitoring) required to establish an optimal degree of effectiveness.
 
 ## Q1 2020 Objectives and Key Results (OKRs)
 The items outlined below represent the deliverables of this audit effort.
@@ -42,7 +42,7 @@ The items outlined below represent the deliverables of this audit effort.
 **OBJECTIVE #1:**  Define the landscape of our existing information ecosystem.
 - **Result #1:** We define at a basic level our major stakeholder groups, as well as the channels they may be most likely to use and their importance/value to the IPFS project in the near-, medium-, and long-term.
 - **Result #2:** We define near-term workstreams as well as potentially critical medium- and long-term workstreams, noting both the stakeholders most likely to be involved and the channels most likely to be utilized in resolving each workstream.
-- **Result #3:** We discover and spell out currently existing channels, including the degree to which we *currently* have influence/control and the amount of effort/resource required to establish an optimal degree of influence/control.
+- **Result #3:** We discover and spell out currently existing channels, including the degree to which we *currently* have influence/control and the amount of effort/resource (particularly monitoring) required to establish an optimal degree of effectiveness.
 
 **OBJECTIVE #2:**  Examine and evaluate this landscape for current and potential future effectiveness.
 - **Result #1:** We examine the landscape we have defined to find high-value channels, stakeholders, and workstreams, as well as supporting resources that impact the value of multiples of these (such as a communications playbook or UI styleguide). Value can be indicated by repetition or overlap within the overall landscape (such as a channel that appears again and again) or by identifying channels/stakeholders/workstreams that are significantly underserved (such as a high volume of support enquiries on IPFS forums, but no playbook or human resources for resolving them).
