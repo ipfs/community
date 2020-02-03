@@ -71,6 +71,7 @@ The items outlined below represent the deliverables of this audit effort.
   - ***In progress and very much a WIP! Take with salt***
 - [Appendix: Application areas vs core persona goals](https://airtable.com/shrNYsGOzwhX7MzmB/tblZQvfFA86oBsElC/viw3IwoTHyqPMItS5?blocks=hide) (Airtable base)
   - *In progress; aligns prior work in application areas with prior work in goal-based personae*
+  - *Needs further discussion on short/medium/long-term weighting; still a very subjective first draft*
 - [Audit recommendations](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)
   - ***Very much a WIP until end March! Take with salt***
   - *Recommendations can be voted upon, so please make your opinions heard*
