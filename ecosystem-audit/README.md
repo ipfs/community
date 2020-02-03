@@ -67,6 +67,8 @@ The items outlined below represent the deliverables of this audit effort.
 
 - [Initial channel inventory](https://airtable.com/shrNYsGOzwhX7MzmB) (Airtable base)
   - *First draft complete, but subject to future refinement in Feb/Mar 2020*
+- [Initial stakeholder inventory](https://airtable.com/shrNYsGOzwhX7MzmB/tblzZtLFDkZdd3unO/viwEFHBbZmX2S0TV6?blocks=hide) (Airtable base)
+  - ***In progress and very much a WIP! Take with salt***
 - [Audit recommendations](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)
   - ***Very much a WIP until end March! Take with salt***
   - *Recommendations can be voted upon, so please make your opinions heard*
