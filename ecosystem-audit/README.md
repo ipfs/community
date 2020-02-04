@@ -65,6 +65,7 @@ The items outlined below represent the deliverables of this audit effort.
 
 *This list is a work in progress, and will be augmented/edited over the course of this project.*
 
+### Artifacts generated for this project
 - [Channel inventory](https://airtable.com/shrNYsGOzwhX7MzmB) (Airtable base)
   - *First draft complete, but subject to future refinement in Feb/Mar 2020*
 - [Stakeholder inventory](https://airtable.com/shrNYsGOzwhX7MzmB/tblzZtLFDkZdd3unO/viwEFHBbZmX2S0TV6?blocks=hide) (Airtable base)
@@ -77,6 +78,12 @@ The items outlined below represent the deliverables of this audit effort.
 - [Audit recommendations](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)
   - ***Very much a WIP until end March! Take with salt***
   - *Recommendations can be voted upon, so please make your opinions heard*
+  
+### Reference material from other efforts
+- [IPFS preliminary landscape segmentation and use cases](https://docs.google.com/presentation/d/1CrjkRUHkl8ulaGFB64t7Zk_-G-5hNdWBWJEl5cenwX8/edit#slide=id.g64311b9f9c_1_100) (Google Slides deck)
+- Developer use case audit by @andrew:
+  - [IPFS ecosystem research notes](https://docs.google.com/document/d/1IZd6pvH4SCXuQ-OrHVmNQQf_A30fIgJCk9M7venoBGE/edit#heading=h.x01p7huvqxm7) (Google doc)
+  - [IPFS ecosystem collaborators survey](https://docs.google.com/document/d/1S_C6wk0Su6RMaK8CwL4JEhjKdwIbntLXY0r0NojwPqY/edit) (Google doc)
 
 ## Maintainership
 This project is being managed by [@jessicaschilling](https://github.com/jessicaschilling); please contact her with questions or feedback!
