@@ -81,7 +81,7 @@ The items outlined below represent the deliverables of this audit effort.
   
 ### Reference material from other efforts
 - [IPFS preliminary landscape segmentation and use cases](https://docs.google.com/presentation/d/1CrjkRUHkl8ulaGFB64t7Zk_-G-5hNdWBWJEl5cenwX8/edit#slide=id.g64311b9f9c_1_100) (Google Slides deck)
-- Developer use case audit by @andrew:
+- Developer use case ecosystem audit by [@andrew](https://github.com/andrew):
   - [IPFS ecosystem research notes](https://docs.google.com/document/d/1IZd6pvH4SCXuQ-OrHVmNQQf_A30fIgJCk9M7venoBGE/edit#heading=h.x01p7huvqxm7) (Google doc)
   - [IPFS ecosystem collaborators survey](https://docs.google.com/document/d/1S_C6wk0Su6RMaK8CwL4JEhjKdwIbntLXY0r0NojwPqY/edit) (Google doc)
 
