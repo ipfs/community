@@ -65,12 +65,14 @@ The items outlined below represent the deliverables of this audit effort.
 
 *This list is a work in progress, and will be augmented/edited over the course of this project.*
 
-- [Initial channel inventory](https://airtable.com/shrNYsGOzwhX7MzmB) (Airtable base)
+- [Channel inventory](https://airtable.com/shrNYsGOzwhX7MzmB) (Airtable base)
   - *First draft complete, but subject to future refinement in Feb/Mar 2020*
-- [Initial stakeholder inventory](https://airtable.com/shrNYsGOzwhX7MzmB/tblzZtLFDkZdd3unO/viwEFHBbZmX2S0TV6?blocks=hide) (Airtable base)
-  - ***In progress and very much a WIP! Take with salt***
+- [Stakeholder inventory](https://airtable.com/shrNYsGOzwhX7MzmB/tblzZtLFDkZdd3unO/viwEFHBbZmX2S0TV6?blocks=hide) (Airtable base)
+  - *First draft complete, but subject to future refinement in Feb/Mar 2020*
+- [Workstream inventory](https://airtable.com/shrNYsGOzwhX7MzmB/tbljIydLlJQ6rgoOl/viwkEkQqWDeJW6172?blocks=hide) (Airtable base)
+  - ***In progress! Take with salt***
 - [Appendix: Application areas vs core persona goals](https://airtable.com/shrNYsGOzwhX7MzmB/tblZQvfFA86oBsElC/viw3IwoTHyqPMItS5?blocks=hide) (Airtable base)
-  - *In progress; aligns prior work in application areas with prior work in goal-based personae*
+  - *Aligns prior art in application areas with prior art in goal-based personae*
   - *Needs further discussion on IPFS readiness and short/medium/long-term weighting; still a very subjective first draft*
 - [Audit recommendations](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)
   - ***Very much a WIP until end March! Take with salt***
