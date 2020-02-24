@@ -94,7 +94,7 @@ We use CI tests which run when you push to your branch. To run the tests locally
 
 Commit messages must start with a short subject line, followed by an optional,
 more detailed explanatory text which is separated from the summary by an empty line.
-We _used_ to require license signoff commit messages (enforced by [GitCop](https://gitcop.com)) to ensure that all contributors agreed with the [developer certificate of origin](docs/developer-certificate-of-origin) and with licensing their contribution under the MIT license. However, with the move to a dual MIT + Apache 2 license going forward we have relaxed that requirement! From now on, commit message trailers are entirely optional.
+Note: we have a dual MIT + Apache2 license and so do not require license signoff on commit messages.
 
 ## Contributor Principles
 
