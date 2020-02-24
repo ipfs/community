@@ -166,43 +166,9 @@ Just stay current with master (rebase).
 
 ##### Commit messages
 
-Commit messages must start with a short subject line, followed by an optional,
-more detailed explanatory text which is separated from the summary by an empty
-line.
+Commit messages must start with a short subject line, followed by an optional, more detailed explanatory text which is separated from the summary by an empty line.
 
-For some of our repositories (and we'd prefer all), we check commit messages
-automatically using [GitCop](https://gitcop.com). This checks that commit
-messages are properly written.
-
-**If you are brand new to IPFS**, you'll need to run a script that adds `License` and `Signed-off-by` to each of your commits. These trailers mean that the author agrees with the [Developer Certificate of Origin (DCO)](docs/developer-certificate-of-origin) and with licensing the work under the [MIT license](docs/LICENSE). This is important for our team and our users, legally. The [setup_commit_msg_hook.sh](dev/hooks/setup_commit_msg_hook.sh) script will setup a Git commit-msg hook that will add these trailers to all the commit messages you write in that repository. This is not as complicated as it sounds: it is similar to typing `git commit --signoff` every time you commit. Just download the script and run it once from the root folder of whatever Git repository you are in (for example, go-ipfs, or ipfs).
-
-The Developer Certificate of Origin (DCO) is a document that certifies you own and/or have the right to contribute the work and license it appropriately. The DCO is used instead of a --much more annoying--
-[CLA (Contributor License Agreement)](https://en.wikipedia.org/wiki/Contributor_License_Agreement). With the DCO, you retain copyright of your own work :). The DCO originated in the Linux community, and is used by other projects like Git and Docker. To learn more about the DCO see this [posts on elinux.org](http://elinux.org/Developer_Certificate_Of_Origin) or how [docker uses the DCO](https://blog.docker.com/2014/01/docker-code-contributions-require-developer-certificate-of-origin/).
-
-GitCop checks for two possible problems that are described below.
-
-##### Subject line should not be more than 80 characters long
-
-The first line of a commit message, called the subject line, should not be more than 80 characters long and should be separated from the rest of the commit message using an empty blank line.
-
-Most editors can help you count the number of characters in a line. And these days many good editors recognize the Git commit message format and warn in one way or another if the subject line is not separated from the rest of the commit message using an empty blank line.
-
-See also the [documentation about amending commits](https://help.github.com/articles/changing-a-commit-message/) for an explanation about how you can rework commit messages.
-
-##### A "License" and a "Signed-off-by" trailers are required
-
-The commit message should end with the following trailers:
-
-```
-License: MIT
-Signed-off-by: User Name <email@address>
-```
-
-where "User Name" is the author's real (legal) name and email@address is one of the author's valid email addresses.
-
-There should also be an empty blank line before the "License" trailer.
-
-As explained in more details above, this is easy to fix by running once the [setup_commit_msg_hook.sh](dev/hooks/setup_commit_msg_hook.sh) script in your repository.
+Subject line should not be more than 80 characters long. Most editors can help you count the number of characters in a line. And these days many good editors recognize the Git commit message format and warn in one way or another if the subject line is not separated from the rest of the commit message using an empty blank line.
 
 See also the [documentation about amending commits](https://help.github.com/articles/changing-a-commit-message/) for an explanation about how you can rework commit messages.
 
@@ -215,9 +181,6 @@ parse_test: improve tests with stdin enabled arg
 
 Now also check that we get the right arguments from
 the parsing.
-
-License: MIT
-Signed-off-by: Christian Couder <chriscool@tuxfamily.org>
 ```
 
 And here is another longer one:
@@ -237,9 +200,6 @@ The approach taken here is to do what crypto/tls does: defer the handshake until
   in parallel?)
 
 [0] http://golang.org/src/crypto/tls/conn.go#L886
-
-License: MIT
-Signed-off-by: Juan Benet <juan@ipfs.io>
 ```
 
 ### Code
@@ -258,7 +218,7 @@ Update documentation when creating or modifying features. Test your documentatio
 
 ### Pull Requests
 
-Pull requests descriptions should be as clear as possible. Err on the side of overly specific and include a reference to all related issues. If the pull request is meant to close an issue please use the Github keyword conventions of [closes, fixes, or resolves]( https://help.github.com/articles/closing-issues-via-commit-messages/). If the pull request only completes part of an issue use the [connects keywords]( https://github.com/waffleio/waffle.io/wiki/FAQs#prs-connect-keywords). This helps our tools properly link issues to pull requests. 
+Pull requests descriptions should be as clear as possible. Err on the side of overly specific and include a reference to all related issues. If the pull request is meant to close an issue please use the Github keyword conventions of [closes, fixes, or resolves]( https://help.github.com/articles/closing-issues-via-commit-messages/). If the pull request only completes part of an issue use the [connects keywords]( https://github.com/waffleio/waffle.io/wiki/FAQs#prs-connect-keywords). This helps our tools properly link issues to pull requests.
 
 ### Code Review
 
@@ -274,7 +234,7 @@ Before the pull request is merged, make sure that you squash your commits into l
 
 ### Merge Approval
 
-We use LGTM (Looks Good To Me) in comments on the code review to indicate acceptance. A change **requires** LGTMs from the maintainers of each component affected. If you know whom it may be, ping them. 
+We use LGTM (Looks Good To Me) in comments on the code review to indicate acceptance. A change **requires** LGTMs from the maintainers of each component affected. If you know whom it may be, ping them.
 
 ### Reverting Changes
 
