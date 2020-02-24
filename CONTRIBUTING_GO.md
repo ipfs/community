@@ -1,14 +1,11 @@
-# Contribute
+# Go Contributing Guidelines
 
 go-ipfs is MIT + Apache 2 licensed open source software. We welcome contributions big and
-small! Take a look at the [community contributing notes](https://github.com/ipfs/community/blob/master/CONTRIBUTING.md) for general guidelines. 
+small! Take a look at the [community contributing notes](https://github.com/ipfs/community/blob/master/CONTRIBUTING.md) for general guidelines.
 
 Please make sure to check out the [issues](https://github.com/ipfs/go-ipfs/issues). Search the closed ones before reporting things, and (if you can!) help us with open ones.
 
 Please note that the go-ipfs issues are only for bug reports and directly actionable features. Check [the IPFS Community guide on reporting issues](https://github.com/ipfs/community/blob/master/contributing.md#reporting-issues) if your question doesn't fit as a bug report or an actionable feature, and our [guide on opening issues](https://github.com/ipfs/go-ipfs/blob/master/docs/github-issue-guide.md) if you are not sure how to make an issue here.
-
-If you're looking to help out, head to the [captain's log](https://github.com/ipfs/go-ipfs/issues/2247) and
-try picking up an issue from there.
 
 ## Table of Contents
 
@@ -38,7 +35,7 @@ If you are new to our Go development workflow:
 - You are now free to make changes to the codebase as you please.
 - You can build the binary by running `go build ./cmd/ipfs` from the go-ipfs directory.
   - NOTE: when making changes remember to restart your daemon to ensure its running your new code.
-  
+
 ### Branch Names
 
 If you are working on a new feature, prefix your branch name with `feat/`. If you are fixing an issue, `fix/`. If you are simply adding tests, `test/`. If you are adding documentation, `doc/`. If your changeset doesn't fall into one of these categories, use your best judgement and come up with your own short prefix.
@@ -55,7 +52,7 @@ A few examples of good branch names:
   - For adding tests around the merkledag's cache invalidation code.
 - `doc/unixfs/pkg-desc`
   - For a branch that adds or improves the package description in unixfs.
-  
+
 ### Commit Requirements
 
 - Run `go fmt` before pushing any code.
@@ -95,8 +92,8 @@ We use CI tests which run when you push to your branch. To run the tests locally
 
 #### Commit messages
 
-Commit messages must start with a short subject line, followed by an optional, 
-more detailed explanatory text which is separated from the summary by an empty line. 
+Commit messages must start with a short subject line, followed by an optional,
+more detailed explanatory text which is separated from the summary by an empty line.
 We _used_ to require license signoff commit messages (enforced by [GitCop](https://gitcop.com)) to ensure that all contributors agreed with the [developer certificate of origin](docs/developer-certificate-of-origin) and with licensing their contribution under the MIT license. However, with the move to a dual MIT + Apache 2 license going forward we have relaxed that requirement! From now on, commit message trailers are entirely optional.
 
 ## Contributor Principles
@@ -142,16 +139,16 @@ The *exception* to this rule is the [go-ipfs](http://github.com/ipfs/go-ipfs) re
 ## Pull Request Reviews
 
 PRs and PR reviews are an important part of the our project process. As a PR contributor your goal is to help others
-understand your PR as quickly and easily as possible. 
+understand your PR as quickly and easily as possible.
 - Review your own PR before asking others. Dead code, test code, typos all will slip into PRs occasionally, and that's fine. But give it a pass first to help reviewers to focus on the actual code being submitted.
 - Provide context for your PR. Provide a description of the problem your PR addresses and the solution you have provided in your initial description to help readers get started. It doesn't have to be extensive - a few sentences each.
 - If there are parts of your PR you are especially unsure about, or that you know will be tricky to understand, point them out ahead of time and explain them as best as possible.
 
 When reviewing a PR:
 - All questions are good! The goal is to understand if all code is both sufficient and necessary, and first few rounds can just be adding more info to the PR via clarifications.
-- Block out sufficient time for actually going as deep as possible through the code paths. 
+- Block out sufficient time for actually going as deep as possible through the code paths.
 - Consider the test coverage of the changes. Are there tests?  Do they run?
-- Don't be shy. Reviewing PRs is an important part of learning the codebase. Pair-reviewing with another contributor is a helpful technique if a PR is particularly new or complex. 
+- Don't be shy. Reviewing PRs is an important part of learning the codebase. Pair-reviewing with another contributor is a helpful technique if a PR is particularly new or complex.
 
 ## Code of Conduct
 
