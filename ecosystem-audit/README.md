@@ -59,7 +59,7 @@ The items outlined below represent the deliverables of this audit effort.
 - **End March:** Research refined as time permits and consolidated into summary report and ranked high-level recommendations. 
   - Report/recommendations artifact will be presented in a format that makes it simple to excerpt and present in other context-critical settings (e.g. recommendations germane to a particular working group should be easily removed from the whole for presentation on their own to that working group).
 
-***A note on triage:** As this is research and exploratory work, it may be pre-empted due to tactical urgencies or other unforeseen circumstancces. If this is the case, our approach will be to continue to reach the milestones stated above, but at a lower level of granularity. With this in mind, our approach to this audit as a whole will be iterative — to start at the broadest level, and continue to refine to the degree time permits.*
+***A note on triage:** As this is research and exploratory work, it may be pre-empted due to tactical urgencies or other unforeseen circumstances. If this is the case, our approach will be to continue to reach the milestones stated above, but at a lower level of granularity. With this in mind, our approach to this audit as a whole will be iterative — to start at the broadest level, and continue to refine to the degree time permits.*
 
 ## Artifacts
 
