@@ -66,18 +66,19 @@ The items outlined below represent the deliverables of this audit effort.
 *This list is a work in progress, and will be augmented/edited over the course of this project.*
 
 ### Artifacts generated for this project
-- [Channel inventory](https://airtable.com/shrNYsGOzwhX7MzmB) (Airtable base)
-  - *First draft complete, but subject to future refinement in Feb/Mar 2020*
-- [Stakeholder inventory](https://airtable.com/shrNYsGOzwhX7MzmB/tblzZtLFDkZdd3unO/viwEFHBbZmX2S0TV6?blocks=hide) (Airtable base)
-  - *First draft complete, but subject to future refinement in Feb/Mar 2020*
-- [Workstream inventory](https://airtable.com/shrNYsGOzwhX7MzmB/tbljIydLlJQ6rgoOl/viwkEkQqWDeJW6172?blocks=hide) (Airtable base)
-  - ***In progress! Take with salt***
-- [Appendix: Application areas vs core persona goals](https://airtable.com/shrNYsGOzwhX7MzmB/tblZQvfFA86oBsElC/viw3IwoTHyqPMItS5?blocks=hide) (Airtable base)
+- [Channel inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB) (Airtable base)
+  - *Information on channels is captured; currently working on weighting logic to feed into recommendation-scoring*
+- [Stakeholder inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tblzZtLFDkZdd3unO/viwEFHBbZmX2S0TV6?blocks=hide) (Airtable base)
+  - *Information on stakeholders is captured; currently working on weighting logic to feed into recommendation-scoring*
+- [Workstream inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tbljIydLlJQ6rgoOl/viwkEkQqWDeJW6172?blocks=hide) (Airtable base)
+  - *Information on workstreams is captured; currently working on weighting logic to feed into recommendation-scoring*
+- [Application areas and core goal inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tblZQvfFA86oBsElC/viw3IwoTHyqPMItS5?blocks=hide) (Airtable base)
   - *Aligns prior art in application areas with prior art in goal-based personae*
-  - *Needs further discussion on IPFS readiness and short/medium/long-term weighting; still a very subjective first draft*
+  - *Information is captured; currently working on weighting logic to feed into recommendation-scoring**
 - [Audit recommendations](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)
   - ***Very much a WIP until end March! Take with salt***
   - *Recommendations can be voted upon, so please make your opinions heard*
+  - *These will be transferred into the main Airtable board and scored/weighted based on criteria scoring above*
   
 ### Reference material from other efforts
 - [IPFS preliminary landscape segmentation and use cases](https://docs.google.com/presentation/d/1CrjkRUHkl8ulaGFB64t7Zk_-G-5hNdWBWJEl5cenwX8/edit#slide=id.g64311b9f9c_1_100) (Google Slides deck)
