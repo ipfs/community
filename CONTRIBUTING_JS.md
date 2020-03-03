@@ -148,7 +148,7 @@ For releasing a js-ipfs, see [RELEASE_ISSUE_TEMPLATE](https://github.com/ipfs/js
 
 ### Commits
 
-We have very precise rules over how our git commit messages can be formatted. This leads to more readable messages that are easy to follow when looking through the project history.  But also, we use the git commit messages to generate the change log.
+We have guidelines for how our git commit messages should be formatted. This leads to more readable messages that are easy to follow when looking through the project history.  But also, we use the git commit messages to generate the change log.
 
 The commit message formatting can be added using a typical git workflow or through the use of a CLI wizard ([Commitizen](https://github.com/commitizen/cz-cli)).
 
