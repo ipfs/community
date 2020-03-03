@@ -8,33 +8,30 @@
 
 [`IPFS Main Repo`](https://github.com/ipfs/ipfs#ipfs---the-permanent-web) • [`IPFS Project Directory`](https://github.com/ipfs/ipfs#project-directory)
 
-Want to hack on IPFS? Awesome! Here are instructions to get you started. They are not perfect yet. Please let us know what feels wrong or incomplete.
-
-IPFS is an Open Source project and we welcome contributions of all sorts. There are many ways to help, from reporting issues, contributing code, and helping us improve our community.
+Want to contribute to IPFS? Awesome! There are many ways to help, from reporting issues, contributing code, and helping us improve our community. Here are instructions to get you started. They are not perfect yet. Please let us know what feels wrong or incomplete.
 
 ## Topics
 
-- [Security Issues](#security-issues)
-- [Community Guidelines](#community-guidelines)
-- [Dive Right In](#dive-right-in)
-- [Reporting Issues](#reporting-issues)
-- [Protocol Design](#protocol-design)
-- [Implementation Design](#implementation-design)
-- [Design Review](#design-review)
-- [Community Improvement](#community-improvement)
-- [Translations](#translations)
-- [Helping in other ways](#helping-in-other-ways)
-- [Code Contribution Guidelines](#code-contribution-guidelines)
+- [**Security Issues**](#security-issues)
+- [**Community Guidelines**](#community-guidelines)
+- [**Looking for ways to contribute?**]()
+  - [Dive Right In](#dive-right-in)
+  - [Reporting Issues](#reporting-issues)
+  - [Community Improvement](#community-improvement)
+  - [Translations](#translations)
+  - [Helping in other ways](#helping-in-other-ways)
+- [**Protocol Specification**]()
+  - [Protocol Design](#protocol-design)
+  - [Implementation Design](#implementation-design)
+  - [Design Review](#design-review)
+- [**Code Contribution Guidelines**](#code-contribution-guidelines)
   - [Discuss big changes as Issues first](#discuss-big-changes-as-issues-first)
   - [Pull Requests always welcome](#pull-requests-always-welcome)
   - [Conventions](#conventions)
     - [Go Code Contributing Guidelines](#go)
-    - [JavaScript  Code Contributing Guidelines](#javascript)
+    - [JavaScript Code Contributing Guidelines](#javascript)
     - [Git](#git)
     - [Commit messages](#commit-messages)
-      - [Subject line should not be more than 80 characters long](#subject-line-should-not-be-more-than-80-characters-long)
-      - [A "License" and a "Signed-off-by" trailers are required](#a-license-and-a-signed-off-by-trailers-are-required)
-      - [Commit message examples](#commit-message-examples)
     - [Code](#code)
     - [Tests](#tests)
     - [Documentation](#documentation)
@@ -55,26 +52,21 @@ If the issue is a protocol weakness or something not yet deployed, just discuss 
 
 ## Community Guidelines
 
-We want to keep the IPFS community awesome, growing and collaborative. We need your help to keep it that way. To help with this we've come up with some general guidelines for the community as a whole:
+We want to keep the IPFS community awesome, growing and collaborative. We need your help to keep it that way. Please review our [code-of-conduct](code-of-conduct.md).
 
-- Be nice: Be courteous, respectful and polite to fellow community members: no regional, racial, gender, or other abuse will be tolerated. We like nice people way better than mean ones!
-- Encourage diversity and participation: Make everyone in our community feel welcome, regardless of their background and the extent of their contributions, and do everything possible to encourage participation in our community.
-- Keep it legal: Basically, don't get anybody in trouble. Share only content that you own, do not share private or sensitive information, and don't break laws.
-- Stay on topic: Make sure that you are posting to the correct channel and avoid off-topic discussions. Remember when you update an issue or respond to an email you are potentially sending to a large number of people. Please consider this before you update. Also remember that nobody likes spam.
+## Looking for ways to contribute?
 
-There is also a more extensive [code-of-conduct](code-of-conduct.md).
-
-## Dive Right In
+### Dive Right In
 
 If you're curious to hack on IPFS right now and you just need an issue to focus on, check out [this search](https://github.com/search?utf8=%E2%9C%93&q=label%3A%22difficulty%3Aeasy%22+label%3A%22help+wanted%22+user%3AIPFS+is%3Aopen+&type=Issues) for issues tagged as "help wanted". Generally, these should be easier for newcomers, and are great places to start hacking away. Have fun!
 
-## Reporting Issues
+### Reporting Issues
 
 If you find bugs, mistakes, inconsistencies in the IPFS project's code or documents, please let us know by filing an issue at the appropriate issue tracker (we use multiple repositories). No issue is too small.
 
 The main issues for bug reporting are as follows:
 - [go-ipfs/issues](https://github.com/ipfs/go-ipfs/issues) - Issues related to running the Go implementation of IPFS.
-- [js-ipfs/issues](https://github.com/ipfs/js-ipfs/issues) - Issues related to running the js implementation of IPFS.
+- [js-ipfs/issues](https://github.com/ipfs/js-ipfs/issues) - Issues related to running the JavaScript implementation of IPFS.
 - [notes/issues](https://github.com/ipfs/notes/issues) - For general notes and ideas.
 - [specs/issues](https://github.com/ipfs/specs/issues) - For protocol discussions.
 
@@ -82,42 +74,11 @@ The [go-ipfs](https://github.com/ipfs/go-ipfs) issues use a template that will g
 
 For all other questions/discussions, please visit the [discussion forum](https://discuss.ipfs.io)
 
-## Protocol Design
-
-When considering protocol design proposals, we are looking for:
-
-- A description of the problem this design proposal solves
-- Discussion of the tradeoffs involved
-- Review of other existing solutions
-- Links to relevant literature (RFCs, papers, etc)
-- Discussion of the proposed solution
-
-Please note that protocol design is hard, and meticulous work. You may need to review existing literature and think through generalized use cases.
-
-## Implementation Design
-
-When considering design proposals for implementations, we are looking for:
-
-- A description of the problem this design proposal solves
-- Discussion of the tradeoffs involved
-- Discussion of the proposed solution
-
-## Design Review
-
-Sometimes proposals can get stuck in either waiting for a decision or input. We've introduced "design reviews" as a forcing function to help stuck proposals make progress.
-
-A good design review should start with:
-
-* A clear proposal.
-* A clear set of desired outputs and/or questions to be answered.
-
-To schedule a design review, show up to the [Core Implementations](https://github.com/ipfs/team-mgmt/issues/992) call and propose a design review in the design review section of the notes. When we get to the design reviews section of the call, you'll have a chance to make your case. If your design review is accepted, interested parties will sign-up for the review (directly in the meeting notes) and a DRI will be chosen to schedule the public design review meeting.
-
-## Community Improvement
+### Community Tooling Improvement
 
 The IPFS community requires maintenance of various "public infrastructure" resources. These include documentation, github repositories, CI build bots, and more. There is also helping new users with questions, spreading the word about IPFS, and so on. Soon, we will be planning and running conferences. Please get in touch if you would like to help out.
 
-## Translations
+### Translations
 
 Things that are ready to be translated can be found at https://www.transifex.com/ipfs/public/
 
@@ -132,9 +93,46 @@ so that there is no wasted effort.
 
 If anyone has any issues understanding the English documentation, please let us know! We are very sensitive to language issues, and do not want to turn anyone away from hacking because of their language.
 
-## Helping in other ways
+### IPFS Meetup
+
+Running an IPFS Meetup is an excellent way to meet new friends that are also enthused by the Distributed Web. For tips and help, refer to [IPFS Meetups](https://github.com/ipfs/community#ipfs-meetups)
+
+### Helping in other ways
 
 Protocol Labs occasionally is able to hire developers for part time or full time positions, to work on IPFS. If you are interested, check out [the job listings](http://protocol.ai/join). If you'd like to help in other ways, propose your ideas on the IPFS forums at https://discuss.ipfs.io.
+
+## Protocol Specification
+
+### Protocol Design
+
+When considering protocol design proposals, we are looking for:
+
+- A description of the problem this design proposal solves
+- Discussion of the tradeoffs involved
+- Review of other existing solutions
+- Links to relevant literature (RFCs, papers, etc)
+- Discussion of the proposed solution
+
+Please note that protocol design is hard, and meticulous work. You may need to review existing literature and think through generalized use cases.
+
+### Implementation Design
+
+When considering design proposals for implementations, we are looking for:
+
+- A description of the problem this design proposal solves
+- Discussion of the tradeoffs involved
+- Discussion of the proposed solution
+
+### Design Review
+
+Sometimes proposals can get stuck in either waiting for a decision or input. We've introduced "design reviews" as a forcing function to help stuck proposals make progress.
+
+A good design review should start with:
+
+- A clear proposal.
+- A clear set of desired outputs and/or questions to be answered.
+
+To schedule a design review, show up to the [Core Implementations](https://github.com/ipfs/team-mgmt/issues/992) call and propose a design review in the design review section of the notes. When we get to the design reviews section of the call, you'll have a chance to make your case. If your design review is accepted, interested parties will sign-up for the review (directly in the meeting notes) and a DRI will be chosen to schedule the public design review meeting.
 
 ## Code Contribution Guidelines
 
@@ -232,23 +230,23 @@ Update documentation when creating or modifying features. Test your documentatio
 
 Pull requests descriptions should be as clear as possible. Err on the side of overly specific and include a reference to all related issues. If the pull request is meant to close an issue please use the Github keyword conventions of [closes, fixes, or resolves]( https://help.github.com/articles/closing-issues-via-commit-messages/). If the pull request only completes part of an issue use the [connects keywords]( https://github.com/waffleio/waffle.io/wiki/FAQs#prs-connect-keywords). This helps our tools properly link issues to pull requests.
 
-### Code Review
+#### Code Review
 
 We take code quality seriously; we must make sure the code remains correct. We do code review on all changesets. Discuss any comments, then make modifications and push additional commits to your feature branch. Be sure to post a comment after pushing. The new commits will show up in the pull request automatically, but the reviewers will not be notified unless you comment.
 
 We use the `needs review` as a signal that something needs review. If you can't add one to your own PR, feel free to request that the maintainers add the label to it.
 
-### Rebasing
+#### Rebasing
 
 Pull requests **must be cleanly rebased ontop of master** without multiple branches mixed into the PR. If master advances while your PR is in review, please keep rebasing it. It makes all our work much less error-prone.
 
 Before the pull request is merged, make sure that you squash your commits into logical units of work using `git rebase -i` and `git push -f`. After _every commit_ the test suite must be passing. This is so we can revert pieces, and so we can quickly bisect problems. Include documentation changes and tests in the same commit so that a revert would remove all traces of the feature or fix.
 
-### Merge Approval
+#### Merge Approval
 
 We use LGTM (Looks Good To Me) in comments on the code review to indicate acceptance. A change **requires** LGTMs from the maintainers of each component affected. If you know whom it may be, ping them.
 
-### Reverting Changes
+#### Reverting Changes
 
 When some change is introduced, and we decide that it isn't beneficial and/or it causes problems, we need to revert it.
 
