@@ -1,6 +1,5 @@
 # JavaScript Contributing Guildelines
 
-
 These guidelines reflect our shared consensus on protocol and etiquette from what we've built so far. Every single item that is presented here is the result of lots of experimentation. However, that doesn't mean that there isn't a better way to do things. What we have below is simply what we've found to work best for us. In this document you will find notes about:
 
 - Project structure.
@@ -25,16 +24,6 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
     - [Releasing](#releasing)
     - [Documentation](#documentation)
   - [Commits](#commits)
-    - [Commit Message Format](#commit-message-format)
-    - [Sign-off on commits](#sign-off-on-commits)
-    - [Revert](#revert)
-    - [Type](#type)
-    - [Scope](#scope)
-    - [Subject](#subject)
-    - [Body](#body)
-    - [Footer](#footer)
-    - [Examples](#examples)
-    - [References](#references)
   - [Pull Requests](#pull-requests)
 - [Aegir](#aegir)
   - [...for maintainers](#for-maintainers)
@@ -109,7 +98,6 @@ NotFoundError.code = 'ERR_NOT_FOUND'
 exports.NotFoundError = NotFoundError
 ```
 
-
 This enables others to reuse those definitions and decreases the number of hardcoded values across our codebases.
 For example:
 
@@ -156,72 +144,27 @@ For releasing a js-ipfs, see [RELEASE_ISSUE_TEMPLATE](https://github.com/ipfs/js
 
 #### Documentation
 
-We use [documentation.js](https://github.com/documentationjs/documentation/tree/master/docs) to document our JavaScript repositories. An example for how to use JSDoc to document everything can be seen in [this PR to js-ipfs](https://github.com/ipfs/js-ipfs/pull/651). Ideally, we create a `docs` folder in each repository, and make sure it is not tracked to git.
-
-We use [`aegir-docs`](https://github.com/dignifiedquire/aegir) for the actual generation, which relies on JSDoc style comments. For more on aegir, see [the section below](#aegir).
+`TBW`
 
 ### Commits
 
-We have very precise rules over how our git commit messages can be formatted. This leads to more readable messages that are easy to follow when looking through the project history.  But also, we use the git commit messages to generate the change log.
+We have guidelines for how our git commit messages should be formatted. This leads to more readable messages that are easy to follow when looking through the project history.  But also, we use the git commit messages to generate the change log.
 
 The commit message formatting can be added using a typical git workflow or through the use of a CLI wizard ([Commitizen](https://github.com/commitizen/cz-cli)).
 
-#### Commit Message Format
+- **Type** - Must be one of the following:
+  - **feat**: A new feature
+  - **fix**: A bug fix
+  - **docs**: Documentation only changes
+  - **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+  - **refactor**: A code change that neither fixes a bug nor adds a feature
+  - **perf**: A code change that improves performance
+  - **test**: Adding missing tests
+  - **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
+- **Scope** - The scope could be anything specifying the place of the commit change. For example `api`, `cli`, etc...
+- **Breaking Changes** - Should be identified at the end of commit message. Start with the words `BREAKING CHANGE:` on a new line followed by a space or two new lines. The rest of the commit message is then used to describe in detail what was broken and the migration path (if there is one).
 
-Each commit message consists of a header, a body and a footer. The header has a special format that includes a type, a scope and a subject:
-
-```
-<type>(<scope>): <subject>
-<BLANK LINE>
-<body>
-<BLANK LINE>
-<footer>
-```
-
-The header is mandatory and the scope of the header is optional.
-
-#### Revert
-
-If the commit reverts a previous commit, it should begin with `revert: `, followed by the header of the reverted commit. In the body it should say: `This reverts commit <hash>.`, where the hash is the SHA of the commit being reverted.
-
-#### Type
-
-Must be one of the following:
-
-* **feat**: A new feature
-* **fix**: A bug fix
-* **docs**: Documentation only changes
-* **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing
-  semi-colons, etc)
-* **refactor**: A code change that neither fixes a bug nor adds a feature
-* **perf**: A code change that improves performance
-* **test**: Adding missing tests
-* **chore**: Changes to the build process or auxiliary tools and libraries such as documentation
-  generation
-
-#### Scope
-
-The scope could be anything specifying the place of the commit change. For example `api`, `cli`, etc...
-
-#### Subject
-
-The subject contains a succinct description of the change:
-
-* use the imperative, present tense: "change" not "changed" nor "changes"
-* don't capitalize first letter
-* no dot (.) at the end
-
-#### Body
-
-Just as in the subject, use the imperative, present tense: "change" not "changed" nor "changes". The body should include the motivation for the change and contrast this with previous behavior.
-
-#### Footer
-
-The footer should contain any information about breaking changes and is also the place to reference GitHub issues that this commit closes.
-
-**Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
-
-#### Examples
+Examples:
 
 ```
 feat(pencil): add 'graphiteWidth' option
@@ -245,22 +188,13 @@ revert: feat(pencil): add 'graphiteWidth' option
 This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 ```
 
-#### References
-
-This commit strategy is based on:
-
-- https://github.com/conventional-changelog/conventional-changelog-angular/blob/master/convention.md
-- https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#commit
-
-More details about the commit convention can also be found in this [document](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y).
-
 ### Pull Requests
 
 There should be no dependencies that rely on commits. Instead, there should be WIP PR and each PR that depends on other WIP PR should list what it depends on. Yes, everyone will have to do the extra work of `npm link`ing everything, but this helps us have a cleaner workflow.
 
 ## Aegir
 
-We've created [a module](https://github.com/dignifiedquire/aegir) to help us achieve all of the above with minimal effort. Feel free to also use it for your projects. Feedback is appreciated!
+We've created [a module](https://github.com/ipfs/aegir) to help us achieve all of the above with minimal effort. Feel free to also use it for your projects. Feedback is appreciated!
 
 #### ...for maintainers
 
