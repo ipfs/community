@@ -162,7 +162,7 @@ The commit message formatting can be added using a typical git workflow or throu
   - **test**: Adding missing tests
   - **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
 - **Scope** - The scope could be anything specifying the place of the commit change. For example `api`, `cli`, etc...
-- **Breaking Changes** - Should be part of the commit message. Start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
+- **Breaking Changes** - Should be identified at the end of commit message. Start with the words `BREAKING CHANGE:` on a new line followed by a space or two new lines. The rest of the commit message is then used to describe in detail what was broken and the migration path (if there is one).
 
 Examples:
 
