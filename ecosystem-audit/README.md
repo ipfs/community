@@ -73,14 +73,14 @@ The items outlined below represent the deliverables of this audit effort.
 
 ### Artifacts generated for this project
 - [Channel inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB) (Airtable base)
-  - *Information on channels is captured; currently working on weighting logic to feed into recommendation-scoring*
+  - *Information on channels is captured; channels are weighted and ready to be considered in recommendation scoring.*
 - [Stakeholder inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tblzZtLFDkZdd3unO/viwEFHBbZmX2S0TV6?blocks=hide) (Airtable base)
-  - *Information on stakeholders is captured; currently working on weighting logic to feed into recommendation-scoring*
+  - *Information on stakeholders is captured; stakeholders are weighted and ready to be considered in recommendation scoring.*
 - [Workstream inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tbljIydLlJQ6rgoOl/viwkEkQqWDeJW6172?blocks=hide) (Airtable base)
-  - *Information on workstreams is captured; currently working on weighting logic to feed into recommendation-scoring*
+  - *Information on workstreams is captured; workstreams are weighted and ready to be considered in recommendation scoring.*
 - [Application areas and core goal inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tblZQvfFA86oBsElC/viw3IwoTHyqPMItS5?blocks=hide) (Airtable base)
   - *Aligns prior art in application areas with prior art in goal-based personae*
-  - *Information is captured; currently working on weighting logic to feed into recommendation-scoring**
+  - *Information is captured; app areas are weighted and ready to be considered in recommendation scoring.**
 - [Audit recommendations](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)
   - ***Very much a WIP until end March! Take with salt***
   - *Recommendations can be voted upon, so please make your opinions heard*
