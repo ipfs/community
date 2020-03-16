@@ -56,35 +56,32 @@ The items outlined below represent the deliverables of this audit effort.
 
 **OBJECTIVE #3:**  Generate and rank recommendations for execution in Q2 and beyond.
 - **Result #1:** We formulate high-level recommendations for serving or resolving the high-value items identified in Objectives #1 and #2, including the time, effort, human/technical resources, and potential org-chart impact required by each.
-- **Result #2:** We rank these recommendations based upon the weighting logic determined in Objective #2, and follow up with human analysis and discussion on (approximately) the top 5 in order to determine best next steps based on available resources, external factors, etc.
-- **Result #3:** For those (approximate) top 5 recommendations, we reach a decision for Q2 2020 to either take on, delegate (to a specific group/individual), or defer (to a specific time) the work required for execution. For work we take on, we create a high-level workplan suitable for transfer into Q2 OKRs.
+- **Result #2:** We rank these recommendations based upon the weighting logic determined in Objective #2, and follow up with human analysis and discussion on (approximately) the top 20 in order to determine best next steps based on available resources, external factors, etc.
+- **Result #3:** For those (approximate) top 20 recommendations, we reach a decision for Q2 2020 to either take on, delegate (to a specific group/individual), or defer (to a specific time) the work required for execution. For work we take on, we create a high-level workplan suitable for transfer into Q2 OKRs.
 
 ## Milestones
 
 - **End January:** Q1 OKRs defined and agreed upon; research initiated. 
 - **End February:** Initial high-level research complete and visible in rough form in the ["Artifacts"](#Artifacts) list below.
-- **End March:** Research refined as time permits and consolidated into ranked high-level recommendations; decisions on (approximate) top 5 recommendations reached; for work to be undertaken in Q2, high-level workplan created. 
+- **End March:** Research refined and consolidated into ranked high-level recommendations; decisions on (approximate) top 20 recommendations reached; for work to be undertaken in Q2 by core collabs and community team, high-level workplan created; for work to be delegated, recommendations clearly communicated to delegates.
 
-***A note on triage:** As this is research and exploratory work, it may be pre-empted due to tactical urgencies or other unforeseen circumstances. If this is the case, our approach will be to continue to reach the milestones stated above, but at a lower level of granularity. With this in mind, our approach to this audit as a whole will be iterative — to start at the broadest level, and continue to refine to the degree time permits.*
+***A note on triage:** ~~As this is research and exploratory work, it may be pre-empted due to tactical urgencies or other unforeseen circumstances. If this is the case, our approach will be to continue to reach the milestones stated above, but at a lower level of granularity. With this in mind, our approach to this audit as a whole will be iterative — to start at the broadest level, and continue to refine to the degree time permits.~~Fortunately, no triage was needed on this effort.*
 
 ## Artifacts
 
-*This list is a work in progress, and will be augmented/edited over the course of this project.*
-
 ### Artifacts generated for this project
-- [Channel inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB) (Airtable base)
-  - *Information on channels is captured; channels are weighted and ready to be considered in recommendation scoring.*
-- [Stakeholder inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tblzZtLFDkZdd3unO/viwEFHBbZmX2S0TV6?blocks=hide) (Airtable base)
-  - *Information on stakeholders is captured; stakeholders are weighted and ready to be considered in recommendation scoring.*
-- [Workstream inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tbljIydLlJQ6rgoOl/viwkEkQqWDeJW6172?blocks=hide) (Airtable base)
-  - *Information on workstreams is captured; workstreams are weighted and ready to be considered in recommendation scoring.*
-- [Application areas and core goal inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tblZQvfFA86oBsElC/viw3IwoTHyqPMItS5?blocks=hide) (Airtable base)
+- **[Channel inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB) (Airtable sheet)**
+  - *Information on channels is captured; channels are weighted and ready to be considered in recommendation scoring*
+- **[Stakeholder inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tblzZtLFDkZdd3unO/viwEFHBbZmX2S0TV6?blocks=hide) (Airtable sheet)**
+  - *Information on stakeholders is captured; stakeholders are weighted and ready to be considered in recommendation scoring*
+- **[Workstream inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tbljIydLlJQ6rgoOl/viwkEkQqWDeJW6172?blocks=hide) (Airtable sheet)**
+  - *Information on workstreams is captured; workstreams are weighted and ready to be considered in recommendation scoring*
+- **[Application areas and core goal inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tblZQvfFA86oBsElC/viw3IwoTHyqPMItS5?blocks=hide) (Airtable sheet)**
   - *Aligns prior art in application areas with prior art in goal-based personae*
-  - *Information is captured; app areas are weighted and ready to be considered in recommendation scoring.*
-- [Audit recommendations](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)
-  - ***Very much a WIP until end March! Take with salt***
-  - *Recommendations can be voted upon, so please make your opinions heard*
-  - *These will be transferred into the main Airtable board and scored/weighted based on criteria scoring above*
+  - *Information is captured; app areas are weighted and ready to be considered in recommendation scoring*
+- **[Ranked audit recommendations and decisions](https://airtable.com/invite/l?inviteId=invSHl2KmYhUhH8tB&inviteToken=f2b67161224dae0770c9b9b00ec36533639f9a2432d265d9c57267a7b1dd5534) (Airtable sheet)** and **[full list of voteable audit recommendations](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)**
+  - *Both of these are intended for use going forward as a backlog and voting sheet for future non-core-development IPFS efforts; we intend to revisit both of them quarterly for evaluation and re-prioritization*
+- *[TO COME] Q2 2020 workplan for efforts taken on by core collabs and community team*
   
 ### Reference material from other efforts
 - [IPFS preliminary landscape segmentation and use cases](https://docs.google.com/presentation/d/1CrjkRUHkl8ulaGFB64t7Zk_-G-5hNdWBWJEl5cenwX8/edit#slide=id.g64311b9f9c_1_100) (Google Slides deck)
