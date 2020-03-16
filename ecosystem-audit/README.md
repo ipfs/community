@@ -65,7 +65,7 @@ The items outlined below represent the deliverables of this audit effort.
 - **End February:** Initial high-level research complete and visible in rough form in the ["Artifacts"](#Artifacts) list below.
 - **End March:** Research refined and consolidated into ranked high-level recommendations; decisions on (approximate) top 20 recommendations reached; for work to be undertaken in Q2 by core collabs and community team, high-level workplan created; for work to be delegated, recommendations clearly communicated to delegates.
 
-***A note on triage:** ~~As this is research and exploratory work, it may be pre-empted due to tactical urgencies or other unforeseen circumstances. If this is the case, our approach will be to continue to reach the milestones stated above, but at a lower level of granularity. With this in mind, our approach to this audit as a whole will be iterative — to start at the broadest level, and continue to refine to the degree time permits.~~Fortunately, no triage was needed on this effort.*
+***A note on triage:** ~~As this is research and exploratory work, it may be pre-empted due to tactical urgencies or other unforeseen circumstances. If this is the case, our approach will be to continue to reach the milestones stated above, but at a lower level of granularity. With this in mind, our approach to this audit as a whole will be iterative — to start at the broadest level, and continue to refine to the degree time permits.~~ Fortunately, no triage was needed on this effort.*
 
 ## Artifacts
 
