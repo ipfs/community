@@ -70,17 +70,20 @@ The items outlined below represent the deliverables of this audit effort.
 ## Artifacts
 
 ### Artifacts generated for this project
-- **[Channel inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB) (Airtable sheet)**
+- **[Channel inventory/weighting](https://airtable.com/shrtIEslr94kt5sMo) (Airtable sheet)**
   - *Information on channels is captured; channels are weighted and ready to be considered in recommendation scoring*
-- **[Stakeholder inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tblzZtLFDkZdd3unO/viwEFHBbZmX2S0TV6?blocks=hide) (Airtable sheet)**
+- **[Stakeholder inventory/weighting](https://airtable.com/shrYKtv0dMETI0lVu) (Airtable sheet)**
   - *Information on stakeholders is captured; stakeholders are weighted and ready to be considered in recommendation scoring*
-- **[Workstream inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tbljIydLlJQ6rgoOl/viwkEkQqWDeJW6172?blocks=hide) (Airtable sheet)**
+- **[Workstream inventory/weighting](https://airtable.com/shr1x1C9ltwh936uH) (Airtable sheet)**
   - *Information on workstreams is captured; workstreams are weighted and ready to be considered in recommendation scoring*
-- **[Application areas and core goal inventory/weighting](https://airtable.com/shrNYsGOzwhX7MzmB/tblZQvfFA86oBsElC/viw3IwoTHyqPMItS5?blocks=hide) (Airtable sheet)**
+- **[Application areas and core goal inventory/weighting](https://airtable.com/shrQoB6LnOSPBo9Yr) (Airtable sheet)**
   - *Aligns prior art in application areas with prior art in goal-based personae*
   - *Information is captured; app areas are weighted and ready to be considered in recommendation scoring*
-- **[Ranked audit recommendations and decisions](https://airtable.com/invite/l?inviteId=invSHl2KmYhUhH8tB&inviteToken=f2b67161224dae0770c9b9b00ec36533639f9a2432d265d9c57267a7b1dd5534) (Airtable sheet)** and **[full list of voteable audit recommendations](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)**
-  - *Both of these are intended for use going forward as a backlog and voting sheet for future non-core-development IPFS efforts; we intend to revisit both of them quarterly for evaluation and re-prioritization*
+- **Audit recommendations and decisions**
+  - [All audit recommendations, ranked with decisions](https://airtable.com/shrTtO3FEUPGril29) (Airtable sheet)
+  - [Subset: Recommendations chosen for action in Q2/Q3](https://airtable.com/shrRRQy903B6k7jgn) (Airtable sheet)
+  - [Longer-form recommendation descriptions/notes](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)
+  - *Note: This master recommendations sheet is intended for use going forward as a backlog and voting sheet for future non-core-development IPFS efforts; we intend to revisit quarterly for evaluation and re-prioritization*
 - *[TO COME] Q2 2020 workplan for efforts taken on by core collabs and community team*
   
 ### Reference material from other efforts
