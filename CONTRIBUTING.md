@@ -72,7 +72,7 @@ The main issues for bug reporting are as follows:
 
 The [go-ipfs](https://github.com/ipfs/go-ipfs) issues use a template that will guide you through the process of reporting a bug. We will be adding this kind of issue template to other repositories as bug reports become more common.
 
-For all other questions/discussions, please visit the [discussion forum](https://discuss.ipfs.io)
+For all other questions/discussions, please visit the [discussion forum](https://discuss.ipfs.io).
 
 ### Community Tooling Improvement
 
@@ -80,7 +80,7 @@ The IPFS community requires maintenance of various "public infrastructure" resou
 
 ### Translations
 
-Things that are ready to be translated can be found at https://www.transifex.com/ipfs/public/
+Things that are ready to be translated can be found at https://www.transifex.com/ipfs/public/ .
 
 This community moves very fast and documentation swiftly gets out of date. For
 now, we are encouraging would-be translators to hold off from translating large
@@ -95,7 +95,7 @@ If anyone has any issues understanding the English documentation, please let us 
 
 ### IPFS Meetup
 
-Running an IPFS Meetup is an excellent way to meet new friends that are also enthused by the Distributed Web. For tips and help, refer to [IPFS Meetups](https://github.com/ipfs/community#ipfs-meetups)
+Running an IPFS Meetup is an excellent way to meet new friends that are also enthused by the Distributed Web. For tips and help, refer to [IPFS Meetups](https://github.com/ipfs/community#ipfs-meetups).
 
 ### Helping in other ways
 
