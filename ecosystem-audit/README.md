@@ -84,7 +84,10 @@ The items outlined below represent the deliverables of this audit effort.
   - [Subset: Recommendations chosen for action in Q2/Q3](https://airtable.com/shrRRQy903B6k7jgn) (Airtable sheet)
   - [Longer-form recommendation descriptions/notes](https://ipfs.canny.io/ipfs-information-ecosystem-audit-recommendations) (Canny board)
   - *Note: This master recommendations sheet is intended for use going forward as a backlog and voting sheet for future non-core-development IPFS efforts; we intend to revisit quarterly for evaluation and re-prioritization*
-- *[TO COME] Q2 2020 workplan for efforts taken on by core collabs and community team*
+- **Q2 2020 action plans**
+  - GitHub issues (in [`docs`](https://github.com/ipfs/docs/issues?q=is%3Aissue+%22%24auditrecommendation%22+) repo) for recommendations delegated to IPFS docs team
+  - GitHub issues (in [`ipfs-primer`](https://github.com/ipfs-shipyard/ipfs-primer/issues?q=is%3Aissue+%22%24auditrecommendation%22+), [`awesome-ipfs`](https://github.com/ipfs/awesome-ipfs/issues?q=is%3Aissue+%22%24auditrecommendation%22+), [`team-mgmt`](https://github.com/ipfs/team-mgmt/issues?q=is%3Aissue+%22%24auditrecommendation%22+), and [`community`](https://github.com/ipfs/community/issues?q=is%3Aissue+%22%24auditrecommendation%22+) repos) for recommendations taken on by ecosystem team
+  - [Working document](https://docs.google.com/document/d/1_Z5pKBU06SW4xAX05JJZpj8Zv_SimpZI5ZtkdjO-xMY/edit?usp=sharing) (Google Docs) for defining and formalizing an approach to improving the IPFS "tool family" (Companion, WebUI, and Desktop)
   
 ### Reference material from other efforts
 - [IPFS preliminary landscape segmentation and use cases](https://docs.google.com/presentation/d/1CrjkRUHkl8ulaGFB64t7Zk_-G-5hNdWBWJEl5cenwX8/edit#slide=id.g64311b9f9c_1_100) (Google Slides deck)
