@@ -146,7 +146,7 @@ Please take a moment to check whether an issue already exists. If it does, it ne
 
 We are always thrilled to receive pull requests, and do our best to process them as quickly as possible. However, if you are not sure if that typo is worth a pull request? Do it! We will appreciate it.
 
-If you don't get a response to a pull request within a few days, feel free to ping the repository maintainer, captain or last person to merge something in that repository.
+If you don't get a response to a pull request within a few days, feel free to ping the repository maintainer, captain or last person to merge something in that repository. Alternatively you can also reach out in the #ipfs IRC channel (Freenode).
 
 We're also trying very hard to keep IPFS focused. This means that we might decide against incorporating a new feature. However, there might be a way to implement that feature on top of (or below) IPFS.
 
