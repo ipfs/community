@@ -72,7 +72,7 @@ The main issues for bug reporting are as follows:
 
 The [go-ipfs](https://github.com/ipfs/go-ipfs) issues use a template that will guide you through the process of reporting a bug. We will be adding this kind of issue template to other repositories as bug reports become more common.
 
-For all other questions/discussions, please visit the [discussion forum](https://discuss.ipfs.io)
+For all other questions/discussions, please visit the [discussion forum](https://discuss.ipfs.io).
 
 ### Community Tooling Improvement
 
@@ -80,7 +80,7 @@ The IPFS community requires maintenance of various "public infrastructure" resou
 
 ### Translations
 
-Things that are ready to be translated can be found at https://www.transifex.com/ipfs/public/
+Things that are ready to be translated can be found at https://www.transifex.com/ipfs/public/ .
 
 This community moves very fast and documentation swiftly gets out of date. For
 now, we are encouraging would-be translators to hold off from translating large
@@ -95,7 +95,7 @@ If anyone has any issues understanding the English documentation, please let us 
 
 ### IPFS Meetup
 
-Running an IPFS Meetup is an excellent way to meet new friends that are also enthused by the Distributed Web. For tips and help, refer to [IPFS Meetups](https://github.com/ipfs/community#ipfs-meetups)
+Running an IPFS Meetup is an excellent way to meet new friends that are also enthused by the Distributed Web. For tips and help, refer to [IPFS Meetups](https://github.com/ipfs/community#ipfs-meetups).
 
 ### Helping in other ways
 
@@ -144,9 +144,9 @@ Please take a moment to check whether an issue already exists. If it does, it ne
 
 ### Pull Requests always welcome
 
-We are always thrilled to receive pull requests, and do our best to process them as quickly as possible. Not sure if that typo is worth a pull request? Do it! We will appreciate it.
+We are always thrilled to receive pull requests, and do our best to process them as quickly as possible. However, if you are not sure if that typo is worth a pull request? Do it! We will appreciate it.
 
-If you don't get a response to a pull request within a few days, feel free to mention it in the #ipfs IRC channel. We may be able to get to it faster.
+If you don't get a response to a pull request within a few days, feel free to ping the repository maintainer, captain or last person to merge something in that repository. Alternatively you can also reach out in the #ipfs IRC channel (Freenode).
 
 We're also trying very hard to keep IPFS focused. This means that we might decide against incorporating a new feature. However, there might be a way to implement that feature on top of (or below) IPFS.
 
