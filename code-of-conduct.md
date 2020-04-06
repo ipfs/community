@@ -32,7 +32,7 @@ applies to behavior in the context of the IPFS Open Source project communities, 
 
 This Code of Conduct is in addition to, and does not in any way nullify or invalidate, any other terms or conditions related to use of IPFS services.
 
-The definitions of various subjective terms such as "discriminatory", "hateful", or "confusing" will be decided at the sole discretion of the IPFS abuse team.
+The definitions of various subjective terms such as "discriminatory", "hateful", or "confusing" will be decided at the sole discretion of the [IPFS abuse team](#contact-info).
 
 ## Friendly Harassment-Free Space
 
@@ -53,11 +53,11 @@ others’ intellectual property rights.
 
 ## Reporting Violations of this Code of Conduct
 
-If you believe someone is harassing you or has otherwise violated this Code of Conduct, please contact us at abuse@ipfs.io to send us an abuse report. If this is the initial report of a problem, please include as much detail as possible. It is easiest for us to address issues when we have more context.
+If you believe someone is harassing you or has otherwise violated this Code of Conduct, please [contact us](#contact-info) to send us an abuse report. If this is the initial report of a problem, please include as much detail as possible. It is easiest for us to address issues when we have more context.
 
 ## Copyright Violations
 
-We respect the intellectual property of others and ask that you do too. If you believe any content or other materials available through public IPFS infrastructure violates a copyright held by you and you would like to submit a notice pursuant to the Digital Millennium Copyright Act or other similar international law, you can submit a notice to our agent for service of notice to: abuse@ipfs.io
+We respect the intellectual property of others and ask that you do too. If you believe any content or other materials available through public IPFS infrastructure violates a copyright held by you and you would like to submit a notice pursuant to the Digital Millennium Copyright Act or other similar international law, you can submit a notice to the [abuse team](#contact-info) for service.
 
 (We will add a physical mailing address here when we acquire one).
 
@@ -85,11 +85,19 @@ On IRC, let one of the ops know if you think that someone has transgressed again
 
 Please contact abuse@ipfs.io if you need to report a problem or address a grievance related to an abuse report.
 
+If you prefer, you can contact any of the abuse team members separately. The abuse team is formed by:
+
+- molly@ipfs.io
+- dietrich@ipfs.io
+- michael@ipfs.io
+- ebony@ipfs.io
+- hector@ipfs.io
+
 You are also encouraged to contact us if you are curious about something that might be "on the line" between appropriate and inappropriate content. We are happy to provide guidance to help you be a successful part of our community.
 
 ## Events
 
-Please see our [Code of Conduct Events Addendum](code-of-conduct_events.md) in this repo.
+Please see our [Code of Conduct Events Addendum](code-of-conduct-for-events.md) in this repo.
 
 ## Changes
 
