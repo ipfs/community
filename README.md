@@ -15,7 +15,7 @@
 - [Swag](#swag)
 - Events
   - [IPFS Meetups](#ipfs-meetups)
-  - [ProtoSchool Chapter Events](#protoschool-chapter-events)
+  - [ProtoSchool Workshops](#protoschool-workshops)
   - [IPFS Event Materials](#ipfs-event-materials)
   - [Community Calendar](#community-calendar)
 - [Contribute](#contribute)
@@ -82,9 +82,9 @@ Find the list at:
 - [This repo](https://github.com/ipfs/community/issues?q=is%3Aissue+is%3Aopen+label%3Ameetup)
 - [Meetup.com](https://meetup.com/pro/ipfs)
 
-### ProtoSchool Chapter Events
+### ProtoSchool Workshops
 
-[ProtoSchool](https://proto.school) is a community-driven open source project dedicated to making it easy to get started with decentralized web technologies like IPFS through [interactive online tutorials](https://proto.school/#/tutorials) and community learning events led by local chapters around the world. To locate an event near you, check out our [chapter list](https://proto.school/#/chapters). Don't see a ProtoSchool chapter in your neighborhood? [Start your own!](https://proto.school/#/host)
+[ProtoSchool](https://proto.school) is a community-driven open source project dedicated to making it easy to get started with decentralized web technologies like IPFS through [interactive online tutorials](https://proto.school/#/tutorials) and local learning events led by community groups around the world. To locate a workshop near you, check out our [event listings](https://proto.school/#/events). Don't see a ProtoSchool workshop in your neighborhood? [Host your own!](https://proto.school/#/host)
 
 ### IPFS Event Materials
 Want to host an event to share IPFS with others, or bring IPFS to another event? Feel free to use these materials to make your event(s) awesome! Everything here is [Creative Commons 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - so feel free to adapt or remix!
