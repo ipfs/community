@@ -85,6 +85,8 @@ On IRC, let one of the ops know if you think that someone has transgressed again
 
 Please contact abuse@ipfs.io if you need to report a problem or address a grievance related to an abuse report.
 
+We will keep all matters confidential and they will only be shared within the team, with the exception of legal counsel when deemed necessary, or unless given explicit permission by the reporter.
+
 If you prefer, you can contact any of the abuse team members separately. The abuse team is formed by:
 
 - molly@ipfs.io
@@ -92,6 +94,8 @@ If you prefer, you can contact any of the abuse team members separately. The abu
 - michael@ipfs.io
 - ebony@ipfs.io
 - hector@ipfs.io
+
+When contacting an individual directly, will they ask for explicit permission to share the details with the rest of the team. When not granted, they will keep details of the matters as confidential as possible (particularly private or identity information) but they may still share broad strokes as necessary to resolve the issue.
 
 You are also encouraged to contact us if you are curious about something that might be "on the line" between appropriate and inappropriate content. We are happy to provide guidance to help you be a successful part of our community.
 
