@@ -1,7 +1,5 @@
 # IPFS org issue labeling standards
 
-**NOTE: These will eventually want to live in a public repo for all to see and use. Their current location in `ipfs-dev-exp` is temporary while we talk through the [issue of a global labeling strategy for IPFS](https://github.com/protocol/ipfs-dev-exp/issues/3).**
-
 As of Q2 2020, the IPFS org standardizes on the following default core labels for GitHub issues and pull requests. This ensures continuity
 between repos, helping to improve the overall experience for contributors as a whole while also making it easier to use project
 planning tools (such as ZenHub) to create landscape-level views across multiple repos.
