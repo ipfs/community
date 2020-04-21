@@ -5,13 +5,13 @@ This procedure documents actions to be taken by event staff and volunteers if a 
 
 ## Before the event
 
-* Assemble event sub-comittee to handle implementation of procedures.
-* Ensure Local Planning commitee includes a quiet, private space suitable for taking reports in venue requirements.
+* Assemble event sub-committee to handle implementation of procedures.
+* Ensure Local Planning committee includes a quiet, private space suitable for taking reports in venue requirements.
 * Select duty officers, and familiarize them with this document and the [Code of Conduct](code-of-conduct.md).
 * Identify an organize any required training for duty officers.
 * Decide how event attendees will be able to recognize duty officers, and publicize this.
 * Schedule duty officer shifts.
-* Ensure that leaders of official off-site events (tours / newcomer dinners, etc) are familar with the Code of Conduct.
+* Ensure that leaders of official off-site events (tours / newcomer dinners, etc) are familiar with the Code of Conduct.
 * Decide which event organizers will be responsible for incident response, and familiarize them with this document and the Code of Conduct.
 * Make sure all of the people in this section have each others' contact information.
 * Consult prior event organizers for any knowledge they need to transfer relevant to enforcement (e.g. prior incident response; iterations to procedure; or people with ongoing sanctions).
@@ -54,7 +54,7 @@ The duty officers' job is to:
 * Refer reporters to appropriate services (e.g. event staff for incident response, medical or other emergency services) (* TODO: do we need to spell out duty officer referral options/criteria)
 
 The duty officers' job is _not_ to:
-* Respond to front-line customer service queries (these are probably best hanled by the registration desk)
+* Respond to front-line customer service queries (these are probably best handled by the registration desk)
 * Be everyone's pal
 * Follow reporters to offsite medical or other services (duty officers need to stay onsite; delegate this task to someone the reporter trusts if needed)
 * Put themselves in danger (_DO NOT DO THIS FOR ANY REASON_. Your personal safety supersedes your duty officer responsibilities.)

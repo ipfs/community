@@ -1,4 +1,4 @@
-# JavaScript Contributing Guildelines
+# JavaScript Contributing Guidelines
 
 These guidelines reflect our shared consensus on protocol and etiquette from what we've built so far. Every single item that is presented here is the result of lots of experimentation. However, that doesn't mean that there isn't a better way to do things. What we have below is simply what we've found to work best for us. In this document you will find notes about:
 

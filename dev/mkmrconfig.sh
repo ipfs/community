@@ -15,7 +15,7 @@ set -eo pipefail; [[ $MKMRCONFIG_TRACE ]] && set -x
 #
 # Notes:
 # - Repos not starting in "go-" need to be added to more_repos.
-# - Watch out for Github API's requests limit, set $auth if neccessary.
+# - Watch out for Github API's requests limit, set $auth if necessary.
 
 # github oauth, e.g. "-u lgierth:personalaccesstoken"
 auth=""

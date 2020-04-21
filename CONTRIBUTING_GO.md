@@ -34,7 +34,7 @@ If you are new to our Go development workflow:
 - Clone `https://github.com/ipfs/go-ipfs`.
 - You are now free to make changes to the codebase as you please.
 - You can build the binary by running `go build ./cmd/ipfs` from the go-ipfs directory.
-  - NOTE: when making changes remember to restart your daemon to ensure its running your new code.
+  - NOTE: when making changes remember to restart your daemon to ensure it's running your new code.
 
 ### Branch Names
 
@@ -138,7 +138,7 @@ The *exception* to this rule is the [go-ipfs](http://github.com/ipfs/go-ipfs) re
 
 ## Pull Request Reviews
 
-PRs and PR reviews are an important part of the our project process. As a PR contributor your goal is to help others
+PRs and PR reviews are an important part of our project process. As a PR contributor your goal is to help others
 understand your PR as quickly and easily as possible.
 - Review your own PR before asking others. Dead code, test code, typos all will slip into PRs occasionally, and that's fine. But give it a pass first to help reviewers to focus on the actual code being submitted.
 - Provide context for your PR. Provide a description of the problem your PR addresses and the solution you have provided in your initial description to help readers get started. It doesn't have to be extensive - a few sentences each.

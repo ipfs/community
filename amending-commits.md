@@ -47,7 +47,7 @@ for the missing trailers, if any, to be added.
 #### Improving the commit message of any commit
 
 It's also easy to improve the commit message of more than one commit on
-the current branch. For example, let's say you wan to edit the last 3
+the current branch. For example, let's say you want to edit the last 3
 commits. Just run:
 
 ```sh
