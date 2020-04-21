@@ -17,7 +17,7 @@ Unless there is a particular reason to use a different licensing structure, plea
 
 When licensing a project, be sure to:
 
-1. Name the the license and provide a link to it from the project README under the heading “license.” Example:
+1. Name the license and provide a link to it from the project README under the heading “license.” Example:
 
     ```md
     ## License

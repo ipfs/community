@@ -22,7 +22,7 @@ This is the content styleguide for our natural language descriptions used in the
 ### Acronyms
 
 - IPFS is always capitalized if it is not referring to an `ipfs` CLI command.
-- DAG is always capitalised unless it is used in the first instance.
+- DAG is always capitalized unless it is used in the first instance.
 
 #### Accepted forms:
 
@@ -62,7 +62,7 @@ This is the content styleguide for our natural language descriptions used in the
     (But don’t cut critical terms — if “standardized” was important here, you could also write “the CID is a standardized pointer to data…“)
   
 - Keep in mind you are writing for an international audience. Use more common words wherever you can. For example, say “short” instead of “compact.” [Plainlanguage.gov](https://plainlanguage.gov/guidelines/words/use-simple-words-phrases/) has a good list of examples.
-- Use specific terminology rather than abstract terminology wherever possible. If an abstract term is the best fit, make sure to descibe the context and meaning you are using it for.
+- Use specific terminology rather than abstract terminology wherever possible. If an abstract term is the best fit, make sure to describe the context and meaning you are using it for.
 
     The most common example of this in IPFS is the term “node.” If you are talking about a process running IPFS, try using “peer” or “IPFS instance” instead, or at least clarify it by saying “*IPFS* node.”
 

@@ -101,7 +101,7 @@ In order to bypass this bottleneck, we need to provide infrastructure and docume
 
 ### Scaling Factor: Proliferation of Comms Channels and Resulting Notification Overload
 
-Spreading communication across many  channels confuses the heck out of everyone, especially new arrivals. It also makes it very hard for core contributors to participate in open community discussions on top of the existing volume of implementation-focused discussions.
+Spreading communication across many channels confuses the heck out of everyone, especially new arrivals. It also makes it very hard for core contributors to participate in open community discussions on top of the existing volume of implementation-focused discussions.
 
 @jbenet [comments](https://github.com/ipfs/community/issues/69#issuecomment-158861396):
 > It is very time consuming and hard for core devs to keep up with notifications as it is, adding more communication channels will worsen this.
@@ -317,7 +317,7 @@ Related Github Issues:
 * notifications can be configured to suit wide variety of preferences
 * You can curate threads to emphasize things like important topics, common questions, especially good answers, etc.
 * Provides ways to give community members a range of powers and responsibilities
-* Could _decrease_ the number of notifivations that core devs receive because, as described by @lidel [here](https://github.com/ipfs/community/pull/246#discussion_r105844087), it allows you to receive notifications for the first item in each new thread and then choose to opt in rather than (github-style) defaulting to sending all messages from all threads 
+* Could _decrease_ the number of notifications that core devs receive because, as described by @lidel [here](https://github.com/ipfs/community/pull/246#discussion_r105844087), it allows you to receive notifications for the first item in each new thread and then choose to opt in rather than (github-style) defaulting to sending all messages from all threads 
 
 ### Drawbacks of using discourse
 
