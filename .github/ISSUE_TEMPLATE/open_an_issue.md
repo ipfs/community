@@ -1,20 +1,21 @@
 ---
-name: Open an issuea about this code base
-about: Must be related to this repository. For support ask in https://discuss.ipfs.io
+name: Open an issue
+about: Make sure it is relevant and actionable. For support and discussions ask in https://discuss.ipfs.io or see https://ipfs.io/help.
 title: ''
 labels: need/triage
 assignees: ''
 
 ---
-(You can delete this text after reading it).
+<!--
+Hello! To ensure this issue is correctly addressed as soon as
+possible by the IPFS team, please try to make sure:
 
-Hello! To ensure this issue is correctly addressed as soon as possible by the
-IPFS team please make sure:
+- This issue is relevant to this repository's topic or codebase.
 
-- This bug or feature request belongs to this codebase
-
-- There is a clear description that includes as much information as possible
-and clear scope for the issue to be actionable.
+- A clear description is provided. It should includes as
+much relevant information as possible and clear scope
+for the issue to be actionable.
 
 FOR GENERAL DISCUSSION, HELP OR QUESTIONS, please see the options at
 https://ipfs.io/help or head directly to https://discuss.ipfs.io.
+-->
