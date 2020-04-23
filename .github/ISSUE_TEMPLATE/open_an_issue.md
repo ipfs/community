@@ -1,6 +1,6 @@
 ---
 name: Open an issue
-about: Make sure it is relevant and actionable. For support and discussions ask in https://discuss.ipfs.io or see https://ipfs.io/help.
+about: Only for actionable issues relevant to this repository.
 title: ''
 labels: need/triage
 assignees: ''
