@@ -71,7 +71,7 @@ Always run tests before pushing and PR'ing your code.
 
 #### Supported Versions
 
-The IPFS JavaScript projects work with the Current and Active LTS versions of Node.js and respective npm version that gets installed with Node.js. Please consult [nodejs.org](https://nodejs.org/) for LTS timeline.
+The IPFS JavaScript projects work with the Active LTS versions of Node.js and respective npm version that gets installed with Node.js. Please consult [nodejs.org](https://nodejs.org/) for LTS timeline.
 
 #### Linting & Code Style
 
