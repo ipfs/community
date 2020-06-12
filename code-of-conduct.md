@@ -97,7 +97,7 @@ If you prefer, you can contact any of the abuse team members separately. The abu
 - ebony@ipfs.io
 - hector@ipfs.io
 
-When contacting an individual directly, will they ask for explicit permission to share the details with the rest of the team. When not granted, they will keep details of the matters as confidential as possible (particularly private or identity information) but they may still share broad strokes as necessary to resolve the issue.
+When contacting an individual directly, they will ask for explicit permission to share the details with the rest of the team. When not granted, they will keep details of the matters as confidential as possible (particularly private or identity information) but they may still share broad strokes as necessary to resolve the issue.
 
 You are also encouraged to contact us if you are curious about something that might be "on the line" between appropriate and inappropriate content. We are happy to provide guidance to help you be a successful part of our community.
 
