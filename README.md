@@ -12,7 +12,6 @@
 - [About](#about)
 - [People](#people)
 - [Contributing Guidelines](#contributing-guidelines)
-- [Swag](#swag)
 - Events
   - [IPFS Meetups](#ipfs-meetups)
   - [ProtoSchool Workshops](#protoschool-workshops)
@@ -66,10 +65,6 @@ The grid keeps growing, find the latest always at the [Contributors Hex Grid rep
 - [Contributing Guidelines for JavaScript Projects](./CONTRIBUTING_JS.md)
 - [Contributing Guidelines for Golang Projects](./CONTRIBUTING_GO.md)
 - [Code of Conduct](./code-of-conduct.md).
-
-## Swag
-
-We have stickers and we would love to send them to you. If you're hosting a series of IPFS meetups, we'd also love to send you T-shirts to distribute! Send your request directly to [swag+requests@protocol.ai](mailto:swag+requests@protocol.ai).
 
 ## Events
 
