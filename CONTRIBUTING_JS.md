@@ -144,7 +144,9 @@ For releasing a js-ipfs, see [RELEASE_ISSUE_TEMPLATE](https://github.com/ipfs/js
 
 #### Documentation
 
-`TBW`
+Documentation will be generated automatically by the JSDoc based TS types in the codebase.
+
+Type definitions and type imports should be created on the top of any JS file (below eventual requires needed). For tooling instructions and best practices, see [Documentation for JSDoc based TS types](https://github.com/ipfs/aegir/blob/master/md/ts-jsdoc.md).
 
 ### Commits
 
