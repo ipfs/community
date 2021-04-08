@@ -18,6 +18,7 @@
   - [IPFS Event Materials](#ipfs-event-materials)
   - [Community Calendar](#community-calendar)
 - [Contribute](#contribute)
+- [Ecosystem Projects](#ecosystem-projects)
 - [License](#license)
 
 ## About
