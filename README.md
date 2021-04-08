@@ -108,6 +108,21 @@ This repository falls under the IPFS [Code of Conduct](https://github.com/ipfs/c
 
 [![](https://cdn.rawgit.com/jbenet/contribute-ipfs-gif/master/img/contribute.gif)](https://github.com/ipfs/community/blob/master/CONTRIBUTING.md)
 
+## Ecosystem Projects
+
+If your project/product uses IPFS, you're in the IPFS ecosystem! We'd love to see all projects in the IPFS ecosystem be discoverable and used by the broader community! 
+
+### Showcase Your Project!
+
+Follow the steps below to submit your projects to be featured in this [repo](https://github.com/ipfs/community/tree/master/projects):
+- Create a project profile using the [project submission template here](https://github.com/filecoin-project/community/blob/master/templates/project-submission-template.md). Name the file name after your project and fill in as much information as you can.  Use your project name as the file name so the community can find your project easily!
+- Once the project profile is ready, create a [PR](https://github.com/filecoin-project/community/pulls), prefix `[Project Submission]` in the title
+- If everything looks good, the maintainer will merge the PR and voila, as simple as that your project is now featured here!
+
+### Updates and Newsletter
+
+We'd encourage all projects featured in this repo to share all of your thrilling updates with the community! Start a new comment with header `Project Name Update/Newsletter - Date` (i.e `## Slate Update - Feb, 2021`) in your project discussion to share the exciting news with the community!
+
 ## License
 
 This repository is mainly for documents. All of these are licensed under the [CC-BY-SA 3.0](https://ipfs.io/ipfs/QmVreNvKsQmQZ83T86cWSjPu2vR3yZHGPm5jnxFuunEB9u) license © 2019 Protocol Labs Inc. Any code is under an [MIT license](LICENSE) © 2019 Protocol Labs Inc.
