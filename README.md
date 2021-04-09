@@ -116,7 +116,7 @@ If your project/product uses IPFS, you're in the IPFS ecosystem! We'd love to se
 ### Showcase Your Project!
 
 Follow the steps below to submit your projects to be featured in this [repo](https://github.com/ipfs/community/tree/master/projects):
-- Create a project profile using the [project submission template here](https://github.com/filecoin-project/community/blob/master/templates/project-submission-template.md). Name the file name after your project and fill in as much information as you can.  Use your project name as the file name so the community can find your project easily!
+- Create a project profile here in the ipfs/community repository using the [project submission template here](https://github.com/filecoin-project/community/blob/master/templates/project-submission-template.md). Name the file name after your project and fill in as much information as you can.  Use your project name as the file name so the community can find your project easily!
 - Once the project profile is ready, create a [PR](https://github.com/filecoin-project/community/pulls), prefix `[Project Submission]` in the title
 - If everything looks good, the maintainer will merge the PR and voila, as simple as that your project is now featured here!
 
