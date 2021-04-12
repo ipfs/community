@@ -31,17 +31,12 @@ https://github.com/aklevecz/yaytso#readme
 Ariel Klevecz - CEO (Chief Egg Officer)  
 The mind behind the project and eggthusiast  
 Frontendy fullstacky dev who is continuing to enjoy exploring IPFS  
-
-Ethan Kuo - CCO (Chief Coop Officer)  
-QA engineer by day, designer by night  
-He's ready to make these eggs shine and keep on shining  
  
 ### Team Size  
-2
+1
 
 ### Team members  
 Ariel Klevecz  
-Ethan Kuo
 
 ## How the community can engage
 GitHub Discussion:  
