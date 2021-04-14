@@ -117,8 +117,9 @@ If your project/product uses IPFS, you're in the IPFS ecosystem! We'd love to se
 
 Follow the steps below to submit your projects to be featured in this [repo](https://github.com/ipfs/community/tree/master/projects):
 - Create a project profile here in the ipfs/community repository using the [project submission template here](https://github.com/ipfs/community/blob/master/templates/project-submission-template.md). Name the file name after your project and fill in as much information as you can.  Use your project name as the file name so the community can find your project easily!
+- Create a project discussion in the Discussion board on this repo, with the category as `Show and tell - Developers`  and title as `[Category] Project Name`(i.e: `[Application] Slate`), link the discussion in the How the community can engage section of your project submission. This is to create a place to interact with the community, share your updates and gain feedback on your projects! If you update your project Discussion regularly, those updates can be picked up in the IPFS newsletter, social sharing, get invites to speak at IPFS meetups or other events, and more!
 - Once the project profile is ready, create a [PR](https://github.com/filecoin-project/community/pulls), prefix `[Project Submission]` in the title
-- If everything looks good, the maintainer will merge the PR and voila, as simple as that your project is now featured here!
+- If everything looks good, the repo maintainers will merge the PR and voila, as simple as that your project is now featured here!
 
 ### Updates and Newsletter
 
