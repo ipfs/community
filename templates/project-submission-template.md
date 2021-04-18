@@ -1,47 +1,53 @@
-## Project Name <!-- Add your project name here with format "Project Name"-->
+## Fraxio 
 
-## Category 
-<!--developer tooling, application, wallet, infrastructure, etc-->
+## NFT
 
-## Project Description
-<!--Describe your project in a few sentences. -->
+## Description 
+Dynamic Multilayer NFT Editor and Framework
 
 ## Project Status
-<!--brainstorming, fundraising, under development, beta, shipped, etc-->
+In development started with Hackathon, Looking for Business Relations
 
 ## Previews
-<!--Add some screenshots to give a preview of your product-->
+Youtube Live Demo :https://youtu.be/EmZr0L0uris
+![image](https://user-images.githubusercontent.com/34139485/115134813-c3849180-a013-11eb-8a08-fded456576ad.png)
+
 
 ## Target Audience
-<!--Describe who will be your project's users-->
+Entertainment Industry 1st focus Group
+Young Art, Sport, Music Fans are the 2nd. focus group
+Broad Audience and adoption the general goal
 
-## Rough estimated user base (if applicable)
-<!--How many users do you have right now?-->
+## Rough estimated user base 
+very small community of hardcore developers,
+hackathon participants, friends, fam and 
 
 ## Github repo
-<!--Attach a link to your GitHub repo if it's OSS-->
+https://github.com/FraxioOfficial
 
-## Website
-<!--Link your website if available-->
+## DEMO PYE Editor
+https://fraxio.herokuapp.com // DEMO VERSION
 
 ## Docs
-<!--Including a link to your project docs!-->
+https://github.com/FraxioOfficial/fraxio_docs
 
 ## Team Info
-<!-- Introduce your amazing team - how many team members are working on this project and who are they?-->
 
-### Team Size  
+### Team Size 
+5
+### Team members 
+Aron Ayuk 
+Daniel Poblano 
+Irvin Chen 
+Louell L.Sala MD 
+Nathan Misner 
 
-### Team members  
 
-## How the community can engage
-GitHub Discussion: <!--Start a disucssion with the community here: https://github.com/filecoin-project/community/discussions/new and attach the link!-->  
-Email:  
-Slack:  
-Twitter:  
-Discord:  
-Telegram:  
-WeChat:  
+## How the community can engage 
+Email: frax.io-official 
+Twitter: https://twitter.com/IoFrax 
+Discord: https://discord.com/channels/821171829401190460/821171829401190463
+
 
 ## How to Contribute
-<!--How can the community contribute to your project?-->
+We are looking for Business Relations 
