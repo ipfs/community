@@ -42,28 +42,35 @@ João Rodrigues, Technical Leader
 - 3 years of web development experience
 
 Rosalie Avalon van Beek, Marketing manager
-- x
+- Content creator
+- Community manager
+- Dog lover
 
 Andrew Rangel, Full-stack dev
-- x
+- 9+ years native mobile development experience 
+- 5 years of full stack web development experience 
+- Product management and social media 
 
 Thomas Ford, Back-end dev/Systems
-- Python Dev
-- Solidity and BlockChain Dev
+- Python, Solidity/Blockchain Dev
+- Systems Management 
 - NFT maniac,Roboticist,Dog Lover, Degen
 
 Jurjen Folkertsma, Designer/Front-end dev
-- x 
+- Passion for design
+- User experience is key
+- Front end dev
 
 Nuno Monteiro, Front-end dev
-- x
-
+- Ability to quickly change gears and adapt to changes
+- Creative thinking
+- Out of the box ideas
 
 ## How the community can engage
-Email: -
-Twitter: -
+Email: - info@creatorr.fan
+Twitter: - https://twitter.com/Creatorrfan
 Discord: https://discord.gg/NVv5kK6j2k
-Telegram: -
+Telegram: - https://t.me/creatorrfans
 Github : https://github.com/demo-hub/creatorr
 
 ## How to Contribute
