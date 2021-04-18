@@ -49,5 +49,6 @@ Twitter:  @andreitaranu
 Discord:  https://discord.gg/RKTHJZF
 
 ## How to Contribute
+https://github.com/ipfs/community/discussions/485
 <!--How can the community contribute to your project?-->
 Flutter and Solidity code,<br> Promotional campaign management (Google Tag Manager, Funnel Analysis, Social Media Marketing, etc)<br>Business development (attracting attention from potential investors)<br>Words of encouragement<br>**Any kind of feedback**
