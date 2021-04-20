@@ -70,3 +70,4 @@ WeChat:
 ## How to Contribute
 <!--How can the community contribute to your project?-->
 Just reach out to us and we can develop together! Besides that we are fairly new to Blockchain development, therefore we got a lot of questions, that need to be answered :).
+https://github.com/ipfs/community/discussions/497
