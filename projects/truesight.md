@@ -15,7 +15,7 @@ By off-loading storage of both the user-generated content and the moderation lab
 
 ## Project Status
 <!--brainstorming, fundraising, under development, beta, shipped, etc-->
-Prototype created as a submission to the Spring 2021 Chainlink Hackathon. Submission included a demo client application which makes requests to the protptye network. See https://devpost.com/software/truesight
+Prototype created as a submission to the Spring 2021 Chainlink Hackathon. Submission included a demo client application which makes requests to the protptye network. Project was awarded Runner Up. See https://devpost.com/software/truesight
 
 ## Previews
 <!--Add some screenshots to give a preview of your product-->
@@ -50,11 +50,21 @@ We're a team of good friends with a mix of skills between web development and da
 
 Matt Durkin - https://github.com/PickleyD
 
+- Creative full-stack web developer with 8 years professional experience.
+- Winner of the [2020 Chainlink Virtual Hackathon](https://chain.link/hackathon/2020).
+
 Sam Humby - https://github.com/Samalot 
+
+- Full-Stack Software Engineer, 4 years professional experience developing Frontend Frameworks and Backend microservices. 
+- https://samalot.dev/
 
 Harry Jackson - https://github.com/harryjjackson
 
+- Data Scientist specialising in manufacturing optimisation with a background in computer science.
+
 Charlie Stafford-Roberts - https://github.com/colossalchaz
+
+- Public health data analyst working for local government to support the covid-19 recovery effort.
 
 ## How the community can engage
 Discord: https://discord.gg/UFvuED5D
