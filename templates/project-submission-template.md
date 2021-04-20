@@ -35,7 +35,7 @@
 ### Team members  
 
 ## How the community can engage
-* GitHub Discussion: <!--Start a discussion with the community here: https://github.com/filecoin-project/community/discussions/new and attach the link!-->  
+* GitHub Discussion: <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!-->  
 * Email:  
 * Slack:  
 * Twitter:  
