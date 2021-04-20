@@ -6,6 +6,9 @@
 ## Project Description
 <!--Describe your project in a few sentences. -->
 
+## Use of IPFS, Filecoin and Libp2p
+<!-- Describe how your project uses any or all of these technologies, and why. -->
+
 ## Project Status
 <!--brainstorming, fundraising, under development, beta, shipped, etc-->
 
