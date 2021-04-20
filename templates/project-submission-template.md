@@ -19,7 +19,7 @@
 <!--How many users do you have right now?-->
 
 ## Github repo
-<!--Attach a link to your GitHub repo - open source is required! -->
+<!--Attach a link to your GitHub repo - open source is required - please make sure your repo has a license file and is licensed using MIT open source license! -->
 
 ## Website
 <!--Link your website if available-->
