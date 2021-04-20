@@ -67,6 +67,7 @@ Charlie Stafford-Roberts - https://github.com/colossalchaz
 - Public health data analyst working for local government to support the covid-19 recovery effort.
 
 ## How the community can engage
+GitHub Discussion: https://github.com/ipfs/community/discussions/500
 Discord: https://discord.gg/UFvuED5D
 
 ## How to Contribute
