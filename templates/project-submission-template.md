@@ -5,6 +5,9 @@
 ## Description 
 Dynamic Multilayer NFT Editor and Framework
 
+## Use of IPFS, Filecoin and Libp2p
+<!-- Describe how your project uses any or all of these technologies, and why. -->
+
 ## Project Status
 In development started with Hackathon, Looking for Business Relations
 
@@ -23,7 +26,9 @@ very small community of hardcore developers,
 hackathon participants, friends, fam and 
 
 ## Github repo
+
 https://github.com/FraxioOfficial
+
 
 ## DEMO PYE Editor
 https://fraxio.herokuapp.com // DEMO VERSION
@@ -47,7 +52,6 @@ Nathan Misner
 Email: frax.io-official 
 Twitter: https://twitter.com/IoFrax 
 Discord: https://discord.com/channels/821171829401190460/821171829401190463
-
 
 ## How to Contribute
 We are looking for Business Relations 
