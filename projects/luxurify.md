@@ -37,7 +37,8 @@ Under Development
 
 ## Previews
 <!--Add some screenshots to give a preview of your product-->
-https://youtu.be/SMfm2SZ-3rY
+Screenshots: https://drive.google.com/drive/folders/1BPX_MQOQQNyKONO0fTu6w8Y44Uw3nFeB?usp=sharing
+Video: https://youtu.be/SMfm2SZ-3rY
 
 ## Target Audience
 <!--Describe who will be your project's users-->
