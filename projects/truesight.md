@@ -15,7 +15,11 @@ By off-loading storage of both the user-generated content and the moderation lab
 
 ## Project Status
 <!--brainstorming, fundraising, under development, beta, shipped, etc-->
-Prototype created as a submission to the Spring 2021 Chainlink Hackathon. Submission included a demo client application which makes requests to the protptye network. Project was awarded Runner Up. See https://devpost.com/software/truesight
+Prototype created as a submission to the Spring 2021 Chainlink Hackathon. Submission included a demo client application which makes requests to the protptye network. Project was awarded Runner Up. See https://devpost.com/software/truesight..
+
+We have plans to take TrueSight further by working on a machine-learning powered aggregator for the oracle network which is trained by an ever-growing dataset of content with known labels. The dataset consists of content which has been manually validated by a group of independent moderators (who are compensated for their work) and is appended to with content causing the most contentious results from the aggregator.
+
+The aggregator will teach itself to take a weighted vote from the nodes powering the network based on what gives results closest matching the training dataset. Every epoch (duration TBC) the aggregator is re-trained and the results are potentially made transparent on a public ledger.
 
 ## Previews
 <!--Add some screenshots to give a preview of your product-->
@@ -23,7 +27,7 @@ Prototype created as a submission to the Spring 2021 Chainlink Hackathon. Submis
 
 ## Target Audience
 <!--Describe who will be your project's users-->
-Developers of social applications.
+Primarily developers of social applications.
 
 ## Github repo
 <!--Attach a link to your GitHub repo if it's OSS-->
