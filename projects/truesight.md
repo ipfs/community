@@ -19,7 +19,7 @@ Prototype created as a submission to the Spring 2021 Chainlink Hackathon. Submis
 
 We have plans to take TrueSight further by working on a machine-learning powered aggregator for the oracle network which is trained by an ever-growing dataset of content with known labels. The dataset consists of content which has been manually validated by a group of independent moderators (who are compensated for their work) and is appended to with content causing the most contentious results from the aggregator.
 
-The aggregator will teach itself to take a weighted vote from the nodes powering the network based on what gives results closest matching the training dataset. Every epoch (duration TBC) the aggregator is re-trained and the results are potentially made transparent on a public ledger.
+The aggregator will teach itself to take a weighted vote from the nodes powering the network based on what gives results closest matching the training dataset. Every epoch (duration TBC) the aggregator is re-trained and the results are made transparent on a public ledger.
 
 ## Previews
 <!--Add some screenshots to give a preview of your product-->
