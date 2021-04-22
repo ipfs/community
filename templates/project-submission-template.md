@@ -28,6 +28,8 @@ hackathon participants, friends, fam and
 ## Github repo
 
 https://github.com/FraxioOfficial
+https://github.com/FraxioOfficial/pye_editor // demo repo
+https://github.com/FraxioOfficial/fraxio_framework // new repo
 
 
 ## DEMO PYE Editor
@@ -44,12 +46,13 @@ https://github.com/FraxioOfficial/fraxio_docs
 Aron Ayuk 
 Daniel Poblano 
 Irvin Chen 
-Louell L.Sala MD 
+Louell Sala
 Nathan Misner 
 
 
 ## How the community can engage 
-Email: frax.io-official 
+Github: https://github.com/ipfs/community/discussions/503
+Email: irvin@fractio.xyz 
 Twitter: https://twitter.com/IoFrax 
 Discord: https://discord.com/channels/821171829401190460/821171829401190463
 
