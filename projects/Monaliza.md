@@ -15,12 +15,13 @@ The project is aimed to be a connector between instagram/social media and NFTs, 
 Under Development
 
 ## Previews
-<!--Add some screenshots to give a preview of your product-->
+
+![Landing Page Preview](/home/darien/Downloads/MonaSS.png)
 
 ## Target Audience
 
 Our target audience is those already using social media as a means of displaying their art. 
-Artists, Animators, Illustrators, Photographers and
+Artists, Animators, Illustrators, Photographers and the likes.
 
 ## Rough estimated user base (if applicable)
 
@@ -41,9 +42,11 @@ https://www.notion.so/monalisanft/Monaliza-a624fe444b11470db6972bdc134984f1
 ## Team Info
 
 Aina
-- Business Developer
-- Entrepreneur
-- Idea person
+- Project Manager
+- Background In Corporate Finance
+- Entrepreneur in Fintech
+- Consultant
+- Blockchain Professor in a Business School
 
 Seema
 - Blockchain Backend Developer with a focus on Solidity, Truffle, NodeJS and Infrastructure as Code
@@ -74,7 +77,7 @@ Aina Raherimanantsoa
 Seema Sharma
 
 ## How the community can engage
-GitHub Discussion: https://github.com/ipfs/community/discussions/493 
+GitHub Discussion: <!--Start a disucssion with the community here: https://github.com/filecoin-project/community/discussions/new and attach the link!-->  
 Email:  
 Twitter:  https://twitter.com/Monalizanft
 Instagram: https://instagram.com/monalizanft
