@@ -6,7 +6,9 @@
 Dynamic Multilayer NFT Editor and Framework
 
 ## Use of IPFS, Filecoin and Libp2p
-<!-- Describe how your project uses any or all of these technologies, and why. -->
+We are at the moment building our own IPFS Node on the AWS cloud and want to start
+a fractio pinning service for project related uploads. We need a special directory structure that 
+allows each user to have his own directory and subdirectories for every PYE-NFT Token he creates.
 
 ## Project Status
 In development started with Hackathon, Looking for Business Relations
