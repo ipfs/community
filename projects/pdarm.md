@@ -44,7 +44,7 @@ The current audience is Non-DeFi users who seek to interact with DeFi lending pr
 
 ## Rough estimated user base (if applicable)
 
-[1, inf] users  
+[1, inf) users  
 
 ## Github repo
 
