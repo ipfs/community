@@ -14,6 +14,7 @@ Under Development
 
 ## Previews
 https://www.youtube.com/watch?v=9AdxVI3Q4CI
+![Nifty Royale Status Page](https://imgur.com/a/snEEH76)
 
 ## Target Audience
 NFT artists, NFT collectors, NFT investors, NFT curators 
