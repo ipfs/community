@@ -29,16 +29,16 @@ hackathon participants, friends, fam and
 
 ## Github repo
 
-https://github.com/FraxioOfficial
-https://github.com/FraxioOfficial/pye_editor // demo repo
-https://github.com/FraxioOfficial/fraxio_framework // new repo
+https://github.com/FractioXYZ
+https://github.com/FractioXYZ/pye_editor // demo repo
+https://github.com/FractioXYZ/fraxio_framework // new repo
 
 
 ## DEMO PYE Editor
 https://fraxio.herokuapp.com // DEMO VERSION
 
 ## Docs
-https://github.com/FraxioOfficial/fraxio_docs
+https://github.com/FractioXYZ/fraxio_docs
 
 ## Team Info
 
