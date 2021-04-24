@@ -38,6 +38,12 @@ Under development
 -   [Please check out our 7 minute slowed down and extended demo video!](https://youtu.be/tqz92QOn9kw)
 -   [IPFS Live Demo](https://ipfs.io/ipfs/QmdY4Fq33R4tnnMDR4spSPeT7ony4ZSd7Gs7Rp9rAEwDQ5/)  
 
+<img width="1421" alt="Screen Shot 2021-04-23 at 9 38 28 PM" src="https://user-images.githubusercontent.com/1765995/115944601-58581680-a47c-11eb-8d37-57cd02d5f49a.png">
+<img width="1413" alt="2021-04-16_00-26-54" src="https://user-images.githubusercontent.com/1765995/115944634-86d5f180-a47c-11eb-98c4-990623df83cd.png">
+<img width="1428" alt="Screen Shot 2021-04-23 at 9 38 18 PM" src="https://user-images.githubusercontent.com/1765995/115944643-90f7f000-a47c-11eb-91bc-298fa51fe495.png">
+
+
+
 ## Target Audience
 
 The current audience is Non-DeFi users who seek to interact with DeFi lending protocols in a manner that has circuit breakers and guard rails, and DeFi natives who seek risk-adjusted yields.
@@ -76,7 +82,7 @@ We are a team of four blockchain enthusiasts and builders seeking to expand on a
 -   Lukas Sexton: UI/UX design and research
 
 ## How the community can engage
-
+* GitHub discussion: https://github.com/ipfs/community/discussions
 * Email:  Parametric.Link@protonmail.com
 
 ## How to Contribute
