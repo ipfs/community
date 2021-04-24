@@ -77,7 +77,7 @@ We aim to host the project soon! Currently, the project is deployed on the Rinke
 We are a team of 6 developers
 
 ### Team members  
-We are a team of 6 members
+
 [Sagar Behara](https://github.com/sagar133/)  email: sagarbehara13@gmail.com 
 - Professional Blockchain Engineer at MahaDAO
 - Project Lead
@@ -94,7 +94,7 @@ We are a team of 6 members
 
 [Rishab Keshan](https://github.com/rishabhkeshan/) email: rishabhkeshan@gmail.com
 - Sophomore at Vellore Institute of Technology, India
-- Full Stack developer 
+- Full Stack MERN developer 
 
 [Yash Kumar Verma](https:github.com/yashkumarverma/) email: yk.verma2000@gmail.com
 - Sophomore at Vellore Institute of Technology, India
