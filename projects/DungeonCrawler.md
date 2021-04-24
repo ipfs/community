@@ -38,7 +38,7 @@ We've hacked throughout the Chainlink Virtual Hackathon Spring 2021, and our ide
 ## Previews
 <!--Add some screenshots to give a preview of your product-->
 ![gameplay](https://github.com/Sagar133/RPG-Solidity-Game/blob/master/blockchain/src/assets/gamescreen.png)
-![gameplay2](https://ibb.co/9skbr85)
+![gameplay2](https://github.com/Sagar133/RPG-Solidity-Game/blob/elio-blockchain/blockchain/src/assets/monsters.png)
 
 The workflow:
 ![diagram](https://github.com/Sagar133/RPG-Solidity-Game/blob/elio-blockchain/blockchain/src/assets/diagram.jpg)
