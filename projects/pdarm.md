@@ -82,7 +82,7 @@ We are a team of four blockchain enthusiasts and builders seeking to expand on a
 -   Lukas Sexton: UI/UX design and research
 
 ## How the community can engage
-* GitHub discussion: https://github.com/ipfs/community/discussions
+* GitHub discussion: https://github.com/ipfs/community/discussions/513
 * Email:  Parametric.Link@protonmail.com
 
 ## How to Contribute
