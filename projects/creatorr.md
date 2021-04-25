@@ -13,6 +13,10 @@ MVP functionality being developed. Next Milestone is private alpha testing.
 ## Previews
 https://nameless-wave-72583.herokuapp.com/index.html
 
+![homepage](https://i.ibb.co/GphMP9R/Capture.png)
+
+![streamer](https://i.ibb.co/LSG51Jj/Capture2.png)
+
 ## Target Audience
 Content creators, NFT collectors and anyone that wants to support content creators.
 
