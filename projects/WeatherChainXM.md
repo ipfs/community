@@ -22,7 +22,7 @@ Farms, Parametric Insurance providers
 https://github.com/exmgr/WeatherChainXM
 
 ## Website
-http://exm.gr
+https://devpost.com/software/weatherchainxm
 
 ## Docs
 https://github.com/exmgr/WeatherChainXM/blob/main/README.md
