@@ -71,6 +71,7 @@ Nuno Monteiro, Front-end dev
 - Out of the box ideas
 
 ## How the community can engage
+Discussion: - https://github.com/ipfs/community/discussions/501
 Email: - info@creatorr.fan
 Twitter: - https://twitter.com/Creatorrfan
 Discord: https://discord.gg/NVv5kK6j2k
