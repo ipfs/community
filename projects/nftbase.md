@@ -25,7 +25,7 @@ NFT artists, NFT collectors, NFT investors, Governance token investors, NFT cura
 It's not launched yet, but hope that user pool will grow up fastly
 
 ## Github repo
-https://github.com/nftbase
+https://github.com/team-nftbase
 
 ## Website
 https://nftbase.ai
@@ -75,7 +75,7 @@ Discord: https://discord.gg/DujYFjJXXP
 Telegram: https://t.me/nftbase
 Medium : https://nftbase.medium.com/ 
 WeChat: N/A
-Github : https://github.com/nftbase
+Github : https://github.com/team-nftbase
 
 ## How to Contribute
 
