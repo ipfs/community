@@ -15,6 +15,8 @@ Landmine is a platform where each property {like apartments,bunglow} is represen
 
 ### Use of IPFS
 - We have used ipfs for storing the documents related to the agreement details .
+- here is the <a href="https://gateway.ipfs.io/ipfs/QmTiKQjNEAeNpxdkMNvWpKj4jbz8cRaEp4EjQAyAHYURAT">link</a>
+ for the demo agreement details made by using ipfs.
 
 
 ## Project Status
