@@ -16,12 +16,12 @@ Under Development
 
 ## Previews
 
-![Landing Page Preview](/home/darien/Downloads/MonaSS.png)
+![Landing Page Preview](https://raw.githubusercontent.com/MrFord123/Mona/main/MonaSS.png)
 
 ## Target Audience
 
 Our target audience is those already using social media as a means of displaying their art. 
-Artists, Animators, Illustrators, Photographers and the likes.
+Artists, Animators, Illustrators, Photographers and
 
 ## Rough estimated user base (if applicable)
 
@@ -77,8 +77,7 @@ Aina Raherimanantsoa
 Seema Sharma
 
 ## How the community can engage
-GitHub Discussion: <!--Start a disucssion with the community here: https://github.com/filecoin-project/community/discussions/new and attach the link!-->  
-Email:  
+GitHub Discussion: https://github.com/ipfs/community/discussions/493
 Twitter:  https://twitter.com/Monalizanft
 Instagram: https://instagram.com/monalizanft
 Discord:  https://discord.gg/adezAErE
