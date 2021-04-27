@@ -21,7 +21,7 @@ Under Development
 ## Target Audience
 
 Our target audience is those already using social media as a means of displaying their art. 
-Artists, Animators, Illustrators, Photographers and
+Artists, Animators, Illustrators, Photographers and the likes
 
 ## Rough estimated user base (if applicable)
 
