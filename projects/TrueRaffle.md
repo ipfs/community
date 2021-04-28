@@ -49,14 +49,17 @@ https://github.com/ScarFace06/TrueRaffle/blob/main/README.md
 ScarFace
 - Front End Developer
 - bussiness information systems student
+- https://github.com/ScarFace06
 
 Oilyshelf
 - Full Stack Developer
 - bussiness information systems student
+- https://github.com/oilyshelf
 
 Averycode
 - Front End Developer
 - bussiness information systems student
+- https://github.com/averycode
 
 ## How the community can engage
 GitHub Discussion: <!--Start a disucssion with the community here: https://github.com/filecoin-project/community/discussions/new and attach the link!-->  
