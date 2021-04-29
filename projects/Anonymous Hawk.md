@@ -46,16 +46,25 @@ Currently we are team of 5 people. We all are students in our Junior year at SRM
 ### Team Size  
 5
 ### Team members  
-- Mohinish - Solidity and JS
-- Bharani  - Frontend
-- Mounika  - Backend JS
-- Poojitha - Frontned 
-- Sampath  - JS and SQL
+- Mohinish 
+  - Solidity and JS
+  - https://github.com/MohinishTeja
+- Bharani  
+  - Frontend
+  - https://github.com/bharani-ponnam
+- Mounika  
+  - Backend JS
+  - https://github.com/MOUNIKASIMHADRI17
+- Poojitha 
+  - Frontned 
+  - https://github.com/poojitha611
+- Sampath  
+  - JS and SQL
+  - https://github.com/Sampath2000
 ## How the community can engage
 * GitHub Discussion: <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!--> https://github.com/ipfs/community/discussions/526
 * Email:  marvelmohinish99@gmail.com  
 * Discord:  monish#4655
-Github Handles- MohinishTeja, bharani-ponnam, poojitha611, Sampath2000, MOUNIKASIMHADRI17
 
 ## How to Contribute
 <!--How can the community contribute to your project?-->
