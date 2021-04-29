@@ -18,18 +18,19 @@ Project is currently under development. Reporters can post and users can read. S
 
 ## Previews
 <!--Add some screenshots to give a preview of your product-->
+![Screenshot (1098)](https://user-images.githubusercontent.com/45705872/116612200-e2a8ea80-a954-11eb-9f7c-949f103bdd30.png)
 
-![Screenshot](https://drive.google.com/file/d/1ijaNya96Jyyajl-IlgADi2sPUHP67SnA/view?usp=sharing)
+![Screenshot (1099)](https://user-images.githubusercontent.com/45705872/116612298-03714000-a955-11eb-8860-460c6c595a60.png)
 
-![Screenshot](https://drive.google.com/file/d/1rULfmaMp7Gjfbb0dGUIvFig4MuqzUg-G/view?usp=sharing)
-[![Video Demo](https://drive.google.com/file/d/1ijaNya96Jyyajl-IlgADi2sPUHP67SnA/view?usp=sharing)](https://youtu.be/UywwmP-B6uc)
+
+:point_right: [![Video Demo](https://drive.google.com/file/d/1ijaNya96Jyyajl-IlgADi2sPUHP67SnA/view?usp=sharing)](https://youtu.be/UywwmP-B6uc)
 
 ## Target Audience
 <!--Describe who will be your project's users-->
-Anyone who likes to know unbiased and true news. Reporters who might be threatened for posting in normal media can use this platform.
+📰 Anyone who likes to know unbiased and true news.:shipit: Reporters who might be threatened for posting in normal media can use this platform.
 
 ## Rough estimated user base (if applicable)
-Currently it's under development, therefore we don't have any users at the moment
+Currently it's under development:hammer_and_wrench:, therefore we don't have any users at the moment
 
 ## Github repo
 <!--Attach a link to your GitHub repo - open source is required - please make sure your repo has a license file and is licensed using MIT open source license! -->
@@ -42,9 +43,9 @@ https://silent-rice-1250.on.fleek.co/home.html
 https://github.com/MohinishTeja/anonymous_hawk/blob/main/README.md
 ## Team Info
 <!-- Introduce your amazing team - how many team members are working on this project and who are they?-->
-Currently we are team of 5 people. We all are students in our Junior year at SRM University,AP. We are beginners in Blockchain and Solidity and have worked on some Web Development projects in the past.
+Currently we are team of 5 people. All of us are students(Juniors) at SRM University,AP. We are beginners in Blockchain and Solidity and have worked on Web Development, Java projects in the past.
 ### Team Size  
-5
+:five:
 ### Team members  
 - Mohinish 
   - Solidity and JS
@@ -56,16 +57,16 @@ Currently we are team of 5 people. We all are students in our Junior year at SRM
   - Backend JS
   - https://github.com/MOUNIKASIMHADRI17
 - Poojitha 
-  - Frontned 
+  - Frontend and documentation
   - https://github.com/poojitha611
 - Sampath  
   - JS and SQL
   - https://github.com/Sampath2000
 ## How the community can engage
 * GitHub Discussion: <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!--> https://github.com/ipfs/community/discussions/526
-* Email:  marvelmohinish99@gmail.com  
+* :e-mail: Email:  marvelmohinish99@gmail.com  
 * Discord:  monish#4655
 
 ## How to Contribute
 <!--How can the community contribute to your project?-->
-We would love to have someone who can work on Spam filter. Reachout to us at marvelmohinish99@gmail.com
+We would love to have some help with Spam filter. Wanto to know more or even discuss? :thumbsup: Reachout to us at marvelmohinish99@gmail.com. 
