@@ -1,4 +1,4 @@
-## Project Name Stonent
+## Stonent
 
 ## Category 
 Application
