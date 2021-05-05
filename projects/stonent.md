@@ -13,7 +13,7 @@ We download NFTs from IPFS and indexed it via NN.
 under development
 
 ## Previews
-DAPP with originality score [image](https://user-images.githubusercontent.com/31879791/117173733-bdddc880-add5-11eb-9eb3-b74e9ba6db98.png)
+DAPP with originality score ![image](https://user-images.githubusercontent.com/31879791/117173733-bdddc880-add5-11eb-9eb3-b74e9ba6db98.png)
 
 
 ## Target Audience
@@ -42,3 +42,6 @@ Vladimir Tidva
 ## How the community can engage
 * Discord:  arch1362
 * Telegram:  valdar13
+## How to Contribute
+We are very early in the development phase yet so all feedback is appreciated.
+
