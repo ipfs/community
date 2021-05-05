@@ -13,7 +13,7 @@ We download NFTs from IPFS and indexed it via NN.
 under development
 
 ## Previews
-DAPP with originality Score[image](https://user-images.githubusercontent.com/31879791/117173733-bdddc880-add5-11eb-9eb3-b74e9ba6db98.png)
+DAPP with originality score [image](https://user-images.githubusercontent.com/31879791/117173733-bdddc880-add5-11eb-9eb3-b74e9ba6db98.png)
 
 
 ## Target Audience
