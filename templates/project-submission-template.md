@@ -27,6 +27,8 @@
 ## Website
 <!--Link your website if available-->
 
+<!--If you're applying for a Next Step grant, add the URL to your hackathon submission here also-->
+
 ## Docs
 <!--Including a link to your project docs!-->
 
