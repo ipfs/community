@@ -93,14 +93,14 @@ WIP
 2 team members
 
 ### Team members  
-Akshay Ashok 
+[Akshay Ashok](https://github.com/Akshay090)
 
 • web3 + solidity & Full stack developer 
 
 • [Personal site](https://akshay-ashok.vercel.app/about/)
 
 
-Shrey Keny
+[Shrey Keny](https://github.com/shreykeny)
 
 • web3 + solidity & Frontend developer
 
@@ -119,7 +119,7 @@ Shrey Keny
 <!--How can the community contribute to your project?-->
 We'd love to hear your ideas on what features you'd like to see in DeFi Battles and moreover how we can improve our current MVP! Please do let us know on the [discussion page](https://github.com/ipfs/community/discussions/547)
 
-Our Github repos are open source. Feel free to make improvement PRs or suggestions!
+Our [Github repos](https://github.com/orgs/DeFi-Battles) are open source. Feel free to make improvement PRs or suggestions!
 
 Feel free to reach out to Akshay or Shrey anytime. We'll keep you posted on DeFi Battles' progress through the Discussions page and our socials!
 
