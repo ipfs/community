@@ -94,6 +94,7 @@ Amit
 
 ## How the community can engage
 * Email: ksharma@dype.market
+* Discussion: https://github.com/ipfs/community/discussions/550
 
 ## How to Contribute
 <!--How can the community contribute to your project?-->
