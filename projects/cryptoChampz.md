@@ -22,9 +22,7 @@ Under development
 
 ## Previews
 
-https://i.imgur.com/vwOKoIg.png
-
-ipfs://QmSRp9STByPHrurTCvpwgBfz8ZX5FbkxamXjEk7HRw7PDr/Demon_B.png
+![Sample hero 1](https://i.imgur.com/vwOKoIg.png)
 
 ## Target Audience
 
@@ -54,11 +52,11 @@ Coming soon
 
 ### Team members
 
-CultureVictory - Product Mgmt
-CDS95 - Full stack Web3 dev
-Oozyx - Blockchain dev
-C4RE B34R - Art
-Architect - Art
+CultureVictory - Product Mgmt - https://github.com/rohhan
+CDS95 - Full stack Web3 dev - https://github.com/cds95
+Oozyx - Blockchain dev - https://github.com/Oozyx
+C4RE B34R - Art - No GitHub Account
+Architect - Art - No GitHub Account
 
 ## How the community can engage
 
