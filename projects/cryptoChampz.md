@@ -22,7 +22,9 @@ Under development
 
 ## Previews
 
-![Sample hero 1](https://i.imgur.com/vwOKoIg.png)
+![Human A](https://i.imgur.com/vwOKoIg.png)
+
+![Demon B](https://imgur.com/tAfgK5s.png)
 
 ## Target Audience
 
