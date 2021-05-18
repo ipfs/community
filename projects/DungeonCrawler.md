@@ -75,7 +75,7 @@ We aim to host the project soon! Currently, the project is deployed on the Rinke
 <!-- Introduce your amazing team - how many team members are working on this project and who are they?-->
 
 ### Team Size  
-We are a team of 6 developers
+We are a team of 5 developers
 
 ### Team members  
 
@@ -84,25 +84,22 @@ We are a team of 6 developers
 - Project Lead
 - Solidity smart contracts and game developer
 
-[Yash Aggarwal](https://github.com/ya98)
-- Professional Blockchain Engineer at MahaDAO
-- Project Manager 
-- Solidity smart contracts, AI/ML and Full Stack developer;
-
 [Elio Jordan Lopes](https://github.com/lopeselio/) email: lopeselio@gmail.com
 - Junior at Vellore Institute of Technology, India
+- Project Manager
 - Smart contracts and React developer and marketing
 
 [Rishab Keshan](https://github.com/rishabhkeshan/) email: rishabhkeshan@gmail.com
 - Sophomore at Vellore Institute of Technology, India
-- Full Stack MERN developer 
-
-[Yash Kumar Verma](https:github.com/yashkumarverma/) email: yk.verma2000@gmail.com
-- Sophomore at Vellore Institute of Technology, India
-- Core-Backend and full stack developer 
+- Full Stack MERN developer
 
 [Ramesh Sachan](https:github.com/holps-7/) email: master.ramesh96@gmail.com
 - Junior at Vellore Institute of Technology, India
+- Full Stack developer
+
+
+[Gokul J Kurup](https://github.com/madrigal1/) email: kurupgokul11@gmail.com
+- Sophomore at Vellore Institute of Technology, India
 - Full Stack developer
 
 
