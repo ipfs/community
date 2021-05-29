@@ -2,7 +2,6 @@
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
-[![](https://img.shields.io/badge/freenode-%23ipfs-blue.svg?style=flat-square)](http://webchat.freenode.net/?channels=%23ipfs)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 > General discussion and documentation on community practices
@@ -25,14 +24,13 @@
 
 The IPFS community is growing, and already has many resources. We ought to maintain them, build more, and improve all the things. This repository is for meta, non-code discussions (in the [issues](issues)) and for documents used by multiple repositories, such as the various Contributing guidelines.
 
-**NOTE:** If you're interested in discussing code, jumping on our community calls, or talking to developers about our overall project management, go to [ipfs/team-mgmt](https://github.com/ipfs/team-mgmt). We announce **our weekly calls** in the [ipfs/team-mgmt issues](https://github.com/ipfs/team-mgmt/issues). You can also open issues in specific repositories (like [go-ipfs](https://github.com/ipfs/go-ipfs)), and come talk to us on [IRC at #ipfs on freenode](http://webchat.freenode.net/?channels=%23ipfs) or [Matrix](https://matrix.to/#/!yhqiEdqNjyPbxtUjzm:matrix.org?via=matrix.org&via=swedneck.xyz&via=permaweb.io).
+**NOTE:** If you're interested in discussing code, jumping on our community calls, or talking to developers about our overall project management, go to [ipfs/team-mgmt](https://github.com/ipfs/team-mgmt). We announce **our weekly calls** in the [ipfs/team-mgmt issues](https://github.com/ipfs/team-mgmt/issues). You can also open issues in specific repositories (like [go-ipfs](https://github.com/ipfs/go-ipfs)), and come talk to us on [Forums and Chat](https://docs.ipfs.io/community/).
 
 Our goals here are to work on resources that help us with:
 
 - **Building and Maintaining [Community Infrastructure](https://github.com/ipfs/infrastructure)**
   - Public Gateways
   - Testing + CI Services
-  - IRC Bots
   - Websites
   - Communication Channels
 - **Improving documentation of various projects**
@@ -46,11 +44,10 @@ Our goals here are to work on resources that help us with:
   - Improving issues for collaborators
   - Adding papers to the [Understanding IPFS Reading List](https://github.com/ipfs/reading-list)
 - **Keeping the Community Informed and Engaged**
-  - IRC - irc.freenode.net/#ipfs
-  - Blog - https://ipfs.io/blog
-  - Twitter - [@IPFSbot](https://twitter.com/IPFSbot)
-  - Mailing List - [ipfs-users@googlegroups.com](https://groups.google.com/forum/#!forum/ipfs-users)
-  - People List
+  - Community Resources - https://docs.ipfs.io/community
+  - Discussion Forums - https://discuss.ipfs.io/
+  - Blog - https://blog.ipfs.io
+  - Twitter - [@IPFS](https://twitter.com/IPFS)
 
 ## People
 
