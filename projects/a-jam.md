@@ -74,7 +74,7 @@ Currently it's only me working on it. I am in conversation with other developers
 
 ## How to Contribute
 <!--How can the community contribute to your project?-->
-Engage in the (project discussion)[https://github.com/ipfs/community/discussions/564]
+Engage in the [project discussion](https://github.com/ipfs/community/discussions/564)!
 
 At the moment I would welcome expertise about how to provide better availability until the files have propagated a bit through the network.
 
