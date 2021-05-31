@@ -14,8 +14,6 @@ You can share the project anytime with your friends and they can add further tra
 
 This way, a-jam enables you to have asynchronous jam sessions with your fellow musicians. 
 
-
-
 ## Use of IPFS, Filecoin and Libp2p
 <!-- Describe how your project uses any or all of these technologies, and why. -->
 
@@ -33,13 +31,15 @@ A usable version is already online ([links below](#Website)).
 <!--Add some screenshots to give a preview of your product-->
 <img src="https://raw.githubusercontent.com/felixniemeyer/a-jam/main/screenshots/home.png" height="450">  <img src="https://raw.githubusercontent.com/felixniemeyer/a-jam/main/screenshots/session.png" height="450">
 
+There is a [showcase video on youtube](https://www.youtube.com/watch?v=wvKVnK90p0c)
+
 ## Target Audience
 <!--Describe who will be your project's users-->
 musicians, creatives
 
-## Rough estimated user base (if applicable)
+## Rough estimated user base
 <!--How many users do you have right now?-->
-I have already used the app with some of my friends.  
+I have already been using the app with some of my friends.  
 
 ## Github repo
 <!--Attach a link to your GitHub repo - open source is required - please make sure your repo has a license file and is licensed using MIT open source license! -->
