@@ -54,7 +54,7 @@ https://docs.theconvo.space
 
 ### Team members  
 
-Anudit Nagar, Full Stack Blockchain and Web Developer, and Researcher.
+[Anudit Nagar](https://github.com/anudit), Full Stack Blockchain and Web Developer, and Researcher.
 
 ## How the community can engage
 
