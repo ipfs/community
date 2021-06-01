@@ -77,7 +77,7 @@ Yoann Lesouef
 Alexandre Roullier
 
 ## How the community can engage <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!--> 
-* GitHub Discussion:  
+* GitHub Discussion:  https://github.com/ipfs/community/discussions/567
 * Email:  contact@kredeum.com
 * Twitter:  https://twitter.com/kredeum
 * Discord:  https://discord.gg/D7Zy4VBzYz
