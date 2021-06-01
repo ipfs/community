@@ -71,7 +71,9 @@ We mainly won prizes with:
 
 ### Team members
 Alain Papazoglou
+
 Yoann Lesouef
+
 Alexandre Roullier
 
 ## How the community can engage <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!--> 
@@ -83,5 +85,5 @@ Alexandre Roullier
 ## How to Contribute
 <!--How can the community contribute to your project?-->
 Support with NFT Storage
-Standardization process around immutable storage of NFT metadata and images
 
+Standardization process around immutable storage of NFT metadata and images
