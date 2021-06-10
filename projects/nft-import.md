@@ -46,7 +46,9 @@ WordPress is 40% of all web2 sites worldwide, possible target of hundred thousan
 <!--How many users do you have right now?-->
 
 ## Github repo <!--Attach a link to your GitHub repo - open source is required - please make sure your repo has a license file and is licensed using MIT open source license! -->
-https://github.com/Kredeum/ethglobal-web3
+https://github.com/Kredeum/ethglobal-web3 
+
+MIT licence
 
 ## Website
 https://www.kredeum.com 
