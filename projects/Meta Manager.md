@@ -74,7 +74,7 @@ Victor, Certified blockchain solution architect and Ethereum developer. He has a
 * GitHub Discussion: https://github.com/ipfs/community/discussions/557
 * Email:  victor@nama.finance
 * Twitter:  https://twitter.com/nama_finance
-* Telegram: https://t.me/namafinance
+* Telegram: https://t.me/namaprotocol
 
 ## How to Contribute
 <!--How can the community contribute to your project?-->
