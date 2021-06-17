@@ -23,9 +23,9 @@ We have completed the barinstorming and design phase, and currently completing d
 
 ## Previews
 <!--Add some screenshots to give a preview of your product-->
-![https://dev.to/fx/google-photos-open-source-alternative-with-react-native-80c](https://res.cloudinary.com/practicaldev/image/fetch/s--_99cfRA---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://raw.githubusercontent.com/functionland/blog/main/photos-intro-dev-to/photos.gif)
+![https://dev.to/fx/google-photos-open-source-alternative-with-react-native-80c](https://raw.githubusercontent.com/functionland/blog/main/photos-intro-dev-to/photos.gif)
 
-![https://dev.to/fx/google-photos-open-source-alternative-with-react-native-80c](https://res.cloudinary.com/practicaldev/image/fetch/s--CE1MVJL7--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://raw.githubusercontent.com/functionland/blog/main/photos-intro-dev-to/box.png)
+![https://dev.to/fx/google-photos-open-source-alternative-with-react-native-80c](https://raw.githubusercontent.com/functionland/blog/main/photos-intro-dev-to/box.png)
 
 ## Target Audience
 <!--Describe who will be your project's users-->
