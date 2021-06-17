@@ -19,7 +19,7 @@ Finally we provide a layer for BOX users to be bale to conenct to filecoin, to h
 
 ## Project Status
 <!--brainstorming, fundraising, under development, beta, shipped, etc-->
-We have completed the barinstorming and design phase, and currently completing development phase for the fist prototype. Our first application is a ![https://github.com/funcitonland/photos](Google Photos Alternative) which connects to BOX, which demo is ready and we are working on building ![https://github.com/functionland/box](a library on top of libp2p) for upload/download of photos from the app to/from the BOX.
+We have completed the barinstorming and design phase, and currently completing development phase for the fist prototype. Our first application is a [Google Photos Alternative](https://github.com/funcitonland/photos) which connects to BOX, which demo is ready and we are working on building [a library on top of libp2p](https://github.com/functionland/box) for upload/download of photos from the app to/from the BOX.
 
 ## Previews
 <!--Add some screenshots to give a preview of your product-->
@@ -38,15 +38,15 @@ The project is not live yet but our github page received around 400 stars and we
 
 ## Github repo
 <!--Attach a link to your GitHub repo - open source is required - please make sure your repo has a license file and is licensed using MIT open source license! -->
-![https://github.com/functionland/photos/](For Photos application as the first BOX app)
+[For Photos application as the first BOX app](https://github.com/functionland/photos/)
 
-![https://github.com/functionland/box](For BOX backend, which stores the data nad provides front-end API library to talk to BOX)
+[For BOX backend, which stores the data nad provides front-end API library to talk to BOX](https://github.com/functionland/box)
 
 ## Website
 <!--Link your website if available-->
-![https://fx.land](Main website)
+[Main website](https://fx.land)
 
-![https://dev.to/fx/google-photos-open-source-alternative-with-react-native-80c](An article about BOX)
+[An article about BOX](https://dev.to/fx/google-photos-open-source-alternative-with-react-native-80c)
 
 <!--If you're applying for a Next Step grant, add the URL to your hackathon submission here also-->
 
