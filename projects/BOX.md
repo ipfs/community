@@ -75,7 +75,7 @@ We actively started working on this project a year ago, as we thought this could
 * [LinkedIn Page Link](https://www.linkedin.com/in/kate-withers-hess-phd-33530023/)
 
 
-And we have two more team members with same first name, so we added the lsat name too :)
+And we have two more team members with the same first name, so we added the last name too :)
 
 **Ehsan Emami** is a senior hardware development engineer who has worked in senior roles of large corporations, such as GoPro, Apple and Amazon. He has more than 10 years of experience as a development engineer. Ehsan obtained his Master's degree from University of Waterloo in Electrical Engineering.
 * [Github Page Link](https://github.com/ehsan-git-dev)
