@@ -87,7 +87,7 @@ And we have two more team members with the same first name, so we added the last
 * [LinkedIn Page Link](https://www.linkedin.com/in/ehsanehsan/)
 
 ## How the community can engage
-* GitHub Discussion: https://github.com/functionland/photos/discussions/46
+* GitHub Discussion: https://github.com/ipfs/community/discussions/583
 * Email:  info@fx.land
 * Slack:  
 * Twitter:  https://twitter.com/functionland
