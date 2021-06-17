@@ -66,21 +66,25 @@ We actively started working on this project a year ago, as we thought this could
 ### Team members  
 
 **Keyvan** studied Artificial Intelligence and got his master's degree from South Hampton University. He has been working in artificial intelligence for 10 years, and in blockchain for 2 years, and is a big fan of open source with contributions such as "OpenCOG"(A framework for integrated Artificial Intelligence), Agenda(Scheduling as a Service) and Assister (A toolset for Natural Language User Interfaces).
-* https://github.com/keyvan-m-sadeghi
+* [Github Page Link](https://github.com/keyvan-m-sadeghi)
+* [LinkedIn Page Link](https://www.linkedin.com/in/keyvanmsadeghi/)
 
 
 **Kate** is a business development and commercialization specialist, and has worked with multiple startups and SMEs to realize their non-dilutive funding, investment, and revenue generation goals. Strategic project advisor to Centennial College's projects involving machine learning. Bootstrapping a B2B marketplace technology startup in the construction sector. PhD in Plant Agriculture, Ontario Agricultural College, Msc. from Michigan State University in Crop and Soil Science with focus on statistical analysis. 
-* https://github.com/kitty2121
+* [Github Page Link](https://github.com/kitty2121)
+* [LinkedIn Page Link](https://www.linkedin.com/in/kate-withers-hess-phd-33530023/)
 
 
 And we have two more team members with same first name, so we added the lsat name too :)
 
 **Ehsan Emami** is a senior hardware development engineer who has worked in senior roles of large corporations, such as GoPro, Apple and Amazon. He has more than 10 years of experience as a development engineer. Ehsan obtained his Master's degree from University of Waterloo in Electrical Engineering.
-* https://github.com/ehsan-git-dev
+* [Github Page Link](https://github.com/ehsan-git-dev)
+* [LinkedIn Page Link](https://www.linkedin.com/in/ehsan-emami-0005bb6/)
 
 
 **Ehsan Shariati** studied electrical engineering and got his master's degree from University of Colorado at Boulder. He is a full stack developer with over 20 years  experience, who is experienced in Javascript frameworks, such as Angular, AngularJS, React and React Native, as well as PHP, C, C++, C#, JAVA, Python, MySQL, MSSQL, Linux. He is also a project manager, and has PMP, ITIL and SCRUM certificates. He has developed a shopping mall ERP system for the largest shopping mall in Iran(Isfahan City Center), as well as an insurance ERP for Dana insurance in Iran.
-* https://github.com/ehsan6sha
+* [Github Page Link](https://github.com/ehsan6sha)
+* [LinkedIn Page Link](https://www.linkedin.com/in/ehsanehsan/)
 
 ## How the community can engage
 * GitHub Discussion: https://github.com/functionland/photos/discussions/46
