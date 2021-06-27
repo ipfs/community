@@ -52,7 +52,7 @@ Vasanth T
 	- https://github.com/vasanthsteve23
 
 ## How the community can engage
-* GitHub Discussion: https://github.com/ipfs/community/discussions/597 
+* GitHub Discussion: https://github.com/ipfs/community/discussions/599
 * Email: adithyamenons17@gmail.com
 * Slack:  
 * Twitter:  
