@@ -61,7 +61,7 @@ Luca Pisani https://www.birdo.net/lucapisanicv/cv.html
 1
 
 ## How the community can engage
-* GitHub Discussion: <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!-->  
+* GitHub Discussion: https://github.com/ipfs/community/discussions/601 <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!-->  
 * Email:   luca.pisani@birdo.net
 * Slack:  
 * Twitter:  
