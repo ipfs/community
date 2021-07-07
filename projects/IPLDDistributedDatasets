@@ -1,0 +1,40 @@
+## Project Name <!-- Add your project name here with format "Project Name"-->
+IPLD Distributed Datasets
+
+## Category 
+Developer Tooling
+
+## Project Description
+IPLD can be used to store datasets in IPFS rather than as flat files. Additionally, IPLD's advanced data layouts can be used to do lookups by key while fetching only a small number of blocks.
+
+The goal of this project is to provide tooling and libraries to allow developers to store large datasets using IPLD and utilize them in applications.
+
+## Use of IPFS, Filecoin and Libp2p
+This project uses IPFS and IPLD to store and distribute the datasets.
+
+## Project Status
+The project is currently in the development phase, but has already been shown to work using a dataset with 100k entries.
+
+## Target Audience
+Developers and projects wanting to store static datasets on IPFS that require decentralized, fast lookups.
+
+## Github repo
+https://github.com/aditsachde/ipld-distributed-datasets
+
+## Docs
+https://github.com/aditsachde/ipld-distributed-datasets/blob/master/README.md
+
+## Team Info
+
+### Team Size  
+1
+
+### Team members  
+Adit Sachde
+
+## How the community can engage
+* GitHub Discussion: https://github.com/ipfs/community/discussions/604  
+* Email: contact [at] aditsachde.com
+
+## How to Contribute
+Help pin the datasets or contribute new datasets!
