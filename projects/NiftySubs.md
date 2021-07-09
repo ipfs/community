@@ -80,7 +80,9 @@ Under Development
   #### Huy Vu Nguyen
   Product and Design in the web3 ecosystem
   
-  ### 
+  #### Rishabh Keshan
+  Mern Stack Developer, React Native, Web3, UI/UX Developer
+
 
 ## How the community can engage
 * GitHub Discussion: <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!-->  
