@@ -53,7 +53,7 @@ Jawahar P M
 
 
 ## How the community can engage
-* GitHub Discussion: 
+* GitHub Discussion: https://github.com/ipfs/community/discussions/618
 * Email: bkyogesh28@gmail.com
 * Slack:  
 * Twitter:  
