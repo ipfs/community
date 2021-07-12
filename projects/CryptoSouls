@@ -1,0 +1,45 @@
+## Project Name
+
+CryptoSouls
+
+## Category 
+
+Application
+
+## Project Description
+
+CryptoSouls is an NFT minting and battling game. In it, souls of famous warriors can be minted as NFT's, complete with a set of 5 stats: Strength, Intelligence, Endurance, Charisma, and Luck.
+
+Players can enlist their CryptoSouls in the Battle Arena, where they are matched up against other CryptoSouls. Battles consist of 3 rounds of random stat matchups, with the warrior having the higher stat the victor!
+
+## Use of IPFS, Filecoin and Libp2p
+• Assets and token data are uploaded to IPFS and used when minting the each CryptoSoul. It's the foundation for the NFT's used in the game and secondary economy.
+
+## Project Status
+
+Under development
+
+## Target Audience
+• The target audience is gamers using Ethereum and people who have gotten involved in crypto collectables.
+
+## Github repo
+• https://github.com/junoware/cryptosouls
+
+## Website
+https://showcase.ethglobal.co/web3weekend/cryptosouls
+
+## Team Info
+
+### Team Size  
+• 1
+
+### Team members  
+• Yambo -- Developer, Designer, Project Manager
+
+## How the community can engage
+• GitHub Discussion: https://github.com/ipfs/community/discussions/621
+• Email: yambo.eth@gmail.com
+• Twitter: @yambo_eth
+
+## How to Contribute
+• Development funds and donations in ETH and/or LINK are happily accepted at `0xa1455E19c297B9A0A0E894208d041ad40cc5c23d`
