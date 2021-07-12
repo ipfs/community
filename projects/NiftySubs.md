@@ -85,7 +85,7 @@ Under Development
 
 
 ## How the community can engage
-* GitHub Discussion: <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!-->  
+* GitHub Discussion: https://github.com/ipfs/community/discussions/624 
 * Email: jadejaharpal14@gmail.com
 * Twitter: @NiftySubs
 * Discord: light#2927 for invite to server.
