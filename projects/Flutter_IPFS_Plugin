@@ -2,7 +2,7 @@
 IPFS Plugin for Flutter
 
 ## Category 
-Application
+Plugin/Library
 
 ## Project Description
 A plugin library for the IPFS using HTTP API and Infura. The code is implemented in Dart and the plugin can be imported and used in android application projects. Support for iOS and Windows will be added soon.
