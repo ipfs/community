@@ -47,8 +47,8 @@ Being alpha software, we have no production users but many active users in our D
 
 ### Team members
 
-Thomas Jay Rush - lead developer
-Dawid Szlachta - full stack developer
+Thomas Jay Rush - lead developer  
+Dawid Szlachta - full stack developer  
 Meriam Zandi - product manager
 
 ## How the community can engage
