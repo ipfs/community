@@ -53,13 +53,13 @@ Meriam Zandi - product manager
 
 ## How the community can engage
 
-GitHub Discussion:
-Email:  jrush@trueblocks.io
-Slack:  N/A
-Twitter:  @trueblocks
-Discord: <https://discord.gg/5zSZVE8nmM>
-Telegram:  N/A
-WeChat:  N/A
+GitHub Discussion:  
+Email:  jrush@trueblocks.io  
+Slack:  N/A  
+Twitter:  @trueblocks  
+Discord: <https://discord.gg/5zSZVE8nmM>  
+Telegram:  N/A  
+WeChat:  N/A  
 
 ## How to Contribute
 
