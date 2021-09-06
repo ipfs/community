@@ -2,25 +2,23 @@
 TrueBlocks / Unchained Index
 
 ## Category 
-
-WE NEED TO USE THEIR CATEGORIES
-
 Infrastructure, Public Good, Indexing Solution
 
 ## Project Description
-- TrueBlocks is an indexing solution for any blockchain, better explained [here](https://trueblocks.io/docs).
-- Unchained Index is a set of ideas that are part of TrueBlocks that uses an Ethereum smart contract and IPFS to help us publish and share the index created by TrueBlocks in an web 3.0 native way.
-- In this case, by "web 3.0 native" we mean in a way that is (a) reproducable, (b) uncapturable, (c) private by default, and (d) and most importantly, cheap.
-- Using IPFS we've designed a way where our users naturally share the burden of carrying the index. Each user carrying his/her "fair share". This built in fairness facilitates, we think, adoption. Heavy users of the Ethereum chain will carry a heavier burden, ligher users will carry a lighter burden. This increases both long term viability of the indexing of each chain and makes the cost of the overall system approach zero while maintaining the immutable nature of the source blockchain data.
-- Unlike most index providers, Unchained Index seeks to reduce dependency on a central gatekeeper, retain the immutable nature of the chain data and promote cheap and widespread data access. 
+- TrueBlocks is an open-source project which includes an indexing solution for any blockchain, better explained [here](https://trueblocks.io/docs).
+- Unchained Index is a collection of techniques within TrueBlocks that uses IPFS and an Ethereum smart contract to produce, publish, and distribute the index in a Web 3.0 native way.
+- By "Web 3.0 native" we mean it is (a) reproducible, (b) uncapturable, (c) private by default, and (d) most importantly, cheap.
+- Using IPFS, and without the user's intervention, the index is naturally, cheaply and equitably distributed as heavy users of the chain carry a heavier burden and lighter users of the chain carry a lighter burden.
+- Unlike other index providers, Unchained Index seeks to treat chain data like a "public good" by limiting dependency on central gatekeepers, retaining the immutable nature of the chain data and, promoting cheap and widespread data access to the chain data.
 
 ## Use of IPFS, Filecoin and Libp2p
-<!-- Describe how your project uses any or all of these technologies, and why. -->
-Unchained Index and IPFS are aligned philosophically as Unchained Index will leverage IPFS to broadly distribute chain data cheaply, securely, verifiably and decentrally. In early stages, we have used and will continue to use Pinata for pinning services.
+- Unchained Index leverages IPFS to broadly distribute the index of the chain data cheaply, securely, verifiably and decentrally.
+- Currently, we use Pinata as a pinning services, however, we wish to explore the use of FileCoin as a pinning service.
 
 ## Project Status
 
- Unchained Index was conceived and partially developed at the ETHGlobal HackFS in August 2020. The project remains under development and is an intergral building block to our TrueBlocks account explorer application (for more on TrueBlocks see XYZ link)
+- Unchained Index was conceived and initially developed as part of ETHGlobal HackFS in August 2020. We received a prize for our work from Pinata.
+- It remains under active development and is an intergral building block of TrueBlocks, including its use in our [Account Explorer](https://github.com/TrueBlocks/trueblocks-explorer) application.
 
 ## Previews
 - [Video Explainer of Unchained Index](https://unchainedindex.io/)
@@ -51,13 +49,14 @@ Unchained Index and IPFS are aligned philosophically as Unchained Index will lev
 
 ### Team size
 
-- Three
+- Four (two full time)
 
 ### Team members
 
-- Thomas Jay Rush - lead developer  
-- Dawid Szlachta - full stack developer  
-- Meriam Zandi - product manager
+- Thomas Jay Rush - [lead developer](https://github.com/tjayrush)
+- Dawid Szlachta - [full stack developer](https://github.com/dszlachta)
+- Matt Dodson - [documentation](https://github.com/MattDodsonEnglish)  
+- Meriam Zandi - [product manager](https://www.linkedin.com/in/meriam-zandi-6799661b1/)
 
 ## How the community can engage
 
