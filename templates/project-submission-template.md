@@ -61,20 +61,27 @@ Make Claim
 
 ## Team Info
 <!-- Introduce your amazing team - how many team members are working on this project and who are they?-->
-- Elio Jordan Lopes [Elio](https://github.com/lopeselio)
-- Harpalsinh Jadeja [Harpal](https://github.com/therealharpaljadeja)
-- Shrey Keny [Shrey](https://github.com/shreykeny)
+
 
 ### Team Size  
 3
 
 ### Team members  
+- Elio Jordan Lopes [Elio](https://github.com/lopeselio)
+Elio is from Goa, India, undergrad student and working part-time at Footium, he is a crypto enthusiast learning and building on all things Web3. He has recently graduated from the Celo India Fellowship, building DeFi on mobile.
+
+- Harpalsinh Jadeja [Harpal](https://github.com/therealharpaljadeja)
+Harpal is from Mumbai, India. Recent graduate in Bachelors Of Engineering in Computer Engineering. Harpal works at L & T Infotech as a Oracle Developer. Harpal is enthusiastic about crypto, more on the development side of it. Harpal's passion to bring web2 users to the web3.
+
+
+- Shrey Keny [Shrey](https://github.com/shreykeny) 
+Shrey is an undergrad student from Goa. He is very passionate about crypto and active member in tech communities, interested in startups and podcasting. He has recently graduated from the Ethereum India Fellowship2.0.
 
 ## How the community can engage
 * GitHub Discussion: <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!-->  
 * Email: lopeselio@gmail.com   
 * Discord: [Discord](https://discord.gg/kNGXVkDu) 
-* Discord: [DAOInsure](@LinkMarinePolygon) 
+* Discord: (@LinkMarinePolygon) 
 
 ## How to Contribute
 <!--How can the community contribute to your project?-->
