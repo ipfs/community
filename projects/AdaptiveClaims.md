@@ -53,7 +53,7 @@ The team is made up of three business professionals with distinct skill sets, ea
 ### Team members  
 
 ## How the community can engage
-* GitHub Discussion: N/A<!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!-->  
+* GitHub Discussion: https://github.com/ipfs/community/discussions/665 <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!-->  
 * Email: evan@adaptiveresources.io
 * Slack:  N/A
 * Twitter:  N/A
