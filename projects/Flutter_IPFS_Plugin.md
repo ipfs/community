@@ -50,11 +50,6 @@ Mridula Kalaiselvan
 ## How the community can engage
 * GitHub Discussion: https://github.com/ipfs/community/discussions/595
 * Email: kumaragurut7@gmail.com
-* Slack:  
-* Twitter:  
-* Discord:  
-* Telegram:  
-* WeChat:  
 
 ## How to Contribute
 We welcome contributions. Please reach us out through email - kumaragurut7@gmail.com if you're interested. Feel free to open an issue at your repository in case you find any.
