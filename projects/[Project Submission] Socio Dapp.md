@@ -7,7 +7,7 @@ Application, Social Media, IPFS, DApp
 
 ## Project Description
 <!--Describe your project in a few sentences. -->
-SocioDapp is a decentralised social media platform which lets users support their favourite Content creators through crypto tipping and offers anyone to post and get support/donations from others. SocioDapp has another of subscription fee to get extra contnet. The main aim of this DApp is to help content creators get the full benefits of Monetization from their supporters without having any troubles that exist in traditional system like different region, currency conversion, funds transfer restrictions and so on.
+SocioDapp is a decentralised social media platform which lets users support their favourite Content creators through crypto tipping and offers anyone to post and get support/donations from others. SocioDapp has another of subscription fee to get extra contnet. The main aim of this DApp is to help content creators get the full benefits of monetization from their supporters without having any troubles that exist in traditional system like different region, currency conversion, funds transfer restrictions and so on.
 
 ## Use of IPFS, Filecoin and Libp2p
 <!-- Describe how your project uses any or all of these technologies, and why. -->
@@ -26,11 +26,11 @@ Initial prototype is built at Browers 3000 hackathon and yet there is lot of sco
 
 ## Target Audience
 <!--Describe who will be your project's users-->
-Intended audience are anyone who use Social media and wish to support their streamers/content creators. Spectrum of audience is very large. Currently this DApp is not user friendly especially for beginners of Web3 and crypto. We aim to increase the accessibility to larger audience soon.
+Intended audience are anyone who use social media and wish to support their streamers/content creators. Spectrum of audience is very large. Currently this DApp is not user friendly especially for beginners of Web3 and crypto. We aim to increase the accessibility to larger audience soon.
 
 ## Rough estimated user base (if applicable)
 <!--How many users do you have right now?-->
-I have introduced this DApp among my friends and all of them tried(5-6 people). If a famous content creator enrolls and start posting in our DApp we can easily see a traffic of thousands of users initially.
+I have introduced this DApp among my friends and all of them tried (5-6 people). If a famous content creator enrolls and start posting in our DApp we can easily see a traffic of thousands of users initially.
 
 ## Github repo
 <!--Attach a link to your GitHub repo - open source is required - please make sure your repo has a license file and is licensed using MIT open source license! -->
@@ -38,7 +38,7 @@ https://github.com/MohinishTeja/celo_project
 
 ## Website
 <!--Link your website if available-->
-Currenlty we didnot deploy the DApp publicly yet. It's too early to deploy in a public platform.
+Currently we did not deploy the DApp publicly yet. It's too early to deploy in a public platform.
 <!--If you're applying for a Next Step grant, add the URL to your hackathon submission here also-->
 https://devpost.com/software/sociodapp
 ## Docs
