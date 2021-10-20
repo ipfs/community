@@ -69,11 +69,6 @@ Albert Marcial
 - Email: communitygardendapp@gmail.com
 - Twitter: https://twitter.com/garden_nfts
 - Github: https://github.com/electrone901/plant-doctor
-- Slack: N/A
-- Discord: N/A
-- Telegram: N/A
-- Medium: N/A
-- WeChat: N/A
 
 ## How to Contribute
 
