@@ -27,7 +27,7 @@ and deployed the Smart Contracts to a testnet (Polygon Mumbai). The idea is to g
 so users can start to use it.
 
 ## Previews
-![Git3 Frontend](https://ibb.co/G2VGdrm)
+[![Screenshot-from-2021-10-20-13-51-12.png](https://i.postimg.cc/tT4BbsmW/Screenshot-from-2021-10-20-13-51-12.png)](https://postimg.cc/Z9X8F5m5)
 
 ## Target Audience
 In the beginning, I would like to get some projects from web3 into Git3 so that there is a way to support those guys
