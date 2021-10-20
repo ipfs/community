@@ -58,9 +58,9 @@ https://github.com/Paper-House/PaperHouse/blob/main/README.md#Getting-Started
 
 ### Team members  
 
--Sanket Marathe [@MSanket9](https://github.com/msanket9) <br>
--Sairaj Kapdi [@SairajK19](https://github.com/SairajK19) <br>
--Rhutik Parab [@c0deb1ind31](https://github.com/c0deb1ind31)
+- Sanket Marathe [@MSanket9](https://github.com/msanket9) <br>
+- Sairaj Kapdi [@SairajK19](https://github.com/SairajK19) <br>
+- Rhutik Parab [@c0deb1ind31](https://github.com/c0deb1ind31)
 
 ## How the community can engage
 * GitHub Discussion: https://github.com/ipfs/community/discussions/668
