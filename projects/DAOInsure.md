@@ -1,4 +1,4 @@
-\## Project Name <!-- Add your project name here with format "Project Name"-->
+## Project Name <!-- Add your project name here with format "Project Name"-->
 DAOInsure
 
 ## Category 
@@ -43,7 +43,7 @@ Make Claim
 
 ## Rough estimated user base (if applicable)
 <!--How many users do you have right now?-->
-¯_(ツ)_/¯
+¯\\\_(ツ)\_/¯
 
 ## Github repo
 <!--Attach a link to your GitHub repo - open source is required - please make sure your repo has a license file and is licensed using MIT open source license! -->
@@ -51,9 +51,9 @@ Make Claim
 
 ## Website
 <!--Link your website if available-->
-(Fleek-DAOInsure)[https://daoinsure.on.fleek.co/]
+[Fleek-DAOInsure](https://daoinsure.on.fleek.co/)
 <!--If you're applying for a Next Step grant, add the URL to your hackathon submission here also-->
-(DAOInsure-ETHOdyssey)[https://devfolio.co/submissions/daoinsure-1e0c]
+[DAOInsure-ETHOdyssey](https://devfolio.co/submissions/daoinsure-1e0c)
 
 ## Docs
 <!--Including a link to your project docs!-->
