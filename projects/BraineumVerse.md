@@ -64,7 +64,7 @@ R. Benson Evans.
 	R. Benson Evans.
 
 ## How the community can engage
-* GitHub Discussion: <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!--> https://github.com/ipfs/community/discussions/new 
+* GitHub Discussion: <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!--> https://github.com/ipfs/community/discussions/680 
 * Email: rbensonevans.braineumverse@gmail.com 
 * Slack: N/A 
 * Twitter: https://twitter.com/braineumverse
