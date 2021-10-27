@@ -22,7 +22,7 @@ Under Development
 ## Previews
 <!--Add some screenshots to give a preview of your product-->
 
-![](/Users/benson/IPFS_DEV_GRANT/braineumverse_image.png)
+![](https://github.com/rbensonevans/braineumVerse/blob/master/images/braineumverse_image.png)
 
 ## Target Audience
 <!--Describe who will be your project's users-->
