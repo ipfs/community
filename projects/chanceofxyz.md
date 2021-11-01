@@ -22,10 +22,10 @@ You will need to connect a crytpo wallet to see the demo. We do not retrieve any
 
 ## Target Audience
 <!--Describe who will be your project's users-->
-We started off with DeFi data but have plans to put covid-19 transmition probabilies, sprort and gaming data and more.
+We started off with DeFi data but have plans to put covid-19 transmision probabilies, sport/gaming, rare event data and more.
 
 ## Rough estimated user base (if applicable)
-Currently it's under development:hammer_and_wrench:, therefore we don't have any users at the moment
+Currently it's under development
 
 ## Github repo
 <!--Attach a link to your GitHub repo - open source is required - please make sure your repo has a license file and is licensed using MIT open source license! -->
@@ -56,6 +56,4 @@ https://github.com/Strangers-United/Strangers-United
 
 ## How to Contribute
 <!--How can the community contribute to your project?-->
-We are looking for contributors that have historical data sets or predictive models to 'bottle' their outputs in SIPMath format. Our plan is to create a searchable index of IPFS based chance-data. We believe measuring uncertinty and sharing it in an auditable and additive way will be more important for permissionless networks.
-
-
+We are looking for contributors that have historical data sets or predictive models to 'bottle' their outputs in SIPMath format. As well app developers that specialize in data viz. Our plan is to create a searchable index of IPFS based chance-data. We believe measuring uncertinty and sharing it in an auditable and additive way will be more important for permissionless networks.
