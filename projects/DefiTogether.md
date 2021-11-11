@@ -48,7 +48,7 @@ We will open it to our community as soon as this project turns to beta.
 
 ## Github repo
 
-[Defi Together](https://github.com/flyingnobita/defi-together)
+[Defi Together](https://github.com/ceramicstudio/safe-did-resolver)
 
 [Gnosis Safe DID Resolver](https://github.com/flyingnobita/safe-did-resolver)
 
