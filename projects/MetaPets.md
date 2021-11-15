@@ -66,5 +66,6 @@ He is our Unity expert. He has the hard mission to create the smoother painting 
 * Discord:  https://discord.gg/rBPP7uxnwd
 
 ## How to Contribute
+https://github.com/ipfs/community/discussions/694
 You can help use better the painting system if you have great skill with Unity!
 Also, twitter follows and joining our discord server will grantly help us building a community 🙏
