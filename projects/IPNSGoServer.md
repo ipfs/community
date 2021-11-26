@@ -43,7 +43,7 @@ My name is Marco Rodriguez-Salinas a solo developer (for now) looking to exapand
 * GitHub Discussion: https://github.com/ipfs/community/discussions/701  
 * Email:  marco.rodriguez113@gmail.com
 * Twitter:  @fancyB_nft
-* Discord:  https://discord.gg/B8NRJhBb
+* Discord:  https://discord.gg/B8NRJhBb | legendofmar#3868
 
 ## How to Contribute
 <!--How can the community contribute to your project?-->
