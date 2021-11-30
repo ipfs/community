@@ -69,7 +69,8 @@ We are team of 3! We recently graduate from a Fullstack Academy coding bootcamp 
 [Nicholas Zehr](https://www.linkedin.com/in/nicholas-zehr-pmp/)
 
 ## How the community can engage
-* GitHub Discussion: <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!-->  
+* GitHub Discussion: https://github.com/ipfs/community/discussions/709
+* <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!-->  
 * Email:  emil.shrft@gmail.com
 * Discord:  https://discord.gg/2qaCxbwk
 
