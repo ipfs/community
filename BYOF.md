@@ -78,4 +78,4 @@ Enrico Bottazzi
 
 ## How to Contribute
 
-Looking for feedback from the community both on the concept and its technical implementation.
+Looking forward to hearing feedback from the community. The Next Step I'm planning to take with grant support is to integrate other platforms (Twitter, Etherscan, Opensea, ...) to the dashboard so users can track more information of the addresses they are following.
