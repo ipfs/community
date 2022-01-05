@@ -18,7 +18,7 @@ Having worked closely with a few of the independent artists, I realised how diff
 
 As a next step we want to bring in an authentication system, wherein we desire to link artist's (audio uploader's) twitter to the dapp and assign a checkmark to distinguish real artists from the imitators. There are many ways in which the portal/dapp can still be spammed with unregulated audio files and getting this sorted would be the prime motive as we move ahead
 
-## [Demoideo](https://www.youtube.com/watch?v=U_RKD7fRYJE)
+## [Demo Video](https://www.youtube.com/watch?v=U_RKD7fRYJE)
 
 ## Use of IPFS, Filecoin and Libp2p
 <!-- Describe how your project uses any or all of these technologies, and why. -->
