@@ -10,13 +10,13 @@ ETH My Song
 <!--Describe your project in a few sentences. -->
 Project - https://ethmysong.vercel.app/
 
-This project aims to solve an issue widely faced by the music artist community - Independent artists find it hard to earn money through their compositions online (music streaming)speciaially when they're starting out. It's difficult to find gigs in the beginning of their careers and hence funding the music production operation becomes a costly affair.
-Soundcloud is a centralised platform made for artists to post their music ompositions and gather some following. Even though the platform is great, it doesn't allow for assisting your favourite artists financially like one can do on Patreon. We want to solve this, our dApp allows peer-to-peer tipping without any cuts by any middleman, hence allowing artist fans to directly fund their favourite artists' music or favourite music, direclty from the platform. 
+This project aims to solve an issue widely faced by the music artist community - Independent artists find it hard to earn money through their compositions online (music streaming)specially when they're starting out. It's difficult to find gigs in the beginning of their careers and hence funding the music production operation becomes a costly affair.
+Soundcloud is a centralised platform made for artists to post their music compositions and gather some following. Even though the platform is great, it doesn't allow for assisting your favourite artists financially like one can do on Patreon. We want to solve this, our dApp allows peer-to-peer tipping without any cuts by any middleman, hence allowing artist fans to directly fund their favourite artists' music or favourite music, directly from the platform.
 Like SoundCloud, artists/users can directly upload their music composition on the platform by signing the smart contract to upload it and it would be live on the platform. The same ETH address with which the music was uploaded, a tipping button is linked which allows their fans to directly support them by tipping in ETH.
 
 Having worked closely with a few of the independent artists, I realised how difficult it is for small artists to sustain their art. As an artist (spoken poetry) myself I have experienced how difficult it is to earn from your art as an independent artist, therefore I was inspired to make something to solve this problem.
 
-As a next step we want to bring in an authentication system, wherein we desire to link artist's (audio uploader's) twitter to the dapp and assign a checkmark to distinguish real artists from the imitators. There are many ways in which the portal/dapp can still be spammed with unregulated audio files and getting this sorted would be the prime motive as we move ahead.
+As a next step we want to bring in an authentication system, wherein we desire to link artist's (audio uploader's) twitter to the dapp and assign a checkmark to distinguish real artists from the imitators. There are many ways in which the portal/dapp can still be spammed with unregulated audio files and getting this sorted would be the prime motive as we move ahead
 
 ## [Demoideo](https://www.youtube.com/watch?v=U_RKD7fRYJE)
 
@@ -32,7 +32,7 @@ Our next steps would be primarily to improve the UI/UX and bring in an authentic
 
 ## Target Audience
 <!--Describe who will be your project's users-->
-Our target audience is the music community, the listeners and fans of independent bands and artits. The userbase would largely consist of music fanatics who want to review their favourite artist's new composition, and would want to support to their art.
+Our target audience is the music community, the listeners and fans of independent bands and artists. The userbase would largely consist of music fanatics who want to review their favourite artist's new composition, and would want to support to their art.
 
 The SoundCloud audience is an appropriate reference.
 
