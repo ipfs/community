@@ -24,8 +24,8 @@ Every web3 application that involves network of people will, eventually, adopt B
 
 BYOF has 2 components:
 
-- An independent UI that acts as a dashboard. You can check the DAOs they are part of, the NFTs they own and trading, the web3 games they are playing or the metaverse platforms where they are hang around.
-- An open API that can be integrated within any web3 platform that relies on social networks.
+- A Dashboard where you can track the address you follow. You can check the DAOs they are part of, the NFTs they own and trading, the web3 games they are playing or the metaverse platforms where they are hang around (part of the MVP).
+- An open API that can be integrated within any web3 platform that relies on social networks (not part of the MVP).
 
 BYOF unlocks: 
 - **censorship resistant ownership** upon your list of followers
@@ -41,7 +41,7 @@ The data structures that cointain information about user's followings are addres
 MVP 
 
 ## Previews
-Here's a demo of the MVP https://youtu.be/AEbLHyMGjQA 
+Here's a demo of the MVP https://youtu.be/d0n9Ojuqs-8
 
 ## Target Audience
 It is twofold: 
@@ -78,4 +78,4 @@ Enrico Bottazzi
 
 ## How to Contribute
 
-Looking forward to hearing feedback from the community. The Next Step I'm planning to take with grant support is to integrate other platforms (Twitter, Etherscan, Opensea, ...) to the dashboard so users can track more information of the addresses they are following.
+Looking forward to get feedback and help from the community. The Next Step I'm planning to take with grant support is to create a TheGraph index over Ceramic streams in order to let third parties access open social graph and integrate in within their platforms
