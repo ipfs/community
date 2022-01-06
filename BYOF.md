@@ -41,7 +41,7 @@ The data structures that cointain information about user's followings are addres
 MVP 
 
 ## Previews
-Here's a demo of the MVP https://youtu.be/d0n9Ojuqs-8
+Here's a demo of the MVP https://youtu.be/bGmtw75th_Y
 
 ## Target Audience
 It is twofold: 
