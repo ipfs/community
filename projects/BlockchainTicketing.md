@@ -40,7 +40,7 @@ Under development
 ## Github repo
 <!--Attach a link to your GitHub repo - open source is required - please make sure your repo has a license file and is licensed using MIT open source license! -->
 
-[https://github.com/eerkaijun/tixlab] (https://github.com/eerkaijun/tixlab)
+[https://github.com/eerkaijun/tixlab](https://github.com/eerkaijun/tixlab)
 
 ## Website
 <!--Link your website if available-->
@@ -49,9 +49,9 @@ The website is currently under development.
 
 <!--If you're applying for a Next Step grant, add the URL to your hackathon submission here also-->
 
-[NFT Hack Submission] (https://www.youtube.com/watch?v=GKkhje97x68)
+[NFT Hack Submission](https://www.youtube.com/watch?v=GKkhje97x68)
 
-[NFT Hack Finale Pitch] (https://www.youtube.com/watch?v=b9vErLt_cyA)
+[NFT Hack Finale Pitch](https://www.youtube.com/watch?v=b9vErLt_cyA)
 
 ## Docs
 <!--Including a link to your project docs!-->
