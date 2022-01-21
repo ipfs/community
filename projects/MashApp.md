@@ -106,3 +106,4 @@ Anastasiya Glukhikh, designer
 We are always looking for improvements to the project and contributions from open-source developers are greatly appreciated. If you have a contribution or idea in mind, please open issue or PR with your ideas https://github.com/dragoonzx/mashapp-v2
 
 Email - dragoonz@yandex.ru
+Twitter - https://twitter.com/MashApp4
