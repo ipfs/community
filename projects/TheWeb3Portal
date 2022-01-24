@@ -1,0 +1,52 @@
+## Project Name <!-- Add your project name here with format "Project Name"-->
+TheWeb3Portal
+## Category 
+<!--developer tooling, application, wallet, infrastructure, etc-->
+Application, DAO
+## Project Description
+<!--Describe your project in a few sentences. -->
+TheWeb3Portal is a Web3 navigation site for all users and Web2 web developers. It is released by the TheWeb3DAO. Organization members will help the front-end deployment of traditional Web2 websites on IPFS to achieve decentralization, and integrate the deployed websites into TheWeb3Portal website for users to search and access.
+## Use of IPFS, Filecoin and Libp2p
+<!-- Describe how your project uses any or all of these technologies, and why. -->
+1. The main site is deployed on IPFS.
+2. Deploy more Defi, NFT, Metaverse, traditional Internet and other projects to IPFS, inject more users into IPFS, and help users migrate from Web2.0 to Web3.0.
+3. Build a Web3 portal based on IPFS.
+## Project Status
+<!--brainstorming, fundraising, under development, beta, shipped, etc-->
+Under development
+## Previews
+<!--Add some screenshots to give a preview of your product-->
+[main.png](https://postimg.cc/4nj7LdXH)
+## Target Audience
+<!--Describe who will be your project's users-->
+**Developer** Help developers deploy front-end for free, and welcome developers to join Web3PortalDAO to jointly promote the Web3 process.
+**Web2 site holder** Help Web2 website holders:Defi, NFT, Metaverse, Traditional Internet, migrate their websites to IPFS to achieve decentralization and establish backup sites at zero cost.
+## Rough estimated user base (if applicable)
+<!--How many users do you have right now?-->
+Just launched
+## Github repo
+<!--Attach a link to your GitHub repo - open source is required - please make sure your repo has a license file and is licensed using MIT open source license! -->
+[https://github.com/TheWeb3DAO/TheWeb3Portal](https://github.com/TheWeb3DAO/TheWeb3Portal)
+## Website
+<!--Link your website if available-->
+[https://web3-portal.org/](https://web3-portal.org/)
+[https://web3-portal.com/](https://web3-portal.com/)
+<!--If you're applying for a Next Step grant, add the URL to your hackathon submission here also-->
+## Team Info
+<!-- Introduce your amazing team - how many team members are working on this project and who are they?-->
+
+### Team Size  
+6
+### Team members  
+Organizer: Michael Rubel, 5 years experience in blockchain industry, senior front-end engineer.
+Core members: Jason Pizzino, 10 years of front-end development experience, firmly believe in the broad future of Web3.
+## How the community can engage
+* GitHub Discussion: <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!--> https://github.com/ipfs/community/discussions/727  
+* Email:contact@web3-portal.org  
+* Twitter: https://twitter.com/Web3_Portal  
+* Discord: https://discord.gg/UQg3VZ2FpB  
+## How to Contribute
+<!--How can the community contribute to your project?-->
+1. Help us do brand promotion and expand our influence
+2. Recommend more high-quality projects for us, and we will help them complete IPFS-based transformation
+3. Guide more developers to join our DAO organization and jointly build Web3
