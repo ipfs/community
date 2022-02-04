@@ -5,14 +5,14 @@ Slick
 User Application, IPFS, Subscription 
 ## Project Description
 <!--Describe your project in a few sentences. -->
-Slick is a decentralized version of Patreon. People can get subscription for exclusive content from their favourite creators using Cryptocurrency. All the subscriptions are taken care by Smart Contract deployed in Matic network. People can coomunicate and all of the data and media files uploaded are stored in IPFS network which makes this DApp much more distributed.
+Slick is a decentralized version of Patreon. People can get subscription for exclusive content from their favourite creators using Cryptocurrency. All the subscriptions are taken care by Smart Contract deployed in Polygon network. People can coomunicate and all of the data and media files uploaded are stored in IPFS network which makes this DApp much more distributed.
 ## Use of IPFS, Filecoin and Libp2p
 <!-- Describe how your project uses any or all of these technologies, and why. -->
 IPFS is the storage network of Slick. All of the content posted by creators is stored in IPFS network.
 
 ## Project Status
 <!--brainstorming, fundraising, under development, beta, shipped, etc-->
-Slick is built at Mars Asia Hackathon and have secured first prize under Matic Network track. Currently, Slick is available in Matic network and is deployed using Fleek.
+Slick is built at Mars Asia Hackathon and have secured first prize under Polygon Network track. Currently, Slick is available in Polygon network and is deployed using Fleek.
 ## Previews
 <!--Add some screenshots to give a preview of your product-->
 ![image](https://user-images.githubusercontent.com/67496858/152592101-b090e6bd-47c7-41cf-9049-4174a81a1213.png)
