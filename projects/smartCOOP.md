@@ -42,7 +42,7 @@ https://github.com/ilijapet/smartCOOP2.0_react_version
 
 ## Website
 
-https://ilijapet.github.io/smartCOOP/client/#reload
+https://muddy-art-3856.on.fleek.co/
 
 ## Docs
 
