@@ -52,10 +52,6 @@ I worked on this solo
 ### Team members
 Dalvin Josias Sejour
 
-Yoann Lesouef
-
-Alexandre Roullier
-
 ## How the community can engage <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!--> 
 * GitHub Discussion:  https://github.com/ipfs/community/discussions/723
 * Email:  dalvin.josias@gmail.com
