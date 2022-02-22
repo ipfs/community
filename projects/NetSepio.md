@@ -46,7 +46,7 @@ https://github.com/NetSepio/ChromiumExtension
 
 ## Website
 https://netsepio.com/
-
+https://github.com/ipfs/devgrants/issues/137
 <!--If you're applying for a Next Step grant, add the URL to your hackathon submission here also-->
 
 ## Docs
