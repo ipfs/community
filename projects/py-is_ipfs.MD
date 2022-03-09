@@ -57,7 +57,8 @@ I'm a (FL)OSS enthusiast working as a solo developer. I'm currently focusing on 
 [Barabazs](https://github.com/Barabazs)
 
 ## How the community can engage
-* GitHub Discussion: https://github.com/Barabazs/py-is_ipfs/discussions/1 
+* Project Repo Discussion: https://github.com/Barabazs/py-is_ipfs/discussions/1 
+* IPFS Community Discussion: https://github.com/ipfs/community/discussions/745
 * Twitter: twitter.com/barabazs_
 
 ## How to Contribute
