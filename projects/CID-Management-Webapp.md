@@ -1,5 +1,5 @@
 ## Project Name
-CID-Mangement-Web-App
+CID-Management-Web-App
 
 ## Category 
 Web Application
