@@ -50,7 +50,7 @@ There are two of us full time, and we also have a part-time designer
 - Giorgio Fasoli - [designer](https://github.com/galaxyxthree)
 
 ## How the community can engage
-* GitHub Discussion: <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!-->  
+* GitHub Discussion: https://github.com/ipfs/community/discussions/748 <!--Start a discussion with the community here: https://github.com/ipfs/community/discussions/new and attach the link!-->  
 * Email:  llentz@galaxyx.io  
 * Twitter:  ZaphodB17
 * Discord:  noryev#0289
