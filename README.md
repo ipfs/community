@@ -1,3 +1,12 @@
+---
+⚠️ ⚠️ ⚠️  
+Much of this repo is not accurate to the current state of affairs in 202207.
+Critical/utilized parts will be be moved out and then this will be archived.
+See the [official IPFS community docs](https://docs.ipfs.io/community/) for updated information.  
+⚠️ ⚠️ ⚠️
+
+---
+
 # Community
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
