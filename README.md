@@ -1,3 +1,12 @@
+---
+⚠️ ⚠️ ⚠️  
+Much of this repo is not accurate to the current state of affairs in 2022 07.
+Critical/utilized parts will be be moved out and then this will be archived.
+See the [official IPFS community docs](https://docs.ipfs.io/community/) for updated information.  
+⚠️ ⚠️ ⚠️
+
+---
+
 # Community
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
@@ -24,7 +33,7 @@
 
 The IPFS community is growing, and already has many resources. We ought to maintain them, build more, and improve all the things. This repository is for meta, non-code discussions (in the [issues](issues)) and for documents used by multiple repositories, such as the various Contributing guidelines.
 
-**NOTE:** If you're interested in discussing code, jumping on our community calls, or talking to developers about our overall project management, go to [ipfs/team-mgmt](https://github.com/ipfs/team-mgmt). We announce **our weekly calls** in the [ipfs/team-mgmt issues](https://github.com/ipfs/team-mgmt/issues). You can also open issues in specific repositories (like [go-ipfs](https://github.com/ipfs/go-ipfs)), and come talk to us on [Forums and Chat](https://docs.ipfs.io/community/).
+**NOTE:** If you're interested in discussing code, jumping on our community calls, or talking to developers about our overall project management, go to [ipfs/team-mgmt](https://github.com/ipfs/team-mgmt). You can also open issues in specific repositories (like [Kubo](https://github.com/ipfs/kubo)), and come talk to us on [Forums and Chat](https://docs.ipfs.io/community/).
 
 Our goals here are to work on resources that help us with:
 
@@ -82,7 +91,7 @@ Find the list at:
 ### IPFS Event Materials
 Want to host an event to share IPFS with others, or bring IPFS to another event? Feel free to use these materials to make your event(s) awesome! Everything here is [Creative Commons 4.0](https://creativecommons.org/licenses/by-sa/4.0/) - so feel free to adapt or remix!
 
-- **How IPFS Works Overview:** [@stebalien](http://github.com/stebalien), go-ipfs Captain and Lead Maintainer, created a great presentation template for "[How IPFS Works (approximately)](https://docs.google.com/presentation/d/1wyrTNTERJV23R7PyLrNloBauygdq1SXerijvEUG62xI/edit)". _Feel free to reuse or fork this deck to help break down the inner magic of IPFS for others._ [Here's a recording](https://youtu.be/0IGzEYixJHk) of this deck being used in practice to explain how IPFS works (from the October 2019 Osaka IPFS Meetup).
+- **How IPFS Works Overview:** [@stebalien](http://github.com/stebalien) created a great presentation template for "[How IPFS Works (approximately)](https://docs.google.com/presentation/d/1wyrTNTERJV23R7PyLrNloBauygdq1SXerijvEUG62xI/edit)". _Feel free to reuse or fork this deck to help break down the inner magic of IPFS for others._ [Here's a recording](https://youtu.be/0IGzEYixJHk) of this deck being used in practice to explain how IPFS works (from the October 2019 Osaka IPFS Meetup).
   - Still have questions? [IPFS Simply Explained](https://www.youtube.com/watch?v=5Uj6uR3fp-U) does a great job visualizing how IPFS addresses some key use cases and needs to upgrade the internet.
 - **IPFS Deep Dive Workshops:** These two videos - [How IPFS Deals with Files](https://www.youtube.com/watch?v=Z5zNPwMDYGg&list=PLuhRWgmPaHtSsHMhjeWpfOzr8tonPaePu&index=2&t=0s) and [The Lifecycle of Data on the Dweb](https://www.youtube.com/watch?v=fLUq0RkiTBA&list=PLuhRWgmPaHtSsHMhjeWpfOzr8tonPaePu&index=3&t=8s) - are great workshops on how core components of the IPFS network fit together. Feel free to watch these together, or just use as inspiration.
 - **Context and Vision for IPFS:** In [Why IPFS?](https://www.youtube.com/watch?v=zE_WSLbqqvo) and [Building Web3](https://www.youtube.com/watch?v=pJOG5Ql7ZD0), Juan Benet talks about how IPFS fits into a longer-scale evolution of technology and our progress on building the new set of capabilities to power web3. The amazing video in "Why IPFS" that sets the stage for our place in the cosmos is "[Our Story in 1 Minute](https://www.youtube.com/watch?v=ZSt9tm3RoUU)" by melodysheep.
