@@ -11,8 +11,9 @@ IPFS Statistical Data Viewer is a Chrome Extension that visualizes your IPFS Nod
 Chrome/Firefox extension uses the http-api to retrieve information about the data users have stored on their IPFS node to better help users manage the data they work with on IPFS.
 
 ## Project Status
-Go download on the Chrome and Firefox store! Also available on Brave. We are adding featurs and pushing improvements daily! https://chrome.google.com/webstore/detail/ipfs-stat-viewer/leoogniilogpecgamlbafoajfcaoddja
-https://addons.mozilla.org/en-US/firefox/addon/ipfs-stat-viewer/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
+Go download on the Chrome and Firefox store! Also available on Brave. We are adding featurs and pushing improvements daily! 
+[Chrome Store](https://chrome.google.com/webstore/detail/ipfs-stat-viewer/leoogniilogpecgamlbafoajfcaoddja)
+[Firefox Store](https://addons.mozilla.org/en-US/firefox/addon/ipfs-stat-viewer/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
 
 ## Previews
 <img width="1239" alt="Screen Shot 2022-05-03 at 6 00 04 PM" src="https://user-images.githubusercontent.com/30084404/166586795-3a046027-4c1f-4029-880a-116fb5101f11.png">
