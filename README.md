@@ -1,10 +1,8 @@
 ---
 ⚠️ ⚠️ ⚠️  
-Much of this repo is not accurate to the current state of affairs in 2022 07.
-Critical/utilized parts will be be moved out and then this will be archived.
-See the [official IPFS community docs](https://docs.ipfs.io/community/) for updated information.  
+Much of this repo - including this readme - is not accurate to the current state of affairs in 2022 07.
+We will be pruning/archiving old content in 22Q4
 ⚠️ ⚠️ ⚠️
-
 ---
 
 # Community
@@ -13,7 +11,7 @@ See the [official IPFS community docs](https://docs.ipfs.io/community/) for upda
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-> General discussion and documentation on community practices
+IPFS Community Processes and Resources. 
 
 ## Table of Contents
 
