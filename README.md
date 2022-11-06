@@ -1,7 +1,9 @@
 ---
 ⚠️ ⚠️ ⚠️  
-Much of this repo - including this readme - is not accurate to the current state of affairs in 2022 07.
-We will be pruning/archiving old content in 22Q4
+Much of this repo - including this readme - is not accurate to the current state of affairs in 202211.
+We will be pruning/archiving old content in 2022Q4.
+
+In the interim, the [official IPFS community docs](https://docs.ipfs.io/community/) have relevant ways to engage with the community.
 ⚠️ ⚠️ ⚠️
 ---
 
