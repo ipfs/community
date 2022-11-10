@@ -64,7 +64,7 @@ Infrastructure, Public Good, Indexing Solution
 - Email:  jrush@trueblocks.io  
 - Slack:  N/A  
 - Twitter:  @trueblocks  
-- Discord: [click here](https://discord.gg/rMdunZHCuu)
+- Discord: [click here](https://discord.gg/kAFcZH2x7K)
 - Telegram:  N/A  
 - WeChat:  N/A  
 
