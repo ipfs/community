@@ -264,6 +264,8 @@ NPM uses the `.gitignore` by default, so we have to add a `.npmignore` file to e
 
 We suggest either of these to keep your dependencies up to date:
 
+
+- [david-dm](https://www.npmjs.com/package/david)
 - [dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates)
 - [synk](https://snyk.io/) 
 
