@@ -262,10 +262,12 @@ NPM uses the `.gitignore` by default, so we have to add a `.npmignore` file to e
 
 ##### Dependency management
 
-We suggest either of these:
+We suggest either of these to keep your dependencies up to date:
 
-- [david-dm](https://david-dm.org/)
-- [greenkeeper](http://greenkeeper.io/) to keep your dependencies up to date.
+
+- [david-dm](https://www.npmjs.com/package/david)
+- [dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates)
+- [synk](https://snyk.io/) 
 
 Every module below 1.0.0 should use `~` instead of `^`.
 
