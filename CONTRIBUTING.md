@@ -50,7 +50,7 @@ If you find a vulnerability that may affect live deployments -- for example, exp
 
 If the issue is a protocol weakness or something not yet deployed, just discuss it openly.
 
-Note that **abuse reports** (e.g. if IPFS is used to host malware, questionnable content or for phishing purposes) should be reported to abuse@ipfs.tech instead.
+> Report **IPFS abuse** (e.g. using IPFS for the malware hosting, distribution of questionable content, phishing purposes, etc.) to [abuse@ipfs.tech](mailto:abuse@ipfs.tech).
 
 ## Community Guidelines
 
