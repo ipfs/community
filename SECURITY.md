@@ -10,4 +10,5 @@ If the issue is a protocol weakness or something not yet deployed, just discuss 
 
 ## Reporting Abuse
 
-To report **IPFS abuse** (e.g. using IPFS for malware hosting, distribution of questionable content, phishing purposes, etc.) please send an email to [abuse@ipfs.tech](mailto:abuse@ipfs.tech).
+While IPFS is a modular suite of protocols for organizing and transferring data, we have seen a lot of people willing to report **IPFS usage for abuse** (e.g. using IPFS for malware hosting, distribution of questionable content, phishing purposes, etc.), these should be reported directly to the gateway that is providing the data. Such gateways include ipfs.io or dweb.link, please report abusive content to the gateways serving it.
+So, to report abuse about ipfs.io, please send an email to [abuse@ipfs.tech](mailto:abuse@ipfs.tech) and do not open an issue here, since IPFS as a community is not the same as the ipfs.io gateway.

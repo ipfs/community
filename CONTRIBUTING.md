@@ -50,7 +50,7 @@ If you find a vulnerability that may affect live deployments -- for example, exp
 
 If the issue is a protocol weakness or something not yet deployed, just discuss it openly.
 
-> Report **IPFS abuse** (e.g. using IPFS for malware hosting, distribution of questionable content, phishing purposes, etc.) to [abuse@ipfs.tech](mailto:abuse@ipfs.tech).
+> Note that IPFS isn't responsible for gateways, therefor report **IPFS abuse** (e.g. using IPFS for malware hosting, distribution of questionable content, phishing purposes, etc.) to their respective gateways. If you've seen abusive material distributed through ipfs.io, please report it to [abuse@ipfs.tech](mailto:abuse@ipfs.tech), see our [Security Policy](SECURITY.md) for more details.
 
 ## Community Guidelines
 
