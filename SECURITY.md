@@ -15,4 +15,4 @@ If the issue is a protocol weakness or something not yet deployed, just discuss 
 
 While [IPFS is a stack of protocols and tools for moving content-addressed data](https://specs.ipfs.tech/architecture/principles/), there is often confusion about one particular manifestation of IPFS in [HTTP Gateways](https://docs.ipfs.tech/concepts/ipfs-gateway/) like https://ipfs.io/ipfs.  We have seen a lot of reports about **abuse 
  from these IPFS gateways** (e.g. using an HTTP gateway for malware hosting, distributing questionable content, phishing purposes, etc.).  These should be reported directly to the HTTP gateway product that provides the data.
-To report abuse about the ipfs.io HTTP gateway, please send an email to [abuse@ipfs.tech](mailto:abuse@ipfs.tech).  Do not open an issue here since IPFS as a community and project is not the same as the ipfs.io HTTP gateway.
+To report abuse about the ipfs.io HTTP gateway, please send an email to [abuse@ipfs.tech](mailto:abuse@ipfs.tech).  Do not open an issue here since IPFS is a community project, and is not the same as the ipfs.io HTTP gateway.
