@@ -50,7 +50,7 @@ If you find a vulnerability that may affect live deployments -- for example, exp
 
 If the issue is a protocol weakness or something not yet deployed, just discuss it openly.
 
-> Note that IPFS isn't responsible for gateways, therefor report **IPFS abuse** (e.g. using IPFS for malware hosting, distribution of questionable content, phishing purposes, etc.) to their respective gateways. If you've seen abusive material distributed through ipfs.io, please report it to [abuse@ipfs.tech](mailto:abuse@ipfs.tech), see our [Security Policy](SECURITY.md) for more details.
+> Note that the IPFS project is much more than an [HTTP Gateway](https://docs.ipfs.tech/concepts/ipfs-gateway/) at https://ipfs.io/ipfs.  The ipfs.io gateway is a "common good" product in the IPFS ecosystem.  Therefore report **TTP gateway abuse** (e.g. using an HTTP gateway for malware hosting, distribution of questionable content, phishing purposes, etc.) to their respective HTTP gateway owners. If you've seen abusive material distributed through ipfs.io, please report it to [abuse@ipfs.tech](mailto:abuse@ipfs.tech).  See our [Security Policy](SECURITY.md) for more details.
 
 ## Community Guidelines
 
