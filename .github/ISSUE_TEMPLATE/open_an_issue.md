@@ -1,6 +1,6 @@
 ---
 name: Open an issue
-about: Only for actionable issues relevant to this repository.
+about: Only for actionable issues relevant to this repository. For security issue or abuse report, please see our security policy.
 title: ''
 labels: need/triage
 assignees: ''

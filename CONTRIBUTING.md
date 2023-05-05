@@ -17,7 +17,7 @@ Want to contribute to IPFS? Awesome! There are many ways to help, from reporting
 - [**Looking for ways to contribute?**](#looking-for-ways-to-contribute)
   - [Dive Right In](#dive-right-in)
   - [Reporting Issues](#reporting-issues)
-  - [Community Improvement](#community-improvement)
+  - [Community Tooling Improvement](#community-tooling-improvement)
   - [Translations](#translations)
   - [Helping in other ways](#helping-in-other-ways)
 - [**Protocol Specification**](#protocol-specification)
@@ -46,9 +46,11 @@ Want to contribute to IPFS? Awesome! There are many ways to help, from reporting
 
 The IPFS protocol and its implementations are still in heavy development. This means that there may be problems in our protocols, or there may be mistakes in our implementations. And -- though IPFS is not production-ready yet -- many people are already running nodes in their machines. So we take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
 
-If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to security@ipfs.io, please DO NOT file a public issue.
+If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to security@ipfs.io, for abuse report see below. Please DO NOT file a public issue for security reports.
 
 If the issue is a protocol weakness or something not yet deployed, just discuss it openly.
+
+> Note that the IPFS project is much more than an [HTTP Gateway](https://docs.ipfs.tech/concepts/ipfs-gateway/) at https://ipfs.io/ipfs.  The ipfs.io gateway is a "common good" product in the IPFS ecosystem.  Therefore report **HTTP gateway abuse** (e.g. using an HTTP gateway for malware hosting, distribution of questionable content, phishing purposes, etc.) to their respective HTTP gateway owners. If you've seen abusive material distributed through ipfs.io, please report it to [abuse@ipfs.tech](mailto:abuse@ipfs.tech).  See our [Security Policy](SECURITY.md) for more details.
 
 ## Community Guidelines
 
