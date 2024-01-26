@@ -46,7 +46,7 @@ Want to contribute to IPFS? Awesome! There are many ways to help, from reporting
 
 The IPFS protocol and its implementations are still in heavy development. This means that there may be problems in our protocols, or there may be mistakes in our implementations. And -- though IPFS is not production-ready yet -- many people are already running nodes in their machines. So we take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
 
-If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to security@ipfs.io, for abuse report see below. Please DO NOT file a public issue for security reports.
+If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to security@ipfs.tech, for abuse report see below. Please DO NOT file a public issue for security reports.
 
 If the issue is a protocol weakness or something not yet deployed, just discuss it openly.
 
