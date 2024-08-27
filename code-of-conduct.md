@@ -89,13 +89,6 @@ Please contact abuse@ipfs.io if you need to report a problem or address a grieva
 
 We will keep all matters confidential and they will only be shared within the team, with the exception of legal counsel when deemed necessary, or unless given explicit permission by the reporter.
 
-If you prefer, you can contact any of the abuse team members separately. The abuse team is formed by:
-
-- b5@n0.computer
-- dietrich@ipfs.io
-- mosh@ipfs.io
-- robin@ipfs.io
-
 When contacting an individual directly, they will ask for explicit permission to share the details with the rest of the team. When not granted, they will keep details of the matters as confidential as possible (particularly private or identity information) but they may still share broad strokes as necessary to resolve the issue.
 
 You are also encouraged to contact us if you are curious about something that might be "on the line" between appropriate and inappropriate content. We are happy to provide guidance to help you be a successful part of our community.
