@@ -1,6 +1,10 @@
 # JavaScript Contributing Guidelines
 
-These guidelines reflect our shared consensus on protocol and etiquette from what we've built so far. Every single item that is presented here is the result of lots of experimentation. However, that doesn't mean that there isn't a better way to do things. What we have below is simply what we've found to work best for us. In this document you will find notes about:
+These guidelines reflect our shared consensus on protocol and etiquette from what we've built so far.
+
+Every single item that is presented here is the result of lots of experimentation; however that doesn't mean that there isn't a better way to do things. What we have below is simply what we've found to work best for us.
+
+In this document you will find notes about:
 
 - Project structure.
 - Code style.
@@ -16,7 +20,7 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
 - [Goals](#goals)
 - [Contributing](#contributing)
   - [Guidelines](#guidelines)
-    - [Supported versions](#supported-versions)
+    - [Supported Platforms](#supported-platforms)
     - [Linting & Code Style](#linting--code-style)
     - [Error Codes](#error-codes)
     - [Dependency Versions](#dependency-versions)
@@ -31,7 +35,6 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
     - [Directory Structure](#directory-structure)
     - [Continuous integration](#continuous-integration)
     - [`.gitignore`](#gitignore)
-    - [`.npmignore`](#npmignore)
     - [Dependency management](#dependency-management)
     - [Pre-Commit](#pre-commit)
     - [Building](#building)
@@ -54,8 +57,8 @@ For the majority of our JavaScript projects, our goals are to:
 - **Ensure browser compatibility**, with the possible exceptions being:
   - Access to the file system.
   - Native bindings.
-  - Network transports (uTP, udt, curveCP, etc) that are not available in the browser.
-- **Don't break CommonJS's** `require`. This means that if someone requires a JavaScript module from the IPFS ecosystem, they should be able to require it and use browserify, webpack or other bundlers without having to worry about adding special shims for module internals.
+  - Network transports (TCP, QUIC, etc) that are not available in the browser.
+- **Don't break ESM's** `import`. This means that if someone imports a JavaScript module from the IPFS ecosystem, they should be able to require it and use esbuild, webpack or other bundlers without having to worry about adding special shims for module internals.
 - **Encourage contribution**.
 - **Have great UX** for everyone involved.
 
@@ -65,55 +68,34 @@ Please follow the conventions described in this document.
 
 When reporting a bug, if possible, provide a way for us to reproduce it (or even better, write a test that fails with your case).
 
-Always run tests before pushing and PR'ing your code.
+Always run tests before pushing your code and creating a PR.
 
 ### Guidelines
 
-#### Supported Versions
+#### Supported Platforms
 
-The IPFS JavaScript projects work with the Current and Active LTS versions of Node.js and respective npm version that gets installed with Node.js. Please consult [nodejs.org](https://nodejs.org/) for LTS timeline.
+All projects that run [Unified CI](#continuous-integration) support the platforms that they run tests on.
+
+These are:
+
+* Node.js Active LTS and the default version of npm that is installed along with it
+  * Projects may also support Current LTS
+  * Please consult [nodejs.org](https://nodejs.org/) for LTS timeline and for the current Active/LTS version.
+* The latest releases of "desktop" Chromium, FireFox and WebKit
+* Electron
+  * Main process only, latest release
+* React-Native
+  * We are attempting to add react-native support to all modules. This is complicated by our use of [package exports](https://webpack.js.org/guides/package-exports/) and rn's support [still being experimental](https://reactnative.dev/blog/2023/06/21/package-exports-support), please watch this space
+
+We do not go out of our way to break compatibility with platforms, but we can only test on the above.  Where we require a recently released feature (such as an encryption algorithm or browser API) this will be noted by the [engines](https://docs.npmjs.com/cli/v9/configuring-npm/package-json#engines) field of the `package.json`.
+
+Some modules do not support certain platforms, these should be easy to spot - e.g. `@libp2p/tcp` supports only Node.js and Electron because TCP does not work in web browsers.
 
 #### Linting & Code Style
 
-IPFS JavaScript projects default to [standard](https://github.com/feross/standard) code style. It is a clean codestyle, and its adoption is increasing significantly, making the code that we write familiar to the majority of the developers.
-
-However, we've added an extra linting rule: Enforce the use of [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode). This avoids issues we had when using ES2015 features outside of strict mode. We enforce this rule by using [eslint](http://eslint.org/) and extending [standard module](https://github.com/feross/standard) with the [eslint-config-standard](https://github.com/feross/eslint-config-standard).
+IPFS JavaScript projects default to [eslint-config-ipfs](https://github.com/ipfs/eslint-config-ipfs) which is based on [standard](https://github.com/feross/standard) code style. It is a clean codestyle, and its adoption is increasing significantly, making the code that we write familiar to the majority of the developers.
 
 Using [aegir-lint](#aegir) will help you do this easily; it automatically lints your code.
-
-#### Error Codes
-
-When introducing a new error code that may be useful outside of the current scope, make sure it is exported as a new `Error` type:
-
-```js
-class NotFoundError extends Error {
-  constructor (message) {
-    super(message || 'Resource was not found')
-    this.name = 'NotFoundError'
-    this.code = NotFoundError.code
-  }
-}
-
-NotFoundError.code = 'ERR_NOT_FOUND'
-exports.NotFoundError = NotFoundError
-```
-
-This enables others to reuse those definitions and decreases the number of hardcoded values across our codebases.
-For example:
-
-```js
-const { NotFoundError } = require('some-module')
-
-// throw predefined errors types
-if (!value) {
-  throw new NotFoundError()
-}
-
-// compare against code from imported type
-if (err.code === NotFoundError.code) {
-  // handle
-}
-```
 
 #### Dependency Versions
 
@@ -121,32 +103,37 @@ Our rule is: Use ~ for everything below 1.0.0 and ^ for everything above 1.0.0. 
 
 The only exception to this is if a third party library accidentally releases a breaking change, in which case temporarily pin the dependency to a single version (e.g. `"my-dep": "1.0.0"`).
 
-Using [aegir-lint](#aegir) will show you if any of your dependency versions need changing to comply with this.
+Using [aegir-check](#aegir) will show you if any of your dependency versions need changing to comply with this.
 
 #### Testing
 
-Since `js-ipfs` is meant to be both a Node.js and Browser app, we strongly recommend having tests that run in both platforms, always. For most cases, we use [mocha](http://mochajs.org) to run write the tests and [karma](http://karma-runner.github.io) to automate the test execution in the browser. This solution has been extremely convenient.
+Since our modules are meant to be isomorphic as far as possible, we strongly recommend having tests that run in all supported platforms, always. For most cases, we use:
+
+* [mocha](http://mochajs.org) to run write the tests
+* [playwright-test](https://www.npmjs.com/package/playwright-test) to automate the test execution in browsers
+* [electron-mocha](https://www.npmjs.com/package/electron-mocha) to run them in Electron.
+
+This solution has been extremely convenient.
 
 #### Releasing
 
-Each time a new release happens, these are the steps we follow to make sure nothing gets left out:
+Top-level modules such as [Helia](https://github.com/ipfs/helia) and [libp2p](https://github.com/libp2p/js-libp2p) use [release-please](https://github.com/googleapis/release-please) to aggregate changes and release them in a controllable way.
 
-1. Run linting
-2. Run all tests
-3. Build all three different versions described on the build
-4. Bump the version in `package.json`
-5. Commit the version bump
-6. Create a git tag
-7. Push to GitHub
-8. Publish to npm
+Other smaller modules use [semantic-release](https://www.npmjs.com/package/semantic-release) and [semantic-release-monorepo](https://www.npmjs.com/package/semantic-release-monorepo) to perform releases in an automated fashion at the end of every successful CI run on the default branch of the project.
 
-For releasing a js-ipfs, see [RELEASE_ISSUE_TEMPLATE](https://github.com/ipfs/js-ipfs/blob/master/packages/ipfs/docs/RELEASE_ISSUE_TEMPLATE.md)
+See [Continuous Integration](#continuous-integration) below for the necessary configuration to accomplish this.
+
+GitHub releases and `CHANGELOG.md` files are generated automatically by `release-please` or `semantic-release`. Sometimes it's useful to update the GitHub release with explanations of the `why` and not just the `what`.
+
+For high-traffic modules, when breaking changes are shipped it's often useful to add [migration guides](https://github.com/libp2p/js-libp2p/tree/main/doc/migrations). These can be linked to from the GitHub release for visibility.
 
 #### Documentation
 
-Documentation will be generated automatically by the JSDoc based TS types in the codebase.
+Typed ESM projects will have documentation generated automatically from JSDoc comments in the codebase; TypeScript projects will accomplish the same thing by using the types directly.
 
-Type definitions and type imports should be created on the top of any JS file (below eventual requires needed). For tooling instructions and best practices, see [Documentation for JSDoc based TS types](https://github.com/ipfs/aegir/blob/master/md/ts-jsdoc.md).
+A `gh-pages` branch will be created, and this should be published to via the GitHub project settings GitHub under `General > Pages > Build and deployment > Branch`.
+
+This makes API docs available, and the types are linked through to from other modules published by aegir.
 
 ### Commits
 
@@ -158,13 +145,12 @@ The commit message formatting can be added using a typical git workflow or throu
   - **feat**: A new feature
   - **fix**: A bug fix
   - **docs**: Documentation only changes
-  - **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
   - **refactor**: A code change that neither fixes a bug nor adds a feature
   - **perf**: A code change that improves performance
   - **test**: Adding missing tests
   - **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
-- **Scope** - The scope could be anything specifying the place of the commit change. For example `api`, `cli`, etc...
-- **Breaking Changes** - Should be identified at the end of commit message. Start with the words `BREAKING CHANGE:` on a new line followed by a space or two new lines. The rest of the commit message is then used to describe in detail what was broken and the migration path (if there is one).
+- **Scope** - An optional scope can be added in parentheses specifying the place of the commit change. For example `api`, `cli`, etc...
+- **Breaking Changes** - Should be identified by appending a `!` to the end of the type (e.g. `feat!: ...`). Start with the words `BREAKING CHANGE:` on a new line followed by a space or two new lines. The rest of the commit message is then used to describe in detail what was broken and the migration path (if there is one).  This will appear in the generated release notes.
 
 Examples:
 
@@ -179,7 +165,7 @@ Closes #28
 ```
 
 ```
-perf(pencil): remove graphiteWidth option
+perf(pencil)!: remove graphiteWidth option
 
 BREAKING CHANGE: The graphiteWidth option has been removed. The default graphite width of 10mm is always used for performance reason.
 ```
@@ -202,72 +188,68 @@ We've created [a module](https://github.com/ipfs/aegir) to help us achieve all o
 
 ##### Setting up `aegir`
 
-There are a couple of binaries that `aegir` provides for you to use
-
-```sh
-> aegir lint
-> aegir test
-> aegir test -t browser
-> aegir test -t node
-> aegir test -t webworker
-> aegir build
-> aegir release
-> aegir release --type minor
-> aegir release --type major
-```
-
-If you prefer using npm scripts, you can set them up in your package.json:
-
-```json
-{
-  "scripts": {
-    "lint": "aegir lint",
-    "build": "aegir build",
-    "test": "aegir test",
-    "test:node": "aegir test -t node",
-    "test:browser": "aegir test -t browser",
-    "release": "aegir release",
-    "coverage": "aegir coverage",
-    "coverage-publish": "aegir coverage publish"
-  }
-}
-```
-
-You also need to add it your `devDependencies` by running:
+Start by adding [aegir](https://github.com/ipfs/aegir) to your `devDependencies` by running:
 
 ```sh
 $ npm install --save-dev aegir
 ```
 
+It provides several commands for you to use:
+
+```sh
+> aegir lint
+> aegir lint --fix
+> aegir test
+> aegir test -t browser
+> aegir test -t node
+> aegir test -t webworker
+> aegir test -t node --grep 'only run tests that match this'
+> aegir clean
+> aegir build
+> aegir docs
+```
+
 ##### Continuous Integration
 
-You can find samples for [Travis](https://github.com/ipfs/ci-sync/blob/master/configs/.travis.yml) and [circle](https://github.com/ipfs/ci-sync/blob/master/configs/circle.yml) in the examples folder.
+All projects should be added to the [js.json file in protocol/.github](https://github.com/protocol/.github/blob/master/configs/js.json) to take advantage of the Unified CI platform.
 
-We also use [coveralls.io](https://coveralls.io/) to automatically publish coverage reports. This is done from travis using this:
+This will add the [js-test-and-release.yml Github workflow](https://github.com/protocol/.github/blob/master/templates/.github/workflows/js-test-and-release.yml) that invokes npm scripts in various environments if they are defined.
 
-```yml
-script:
-  - npm run coverage
-after_success:
-  - npm run coverage publish --providers coveralls
+The suggested scripts to add to your `package.json` are:
+
+```json
+{
+  "scripts": {
+    "clean": "aegir clean",
+    "lint": "aegir lint",
+    "dep-check": "aegir dep-check",
+    "build": "aegir build",
+    "test": "aegir test",
+    "test:chrome": "aegir test -t browser --cov",
+    "test:chrome-webworker": "aegir test -t webworker --cov",
+    "test:firefox": "aegir test -t browser -- --browser firefox",
+    "test:firefox-webworker": "aegir test -t webworker -- --browser firefox",
+    "test:webkit": "aegir test -t browser -- --browser webkit",
+    "test:webkit-webworker": "aegir test -t webworker -- --browser webkit",
+    "test:node": "aegir test -t node --cov",
+    "test:electron-main": "aegir test -t electron-main",
+    "release": "aegir release",
+    "docs": "aegir docs"
+  }
+}
 ```
 
 ##### `.gitignore`
 
-To avoid checking in unwanted files, the `.gitignore` file should follow the [example](examples/.gitignore). This is if you are using `aegir` - smaller projects can use smaller `.gitignore` files.
-
-##### `.npmignore`
-
-NPM uses the `.gitignore` by default, so we have to add a `.npmignore` file to ensure we actually ship `lib` and `dist` files. You can use this [example](examples/.npmignore) to get started.
+To avoid checking in unwanted files, the `.gitignore` file should follow the [example](https://github.com/ipfs/aegir/blob/master/src/check-project/files/gitignore).
 
 ##### Dependency management
 
 We suggest either of these to keep your dependencies up to date:
 
-
 - [david-dm](https://www.npmjs.com/package/david)
 - [dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates)
-- [synk](https://snyk.io/) 
+- [synk](https://snyk.io/)
 
 Every module below 1.0.0 should use `~` instead of `^`.
 
@@ -282,14 +264,14 @@ For use in the browser through script tags, there are regular and minified versi
 You can use [unpkg](https://unpkg.com/) to include those:
 
 ```html
-<script src="https://unpkg.com/ipfs-api/dist/index.js"></script>
-<script src="https://unpkg.com/ipfs-api/dist/index.min.js"></script>
+<script src="https://unpkg.com/helia/dist/index.js"></script>
+<script src="https://unpkg.com/helia/dist/index.min.js"></script>
 ```
 
 If you install the module through npm, you can require it using:
 
 ```js
-const API = require('ipfs-api')
+import { createHelia } from 'helia'
 ```
 
 ## FAQ
@@ -299,23 +281,23 @@ const API = require('ipfs-api')
 
 There are two possibilities: either it didn’t work out for us, or we don’t know about it. If you think we might have missed it please tell us, but please believe us if we say we tried and it didn’t work for us.
 
-#### Why not use simple npm scripts instead of gulp?
-
-Gulp is not a hard dependency. It’s just a simple way to structure our tasks at the moment. Usually projects only depend on the aegir binaries completely hiding the fact that we are using gulp under the hood. So we are free if we want to switch it out without any issues. We all enjoy npm scripts, and are using them to call the aegir binaries, but there is no nice way of sharing them yet.
-
 #### Where are all the semicolons?
 
 Our linting rules are compatible with [standard](https://github.com/feross/standard), which has many examples on documentation on this. Please go there and read it if you're still curious.
 
-#### Why are you bothering with ES2015 and all this build setup?
+#### Why are you bothering with TypeScript and all this build setup?
 
-We want to see the web move forward, and some of us enjoy writing their JavaScript with things like `const` and arrow functions.
+We have a large number of modules that integrate together and we've found that the only way to do this at scale without increasing friction to burning point is to have a type system.
 
-#### Do I have to use ES2015, Babel and aegir in my project?
+At the time of writing a type system based on TypeScript [may be coming to JavaScript](https://github.com/tc39/proposal-type-annotations) so we're only a little ahead of the curve on that front.
 
-No.
+We've also found that having types means there's less magic in our codebases since it becomes harder to use the extreme ends of JavaScript's flexibility, making everything easier to follow, and lowering cognitive overhead and maintenance burden.
 
-#### Do I have to bundle everything with webpack?
+#### Do I have to use ESM/TypeScript and/or aegir in my project?
+
+No, but you will find yourself solving problems that have already been solved.
+
+#### Do I have to bundle everything with esbuild?
 
 No. But other people might ask you to at some point, so it may be better to be prepared.
 
@@ -329,7 +311,8 @@ Any IPFS JavaScript project follows the same [Code of Conduct](https://github.co
 
 ## References - Resources and good reads
 
-- Comparison between WebPack, browserify, requirejs, jspm and rollup - [https://github.com/webpack/docs/wiki/comparison](https://github.com/webpack/docs/wiki/comparison)
+- Comparison between modern build tools - [https://css-tricks.com/comparing-the-new-generation-of-build-tools/](https://css-tricks.com/comparing-the-new-generation-of-build-tools/)
+- Esbuild benchmarks - [https://esbuild.github.io/faq/#benchmark-details](https://esbuild.github.io/faq/#benchmark-details)
 - [The cost of transpiling ES2015 in 2016](https://github.com/samccone/The-cost-of-transpiling-es2015-in-2016)
 - [standardjs.com](http://standardjs.com/)
 
@@ -339,7 +322,6 @@ This project would not be possible without the hard work of many many people. So
 
 - [eslint](https://github.com/eslint/eslint/graphs/contributors)
 - [standard](https://github.com/feross/standard/graphs/contributors)
-- [karma](https://github.com/karma-runner/karma/graphs/contributors)
 - [mocha](https://github.com/mochajs/mocha/graphs/contributors)
 - [chai](https://github.com/chaijs/chai/graphs/contributors)
-- [webpack](https://github.com/webpack/webpack/graphs/contributors)
+- [esbuild](https://github.com/evanw/esbuild/graphs/contributors)
