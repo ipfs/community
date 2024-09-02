@@ -78,7 +78,7 @@ These are:
 * Node.js Active LTS and the default version of npm that is installed along with it
   * Projects may also support Current LTS
   * Please consult [nodejs.org](https://nodejs.org/) for LTS timeline and for the current Active/LTS version.
-* The latest releases Chromium, FireFox and WebKit
+* The latest releases of "desktop" Chromium, FireFox and WebKit
 * Electron
   * Main process only, latest release
 
@@ -102,7 +102,11 @@ Using [aegir-check](#aegir) will show you if any of your dependency versions nee
 
 #### Testing
 
-Since our modules are meant to be isomorphic as far as possible, we strongly recommend having tests that run in all supported platforms, always. For most cases, we use [mocha](http://mochajs.org) to run write the tests and [playwright-test](https://www.npmjs.com/package/playwright-test) to automate the test execution in browsers and [electron-mocha](https://www.npmjs.com/package/electron-mocha) to run them in Electron. This solution has been extremely convenient.
+Since our modules are meant to be isomorphic as far as possible, we strongly recommend having tests that run in all supported platforms, always. For most cases, we use:
+* [mocha](http://mochajs.org) to run write the tests
+* [playwright-test](https://www.npmjs.com/package/playwright-test) to automate the test execution in browsers 
+* [electron-mocha](https://www.npmjs.com/package/electron-mocha) to run them in Electron. 
+This solution has been extremely convenient.
 
 #### Releasing
 
@@ -112,9 +116,9 @@ See [Continuous Integration](#continuous-integration) below for the necessary co
 
 #### Documentation
 
-Typed ESM projects will have documentation generated automatically from JSDoc comments in the codebase,  TypeScript projects will accomplish the same thing by using the types directly.
+Typed ESM projects will have documentation generated automatically from JSDoc comments in the codebase; TypeScript projects will accomplish the same thing by using the types directly.
 
-A `gh-pages` branch will be created and this should be selected to be published via the settings your GitHub project under `General > Pages > Build and deployment > Branch`.
+A `gh-pages` branch will be created, and this should be published to via the GitHub project settings GitHub under `General > Pages > Build and deployment > Branch`.
 
 ### Commits
 
@@ -130,8 +134,8 @@ The commit message formatting can be added using a typical git workflow or throu
   - **perf**: A code change that improves performance
   - **test**: Adding missing tests
   - **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
-- **Scope** - An optional scope can be added specifying the place of the commit change. For example `api`, `cli`, etc...
-- **Breaking Changes** - Should be identified by appending a `!` to the end of the type (e.g. `feat!: ...`) and at the end of commit message. Start with the words `BREAKING CHANGE:` on a new line followed by a space or two new lines. The rest of the commit message is then used to describe in detail what was broken and the migration path (if there is one).  This will appear in the generated release notes.
+- **Scope** - An optional scope can be added in parentheses specifying the place of the commit change. For example `api`, `cli`, etc...
+- **Breaking Changes** - Should be identified by appending a `!` to the end of the type (e.g. `feat!: ...`). Start with the words `BREAKING CHANGE:` on a new line followed by a space or two new lines. The rest of the commit message is then used to describe in detail what was broken and the migration path (if there is one).  This will appear in the generated release notes.
 
 Examples:
 
@@ -169,7 +173,7 @@ We've created [a module](https://github.com/ipfs/aegir) to help us achieve all o
 
 ##### Setting up `aegir`
 
-`aegir` provides several commands for you to use
+[aegir](https://github.com/ipfs/aegir) provides several commands for you to use
 
 ```sh
 > aegir lint
@@ -277,7 +281,7 @@ We have a large number of modules that integrate together and we've found that t
 
 At the time of writing a type system based on TypeScript [may be coming to JavaScript](https://github.com/tc39/proposal-type-annotations) so we're only a little ahead of the curve on that front.
 
-We've also found that having types means there's less magic in our codebases since it becomes harder to do use the extreme ends of JavaScript's flexibility which then makes everything easier to follow, lowering cognitive overhead and maintenance burden.
+We've also found that having types means there's less magic in our codebases since it becomes harder to use the extreme ends of JavaScript's flexibility, making everything easier to follow, and lowering cognitive overhead and maintenance burden.
 
 #### Do I have to use ESM/TypeScript and/or aegir in my project?
 
