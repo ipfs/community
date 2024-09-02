@@ -123,6 +123,10 @@ Other smaller modules use [semantic-release](https://www.npmjs.com/package/seman
 
 See [Continuous Integration](#continuous-integration) below for the necessary configuration to accomplish this.
 
+GitHub releases and `CHANGELOG.md` files are generated automatically by `release-please` or `semantic-release`. Sometimes it's useful to update the GitHub release with explanations of the `why` and not just the `what`.
+
+For high-traffic modules, when breaking changes are shipped it's often useful to add [migration guides](https://github.com/libp2p/js-libp2p/tree/main/doc/migrations). These can be linked to from the GitHub release for visibility.
+
 #### Documentation
 
 Typed ESM projects will have documentation generated automatically from JSDoc comments in the codebase; TypeScript projects will accomplish the same thing by using the types directly.
