@@ -1,6 +1,10 @@
 # JavaScript Contributing Guidelines
 
-These guidelines reflect our shared consensus on protocol and etiquette from what we've built so far. Every single item that is presented here is the result of lots of experimentation. However, that doesn't mean that there isn't a better way to do things. What we have below is simply what we've found to work best for us. In this document you will find notes about:
+These guidelines reflect our shared consensus on protocol and etiquette from what we've built so far.
+
+Every single item that is presented here is the result of lots of experimentation; however that doesn't mean that there isn't a better way to do things. What we have below is simply what we've found to work best for us.
+
+In this document you will find notes about:
 
 - Project structure.
 - Code style.
@@ -31,7 +35,6 @@ Our toolkit for each of these is not set in stone, and we don't plan to halt our
     - [Directory Structure](#directory-structure)
     - [Continuous integration](#continuous-integration)
     - [`.gitignore`](#gitignore)
-    - [`.npmignore`](#npmignore)
     - [Dependency management](#dependency-management)
     - [Pre-Commit](#pre-commit)
     - [Building](#building)
@@ -54,7 +57,7 @@ For the majority of our JavaScript projects, our goals are to:
 - **Ensure browser compatibility**, with the possible exceptions being:
   - Access to the file system.
   - Native bindings.
-  - Network transports (uTP, udt, curveCP, etc) that are not available in the browser.
+  - Network transports (TCP, QUIC, etc) that are not available in the browser.
 - **Don't break ESM's** `import`. This means that if someone imports a JavaScript module from the IPFS ecosystem, they should be able to require it and use esbuild, webpack or other bundlers without having to worry about adding special shims for module internals.
 - **Encourage contribution**.
 - **Have great UX** for everyone involved.
@@ -81,6 +84,8 @@ These are:
 * The latest releases of "desktop" Chromium, FireFox and WebKit
 * Electron
   * Main process only, latest release
+* React-Native
+  * We are attempting to add react-native support to all modules. This is complicated by our use of [package exports](https://webpack.js.org/guides/package-exports/) and rn's support [still being experimental](https://reactnative.dev/blog/2023/06/21/package-exports-support), please watch this space
 
 We do not go out of our way to break compatibility with platforms, but we can only test on the above.  Where we require a recently released feature (such as an encryption algorithm or browser API) this will be noted by the [engines](https://docs.npmjs.com/cli/v9/configuring-npm/package-json#engines) field of the `package.json`.
 
@@ -103,14 +108,18 @@ Using [aegir-check](#aegir) will show you if any of your dependency versions nee
 #### Testing
 
 Since our modules are meant to be isomorphic as far as possible, we strongly recommend having tests that run in all supported platforms, always. For most cases, we use:
+
 * [mocha](http://mochajs.org) to run write the tests
-* [playwright-test](https://www.npmjs.com/package/playwright-test) to automate the test execution in browsers 
-* [electron-mocha](https://www.npmjs.com/package/electron-mocha) to run them in Electron. 
+* [playwright-test](https://www.npmjs.com/package/playwright-test) to automate the test execution in browsers
+* [electron-mocha](https://www.npmjs.com/package/electron-mocha) to run them in Electron.
+
 This solution has been extremely convenient.
 
 #### Releasing
 
-Releases should be automated and occur at the end of a successful CI run on the default branch of the project.
+Top-level modules such as [Helia](https://github.com/ipfs/helia) and [libp2p](https://github.com/libp2p/js-libp2p) use [release-please](https://github.com/googleapis/release-please) to aggregate changes and release them in a controllable way.
+
+Other smaller modules use [semantic-release](https://www.npmjs.com/package/semantic-release) and [semantic-release-monorepo](https://www.npmjs.com/package/semantic-release-monorepo) to perform releases in an automated fashion at the end of every successful CI run on the default branch of the project.
 
 See [Continuous Integration](#continuous-integration) below for the necessary configuration to accomplish this.
 
@@ -119,6 +128,8 @@ See [Continuous Integration](#continuous-integration) below for the necessary co
 Typed ESM projects will have documentation generated automatically from JSDoc comments in the codebase; TypeScript projects will accomplish the same thing by using the types directly.
 
 A `gh-pages` branch will be created, and this should be published to via the GitHub project settings GitHub under `General > Pages > Build and deployment > Branch`.
+
+This makes API docs available, and the types are linked through to from other modules published by aegir.
 
 ### Commits
 
@@ -173,7 +184,13 @@ We've created [a module](https://github.com/ipfs/aegir) to help us achieve all o
 
 ##### Setting up `aegir`
 
-[aegir](https://github.com/ipfs/aegir) provides several commands for you to use
+Start by adding [aegir](https://github.com/ipfs/aegir) to your `devDependencies` by running:
+
+```sh
+$ npm install --save-dev aegir
+```
+
+It provides several commands for you to use:
 
 ```sh
 > aegir lint
@@ -186,12 +203,6 @@ We've created [a module](https://github.com/ipfs/aegir) to help us achieve all o
 > aegir clean
 > aegir build
 > aegir docs
-```
-
-You also need to add it your `devDependencies` by running:
-
-```sh
-$ npm install --save-dev aegir
 ```
 
 ##### Continuous Integration
@@ -226,20 +237,15 @@ The suggested scripts to add to your `package.json` are:
 
 ##### `.gitignore`
 
-To avoid checking in unwanted files, the `.gitignore` file should follow the [example](examples/.gitignore). This is if you are using `aegir` - smaller projects can use smaller `.gitignore` files.
-
-##### `.npmignore`
-
-NPM uses the `.gitignore` by default, so we have to add a `.npmignore` file to ensure we actually ship `lib` and `dist` files. You can use this [example](examples/.npmignore) to get started.
+To avoid checking in unwanted files, the `.gitignore` file should follow the [example](https://github.com/ipfs/aegir/blob/master/src/check-project/files/gitignore).
 
 ##### Dependency management
 
 We suggest either of these to keep your dependencies up to date:
 
-
 - [david-dm](https://www.npmjs.com/package/david)
 - [dependabot](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates)
-- [synk](https://snyk.io/) 
+- [synk](https://snyk.io/)
 
 Every module below 1.0.0 should use `~` instead of `^`.
 
