@@ -154,6 +154,8 @@ We're also trying very hard to keep IPFS focused. This means that we might decid
 
 If your pull request is not accepted on the first try, don't be discouraged! If there's a problem with the implementation, hopefully you received feedback on what to improve.
 
+Please note: While even the smallest contributions are welcome, we collect trivial textual changes into a separate PR to reduce the number of tiny changes and to more accurately count functional contributions.
+
 ### Conventions
 
 Each repository will have its own code and test conventions. Please make sure to review those before jumping in. Some general conventions are listed below.
