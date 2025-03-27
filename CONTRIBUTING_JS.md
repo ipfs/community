@@ -119,8 +119,6 @@ import { exampleFunction } from './example-file.js';
 
 This practice ensures compatibility across different environments and aligns with modern JavaScript standards.
 
-
-
 #### Dependency Versions
 
 Our rule is: Use ~ for everything below 1.0.0 and ^ for everything above 1.0.0. If you find a package.json that is not following this rule, please submit a PR.
