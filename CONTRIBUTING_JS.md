@@ -105,7 +105,7 @@ Adopt kebab-case (lowercase letters with hyphens separating words) for filenames
 
 #### Linting & Code Style
 
-IPFS JavaScript projects default to [eslint-config-ipfs](https://github.com/ipfs/eslint-config-ipfs) which is based on [standard](https://github.com/feross/standard) code style. It is a clean codestyle, and its adoption is increasing significantly, making the code that we write familiar to the majority of the developers. 
+IPFS JavaScript projects default to [eslint-config-ipfs](https://github.com/ipfs/eslint-config-ipfs) which is based on [standard](https://github.com/feross/standard) code style. It is a clean codestyle, and its adoption is increasing significantly, making the code that we write familiar to the majority of the developers.
 
 Using [aegir-lint](#aegir) will help you do this easily; it automatically lints your code.
 
