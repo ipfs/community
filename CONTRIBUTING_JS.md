@@ -159,7 +159,7 @@ A `gh-pages` branch will be created, and this should be published to via the Git
 
 This makes API docs available, and the types are linked through to from other modules published by aegir.
 
-aegir can also update the `About` section of a README.md based on the `@packageDocumentation` of your entry file.
+aegir can also update the `About` section of a README.md based on the `@packageDocumentation` of your entry file via the `aegir docs` command.
 
 #### Front-end and UI
 
