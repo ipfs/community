@@ -154,6 +154,18 @@ We're also trying very hard to keep IPFS focused. This means that we might decid
 
 If your pull request is not accepted on the first try, don't be discouraged! If there's a problem with the implementation, hopefully you received feedback on what to improve.
 
+#### Drive-by Contributions
+
+ While even the smallest contributions are welcome, please no drive-by contributions seeking to collect airdrops.
+ 
+ Many projects aim to reward contributors to common goods. Great. However,
+ this creates an unfortunate incentive for low-effort PRs, submitted solely to
+ claim rewards. These PRs consume maintainers’ time and energy to triage, with
+ little to no impact on end users. If we suspect this is the intent of a PR,
+ we may close it without comment. If you believe this was done in error,
+ contact us via email. Reference this README section and explain why your PR
+ is not a “drive-by contribution.”
+ 
 ### Conventions
 
 Each repository will have its own code and test conventions. Please make sure to review those before jumping in. Some general conventions are listed below.
