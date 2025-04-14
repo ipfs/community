@@ -91,11 +91,33 @@ We do not go out of our way to break compatibility with platforms, but we can on
 
 Some modules do not support certain platforms, these should be easy to spot - e.g. `@libp2p/tcp` supports only Node.js and Electron because TCP does not work in web browsers.
 
+#### Files
+
+##### TypeScript
+
+We encourage the use of TypeScript for type safety and improved developer experience. When adding new files, prefer .ts for standard TypeScript files and .tsx for React components. Ensure that TypeScript configurations align with the project's existing settings. 
+
+`aegir` can help you set up a new project with an appropriate tsconfig.json.
+
+##### Case-sensitivity
+
+Adopt kebab-case (lowercase letters with hyphens separating words) for filenames to maintain consistency across all our projects and limit issues with case-insensitive filesystems. For instance, name a file `example-file.ts` instead of `exampleFile.ts` or `example_file.ts`.
+
 #### Linting & Code Style
 
 IPFS JavaScript projects default to [eslint-config-ipfs](https://github.com/ipfs/eslint-config-ipfs) which is based on [standard](https://github.com/feross/standard) code style. It is a clean codestyle, and its adoption is increasing significantly, making the code that we write familiar to the majority of the developers.
 
 Using [aegir-lint](#aegir) will help you do this easily; it automatically lints your code.
+
+##### Importing modules and files
+
+When writing import statements, include file extensions to comply with ECMAScript Module (ESM) standards. For example:
+
+```ts
+import { exampleFunction } from './example-file.js';
+```
+
+This practice ensures compatibility across different environments and aligns with modern JavaScript standards.
 
 #### Dependency Versions
 
@@ -134,6 +156,18 @@ Typed ESM projects will have documentation generated automatically from JSDoc co
 A `gh-pages` branch will be created, and this should be published to via the GitHub project settings GitHub under `General > Pages > Build and deployment > Branch`.
 
 This makes API docs available, and the types are linked through to from other modules published by aegir.
+
+aegir can also update the `About` section of a README.md based on the `@packageDocumentation` of your entry file via the `aegir docs` command.
+
+#### Front-end and UI
+
+##### React
+
+For projects utilizing React, adhere to the following standards:
+
+1. Component Naming: Use kebab-case for component names (e.g., `my-component`). This is different than idiomatic React, which uses PascalCase.​
+2. File Extensions: Use .tsx for files containing React components to leverage TypeScript's JSX support.​
+3. State Management: Prefer using React's built-in state management features. If additional state management libraries are needed, please ensure they are well-justified, align with the project's architecture, and are well-typed. 
 
 ### Commits
 
