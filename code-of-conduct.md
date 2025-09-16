@@ -5,7 +5,7 @@ We believe that our mission is best served in an environment that is friendly, s
 ## tl;dr
 
 - Be respectful.
-- We're here to help: abuse@ipfs.io
+- We're here to help: Use the [web form](https://ipfs.fyi/report-abuse) or email abuse@ipfs.io
 - Abusive behavior is never tolerated.
 - Violations of this code may result in swift and permanent expulsion from the IPFS community.
 - "Too long, didn't read" is not a valid excuse for not knowing what is in this document.
@@ -53,13 +53,13 @@ others’ intellectual property rights.
 
 ## Reporting Violations of this Code of Conduct
 
-If you believe someone is harassing you or has otherwise violated this Code of Conduct, please [contact us](#contact-info) to send us an abuse report. If this is the initial report of a problem, please include as much detail as possible. It is easiest for us to address issues when we have more context.
+If you believe someone is harassing you or has otherwise violated this Code of Conduct, please use the [web form](https://ipfs.fyi/report-abuse) to send us an abuse report. Alternatively, you can [contact us](#contact-info). If this is the initial report of a problem, please include as much detail as possible. It is easiest for us to address issues when we have more context.
 
 If you are at an event organized by the IPFS community, contact a _duty officer_ or event staff. To learn more about our procedures handling incidents and reports at events, read the [procedures for in-person events](code-of-conduct-procedures-for-events.md)
 
 ## Copyright Violations
 
-We respect the intellectual property of others and ask that you do too. If you believe any content or other materials available through public IPFS infrastructure violates a copyright held by you and you would like to submit a notice pursuant to the Digital Millennium Copyright Act or other similar international law, you can submit a notice to the [abuse team](#contact-info) for service.
+We respect the intellectual property of others and ask that you do too. If you believe any content or other materials available through public IPFS infrastructure violates a copyright held by you and you would like to submit a notice pursuant to the Digital Millennium Copyright Act or other similar international law, you can use the [web form](https://ipfs.fyi/report-abuse) or submit a notice to the [abuse team](#contact-info) for service.
 
 (We will add a physical mailing address here when we acquire one).
 
@@ -85,7 +85,7 @@ On IRC, let one of the ops know if you think that someone has transgressed again
 
 ## Contact Info
 
-Please contact abuse@ipfs.io if you need to report a problem or address a grievance related to an abuse report.
+Please contact abuse@ipfs.io if you need to report a problem or address a grievance related to an abuse report. For reporting abuse at public utilities such as gateways, please use the [web form](https://ipfs.fyi/report-abuse) or see the [abuse policy](https://about.ipfs.io/#reporting-abuse).
 
 We will keep all matters confidential and they will only be shared within the team, with the exception of legal counsel when deemed necessary, or unless given explicit permission by the reporter.
 
