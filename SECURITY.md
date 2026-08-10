@@ -1,18 +1,46 @@
 # Security Policy
 
-## Reporting a Vulnerability
+This is the security policy for the IPFS project: the
+[protocols](https://specs.ipfs.tech/) and the implementations and tools
+maintained in the [ipfs](https://github.com/ipfs) organization. A condensed
+version of this policy is the default for repositories that do not have their
+own `SECURITY.md`.
 
-The IPFS protocol and its implementations are in varying but active levels of development. This means that there may be problems in our protocols, or there may be mistakes in our implementations. We take security vulnerabilities very seriously. If you discover a security issue, please bring it to our attention right away!
+## Reporting a vulnerability
 
-If you find a vulnerability that may affect live deployments -- for example, expose a remote execution exploit -- please send your report privately to either:
-1. The implementation team if its an issue with a particular implementation OR
-2. security@ipfs.io if you're not sure or if its an underlying issue with an IPFS protocol.
-Please DO NOT file a public issue.
+Email your report to **security@ipfs.io**. Please do not open a public issue.
 
-If the issue is a protocol weakness or something not yet deployed, just discuss it openly.
+If the bug is in a specific implementation and that repository has its own
+`SECURITY.md`, follow it instead. When you are not sure where the bug lives, or
+when it is in an IPFS protocol itself, security@ipfs.io is the right address.
 
-## Reporting Abuse
+Include whatever you have: the repository, the version or commit you tested,
+how to reproduce the problem, and what an attacker gets out of it. A rough
+report is better than no report, and we will ask if we need more.
 
-While [IPFS is a stack of protocols and tools for moving content-addressed data](https://specs.ipfs.tech/architecture/principles/), there is often confusion about one particular manifestation of IPFS in [HTTP Gateways](https://docs.ipfs.tech/concepts/ipfs-gateway/) like https://ipfs.io/ipfs.  We have seen a lot of reports about **abuse 
- from these IPFS gateways** (e.g. using an HTTP gateway for malware hosting, distributing questionable content, phishing purposes, etc.).  These should be reported directly to the HTTP gateway product that provides the data.
-To report abuse about the ipfs.io HTTP gateway, please send an email to [abuse@ipfs.tech](mailto:abuse@ipfs.tech).  Do not open an issue here since IPFS is a community project, and is not the same as the ipfs.io HTTP gateway.
+A maintainer will confirm we received it and keep you posted while we work on
+a fix. We are glad to credit you in the release notes, or to leave you out of
+them if you would rather not be named.
+
+If two weeks pass and no human has replied, assume the message never reached
+one. Resend it, or escalate: the
+[OpenSSF finder guide](https://github.com/ossf/oss-vulnerability-guide/blob/main/finder-guide.md)
+lays out the options, and [CERT/CC](https://kb.cert.org/vuls/report/) takes
+reports when coordination with a project breaks down. We would rather you do
+that than sit on a live bug.
+
+If the problem is a design weakness that nobody can exploit today, or covers
+something not yet released, it is fine to discuss it openly in an issue.
+
+## Reporting abuse on a public gateway
+
+Malware, phishing, or illegal material reachable through a public
+[IPFS gateway](https://docs.ipfs.tech/concepts/ipfs-gateway/) is not a bug in
+IPFS software. IPFS is a community project; the people who maintain these
+repositories do not run most of the gateways out there. Report abuse to
+whoever runs the gateway you used. For `ipfs.io` and `dweb.link`, follow the
+[abuse policy](https://docs.ipfs.tech/concepts/public-utilities/#abuse-policy).
+
+## Everything else
+
+For normal bugs, open an issue in the repository the bug is in.
